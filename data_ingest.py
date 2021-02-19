@@ -53,6 +53,12 @@ def map_numberlike(d):
     return d
 
 
+def map_ika(d):
+    if d == "30-35 v":  # Early answers had a wrong bracket here
+        d = "31-35 v"
+    return d
+
+
 def read_data() -> pd.DataFrame:
     df: pd.DataFrame = pd.read_excel(
         "data/results.xlsx",
@@ -65,7 +71,7 @@ def read_data() -> pd.DataFrame:
     )
     df["Kaupunki"] = df["Kaupunki"].astype("category")
     df["Sukupuoli"] = df["Sukupuoli"].apply(map_sukupuoli).astype("category")
-    df["Ikä"] = df["Ikä"].astype("category")
+    df["Ikä"] = df["Ikä"].apply(map_ika).astype("category")
 
     df["Etä"] = df["Etä"].map(ETATYO_MAP).astype("category")
     df["Kilpailukykyinen"].replace({"Kyllä": True, "Ei": False}, inplace=True)
