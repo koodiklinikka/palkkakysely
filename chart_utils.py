@@ -18,7 +18,7 @@ def set_yaxis_cash(plot):
     plot.yaxis[0].formatter = bm.NumeralTickFormatter(format="€0")
 
 
-def get_categorical_stats_plot(df, *, category, value, na_as_category=None):
+def get_categorical_stats_plot(df, *, category, value, na_as_category=None, line=True):
     df = get_categorical_stats(df, category, value, na_as_category=na_as_category)
     df.reset_index(inplace=True)
     df[category] = df[category].astype("category")
@@ -55,10 +55,30 @@ def get_categorical_stats_plot(df, *, category, value, na_as_category=None):
         legend_label="q90",
         color="#ff9f43",
     )
-    plot.line(
-        df[category], df["median"], legend_label="median", color="#1289A7", line_width=4
-    )
-    plot.line(
-        df[category], df["mean"], legend_label="mean", color="#B53471", line_width=4
-    )
+    if line:
+        plot.line(
+            df[category],
+            df["median"],
+            legend_label="median",
+            color="#1289A7",
+            line_width=4,
+        )
+        plot.line(
+            df[category], df["mean"], legend_label="mean", color="#B53471", line_width=4
+        )
+    else:
+        plot.circle(
+            df[category],
+            df["median"],
+            radius=CAT_Q_RADIUS,
+            legend_label="median",
+            color="#1289A7",
+        )
+        plot.circle(
+            df[category],
+            df["mean"],
+            radius=CAT_Q_RADIUS,
+            legend_label="mean",
+            color="#B53471",
+        )
     return plot

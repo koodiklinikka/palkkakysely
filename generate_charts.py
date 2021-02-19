@@ -46,11 +46,18 @@ def plot_sukupuoli_vuositulot(df: DataFrame):
     )
 
 
+@plot_this
+def plot_kaupunki_vuositulot(df: DataFrame):
+    plot = get_categorical_stats_plot(df, category="Kaupunki", value="Vuositulot", line=False)
+    plot.xaxis.major_label_orientation = "vertical"
+    return plot
+
+
 def main():
     df = read_data()
     plots = [func(df) for func in sorted(plot_funcs, key=lambda f: f.__name__)]
     bp.output_file("out/charts.html", title="Koodiklinikan Palkkakysely")
-    bp.save(bl.grid(plots, ncols=2))
+    bp.save(bl.grid(plots, ncols=2, sizing_mode="stretch_both"))
 
 
 if __name__ == "__main__":
