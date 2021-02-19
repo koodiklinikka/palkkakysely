@@ -3,6 +3,10 @@ import glob
 import os
 
 import jinja2
+import numpy
+import pandas
+
+from data_ingest import read_data
 
 
 def main():
@@ -11,6 +15,9 @@ def main():
     )
     data = {
         "date": datetime.datetime.utcnow(),
+        "pd": pandas,
+        "np": numpy,
+        "df": read_data(),
     }
     for filename in glob.glob("template/*"):
         out_filename = os.path.join("out", os.path.relpath(filename, "template"))
