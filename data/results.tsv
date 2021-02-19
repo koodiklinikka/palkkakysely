@@ -331,7 +331,6 @@ Timestamp	Missä kaupungissa työpaikkasi pääasiallinen toimisto sijaitsee?	Ik
 2/19/2021 11:00:58	Pori	31-35 v	Mies	3	Työntekijä / palkollinen	100%	Ohjelmistokehittäjä	Noin 50/50 hybridimalli	2770	34650	Ei		
 2/19/2021 11:01:19	Tampere	36-40 v	Mies	15	Yrittäjä		frontend	Pääosin tai kokonaan etätyö		50000	Ei		Halpaa freelancer laskutusta oman tuotekehityksen sivussa
 2/19/2021 11:01:22	PK-Seutu (Helsinki, Espoo, Vantaa)	31-35 v	Mies	8	Työntekijä / palkollinen	100%	Full-stack kehittäjä	Pääosin tai kokonaan toimistolla	5566	75000	Kyllä	Futurice	Palkka riippuu osittain firman tuloksesta, joten vaikea sanoa tarkkaan.
-2/19/2021 11:02:44	PK-Seutu (Helsinki, Espoo, Vantaa)	26-30 v	Mies	8	Freelancer	100%	Full-stack	Pääosin tai kokonaan toimistolla		14250 + alv	Kyllä		
 2/19/2021 11:03:11	Turku	36-40 v	Nainen	30	Työntekijä / palkollinen	100%	project manager	Pääosin tai kokonaan etätyö	5500		Kyllä		
 2/19/2021 11:03:27	PK-Seutu (Helsinki, Espoo, Vantaa)	41-45 v	M	21	Työntekijä / palkollinen	100%	backend	Pääosin tai kokonaan etätyö	5600		Kyllä		
 2/19/2021 11:04:33	PK-Seutu (Helsinki, Espoo, Vantaa)	41-45 v	Mies	20	Työntekijä / palkollinen	100%	Ohjelmistokehitys konsultointityönä, backend	Noin 50/50 hybridimalli	5500	72000	Kyllä		
@@ -339,3 +338,60 @@ Timestamp	Missä kaupungissa työpaikkasi pääasiallinen toimisto sijaitsee?	Ik
 2/19/2021 11:06:56	PK-Seutu (Helsinki, Espoo, Vantaa)	26-30 v		8	Freelancer	100%	Full-stack	Pääosin tai kokonaan toimistolla		155000	Kyllä		
 2/19/2021 11:07:09	Tampere	31-35 v	Mies		Työntekijä / palkollinen	100%	Arkkitehti / lead dev / konsultti	Noin 50/50 hybridimalli	5700		Kyllä	Vincit	
 2/19/2021 11:08:53	PK-Seutu (Helsinki, Espoo, Vantaa)	26-30 v		4	Työntekijä / palkollinen	100%	full-stack	Noin 50/50 hybridimalli	4200	55000	Kyllä		
+2/19/2021 11:11:16	Tampere	31-35 v		10	Työntekijä / palkollinen	100%	Arkkitehti	Pääosin tai kokonaan etätyö	4650	58125	Kyllä		
+2/19/2021 11:11:46	Turku	36-40 v	nainen	1	Työntekijä / palkollinen	100%	Ohjelmistokehittäjä	Pääosin tai kokonaan etätyö	2700	33750	Kyllä		
+2/19/2021 11:12:19	PK-Seutu (Helsinki, Espoo, Vantaa)	31-35 v	Mies	9	Työntekijä / palkollinen	100%	Ohjelmistokehittäjä	Pääosin tai kokonaan toimistolla	4700		Kyllä		
+2/19/2021 11:12:29	Tampere	46-50 v	Mies	24	Työntekijä / palkollinen	100%	ohjelmistokehittäjä full-stack	Pääosin tai kokonaan etätyö	4650	58125	Kyllä		
+2/19/2021 11:13:50	Turku	41-45 v		20	Työntekijä / palkollinen	100%	Arkkitehti	Noin 50/50 hybridimalli	5500	71000	Kyllä		
+2/19/2021 11:15:30	Tampere	41-45 v	Ei niitä ole enää	17	Freelancer		Fullstack	Pääosin tai kokonaan toimistolla		135000	Kyllä		
+2/19/2021 11:15:34	Tampere	26-30 v	Nainen	6	Työntekijä / palkollinen	100%	Frontend	Pääosin tai kokonaan etätyö	3850	48100	Kyllä		
+2/19/2021 11:15:45	Tampere	21-25 v	Mies	4	Työntekijä / palkollinen	100%	Full-stack kehittäjä	Pääosin tai kokonaan toimistolla	3900	52000	Kyllä		
+2/19/2021 11:16:13	Oulu	36-40 v	Mies	16	Työntekijä / palkollinen	100%	full-stack	Noin 50/50 hybridimalli	5850	99 000	Kyllä		
+2/19/2021 11:17:21	Kuopio	31-35 v	mies	10	Yrittäjä	100%	toimitusjohtaja, projektipäällikkö, full-stack	Noin 50/50 hybridimalli	5000		Kyllä		
+2/19/2021 11:19:32	PK-Seutu (Helsinki, Espoo, Vantaa)	51-55 v	Mies	30	Työntekijä / palkollinen	100%	DevOps konsultti	Pääosin tai kokonaan etätyö	5800	73000	Kyllä		
+2/19/2021 11:19:52	Jyväskylä	36-40 v	Mies	2	Työntekijä / palkollinen	100%	Full-stack developer / project lead	Pääosin tai kokonaan etätyö	3400	40800	Ei		
+2/19/2021 11:21:22	PK-Seutu (Helsinki, Espoo, Vantaa)	31-35 v	Mies	3	Työntekijä / palkollinen	100%	Ohjelmistokehittäjä	Noin 50/50 hybridimalli	4300	56000	Kyllä		
+2/19/2021 11:22:05	Jyväskylä	26-30 v	Mies	4	Työntekijä / palkollinen	100%	Developer	Pääosin tai kokonaan etätyö	3800	47,500	Kyllä		
+2/19/2021 11:22:12	PK-Seutu (Helsinki, Espoo, Vantaa)	31-35 v	Mies	12	Yrittäjä	100%	Ohjelmistokehittäjä (full-stack), arkkitehti	Pääosin tai kokonaan toimistolla	3700	60000	Ei		
+2/19/2021 11:22:17	San Francisco		Mies	5	Yrittäjä		Full-Stack Software Engineer	Pääosin tai kokonaan etätyö		111000	Kyllä		Vaikea vastata henkilönä joka tekee yrityksen kautta yhdelle ulkomaalaiselle yritykselle töitä (jolla ei ole entiteettiä suomessa). Vastasin nyt ikään kuin olisin yrittäjä vaikka käytännössä tämä on sama kuin olisin palkkaduunissa.
+2/19/2021 11:23:10	PK-Seutu (Helsinki, Espoo, Vantaa)	36-40 v	Mies	13	Työntekijä / palkollinen	100%	Ohjelmistokehitysjohtaja	Noin 50/50 hybridimalli	6000	75000	Kyllä		Pakettiin kuuluu reilu määrä optioita ja palkka nousee (ja laskee) firman liikevaihdon myötä.
+2/19/2021 11:24:28	PK-Seutu (Helsinki, Espoo, Vantaa)	31-35 v	Mies	4	Työntekijä / palkollinen	100%	DevSecOps	Pääosin tai kokonaan etätyö	4800		Kyllä	Teleoperaattori	
+2/19/2021 11:26:30	Tampere	41-45 v	Mies	20	Työntekijä / palkollinen	100%	Vastuullinen arkkitehti	Pääosin tai kokonaan etätyö	6350	89000	Kyllä		
+2/19/2021 11:28:49	PK-Seutu (Helsinki, Espoo, Vantaa)	36-40 v	Nainen	8		100%	Designer	Pääosin tai kokonaan etätyö	4500	57 000	Ei		
+2/19/2021 11:32:36	PK-Seutu (Helsinki, Espoo, Vantaa)	31-35 v	Nainen	2	Työntekijä / palkollinen	100%	Ohjelmistokehittäjä (full stack, konsultti)	Pääosin tai kokonaan toimistolla	3744	46800	Kyllä	Fraktio	
+2/19/2021 11:33:52	PK-Seutu (Helsinki, Espoo, Vantaa)	36-40 v	Mies	5	Työntekijä / palkollinen	100%	Backend, pilvi-infra	Pääosin tai kokonaan toimistolla	3220	40250	Ei	Siili	
+2/19/2021 11:35:17	PK-Seutu (Helsinki, Espoo, Vantaa)	36-40 v	Mies	11	Työntekijä / palkollinen	100%	Toimitusjohtaja	Noin 50/50 hybridimalli	7000	87,500	Kyllä		
+2/19/2021 11:35:42	PK-Seutu (Helsinki, Espoo, Vantaa)	26-30 v	Mies	4	Työntekijä / palkollinen	100%	Full-stack ohjelmistokehittäjä	Pääosin tai kokonaan toimistolla	4500	56250	Kyllä		
+2/19/2021 11:37:38	Länsi-Suomi	36-40 v	Mies	8	Työntekijä / palkollinen	80%	full-stack ohjelmistokehittäjä	Pääosin tai kokonaan etätyö	2400	30000	Ei		
+2/19/2021 11:38:57	PK-Seutu (Helsinki, Espoo, Vantaa)	21-25 v		1	Työntekijä / palkollinen	100%	frontend	Pääosin tai kokonaan etätyö	3350		Kyllä		
+2/19/2021 11:39:38	Oulu	41-45 v	Nainen	16	Työntekijä / palkollinen	100%	QA	Pääosin tai kokonaan toimistolla	4155	59000	Kyllä		
+2/19/2021 11:40:23	Tampere	46-50 v	mies	25	Työntekijä / palkollinen	100%	full-stack ohjelmistokehittäjä/arkkitehti	Pääosin tai kokonaan toimistolla	5300	68000	Kyllä		
+2/19/2021 11:40:54	Turku	31-35 v	Helikopteri	7	Työntekijä / palkollinen	100%	senior backend dev	Noin 50/50 hybridimalli	4500	56300	Kyllä		
+2/19/2021 11:42:22	PK-Seutu (Helsinki, Espoo, Vantaa)	36-40 v	M	15	Työntekijä / palkollinen	100%	Machine Learning Engineer	Noin 50/50 hybridimalli	5500	70625	Kyllä		
+2/19/2021 11:43:02	Tampere	31-35 v	Mies	8	Työntekijä / palkollinen	100%	DevOps	Noin 50/50 hybridimalli	4400	55000	Kyllä		
+2/19/2021 11:44:33	Tampere	36-40 v	Mies	15	Freelancer	100%	Full-stack developer + product roles	Pääosin tai kokonaan etätyö		115000	Kyllä		
+2/19/2021 11:46:20	Tampere	26-30 v	Mies	5	Työntekijä / palkollinen	100%	full-stack developer	Noin 50/50 hybridimalli	4200	60000	Kyllä	Futurice	
+2/19/2021 11:46:37	Turku	21-25 v	Mies	4	Työntekijä / palkollinen	100%	backend	Pääosin tai kokonaan toimistolla	4000	0	Kyllä		
+2/19/2021 11:48:23	PK-Seutu (Helsinki, Espoo, Vantaa)	26-30 v	Mies	3	Työntekijä / palkollinen	100%	full-stack	Pääosin tai kokonaan etätyö	3800	47500	Ei		
+2/19/2021 11:48:59	PK-Seutu (Helsinki, Espoo, Vantaa)	31-35 v	Mies	9	Työntekijä / palkollinen	100%	Software Developer	Pääosin tai kokonaan etätyö	4700	61000	Ei		
+2/19/2021 12:02:00	Jyväskylä	31-35 v	Mies	9	Työntekijä / palkollinen	100%	Team Leader	Noin 50/50 hybridimalli	5300	76000	Kyllä		
+2/19/2021 12:07:20	PK-Seutu (Helsinki, Espoo, Vantaa)	26-30 v	Mies	7	Työntekijä / palkollinen	100%	DevOps, Cloud Architect	Pääosin tai kokonaan etätyö	4500	58500	Ei		
+2/19/2021 12:09:16	New York, etänä	21-25 v	Mies	1	Yrittäjä	100%	Full-stack softwar e engineer	Pääosin tai kokonaan etätyö		105000	Kyllä	Pieni startup	
+2/19/2021 12:12:31	Tampere	41-45 v		18	Työntekijä / palkollinen	100%	arkkitehti / tech advisor	Pääosin tai kokonaan toimistolla	4700	65000	Ei		
+2/19/2021 12:13:36	PK-Seutu (Helsinki, Espoo, Vantaa)	41-45 v	Nainen	6	Työntekijä / palkollinen	100%	backend	Pääosin tai kokonaan etätyö	4250	53000	Ei		it-ala 10+v koodaus 6v
+2/19/2021 12:15:19	PK-Seutu (Helsinki, Espoo, Vantaa)	51-55 v	Mies	20	Työntekijä / palkollinen	100%	Konsultti	Noin 50/50 hybridimalli	5300	66250	Kyllä	Nixu	
+2/19/2021 12:17:31	Oulu	41-45 v	Mies	25	Työntekijä / palkollinen	100%	full-stack	Pääosin tai kokonaan toimistolla	4300	51600	Ei		
+2/19/2021 12:18:31	Turku	26-30 v	mies	1	Työntekijä / palkollinen	100%	full-stack	Pääosin tai kokonaan etätyö	3700	46250	Kyllä	If Vakuutus	
+2/19/2021 12:18:40	Tampere	26-30 v	mies	6	Yrittäjä		CTO, esimies, yrittäjä, full-stack kehittäjä ja arkkitehti	Pääosin tai kokonaan toimistolla		120000	Kyllä	Rare Agency Oy	
+2/19/2021 12:18:45	PK-Seutu (Helsinki, Espoo, Vantaa)	51-55 v	Mies	25	Työntekijä / palkollinen	100%	Full-stack ohjelmistokehittäjä	Noin 50/50 hybridimalli	6800	85000	Kyllä		
+2/19/2021 12:20:02	PK-Seutu (Helsinki, Espoo, Vantaa)	36-40 v	mies	11	Freelancer	100%	full-stack developer	Pääosin tai kokonaan etätyö		130000	Kyllä		
+2/19/2021 12:23:48	Tampere	31-35 v	mies	13	Työntekijä / palkollinen	100%	Data-arkkitehti	Pääosin tai kokonaan etätyö	7500	100000	Kyllä		
+2/19/2021 12:24:09	Tampere	36-40 v	Mies	10	Työntekijä / palkollinen	100%	Frontend	Pääosin tai kokonaan etätyö	4700		Kyllä		
+2/19/2021 12:24:43	PK-Seutu (Helsinki, Espoo, Vantaa)	36-40 v	mies	15	Työntekijä / palkollinen	100%	full stack developer, architect, lead	Pääosin tai kokonaan toimistolla	4500	66000	Kyllä		
+2/19/2021 12:24:52	Tampere	26-30 v	Mies	5	Työntekijä / palkollinen	80%	Ohjelmistokehittäjä (mobiili)	Pääosin tai kokonaan toimistolla	3750	57000	Kyllä		
+2/19/2021 12:31:57	Tampere	36-40 v	Mies	15	Työntekijä / palkollinen	100%	Asiantuntija	Pääosin tai kokonaan toimistolla	5000	60000	Kyllä		
+2/19/2021 12:39:49	Oulu	31-35 v	nainen	10	Yrittäjä	100%	ohjelmistoarkkitehti	Pääosin tai kokonaan etätyö	3300	40956	Ei		Vaikka merkitsin, että palkkani ei ole mielestäni kilpailukykyinen, se ei tarkoita ettenkö olisi siihen tyytyväinen. Tilanne yrittäjillä ei yleensä vastaa samaa kuin palkansaajilla, joten palkka ei ole yrittäjille monestikaan niin mustavalkoinen asia vaan kysymys on isommasta kuviosta.
+2/19/2021 12:40:22	Tampere	31-35 v	mies	13	Työntekijä / palkollinen	100%	devops-konsultti	Pääosin tai kokonaan toimistolla	5300	66250	Kyllä		
+2/19/2021 12:43:40	Turku		mies	0	Työntekijä / palkollinen	100%	full-stack		3500				
+2/19/2021 12:53:17	PK-Seutu (Helsinki, Espoo, Vantaa)	26-30 v	mies	3	Työntekijä / palkollinen	100%	Konsultti	Pääosin tai kokonaan etätyö	3500	46000	Kyllä		
+2/19/2021 12:57:05	Tampere	26-30 v	Mies	5	Työntekijä / palkollinen	100%	Full-stack	Noin 50/50 hybridimalli	4800	60000	Kyllä		
