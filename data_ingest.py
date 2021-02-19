@@ -84,12 +84,25 @@ def read_data() -> pd.DataFrame:
 
     # Fill in Vuositulot as 12.5 * Kk-tulot if empty
     df["Vuositulot"] = df.apply(map_vuositulot, axis=1)
+
+    # Synthesize kk-tulot from Vuositulot
+    df["Kk-tulot"] = pd.to_numeric(df["Vuositulot"], errors="coerce") / 12
     return df
 
 
 def force_tulot_numeric(df):
     df["Kuukausipalkka"] = pd.to_numeric(df["Kuukausipalkka"], errors="coerce")
     df["Vuositulot"] = pd.to_numeric(df["Vuositulot"], errors="coerce")
+    return df
+
+
+def force_age_numeric(df):
+    age_map = {}
+    for cat in df["Ikä"].cat.categories:
+        m = re.match("^(\d+)-(\d+) v", cat)
+        if m:
+            age_map[cat] = int(round(float(m.group(1)) + float(m.group(2)) / 2))
+    df["Ikä"] = df["Ikä"].apply(lambda r: age_map.get(r, r))
     return df
 
 
