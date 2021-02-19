@@ -4,6 +4,7 @@ out: all-data
 	python massage_templates.py
 	python copy_massaged_data.py
 	python generate_charts.py
+	python generate_profiling.py
 	cp data/results.xlsx out/raw.xlsx
 	cp data/results.tsv out/raw.tsv
 
