@@ -24,7 +24,7 @@ def plot_this(fn):
 @plot_this
 def plot_kokemus_tulot(df: DataFrame):
     source = bm.ColumnDataSource(df)
-    plot = bp.figure(title="Kokemus/Tulot")
+    plot = bp.figure(title="Kokemus/Vuositulot")
     plot.add_tools(get_df_hover_tool(df))
     plot.xaxis.axis_label = "Työkokemus (v)"
     set_yaxis_cash(plot)
@@ -35,13 +35,15 @@ def plot_kokemus_tulot(df: DataFrame):
 
 
 @plot_this
-def plot_ika_tulot(df: DataFrame):
-    return get_categorical_stats_plot(df, category="Ikä")
+def plot_ika_vuositulot(df: DataFrame):
+    return get_categorical_stats_plot(df, category="Ikä", value="Vuositulot")
 
 
 @plot_this
-def plot_sukupuoli_tulot(df: DataFrame):
-    return get_categorical_stats_plot(df, category="Sukupuoli", na_as_category="EOS")
+def plot_sukupuoli_vuositulot(df: DataFrame):
+    return get_categorical_stats_plot(
+        df, category="Sukupuoli", value="Vuositulot", na_as_category="EOS"
+    )
 
 
 def main():
