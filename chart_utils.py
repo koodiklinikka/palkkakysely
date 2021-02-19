@@ -16,8 +16,10 @@ def set_yaxis_cash(plot):
     plot.yaxis[0].formatter = bm.NumeralTickFormatter(format="€0")
 
 
-def get_categorical_stats_plot(df, *, category):
-    df = get_categorical_stats(df, category, "Vuositulot")
+def get_categorical_stats_plot(df, *, category, na_as_category=None):
+    df = get_categorical_stats(
+        df, category, "Vuositulot", na_as_category=na_as_category
+    )
     df.reset_index(inplace=True)
     df[category] = df[category].astype("category")
     plot = bp.figure(
