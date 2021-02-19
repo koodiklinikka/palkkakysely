@@ -14,7 +14,7 @@ COLUMN_MAP = {
 
 ETATYO_MAP = {
     "Pääosin tai kokonaan etätyö": "Etä",
-    "Pääosin tai kokonaan toimisto": "Toimisto",
+    "Pääosin tai kokonaan toimistolla": "Toimisto",
     "Noin 50/50 hybridimalli": "50/50",
 }
 
