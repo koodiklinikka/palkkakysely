@@ -72,6 +72,8 @@ def read_data() -> pd.DataFrame:
     df["Kaupunki"] = df["Kaupunki"].astype("category")
     df["Sukupuoli"] = df["Sukupuoli"].apply(map_sukupuoli).astype("category")
     df["Ikä"] = df["Ikä"].apply(map_ika).astype("category")
+    # Turn työaika into 0% - 100%
+    df["Työaika"] = pd.to_numeric(df["Työaika"], errors="coerce").clip(0, 1)
 
     df["Etä"] = df["Etä"].map(ETATYO_MAP).astype("category")
     df["Kilpailukykyinen"].replace({"Kyllä": True, "Ei": False}, inplace=True)
