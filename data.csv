@@ -410,3 +410,8 @@ Timestamp,Kaupunki,Ikä,Sukupuoli,Työkokemus,Työsuhteen luonne,Työaika,Rooli,
 2021-02-19 14:48:10.772,Viimsi,36-40 v,mies,20.0,Yrittäjä,,sysadmin,Etä,,110000,True,,
 2021-02-19 14:54:21.221,Tampere,36-40 v,,12.0,Työntekijä / palkollinen,1.0,Ohjelmistosuunnittelija,,3800,50000,False,,
 2021-02-19 15:01:20.423,Turku,31-35 v,mies,9.0,Työntekijä / palkollinen,1.0,Full-stack ohjelmistokehittäjä,,3900,52000,False,,
+2021-02-19 15:06:06.295,PK-Seutu,36-40 v,nainen,14.0,Työntekijä / palkollinen,1.0,Senior consultant,Etä,8500,100000,True,Sulava,
+2021-02-19 15:13:51.743,Pori,36-40 v,mies,8.0,Työntekijä / palkollinen,1.0,Tech Lead,Etä,5080,65000,False,Iso konsulttitalo,"Sijainti Pori, mutta etätöitä 100%. Varsinainen positio Tampere - Helsinki. Edut aika huonot, perusjutut. Työ itsessään aika masentavaa. Seuraavaksi varmaan freelance/yrittäjyys."
+2021-02-19 15:24:01.085,Tampere,36-40 v,mies,14.0,Työntekijä / palkollinen,1.0,Ohjelmistotestaaja,Etä,4100,55000,True,,
+2021-02-19 15:34:53.741,Tampere,26-30 v,muu,7.0,Työntekijä / palkollinen,1.0,Full-stack developer,50/50,5550,69400,True,,
+2021-02-19 15:40:16.336,PK-Seutu,26-30 v,mies,5.0,Työntekijä / palkollinen,0.8,Full-stack/mobiili/design,Etä,7000,90000,True,Mavericks ,
