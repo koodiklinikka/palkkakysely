@@ -39,11 +39,16 @@ def plot_ika_tulot(df: DataFrame):
     return get_categorical_stats_plot(df, category="Ikä")
 
 
+@plot_this
+def plot_sukupuoli_tulot(df: DataFrame):
+    return get_categorical_stats_plot(df, category="Sukupuoli", na_as_category="EOS")
+
+
 def main():
     df = read_data()
     plots = [func(df) for func in sorted(plot_funcs, key=lambda f: f.__name__)]
     bp.output_file("out/charts.html", title="Koodiklinikan Palkkakysely")
-    bp.save(bl.column(plots))
+    bp.save(bl.grid(plots, ncols=2))
 
 
 if __name__ == "__main__":
