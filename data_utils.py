@@ -3,6 +3,22 @@ from typing import Optional
 import pandas as pd
 
 
+def q25(x):
+    return x.quantile(0.25)
+
+
+def q50(x):
+    return x.quantile(0.5)
+
+
+def q75(x):
+    return x.quantile(0.75)
+
+
+def q90(x):
+    return x.quantile(0.9)
+
+
 def get_categorical_stats(
     df: pd.DataFrame,
     category_col: str,
@@ -20,4 +36,6 @@ def get_categorical_stats(
         df[category_col] = df[category_col].astype("category")
     # ... then carry on.
     group = df[[category_col, value_col]].groupby(category_col)
-    return group[value_col].agg(["mean", "min", "max", "median", "count"])
+    return group[value_col].agg(
+        ["mean", "min", "max", "median", "count", q25, q50, q75, q90]
+    )

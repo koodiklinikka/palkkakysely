@@ -4,6 +4,8 @@ from pandas import DataFrame
 
 from data_utils import get_categorical_stats
 
+CAT_Q_RADIUS = 0.1
+
 gender_colormap = factor_cmap("Sukupuoli", ["#4834d4", "#eb4d4b"], ["mies", "nainen"])
 
 
@@ -26,7 +28,35 @@ def get_categorical_stats_plot(df, *, category, na_as_category=None):
         title=f"{category}/tulot", x_range=list(df[category].cat.categories)
     )
     set_yaxis_cash(plot)
-    plot.vbar(df[category], 0.4, df["max"], df["min"], color="#a4b0be")
+    plot.vbar(
+        df[category],
+        CAT_Q_RADIUS * 2.5,
+        df["max"],
+        df["min"],
+        color="#a4b0be",
+        fill_alpha=0.7,
+    )
+    plot.circle(
+        df[category],
+        df["q25"],
+        radius=CAT_Q_RADIUS,
+        legend_label="q25",
+        color="#f368e0",
+    )
+    plot.circle(
+        df[category],
+        df["q75"],
+        radius=CAT_Q_RADIUS,
+        legend_label="q75",
+        color="#00d2d3",
+    )
+    plot.circle(
+        df[category],
+        df["q90"],
+        radius=CAT_Q_RADIUS,
+        legend_label="q90",
+        color="#ff9f43",
+    )
     plot.line(
         df[category], df["median"], legend_label="median", color="#1289A7", line_width=4
     )
