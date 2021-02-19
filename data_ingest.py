@@ -87,6 +87,12 @@ def read_data() -> pd.DataFrame:
     return df
 
 
+def force_tulot_numeric(df):
+    df["Kuukausipalkka"] = pd.to_numeric(df["Kuukausipalkka"], errors="coerce")
+    df["Vuositulot"] = pd.to_numeric(df["Vuositulot"], errors="coerce")
+    return df
+
+
 def main():
     pd.set_option("display.max_column", None)
     pd.set_option("display.max_rows", None)
