@@ -418,3 +418,8 @@ Timestamp,Kaupunki,Ikä,Sukupuoli,Työkokemus,Työsuhteen luonne,Työaika,Rooli,
 2021-02-19 16:04:50.348,Tampere,36-40 v,mies,16.0,Työntekijä / palkollinen,1.0,Ohjelmistokehittäjä,,4800,65000,True,,Bonukset riippuu firman tuloksesta. Palkka olisi varmastikin enemmän muualla mutta uskoakseni linjassa kollegoideni kanssa.
 2021-02-19 16:17:29.891,PK-Seutu,36-40 v,nainen,8.0,Työntekijä / palkollinen,,Product Owner,50/50,4500,56200,True,,
 2021-02-19 16:26:32.700,PK-Seutu,36-40 v,mies,16.0,Työntekijä / palkollinen,1.0,Mobile SW,Etä,8000,95000,True,Mavericks,
+2021-02-19 16:33:27.762,PK-Seutu,31-35 v,mies,11.0,Työntekijä / palkollinen,1.0,Full stack,50/50,7000,87500.0,True,Mavericks,
+2021-02-19 16:34:07.545,PK-Seutu,31-35 v,mies,12.0,Työntekijä / palkollinen,1.0,full-stack,Etä,8000,95000,True,Mavericks,
+2021-02-19 16:36:55.938,Tampere,41-45 v,mies,22.0,Työntekijä / palkollinen,0.8,ohjelmistokehittäjä (backend) / arkkitehti,Etä,4700,58750,False,,
+2021-02-19 16:38:41.403,PK-Seutu,36-40 v,mies,2.0,Työntekijä / palkollinen,1.0,WordPress-kehittäjä,50/50,3000,37500,False,,
+2021-02-19 16:39:14.831,Tampere,31-35 v,mies,5.0,Työntekijä / palkollinen,1.0,Data scientist,Etä,4300,53750,,Wapice,
