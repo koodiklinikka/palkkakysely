@@ -5,7 +5,9 @@ on:
     branches: [ master ]
   pull_request:
     branches: [ master ]
-
+  schedule:
+    # Update automatically on weekdays during work hours
+    - cron: '0 10,13,16 * * 1-5'
 jobs:
   build:
     runs-on: ubuntu-latest
