@@ -1,19 +1,15 @@
 {
   "files": {
     "main.js": "/palkkakysely/analysaattori/static/js/main.6ddcb33a.chunk.js",
-    "main.js.map": "/palkkakysely/analysaattori/static/js/main.6ddcb33a.chunk.js.map",
     "runtime-main.js": "/palkkakysely/analysaattori/static/js/runtime-main.ce3a748e.js",
-    "runtime-main.js.map": "/palkkakysely/analysaattori/static/js/runtime-main.ce3a748e.js.map",
-    "static/css/2.ba14e1f3.chunk.css": "/palkkakysely/analysaattori/static/css/2.ba14e1f3.chunk.css",
+    "static/css/2.ed7e5119.chunk.css": "/palkkakysely/analysaattori/static/css/2.ed7e5119.chunk.css",
     "static/js/2.fb2f42c9.chunk.js": "/palkkakysely/analysaattori/static/js/2.fb2f42c9.chunk.js",
-    "static/js/2.fb2f42c9.chunk.js.map": "/palkkakysely/analysaattori/static/js/2.fb2f42c9.chunk.js.map",
     "index.html": "/palkkakysely/analysaattori/index.html",
-    "static/css/2.ba14e1f3.chunk.css.map": "/palkkakysely/analysaattori/static/css/2.ba14e1f3.chunk.css.map",
     "static/js/2.fb2f42c9.chunk.js.LICENSE.txt": "/palkkakysely/analysaattori/static/js/2.fb2f42c9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ce3a748e.js",
-    "static/css/2.ba14e1f3.chunk.css",
+    "static/css/2.ed7e5119.chunk.css",
     "static/js/2.fb2f42c9.chunk.js",
     "static/js/main.6ddcb33a.chunk.js"
   ]
