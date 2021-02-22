@@ -8,6 +8,8 @@ on:
   schedule:
     # Update automatically on weekdays during work hours
     - cron: '0 10,13,16 * * 1-5'
+    # ... and every night
+    - cron: '0 0 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
