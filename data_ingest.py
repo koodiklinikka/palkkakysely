@@ -101,7 +101,7 @@ def force_age_numeric(df):
     for cat in df["Ikä"].cat.categories:
         m = re.match("^(\d+)-(\d+) v", cat)
         if m:
-            age_map[cat] = int(round(float(m.group(1)) + float(m.group(2)) / 2))
+            age_map[cat] = int(round(float(m.group(1)) + float(m.group(2))) / 2)
     df["Ikä"] = df["Ikä"].apply(lambda r: age_map.get(r, r))
     return df
 
