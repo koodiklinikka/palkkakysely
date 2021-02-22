@@ -429,3 +429,30 @@ Timestamp,Kaupunki,Ikä,Sukupuoli,Työkokemus,Työsuhteen luonne,Työaika,Rooli,
 2021-02-19 17:51:37.178,PK-Seutu,21-25 v,nainen,4.0,Työntekijä / palkollinen,1.0,Frontend ohjelmistokehittäjä,Etä,4000,55000,True,,,4583.333333333333
 2021-02-19 18:20:45.185,Oulu,31-35 v,nainen,6.0,Työntekijä / palkollinen,1.0,Tekninen asiantuntija/suunnittelija,Etä,3250,42000,False,,,3500.0
 2021-02-19 18:34:24.007,Turku,26-30 v,mies,12.0,Työntekijä / palkollinen,1.0,full-stack,Etä,3000,37500,False,If,,3125.0
+2021-02-19 18:59:37.686,Tampere,31-35 v,mies,5.0,Työntekijä / palkollinen,1.0,Ohjelmistokehittäjä,Toimisto,4200,52500,True,,,4375.0
+2021-02-19 19:14:22.076,Vaasa,41-45 v,mies,20.0,Työntekijä / palkollinen,1.0,Ohjelmistokehittäjä,Etä,4250,55000,False,,,4583.333333333333
+2021-02-19 19:44:54.685,Turku,21-25 v,mies,2.0,Työntekijä / palkollinen,,,Toimisto,3300,41250.0,,,,3437.5
+2021-02-19 20:57:35.477,Tampere,31-35 v,mies,6.0,Työntekijä / palkollinen,1.0,Lead developer,Etä,4500,56250.0,True,,,4687.5
+2021-02-19 20:57:45.660,Tampere,31-35 v,mies,6.0,Työntekijä / palkollinen,1.0,,50/50,4250,53000,True,,,4416.666666666667
+2021-02-19 21:48:23.377,Tampere,21-25 v,mies,2.0,Työntekijä / palkollinen,0.8,Ful-stack kehittäjä front-end painolla,Toimisto,3300,41250,False,Bitwise Oy,,3437.5
+2021-02-20 06:35:52.978,PK-Seutu,31-35 v,mies,7.0,Työntekijä / palkollinen,1.0,Full-Stack,Etä,6750,85000,True,,,7083.333333333333
+2021-02-20 08:22:41.983,PK-Seutu,26-30 v,mies,5.0,Työntekijä / palkollinen,1.0,Konsultti / Full stack / Tech lead,Etä,9300,115000,True,Mavericks Software Oy,,9583.333333333334
+2021-02-20 09:27:21.653,PK-Seutu,41-45 v,nainen,16.0,Työntekijä / palkollinen,1.0,Ohjelmistokehittäjä (full-stack),Etä,4070,50875,True,,,4239.583333333333
+2021-02-20 10:50:47.369,Tampere,26-30 v,nainen,4.0,Työntekijä / palkollinen,0.8,Fullstack developer,Etä,3200,41000,False,Futurice,,3416.6666666666665
+2021-02-20 13:02:12.173,Jyväskylä,36-40 v,mies,16.0,Työntekijä / palkollinen,1.0,full-stack ohjelmistokehittäjä,50/50,4850,60500,True,,,5041.666666666667
+2021-02-20 14:10:22.775,PK-Seutu,26-30 v,mies,13.0,Työntekijä / palkollinen,1.0,full-stack,Etä,7500,93750.0,True,Mavericks,,7812.5
+2021-02-20 16:52:30.035,Turku,51-55 v,mies,25.0,Työntekijä / palkollinen,1.0,Ohjelmistonkehittäjä,Toimisto,3980,49750.0,False,,,4145.833333333333
+2021-02-20 18:12:09.200,Tallinna,41-45 v,mies,24.0,Yrittäjä,1.0,CTO/Founder/Kooderi,Toimisto,12000,300000,True,,,25000.0
+2021-02-20 19:26:05.465,PK-Seutu,31-35 v,mies,8.0,Freelancer,,Full-stack,50/50,,130000,True,,,10833.333333333334
+2021-02-20 21:05:22.856,PK-Seutu,26-30 v,mies,13.0,Freelancer,,ohjelmistokehittäjä,50/50,,165000,True,,,13750.0
+2021-02-20 21:17:59.318,PK-Seutu,31-35 v,mies,10.0,Työntekijä / palkollinen,1.0,Software Architect,50/50,8000,100000,True,Compile Oy,,8333.333333333334
+2021-02-20 22:54:48.513,PK-Seutu,36-40 v,nainen,7.0,Työntekijä / palkollinen,1.0,Project manager,50/50,3800,47500.0,False,,,3958.3333333333335
+2021-02-21 11:49:58.888,Tampere,31-35 v,mies,5.0,Työntekijä / palkollinen,1.0,full-stack,Etä,5100,64000,True,,,5333.333333333333
+2021-02-21 13:18:18.719,Tampere,41-45 v,mies,10.0,Työntekijä / palkollinen,1.0,Cloud Architect,Etä,5000,62500,False,Konsulttitalo,,5208.333333333333
+2021-02-21 17:09:05.499,PK-Seutu,31-35 v,mies,10.0,Työntekijä / palkollinen,1.0,"data engineering, team lead",Etä,5300,71500,False,,,5958.333333333333
+2021-02-21 18:34:07.903,PK-Seutu,21-25 v,mies,1.0,Työntekijä / palkollinen,1.0,Frontend,Toimisto,2600,31200,False,,,2600.0
+2021-02-21 23:03:57.647,PK-Seutu,36-40 v,mies,22.0,Yrittäjä,1.0,Full-stack,Toimisto,5000,85000,True,,,7083.333333333333
+2021-02-22 07:33:10.449,Hämeenlinna,31-35 v,,5.0,Työntekijä / palkollinen,0.8,Ohjelmistokehittäjä,Etä,2400,25000,False,,,2083.3333333333335
+2021-02-22 07:47:19.579,PK-Seutu,36-40 v,mies,12.0,Työntekijä / palkollinen,1.0,Sovelluskehittäjä,Toimisto,6000,75000,False,,"Pieni firma ja paljon hattuja päässä. Palkka on hyvä, mutta ei korvaa stressiä ja painetta.",6250.0
+2021-02-22 09:49:11.345,Lontoo,36-40 v,mies,17.0,Työntekijä / palkollinen,1.0,CTO,Etä,8500,200000,True,,,16666.666666666668
+2021-02-22 10:02:50.113,PK-Seutu,31-35 v,mies,3.0,Työntekijä / palkollinen,1.0,Ohjelmistokehittäjä,Etä,3200,40000,False,Siili Solutions Oyj,,3333.3333333333335
