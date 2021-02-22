@@ -459,3 +459,11 @@ Timestamp,Kaupunki,Ikä,Sukupuoli,Työkokemus,Työsuhteen luonne,Työaika,Rooli,
 2021-02-22 10:36:42.074,PK-Seutu,31-35 v,mies,20.0,Yrittäjä,1.0,CTO,Toimisto,4000,50000.0,False,,hyvä kysely,4166.666666666667
 2021-02-22 11:03:33.749,Tampere,36-40 v,mies,10.0,Työntekijä / palkollinen,1.0,Ohjelmistokehittäjä,Toimisto,3858,48225,True,Wakeone,,4018.75
 2021-02-22 11:05:29.788,PK-Seutu,36-40 v,nainen,12.0,Työntekijä / palkollinen,1.0,Myynnistä vastaava ,50/50,8200,100000,True,,,8333.333333333334
+2021-02-22 12:44:27.805,Tampere,36-40 v,mies,15.0,Työntekijä / palkollinen,1.0,fullstack-ohjelmistokehittä / arkkitehti / pilviveikko,Etä,5700,70000,True,,,5833.333333333333
+2021-02-22 12:44:41.634,Oulu,26-30 v,mies,7.0,Työntekijä / palkollinen,1.0,Backend,Etä,3800,47500,True,,,3958.3333333333335
+2021-02-22 12:49:30.713,PK-Seutu,26-30 v,mies,5.0,Työntekijä / palkollinen,1.0,Mobiilikehittäjä,Toimisto,4500,56250,True,,,4687.5
+2021-02-22 12:51:26.991,Oulu,26-30 v,nainen,5.0,Työntekijä / palkollinen,1.0,Web developer,50/50,3000,37500,False,,"Kokemusta kokonaisuudessaan 7v, mutta siitä reilut kaksi vuotta lasten kanssa kotona koodaamatta.",3125.0
+2021-02-22 12:54:08.537,PK-Seutu,26-30 v,mies,9.0,Työntekijä / palkollinen,1.0,Tuotepäällikkö,Toimisto,5500,82500,True,,,6875.0
+2021-02-22 13:03:17.260,Tampere,31-35 v,mies,5.0,Työntekijä / palkollinen,1.0,Lead front end dev,Toimisto,4200,50000,True,,,4166.666666666667
+2021-02-22 13:33:47.981,PK-Seutu,26-30 v,mies,0.0,Työntekijä / palkollinen,1.0,harjoittelija,Toimisto,2200,27500.0,False,,,2291.6666666666665
+2021-02-22 14:11:08.271,EU,31-35 v,mies,8.0,Työntekijä / palkollinen,1.0,Senior Backend Developer,Toimisto,4800,59000,False,,,4916.666666666667
