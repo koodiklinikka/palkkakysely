@@ -456,3 +456,6 @@ Timestamp,Kaupunki,Ikä,Sukupuoli,Työkokemus,Työsuhteen luonne,Työaika,Rooli,
 2021-02-22 07:47:19.579,PK-Seutu,36-40 v,mies,12.0,Työntekijä / palkollinen,1.0,Sovelluskehittäjä,Toimisto,6000,75000,False,,"Pieni firma ja paljon hattuja päässä. Palkka on hyvä, mutta ei korvaa stressiä ja painetta.",6250.0
 2021-02-22 09:49:11.345,Lontoo,36-40 v,mies,17.0,Työntekijä / palkollinen,1.0,CTO,Etä,8500,200000,True,,,16666.666666666668
 2021-02-22 10:02:50.113,PK-Seutu,31-35 v,mies,3.0,Työntekijä / palkollinen,1.0,Ohjelmistokehittäjä,Etä,3200,40000,False,Siili Solutions Oyj,,3333.3333333333335
+2021-02-22 10:36:42.074,PK-Seutu,31-35 v,mies,20.0,Yrittäjä,1.0,CTO,Toimisto,4000,50000.0,False,,hyvä kysely,4166.666666666667
+2021-02-22 11:03:33.749,Tampere,36-40 v,mies,10.0,Työntekijä / palkollinen,1.0,Ohjelmistokehittäjä,Toimisto,3858,48225,True,Wakeone,,4018.75
+2021-02-22 11:05:29.788,PK-Seutu,36-40 v,nainen,12.0,Työntekijä / palkollinen,1.0,Myynnistä vastaava ,50/50,8200,100000,True,,,8333.333333333334
