@@ -469,3 +469,7 @@ Timestamp,Kaupunki,Ikä,Sukupuoli,Työkokemus,Työsuhteen luonne,Työaika,Rooli,
 2021-02-22 14:11:08.271,EU,31-35 v,mies,8.0,Työntekijä / palkollinen,1.0,Senior Backend Developer,Toimisto,4800,59000,False,,,4916.666666666667
 2021-02-22 18:58:45.951,PK-Seutu,41-45 v,mies,15.0,Työntekijä / palkollinen,1.0,Teknologiajohtaja,Toimisto,12000,220000,True,,,18333.333333333332
 2021-02-22 23:53:12.243,PK-Seutu,31-35 v,mies,8.0,Työntekijä / palkollinen,1.0,senior game developer,50/50,4000,50000,False,,,4166.666666666667
+2021-02-23 08:54:20.588,PK-Seutu,31-35 v,nainen,3.0,Työntekijä / palkollinen,1.0,full-stack,Etä,3500,43750.0,False,,,3645.8333333333335
+2021-02-23 09:56:27.496,PK-Seutu,31-35 v,mies,8.0,Työntekijä / palkollinen,1.0,full-stack conslut,Toimisto,5300,70000,True,keskikokoinen konsulttifirma,,5833.333333333333
+2021-02-23 10:12:27.163,Lahti,36-40 v,mies,14.0,Työntekijä / palkollinen,1.0,Front-end Developer,Toimisto,"4695,70","58696,25",True,,,
+2021-02-23 10:43:09.487,PK-Seutu,41-45 v,mies,9.0,Työntekijä / palkollinen,1.0,"ohjelmistokehittäjä/konsultti (senior, full-stack)",50/50,3926,50000,False,Vincit,"Olen firmaan, sen etuihin ja työilmapiiriin tyytyväinen.",4166.666666666667
