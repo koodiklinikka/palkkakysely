@@ -487,3 +487,5 @@ Timestamp,Kaupunki,Ikä,Sukupuoli,Työkokemus,Työsuhteen luonne,Työaika,Rooli,
 2021-02-25 10:53:41.881,PK-Seutu,26-30 v,mies,6.0,Työntekijä / palkollinen,1.0,full-stack,50/50,5100,64000,False,,,5333.333333333333
 2021-02-25 11:09:16.999,PK-Seutu,26-30 v,mies,3.0,Työntekijä / palkollinen,1.0,Fullstack ja pientä devops tunkkia,Toimisto,3500,44000,False,,,3666.6666666666665
 2021-02-25 11:10:42.322,,31-35 v,,15.0,Työntekijä / palkollinen,1.0,,Toimisto,5200,68000,False,,,5666.666666666667
+2021-02-25 12:33:58.490,PK-Seutu,26-30 v,mies,5.0,Työntekijä / palkollinen,1.0,Full-stack developer,Toimisto,5500,68000,True,,,5666.666666666667
+2021-02-25 14:10:32.597,Tampere,21-25 v,muu,1.0,Työntekijä / palkollinen,0.5,Systems Administrator ja firmän sisäinen 1st line -tukihessu,Toimisto,1081,14000,True,,"Kk-palkkani on varsinkin vaihteleva, koska riippuu vuorolisistä (mahdollisista pyhä- ja yövuoroista ja tuurauksista). Jonkinlaisen oletuksen nyt yritin lyödä vuositulolle, mutta taitaa jäädä todellisuudessa hivenen sen alle.",1166.6666666666667
