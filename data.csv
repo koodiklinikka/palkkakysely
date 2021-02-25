@@ -93,7 +93,7 @@ Timestamp,Kaupunki,Ikä,Sukupuoli,Työkokemus,Työsuhteen luonne,Työaika,Rooli,
 2021-02-15 13:30:26.518,Tampere,41-45 v,mies,21.0,Työntekijä / palkollinen,1.0,Arkkitehti,50/50,6500,90000,True,,,7500.0
 2021-02-15 13:30:30.356,Tampere,36-40 v,mies,9.0,Työntekijä / palkollinen,1.0,Ohjelmistokehittäjä,Toimisto,4150,51875.0,False,,,4322.916666666667
 2021-02-15 13:30:38.661,PK-Seutu,46-50 v,mies,20.0,Työntekijä / palkollinen,1.0,"full-stack-kehittäjä, arkkitehti",Toimisto,6600,85000,True,,,7083.333333333333
-2021-02-15 13:34:11.117,PK-Seutu,31-35 v,mies,11.0,Työntekijä / palkollinen,1.0,ohjelmistokehittäjä / -arkkitehti,50/50,6000,75000,True,UpCloud,,6250.0
+2021-02-15 13:34:11.117,PK-Seutu,31-35 v,mies,11.0,Työntekijä / palkollinen,1.0,ohjelmistokehittäjä / -arkkitehti,50/50,6000,75000,True,,,6250.0
 2021-02-15 13:34:46.354,PK-Seutu,41-45 v,mies,25.0,Työntekijä / palkollinen,1.0,seniori automaatio säätäjä,50/50,5800,70000,True,,,5833.333333333333
 2021-02-15 13:45:44.288,PK-Seutu,31-35 v,mies,7.0,Työntekijä / palkollinen,1.0,"ohjelmistkoehittäjä, full-stack",Toimisto,4700,58750,False,,,4895.833333333333
 2021-02-15 13:49:32.413,Jyväskylä,31-35 v,mies,10.0,Työntekijä / palkollinen,1.0,Lead developer,Etä,6200,77500,True,,,6458.333333333333
@@ -483,3 +483,7 @@ Timestamp,Kaupunki,Ikä,Sukupuoli,Työkokemus,Työsuhteen luonne,Työaika,Rooli,
 2021-02-24 16:09:32.939,PK-Seutu,31-35 v,mies,2.0,Työntekijä / palkollinen,1.0,Ohjelmistokehittäjä,Etä,3500,43750,True,,,3645.8333333333335
 2021-02-24 17:28:57.097,Kuopio,21-25 v,mies,2.0,Työntekijä / palkollinen,1.0,frontend,50/50,2900,36000,False,,,3000.0
 2021-02-24 23:49:22.242,Tampere,26-30 v,mies,2.0,Työntekijä / palkollinen,1.0,Ohjelmistokehittäjä (frontend),Etä,2860,35850,False,,,2987.5
+2021-02-25 09:34:48.368,Kuopio,31-35 v,mies,6.0,Työntekijä / palkollinen,1.0,"Ohjelmistokehittäjä, Tech Lead",Toimisto,4500,56250.0,True,,,4687.5
+2021-02-25 10:53:41.881,PK-Seutu,26-30 v,mies,6.0,Työntekijä / palkollinen,1.0,full-stack,50/50,5100,64000,False,,,5333.333333333333
+2021-02-25 11:09:16.999,PK-Seutu,26-30 v,mies,3.0,Työntekijä / palkollinen,1.0,Fullstack ja pientä devops tunkkia,Toimisto,3500,44000,False,,,3666.6666666666665
+2021-02-25 11:10:42.322,,31-35 v,,15.0,Työntekijä / palkollinen,1.0,,Toimisto,5200,68000,False,,,5666.666666666667
