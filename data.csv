@@ -482,3 +482,4 @@ Timestamp,Kaupunki,Ikä,Sukupuoli,Työkokemus,Työsuhteen luonne,Työaika,Rooli,
 2021-02-24 15:19:46.521,Mikkeli,31-35 v,mies,7.0,Työntekijä / palkollinen,1.0,Full-stack,Etä,3000,37500.0,False,,,3125.0
 2021-02-24 16:09:32.939,PK-Seutu,31-35 v,mies,2.0,Työntekijä / palkollinen,1.0,Ohjelmistokehittäjä,Etä,3500,43750,True,,,3645.8333333333335
 2021-02-24 17:28:57.097,Kuopio,21-25 v,mies,2.0,Työntekijä / palkollinen,1.0,frontend,50/50,2900,36000,False,,,3000.0
+2021-02-24 23:49:22.242,Tampere,26-30 v,mies,2.0,Työntekijä / palkollinen,1.0,Ohjelmistokehittäjä (frontend),Etä,2860,35850,False,,,2987.5
