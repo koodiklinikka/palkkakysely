@@ -82,6 +82,9 @@ def read_data() -> pd.DataFrame:
     df["Kuukausipalkka"] = df["Kuukausipalkka"].apply(map_numberlike)
     df["Vuositulot"] = df["Vuositulot"].apply(map_numberlike)
 
+    # Remove Oy, Oyj, etc. from work places
+    df["Työpaikka"] = df["Työpaikka"].replace(re.compile(r"\s+oy|oyj$", flags=re.I), "")
+
     # Fill in Vuositulot as 12.5 * Kk-tulot if empty
     df["Vuositulot"] = df.apply(map_vuositulot, axis=1)
 
