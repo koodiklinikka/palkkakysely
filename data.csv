@@ -489,3 +489,4 @@ Timestamp,Kaupunki,Ikä,Sukupuoli,Työkokemus,Työsuhteen luonne,Työaika,Rooli,
 2021-02-25 11:10:42.322,,31-35 v,,15.0,Työntekijä / palkollinen,1.0,,Toimisto,5200,68000,False,,,5666.666666666667
 2021-02-25 12:33:58.490,PK-Seutu,26-30 v,mies,5.0,Työntekijä / palkollinen,1.0,Full-stack developer,Toimisto,5500,68000,True,,,5666.666666666667
 2021-02-25 14:10:32.597,Tampere,21-25 v,muu,1.0,Työntekijä / palkollinen,0.5,Systems Administrator ja firmän sisäinen 1st line -tukihessu,Toimisto,1081,14000,True,,"Kk-palkkani on varsinkin vaihteleva, koska riippuu vuorolisistä (mahdollisista pyhä- ja yövuoroista ja tuurauksista). Jonkinlaisen oletuksen nyt yritin lyödä vuositulolle, mutta taitaa jäädä todellisuudessa hivenen sen alle.",1166.6666666666667
+2021-02-25 21:17:36.323,PK-Seutu,31-35 v,mies,10.0,Työntekijä / palkollinen,1.0,Full-stack ohjemistokehittäjä,Toimisto,4600,58000,True,,,4833.333333333333
