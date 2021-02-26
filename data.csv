@@ -19,7 +19,7 @@ Timestamp,Kaupunki,Ikä,Sukupuoli,Työkokemus,Työsuhteen luonne,Työaika,Rooli,
 2021-02-15 12:08:47.385,PK-Seutu,31-35 v,mies,15.0,Työntekijä / palkollinen,1.0,Backend developer,Toimisto,5100,65000,False,,,5416.666666666667
 2021-02-15 12:08:54.685,PK-Seutu,36-40 v,mies,16.0,Työntekijä / palkollinen,1.0,full-stack ohjelmistokehittäjä,50/50,5900,80000,True,,,6666.666666666667
 2021-02-15 12:09:09.916,Turku,36-40 v,mies,15.0,Työntekijä / palkollinen,1.0,"full-stack, project manager",Toimisto,4100,55000,False,,,4583.333333333333
-2021-02-15 12:09:43.186,Tampere,26-30 v,mies,1.0,Työntekijä / palkollinen,1.0,Integration Developer,Toimisto,2500,31250,True,Digia Oyj,"Kuukausipalkkaan tulossa ihan juuri firman laajuinen pieni (muistaakseni 50 e) yleiskorotus + palkka nousee ainakin 2800 e/kk, kunhan valmistuisi.",2604.1666666666665
+2021-02-15 12:09:43.186,Tampere,26-30 v,mies,1.0,Työntekijä / palkollinen,1.0,Integration Developer,Toimisto,2500,31250,True,Digiaj,"Kuukausipalkkaan tulossa ihan juuri firman laajuinen pieni (muistaakseni 50 e) yleiskorotus + palkka nousee ainakin 2800 e/kk, kunhan valmistuisi.",2604.1666666666665
 2021-02-15 12:09:49.990,Jyväskylä,31-35 v,,7.0,Työntekijä / palkollinen,1.0,Full-Stack,Etä,3500,43750,False,,,3645.8333333333335
 2021-02-15 12:12:28.471,PK-Seutu,26-30 v,mies,3.0,Työntekijä / palkollinen,1.0,Full-Stack,Etä,3791,0,True,,,0.0
 2021-02-15 12:12:38.008,Jyväskylä,26-30 v,mies,4.0,Työntekijä / palkollinen,1.0,Ohjelmistokehittäjä,Toimisto,3700,50000,True,,,4166.666666666667
@@ -61,7 +61,7 @@ Timestamp,Kaupunki,Ikä,Sukupuoli,Työkokemus,Työsuhteen luonne,Työaika,Rooli,
 2021-02-15 12:55:35.585,Tampere,26-30 v,mies,5.0,Työntekijä / palkollinen,1.0,full-stack,Etä,4000,48000,False,,,4000.0
 2021-02-15 12:55:46.180,Tampere,26-30 v,mies,8.0,Yrittäjä,1.0,full-stack ohjelmistokehittäjä,50/50,,120000,True,,,10000.0
 2021-02-15 12:56:03.940,Tampere,26-30 v,mies,5.0,Työntekijä / palkollinen,1.0,"Full-stack devaaja, milloin mitäkin",Etä,4200,58500,True,Futurice,,4875.0
-2021-02-15 12:56:48.024,PK-Seutu,36-40 v,mies,15.0,Työntekijä / palkollinen,1.0,full-stack,Etä,7000,80000,True,Compile Oy,,6666.666666666667
+2021-02-15 12:56:48.024,PK-Seutu,36-40 v,mies,15.0,Työntekijä / palkollinen,1.0,full-stack,Etä,7000,80000,True,Compile,,6666.666666666667
 2021-02-15 12:58:32.033,Tampere,31-35 v,mies,11.0,Työntekijä / palkollinen,1.0,Full-stack kehittäjä,50/50,4350,54375,,,,4531.25
 2021-02-15 12:58:33.789,PK-Seutu,26-30 v,mies,5.0,Työntekijä / palkollinen,1.0,devops guy,50/50,4000,~62k,True,Gofore,,
 2021-02-15 12:59:48.398,PK-Seutu,31-35 v,nainen,10.0,Työntekijä / palkollinen,1.0,"ohjelmistokehittäjä, senior, full-stack",Toimisto,4600,57500,True,Gofore,,4791.666666666667
@@ -98,7 +98,7 @@ Timestamp,Kaupunki,Ikä,Sukupuoli,Työkokemus,Työsuhteen luonne,Työaika,Rooli,
 2021-02-15 13:45:44.288,PK-Seutu,31-35 v,mies,7.0,Työntekijä / palkollinen,1.0,"ohjelmistkoehittäjä, full-stack",Toimisto,4700,58750,False,,,4895.833333333333
 2021-02-15 13:49:32.413,Jyväskylä,31-35 v,mies,10.0,Työntekijä / palkollinen,1.0,Lead developer,Etä,6200,77500,True,,,6458.333333333333
 2021-02-15 13:50:12.857,PK-Seutu,26-30 v,mies,4.0,Työntekijä / palkollinen,1.0,Full-stack ohjelmistokehittäjä,50/50,4800,65000,True,,,5416.666666666667
-2021-02-15 13:50:16.354,Tampere,36-40 v,mies,14.0,Työntekijä / palkollinen,1.0,cloud specialist,Toimisto,4860,60750.0,True,Gofore Oyj,,5062.5
+2021-02-15 13:50:16.354,Tampere,36-40 v,mies,14.0,Työntekijä / palkollinen,1.0,cloud specialist,Toimisto,4860,60750.0,True,Goforej,,5062.5
 2021-02-15 13:52:09.605,PK-Seutu,31-35 v,mies,12.0,Työntekijä / palkollinen,1.0,Dev lead,Toimisto,5100,75000,True,,,6250.0
 2021-02-15 13:55:05.335,PK-Seutu,31-35 v,mies,7.0,Työntekijä / palkollinen,1.0,Infra/pilvi/SRE,Toimisto,5500,68750,False,Startup,"Rahapalkan päälle tulee vielä kohtuullinen optiopotti, mutta se toki on lähinnä arpalippu",5729.166666666667
 2021-02-15 13:57:27.216,PK-Seutu,26-30 v,mies,7.0,Työntekijä / palkollinen,1.0,ohjelmistokehittäjä (full-stack),Toimisto,5250,68000,True,,,5666.666666666667
@@ -114,9 +114,9 @@ Timestamp,Kaupunki,Ikä,Sukupuoli,Työkokemus,Työsuhteen luonne,Työaika,Rooli,
 2021-02-15 14:19:09.232,PK-Seutu,26-30 v,mies,5.0,Työntekijä / palkollinen,1.0,Ohjelmistokehittäjä,50/50,4250, ,True,,,
 2021-02-15 14:20:49.654,Oulu,31-35 v,mies,12.0,Työntekijä / palkollinen,1.0,Senior Fullstack Developer,Etä,5500,70000,True,,,5833.333333333333
 2021-02-15 14:21:09.913,Turku,41-45 v,mies,18.0,Työntekijä / palkollinen,1.0,Arkkitehti,Toimisto,5500,70000,True,,,5833.333333333333
-2021-02-15 14:22:40.310,PK-Seutu,26-30 v,mies,11.0,Työntekijä / palkollinen,1.0,Senior Software Engineer,Toimisto,4500,59000,True,Verkkokauppa.com Oyj,,4916.666666666667
+2021-02-15 14:22:40.310,PK-Seutu,26-30 v,mies,11.0,Työntekijä / palkollinen,1.0,Senior Software Engineer,Toimisto,4500,59000,True,Verkkokauppa.comj,,4916.666666666667
 2021-02-15 14:24:31.881,PK-Seutu,36-40 v,mies,7.0,Työntekijä / palkollinen,1.0,Senior developer,Etä,4750,59375.0,True,,,4947.916666666667
-2021-02-15 14:25:30.621,Wien,31-35 v,mies,12.0,Yrittäjä,,"Konsultoiva ohjelmistokehittäjä, kirjailija ja tapahtumanjärjestäjä",Etä,1666,50000,True,SurviveJS Oy,,4166.666666666667
+2021-02-15 14:25:30.621,Wien,31-35 v,mies,12.0,Yrittäjä,,"Konsultoiva ohjelmistokehittäjä, kirjailija ja tapahtumanjärjestäjä",Etä,1666,50000,True,SurviveJS,,4166.666666666667
 2021-02-15 14:25:52.331,PK-Seutu,36-40 v,mies,13.0,Yrittäjä,,Full-stack developer,Etä,,160000 (sis ALV 24%),True,,,
 2021-02-15 14:25:59.823,Tampere,31-35 v,,10.0,Työntekijä / palkollinen,1.0,Full-stack ohjelmistokehittäjä,Toimisto,4150,51875,True,,,4322.916666666667
 2021-02-15 14:26:58.280,Tampere,36-40 v,mies,11.0,Työntekijä / palkollinen,0.8,full-stack,Toimisto,3360,42000,False,,,3500.0
@@ -147,7 +147,7 @@ Timestamp,Kaupunki,Ikä,Sukupuoli,Työkokemus,Työsuhteen luonne,Työaika,Rooli,
 2021-02-15 15:04:02.341,PK-Seutu,31-35 v,,7.0,Työntekijä / palkollinen,1.0,full-stack kehittäjä,Toimisto,5500,68750.0,True,,,5729.166666666667
 2021-02-15 15:08:27.431,Lontoo,21-25 v,mies,0.0,Työntekijä / palkollinen,1.0,Software Developer,Toimisto,5500,115000,True,,"Ilmaset kaffet, safkat, salit jne.",9583.333333333334
 2021-02-15 15:09:01.619,PK-Seutu,31-35 v,mies,10.0,Työntekijä / palkollinen,1.0,"backend, sysadmin, arkkitehti",Toimisto,4500,55000,True,Valtion omistama yritys,,4583.333333333333
-2021-02-15 15:09:02.881,Jyväskylä,36-40 v,mies,5.0,Työntekijä / palkollinen,1.0,Web Developer,Etä,3000,37500.0,False,Digitoimisto Dude Oy,,3125.0
+2021-02-15 15:09:02.881,Jyväskylä,36-40 v,mies,5.0,Työntekijä / palkollinen,1.0,Web Developer,Etä,3000,37500.0,False,Digitoimisto Dude,,3125.0
 2021-02-15 15:10:57.839,PK-Seutu,31-35 v,mies,7.0,Työntekijä / palkollinen,1.0,Full-stack dev,Etä,4500,56250,False,,"startup, palkan lisäksi optiopaketti.",4687.5
 2021-02-15 15:18:44.879,PK-Seutu,41-45 v,mies,21.0,Yrittäjä,1.0,Arkkitehti,Etä,,180000,True,,,15000.0
 2021-02-15 15:19:13.063,PK-Seutu,26-30 v,,5.0,Työntekijä / palkollinen,1.0,,Toimisto,3600,45000,False,,,3750.0
@@ -217,7 +217,7 @@ Timestamp,Kaupunki,Ikä,Sukupuoli,Työkokemus,Työsuhteen luonne,Työaika,Rooli,
 2021-02-16 09:46:38.803,PK-Seutu,31-35 v,nainen,13.0,Työntekijä / palkollinen,1.0,Chief Experience Officer,Etä,6000,75000,False,Fraktio,"Johtajasopimus, ei työaikaa",6250.0
 2021-02-16 10:00:42.704,PK-Seutu,31-35 v,mies,7.0,Työntekijä / palkollinen,1.0,Full-stack,Toimisto,4200,55000,True,Fraktio,,4583.333333333333
 2021-02-16 10:42:03.350,PK-Seutu,26-30 v,mies,5.0,Työntekijä / palkollinen,1.0,frontend,50/50,4500,58000,True,,,4833.333333333333
-2021-02-16 10:43:56.429,Tampere,31-35 v,mies,11.0,Työntekijä / palkollinen,1.0,Koodaava projektipäällikkö,Toimisto,4250,55000,True,Gofore Oyj,,4583.333333333333
+2021-02-16 10:43:56.429,Tampere,31-35 v,mies,11.0,Työntekijä / palkollinen,1.0,Koodaava projektipäällikkö,Toimisto,4250,55000,True,Goforej,,4583.333333333333
 2021-02-16 10:44:27.612,Oulu,31-35 v,,10.0,Työntekijä / palkollinen,1.0,,Toimisto,4000,50000.0,True,,,4166.666666666667
 2021-02-16 10:48:21.256,Tampere,36-40 v,mies,16.0,Työntekijä / palkollinen,1.0,Arkkitehti,Etä,4450,55000,False,Almamedia Partners,,4583.333333333333
 2021-02-16 10:50:56.900,PK-Seutu,26-30 v,mies,5.0,Työntekijä / palkollinen,1.0,Tech lead,Etä,5200,65000,False,,,5416.666666666667
@@ -227,7 +227,7 @@ Timestamp,Kaupunki,Ikä,Sukupuoli,Työkokemus,Työsuhteen luonne,Työaika,Rooli,
 2021-02-16 13:07:12.947,Jyväskylä,41-45 v,mies,21.0,Työntekijä / palkollinen,1.0,Data scientist,Toimisto,4500,57000,True,,,4750.0
 2021-02-16 13:11:57.116,PK-Seutu,31-35 v,nainen,20.0,Työntekijä / palkollinen,1.0,asiantuntija,Toimisto,3600,45000,True,,,3750.0
 2021-02-16 13:19:08.270,Tampere,36-40 v,mies,12.0,Työntekijä / palkollinen,1.0,full-stack ohjelmistokehittäjä,Etä,4800,60000,True,Gofore,,5000.0
-2021-02-16 13:47:10.006,PK-Seutu,31-35 v,mies,10.0,Työntekijä / palkollinen,1.0,Full-Stack kehittäjä + projektinvetovastuuta,Etä,5700,76000,True,Columbia Road Oy,,6333.333333333333
+2021-02-16 13:47:10.006,PK-Seutu,31-35 v,mies,10.0,Työntekijä / palkollinen,1.0,Full-Stack kehittäjä + projektinvetovastuuta,Etä,5700,76000,True,Columbia Road,,6333.333333333333
 2021-02-16 14:02:53.959,PK-Seutu,36-40 v,mies,15.0,Yrittäjä,,Ohjelmistoyrittäjä,50/50,7000,100000.0,False,Oma firma,"Vastasin kysymyksiin läpällä. Summat on enemmän sitä minkä verran yrittäjänä haluaa sykkiä ja mennä ""raha edellä"". ",8333.333333333334
 2021-02-16 15:04:15.689,Turku,26-30 v,mies,6.0,Työntekijä / palkollinen,1.0,Ohjelmistokehittäjä,50/50,3600,52000,True,,,4333.333333333333
 2021-02-16 15:55:16.912,PK-Seutu,26-30 v,mies,12.0,Yrittäjä,1.0,Suurarkkitehti,50/50,7000,87500.0,False,,,7291.666666666667
@@ -275,13 +275,13 @@ Timestamp,Kaupunki,Ikä,Sukupuoli,Työkokemus,Työsuhteen luonne,Työaika,Rooli,
 2021-02-19 10:48:00.296,PK-Seutu,26-30 v,mies,3.0,Työntekijä / palkollinen,1.0,Front-end,Etä,4300,53750,True,,,4479.166666666667
 2021-02-19 10:48:06.695,PK-Seutu,31-35 v,mies,4.0,Työntekijä / palkollinen,1.0,Ohjelmistokehittäjä,Etä,5900,73750,True,,,6145.833333333333
 2021-02-19 10:48:16.541,Turku,21-25 v,mies,3.0,Työntekijä / palkollinen,1.0,Software Engineer,Toimisto,4000,54000,True,Vincit,,4500.0
-2021-02-19 10:48:31.881,PK-Seutu,36-40 v,mies,13.0,Työntekijä / palkollinen,1.0,full-stack,Etä,4850,63000,True,Zure Oy,,5250.0
+2021-02-19 10:48:31.881,PK-Seutu,36-40 v,mies,13.0,Työntekijä / palkollinen,1.0,full-stack,Etä,4850,63000,True,Zure,,5250.0
 2021-02-19 10:48:51.671,PK-Seutu,26-30 v,mies,1.0,Työntekijä / palkollinen,1.0,Mobile developer,Etä,2600,45000,True,,,3750.0
 2021-02-19 10:48:52.341,Jyväskylä,26-30 v,mies,5.0,Työntekijä / palkollinen,1.0,Ohjelmistokehittäjä (frontend + mobiili),Etä,4500,56250,True,,,4687.5
 2021-02-19 10:48:52.926,Turku,31-35 v,mies,6.0,Työntekijä / palkollinen,1.0,Full-stack + devops + risat,Etä,4100,62000,True,,,5166.666666666667
 2021-02-19 10:48:57.428,Lahti,26-30 v,mies,8.0,Työntekijä / palkollinen,1.0,Senior frontend developer,Etä,4800,62000,True,,,5166.666666666667
 2021-02-19 10:48:59.264,Turku,21-25 v,nainen,3.0,Työntekijä / palkollinen,1.0,fullstack,Etä,3750,46875,,,,3906.25
-2021-02-19 10:49:25.700,Kouvola,26-30 v,mies,1.0,Työntekijä / palkollinen,1.0,Full-stack,Etä,2820,35250,False,Telia Cygate Oy,,2937.5
+2021-02-19 10:49:25.700,Kouvola,26-30 v,mies,1.0,Työntekijä / palkollinen,1.0,Full-stack,Etä,2820,35250,False,Telia Cygate,,2937.5
 2021-02-19 10:49:39.894,PK-Seutu,26-30 v,mies,6.0,Työntekijä / palkollinen,1.0,Engineering team lead,Etä,6500,78000 + optiot,,,,
 2021-02-19 10:49:40.926,Tampere,31-35 v,nainen,1.0,Työntekijä / palkollinen,1.0,Ohjelmistokehittäjä (frontend),Etä,2275,30000,False,,,2500.0
 2021-02-19 10:49:47.576,Tampere,36-40 v,,14.0,Työntekijä / palkollinen,1.0,"Back-end enimmäkseen, mutta pieni organisaatio niin kaikkea",Etä,5236,65450,True,,,5454.166666666667
@@ -306,7 +306,7 @@ Timestamp,Kaupunki,Ikä,Sukupuoli,Työkokemus,Työsuhteen luonne,Työaika,Rooli,
 2021-02-19 10:53:21.880,Tampere,41-45 v,mies,22.0,Yrittäjä,,ohjelmistokehittäjä,50/50,,130000,True,,,10833.333333333334
 2021-02-19 10:53:36.418,Turku,21-25 v,mies,1.0,Työntekijä / palkollinen,0.5,frontend,50/50,2600,20000,True,,"Työskentelen opintojen ohella, ensimmäisessä frontend devaajan työssä. Olen opiskellut reilu 2 vuotta yliopistossa. Palkkani on mielestäni nyt ihan ok, mutta tarkoituksena nostaa sitä 3000e /kk loppukesään mennessä. ",1666.6666666666667
 2021-02-19 10:53:45.885,PK-Seutu,26-30 v,mies,2.0,Työntekijä / palkollinen,1.0,full-stack,Etä,3200,40000,True,,,3333.3333333333335
-2021-02-19 10:53:51.187,PK-Seutu,46-50 v,mies,20.0,Työntekijä / palkollinen,1.0,"ohjelmistokehittäjä, datainsinööri",50/50,4600,60000,,KVTES-alainen kunnan omistama oy ,palkan lisänä lounas- ja virkistysetu,5000.0
+2021-02-19 10:53:51.187,PK-Seutu,46-50 v,mies,20.0,Työntekijä / palkollinen,1.0,"ohjelmistokehittäjä, datainsinööri",50/50,4600,60000,,KVTES-alainen kunnan omistama ,palkan lisänä lounas- ja virkistysetu,5000.0
 2021-02-19 10:54:19.914,Tampere,31-35 v,mies,10.0,Työntekijä / palkollinen,1.0,arkkitehti,Toimisto,5000,62500,False,,,5208.333333333333
 2021-02-19 10:54:27.380,PK-Seutu,31-35 v,mies,15.0,Työntekijä / palkollinen,1.0,Lead,Etä,7000,87500,True,,,7291.666666666667
 2021-02-19 10:54:29.590,PK-Seutu,41-45 v,mies,23.0,Työntekijä / palkollinen,1.0,Konsultti,Etä,6500,81250.0,True,,,6770.833333333333
@@ -320,7 +320,7 @@ Timestamp,Kaupunki,Ikä,Sukupuoli,Työkokemus,Työsuhteen luonne,Työaika,Rooli,
 2021-02-19 10:57:04.789,Oulu,36-40 v,nainen,10.0,Työntekijä / palkollinen,1.0,Full-stack,Toimisto,3250,40625,False,,,3385.4166666666665
 2021-02-19 10:57:17.513,Tampere,31-35 v,mies,9.0,Työntekijä / palkollinen,1.0,Senior developer,Toimisto,4200,57000,True,isohko konsulttilafka,,4750.0
 2021-02-19 10:57:21.179,Tampere,31-35 v,mies,6.0,Työntekijä / palkollinen,1.0,Full-stack / senior,50/50,4300,57000,False,,,4750.0
-2021-02-19 10:58:08.759,PK-Seutu,46-50 v,mies,20.0,Työntekijä / palkollinen,1.0,"ohjelmistokehittäjä, datainsinööri",50/50,4600,60000,,KVTES-alainen kunnan omistama oy ,palkan lisänä lounas- ja virkistysetu,5000.0
+2021-02-19 10:58:08.759,PK-Seutu,46-50 v,mies,20.0,Työntekijä / palkollinen,1.0,"ohjelmistokehittäjä, datainsinööri",50/50,4600,60000,,KVTES-alainen kunnan omistama ,palkan lisänä lounas- ja virkistysetu,5000.0
 2021-02-19 10:58:38.842,Kuopio,21-25 v,mies,2.0,Työntekijä / palkollinen,0.5,full-stack,Etä,2400,30000,False,,Opiskelija,2500.0
 2021-02-19 10:58:50.652,PK-Seutu,31-35 v,muu,13.0,Työntekijä / palkollinen,1.0,Technical Lead,Toimisto,5600,70000,False,,,5833.333333333333
 2021-02-19 10:59:37.382,Oulu,31-35 v,mies,,Työntekijä / palkollinen,1.0,Ohjelmistokehittäjä,50/50,5500,80000,True,Pankki,,6666.666666666667
@@ -381,7 +381,7 @@ Timestamp,Kaupunki,Ikä,Sukupuoli,Työkokemus,Työsuhteen luonne,Työaika,Rooli,
 2021-02-19 12:15:19.036,PK-Seutu,51-55 v,mies,20.0,Työntekijä / palkollinen,1.0,Konsultti,50/50,5300,66250,True,Nixu,,5520.833333333333
 2021-02-19 12:17:31.321,Oulu,41-45 v,mies,25.0,Työntekijä / palkollinen,1.0,full-stack,Toimisto,4300,51600,False,,,4300.0
 2021-02-19 12:18:30.502,Turku,26-30 v,mies,1.0,Työntekijä / palkollinen,1.0,full-stack,Etä,3700,46250,True,If Vakuutus,,3854.1666666666665
-2021-02-19 12:18:40.183,Tampere,26-30 v,mies,6.0,Yrittäjä,,"CTO, esimies, yrittäjä, full-stack kehittäjä ja arkkitehti",Toimisto,,120000,True,Rare Agency Oy,,10000.0
+2021-02-19 12:18:40.183,Tampere,26-30 v,mies,6.0,Yrittäjä,,"CTO, esimies, yrittäjä, full-stack kehittäjä ja arkkitehti",Toimisto,,120000,True,Rare Agency,,10000.0
 2021-02-19 12:18:44.975,PK-Seutu,51-55 v,mies,25.0,Työntekijä / palkollinen,1.0,Full-stack ohjelmistokehittäjä,50/50,6800,85000,True,,,7083.333333333333
 2021-02-19 12:20:02.220,PK-Seutu,36-40 v,mies,11.0,Freelancer,1.0,full-stack developer,Etä,,130000,True,,,10833.333333333334
 2021-02-19 12:23:48.203,Tampere,31-35 v,mies,13.0,Työntekijä / palkollinen,1.0,Data-arkkitehti,Etä,7500,100000,True,,,8333.333333333334
@@ -434,9 +434,9 @@ Timestamp,Kaupunki,Ikä,Sukupuoli,Työkokemus,Työsuhteen luonne,Työaika,Rooli,
 2021-02-19 19:44:54.685,Turku,21-25 v,mies,2.0,Työntekijä / palkollinen,,,Toimisto,3300,41250.0,,,,3437.5
 2021-02-19 20:57:35.477,Tampere,31-35 v,mies,6.0,Työntekijä / palkollinen,1.0,Lead developer,Etä,4500,56250.0,True,,,4687.5
 2021-02-19 20:57:45.660,Tampere,31-35 v,mies,6.0,Työntekijä / palkollinen,1.0,,50/50,4250,53000,True,,,4416.666666666667
-2021-02-19 21:48:23.377,Tampere,21-25 v,mies,2.0,Työntekijä / palkollinen,0.8,Ful-stack kehittäjä front-end painolla,Toimisto,3300,41250,False,Bitwise Oy,,3437.5
+2021-02-19 21:48:23.377,Tampere,21-25 v,mies,2.0,Työntekijä / palkollinen,0.8,Ful-stack kehittäjä front-end painolla,Toimisto,3300,41250,False,Bitwise,,3437.5
 2021-02-20 06:35:52.978,PK-Seutu,31-35 v,mies,7.0,Työntekijä / palkollinen,1.0,Full-Stack,Etä,6750,85000,True,,,7083.333333333333
-2021-02-20 08:22:41.983,PK-Seutu,26-30 v,mies,5.0,Työntekijä / palkollinen,1.0,Konsultti / Full stack / Tech lead,Etä,9300,115000,True,Mavericks Software Oy,,9583.333333333334
+2021-02-20 08:22:41.983,PK-Seutu,26-30 v,mies,5.0,Työntekijä / palkollinen,1.0,Konsultti / Full stack / Tech lead,Etä,9300,115000,True,Mavericks Software,,9583.333333333334
 2021-02-20 09:27:21.653,PK-Seutu,41-45 v,nainen,16.0,Työntekijä / palkollinen,1.0,Ohjelmistokehittäjä (full-stack),Etä,4070,50875,True,,,4239.583333333333
 2021-02-20 10:50:47.369,Tampere,26-30 v,nainen,4.0,Työntekijä / palkollinen,0.8,Fullstack developer,Etä,3200,41000,False,Futurice,,3416.6666666666665
 2021-02-20 13:02:12.173,Jyväskylä,36-40 v,mies,16.0,Työntekijä / palkollinen,1.0,full-stack ohjelmistokehittäjä,50/50,4850,60500,True,,,5041.666666666667
@@ -445,7 +445,7 @@ Timestamp,Kaupunki,Ikä,Sukupuoli,Työkokemus,Työsuhteen luonne,Työaika,Rooli,
 2021-02-20 18:12:09.200,Tallinna,41-45 v,mies,24.0,Yrittäjä,1.0,CTO/Founder/Kooderi,Toimisto,12000,300000,True,,,25000.0
 2021-02-20 19:26:05.465,PK-Seutu,31-35 v,mies,8.0,Freelancer,,Full-stack,50/50,,130000,True,,,10833.333333333334
 2021-02-20 21:05:22.856,PK-Seutu,26-30 v,mies,13.0,Freelancer,,ohjelmistokehittäjä,50/50,,165000,True,,,13750.0
-2021-02-20 21:17:59.318,PK-Seutu,31-35 v,mies,10.0,Työntekijä / palkollinen,1.0,Software Architect,50/50,8000,100000,True,Compile Oy,,8333.333333333334
+2021-02-20 21:17:59.318,PK-Seutu,31-35 v,mies,10.0,Työntekijä / palkollinen,1.0,Software Architect,50/50,8000,100000,True,Compile,,8333.333333333334
 2021-02-20 22:54:48.513,PK-Seutu,36-40 v,nainen,7.0,Työntekijä / palkollinen,1.0,Project manager,50/50,3800,47500.0,False,,,3958.3333333333335
 2021-02-21 11:49:58.888,Tampere,31-35 v,mies,5.0,Työntekijä / palkollinen,1.0,full-stack,Etä,5100,64000,True,,,5333.333333333333
 2021-02-21 13:18:18.719,Tampere,41-45 v,mies,10.0,Työntekijä / palkollinen,1.0,Cloud Architect,Etä,5000,62500,False,Konsulttitalo,,5208.333333333333
@@ -455,7 +455,7 @@ Timestamp,Kaupunki,Ikä,Sukupuoli,Työkokemus,Työsuhteen luonne,Työaika,Rooli,
 2021-02-22 07:33:10.449,Hämeenlinna,31-35 v,,5.0,Työntekijä / palkollinen,0.8,Ohjelmistokehittäjä,Etä,2400,25000,False,,,2083.3333333333335
 2021-02-22 07:47:19.579,PK-Seutu,36-40 v,mies,12.0,Työntekijä / palkollinen,1.0,Sovelluskehittäjä,Toimisto,6000,75000,False,,"Pieni firma ja paljon hattuja päässä. Palkka on hyvä, mutta ei korvaa stressiä ja painetta.",6250.0
 2021-02-22 09:49:11.345,Lontoo,36-40 v,mies,17.0,Työntekijä / palkollinen,1.0,CTO,Etä,8500,200000,True,,,16666.666666666668
-2021-02-22 10:02:50.113,PK-Seutu,31-35 v,mies,3.0,Työntekijä / palkollinen,1.0,Ohjelmistokehittäjä,Etä,3200,40000,False,Siili Solutions Oyj,,3333.3333333333335
+2021-02-22 10:02:50.113,PK-Seutu,31-35 v,mies,3.0,Työntekijä / palkollinen,1.0,Ohjelmistokehittäjä,Etä,3200,40000,False,Siili Solutionsj,,3333.3333333333335
 2021-02-22 10:36:42.074,PK-Seutu,31-35 v,mies,20.0,Yrittäjä,1.0,CTO,Toimisto,4000,50000.0,False,,hyvä kysely,4166.666666666667
 2021-02-22 11:03:33.749,Tampere,36-40 v,mies,10.0,Työntekijä / palkollinen,1.0,Ohjelmistokehittäjä,Toimisto,3858,48225,True,Wakeone,,4018.75
 2021-02-22 11:05:29.788,PK-Seutu,36-40 v,nainen,12.0,Työntekijä / palkollinen,1.0,Myynnistä vastaava ,50/50,8200,100000,True,,,8333.333333333334
@@ -478,7 +478,7 @@ Timestamp,Kaupunki,Ikä,Sukupuoli,Työkokemus,Työsuhteen luonne,Työaika,Rooli,
 2021-02-23 13:07:40.896,PK-Seutu,36-40 v,mies,4.0,Työntekijä / palkollinen,1.0,Fullstaxk,Etä,4300,58000,True,,,4833.333333333333
 2021-02-23 14:00:37.170,Tampere,26-30 v,mies,5.0,Työntekijä / palkollinen,1.0,Senior/Lead developer,Toimisto,4000,52000,False,,,4333.333333333333
 2021-02-23 16:18:52.379,Tampere,,,10.0,Työntekijä / palkollinen,1.0,Ohjelmistokehittäjä,Toimisto,4250,54000,True,,,4500.0
-2021-02-23 21:38:08.756,Nokia,36-40 v,mies,6.0,Yrittäjä,1.0,Full Stack Web Developer / CEO,Etä,,27000.0,False,Tuspe Design Oy,,2250.0
+2021-02-23 21:38:08.756,Nokia,36-40 v,mies,6.0,Yrittäjä,1.0,Full Stack Web Developer / CEO,Etä,,27000.0,False,Tuspe Design,,2250.0
 2021-02-24 15:19:46.521,Mikkeli,31-35 v,mies,7.0,Työntekijä / palkollinen,1.0,Full-stack,Etä,3000,37500.0,False,,,3125.0
 2021-02-24 16:09:32.939,PK-Seutu,31-35 v,mies,2.0,Työntekijä / palkollinen,1.0,Ohjelmistokehittäjä,Etä,3500,43750,True,,,3645.8333333333335
 2021-02-24 17:28:57.097,Kuopio,21-25 v,mies,2.0,Työntekijä / palkollinen,1.0,frontend,50/50,2900,36000,False,,,3000.0
@@ -491,3 +491,4 @@ Timestamp,Kaupunki,Ikä,Sukupuoli,Työkokemus,Työsuhteen luonne,Työaika,Rooli,
 2021-02-25 14:10:32.597,Tampere,21-25 v,muu,1.0,Työntekijä / palkollinen,0.5,Systems Administrator ja firmän sisäinen 1st line -tukihessu,Toimisto,1081,14000,True,,"Kk-palkkani on varsinkin vaihteleva, koska riippuu vuorolisistä (mahdollisista pyhä- ja yövuoroista ja tuurauksista). Jonkinlaisen oletuksen nyt yritin lyödä vuositulolle, mutta taitaa jäädä todellisuudessa hivenen sen alle.",1166.6666666666667
 2021-02-25 21:17:36.323,PK-Seutu,31-35 v,mies,10.0,Työntekijä / palkollinen,1.0,Full-stack ohjemistokehittäjä,Toimisto,4600,58000,True,,,4833.333333333333
 2021-02-26 09:32:59.778,Oulu,46-50 v,mies,21.0,Työntekijä / palkollinen,1.0,Backend-koodari,Etä,5000,70000,True,Nokia,,5833.333333333333
+2021-02-26 12:16:19.696,Tampere,36-40 v,mies,15.0,Työntekijä / palkollinen,1.0,Ohjelmistosuunnittelija,Toimisto,4300,53750,False,Gofore,,4479.166666666667
