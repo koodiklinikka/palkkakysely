@@ -492,3 +492,7 @@ Timestamp,Kaupunki,Ikä,Sukupuoli,Työkokemus,Työsuhteen luonne,Työaika,Rooli,
 2021-02-25 21:17:36.323,PK-Seutu,31-35 v,mies,10.0,Työntekijä / palkollinen,1.0,Full-stack ohjemistokehittäjä,Toimisto,4600,58000,True,,,4833.333333333333
 2021-02-26 09:32:59.778,Oulu,46-50 v,mies,21.0,Työntekijä / palkollinen,1.0,Backend-koodari,Etä,5000,70000,True,Nokia,,5833.333333333333
 2021-02-26 12:16:19.696,Tampere,36-40 v,mies,15.0,Työntekijä / palkollinen,1.0,Ohjelmistosuunnittelija,Toimisto,4300,53750,False,Gofore,,4479.166666666667
+2021-02-26 12:21:52.296,Tampere,31-35 v,mies,11.0,Freelancer,1.0,frontend,Etä,,157300,True,,,13108.333333333334
+2021-02-26 12:46:37.404,PK-Seutu,31-35 v,mies,11.0,Työntekijä / palkollinen,1.0,Arkkitehti,Toimisto,6500,81250,True,Siili,,6770.833333333333
+2021-02-26 12:47:26.116,PK-Seutu,31-35 v,nainen,3.0,Työntekijä / palkollinen,1.0,Full-stack,50/50,3800,-,False,,,
+2021-02-26 13:24:35.647,PK-Seutu,31-35 v,mies,,Työntekijä / palkollinen,1.0,Ohjelmistokehittäjä,50/50,,75000,True,Vincit,,6250.0
