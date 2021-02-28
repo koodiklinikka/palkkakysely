@@ -497,3 +497,5 @@ Timestamp,Kaupunki,Ikä,Sukupuoli,Työkokemus,Työsuhteen luonne,Työaika,Rooli,
 2021-02-26 12:47:26.116,PK-Seutu,31-35 v,nainen,3.0,Työntekijä / palkollinen,1.0,Full-stack,50/50,3800,-,False,,,
 2021-02-26 13:24:35.647,PK-Seutu,31-35 v,mies,,Työntekijä / palkollinen,1.0,Ohjelmistokehittäjä,50/50,,75000,True,Vincit,,6250.0
 2021-02-26 16:28:30.010,Tampere,41-45 v,mies,20.0,Työntekijä / palkollinen,1.0,full-stack,Toimisto,4800,61000,True,,,5083.333333333333
+2021-02-27 12:38:00.760,Tampere,31-35 v,mies,9.0,Työntekijä / palkollinen,1.0,backend ja devops,Etä,4270,54000,False,,,4500.0
+2021-02-27 17:49:24.789,Kouvola,31-35 v,mies,2.0,Työntekijä / palkollinen,1.0,Full-stack Ohjelmistosuunnittelija,Etä,2800,35000.0,False,,,2916.6666666666665
