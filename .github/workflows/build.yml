@@ -31,7 +31,7 @@ jobs:
         cache-dependency-path: analysaattori/yarn.lock
     - run: yarn
       working-directory: analysaattori
-    - run: yarn build
+    - run: yarn build -- --base=/palkkakysely/analysaattori/
       working-directory: analysaattori
       env:
         GENERATE_SOURCEMAP: 'false'
