@@ -3,6 +3,8 @@ import re
 import numpy as np
 import pandas as pd
 
+from pulkka.config import DATA_DIR
+
 COLUMN_MAP = {
     "Missä kaupungissa työpaikkasi pääasiallinen toimisto sijaitsee?": "Kaupunki",
     "Työaika (jos työsuhteessa)": "Työaika",
@@ -61,7 +63,7 @@ def map_ika(d):
 
 def read_data() -> pd.DataFrame:
     df: pd.DataFrame = pd.read_excel(
-        "data/results.xlsx",
+        DATA_DIR / "results.xlsx",
         skiprows=[1],  # Google Sheets exports one empty row
     )
     df.rename(columns=COLUMN_MAP, inplace=True)

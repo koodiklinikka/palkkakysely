@@ -6,7 +6,8 @@ import jinja2
 import numpy
 import pandas
 
-from data_ingest import read_data
+from pulkka.config import OUT_DIR
+from pulkka.data_ingest import read_data
 
 
 def main():
@@ -20,7 +21,7 @@ def main():
         "df": read_data(),
     }
     for filename in glob.glob("template/*"):
-        out_filename = os.path.join("out", os.path.relpath(filename, "template"))
+        out_filename = OUT_DIR / os.path.relpath(filename, "template")
         with open(filename, "r") as inf:
             tpl: jinja2.Template = env.from_string(inf.read())
             content = tpl.render(data)

@@ -2,7 +2,7 @@ from bokeh import models as bm, plotting as bp
 from bokeh.transform import factor_cmap
 from pandas import DataFrame
 
-from data_utils import get_categorical_stats
+from pulkka.data_utils import get_categorical_stats
 
 CAT_Q_RADIUS = 0.1
 

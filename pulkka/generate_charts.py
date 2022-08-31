@@ -3,13 +3,14 @@ import bokeh.models as bm
 import bokeh.layouts as bl
 from pandas import DataFrame
 
-from chart_utils import (
+from pulkka.chart_utils import (
     gender_colormap,
     get_df_hover_tool,
     set_yaxis_cash,
     get_categorical_stats_plot,
 )
-from data_ingest import read_data
+from pulkka.config import OUT_DIR
+from pulkka.data_ingest import read_data
 
 plot_funcs = set()
 
@@ -56,7 +57,7 @@ def plot_kaupunki_vuositulot(df: DataFrame):
 def main():
     df = read_data()
     plots = [func(df) for func in sorted(plot_funcs, key=lambda f: f.__name__)]
-    bp.output_file("out/charts.html", title="Koodiklinikan Palkkakysely")
+    bp.output_file(OUT_DIR / "charts.html", title="Koodiklinikan Palkkakysely")
     bp.save(bl.grid(plots, ncols=2, sizing_mode="stretch_both"))
 
 
