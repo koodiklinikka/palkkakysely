@@ -35,7 +35,7 @@ jobs:
       working-directory: analysaattori
       env:
         GENERATE_SOURCEMAP: 'false'
-    - run: cp -a analysaattori/build ./out/analysaattori
+    - run: cp -a analysaattori/dist ./out/analysaattori
     - run: ls -laR out
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@4.0.0

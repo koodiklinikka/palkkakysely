@@ -4,22 +4,35 @@
   "private": true,
   "homepage": "https://koodiklinikka.github.io/palkkakysely/analysaattori/",
   "dependencies": {
-    "@types/node": "^14.14.31",
-    "@types/react": "^17.0.2",
-    "@types/react-dom": "^17.0.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-pivottable": "^0.11.0",
     "react-plotly.js": "^2.5.1",
-    "react-scripts": "4.0.2",
-    "swr": "^0.4.2",
-    "typescript": "^4.1.5"
+    "swr": "^0.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.31",
+    "@types/plotly.js": "^1.54.8",
+    "@types/react-plotly.js": "^2.2.4",
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.30.6",
+    "@typescript-eslint/parser": "^5.30.6",
+    "@vitejs/plugin-react": "^2.0.0",
+    "eslint": "^8.19.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-react": "^7.30.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^2.7.1",
+    "typescript": "^4.1.5",
+    "vite": "^3.0.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview",
+    "lint": "eslint .",
+    "prettify": "prettier --write ."
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -36,9 +49,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@types/plotly.js": "^1.54.8",
-    "@types/react-plotly.js": "^2.2.4"
   }
 }
