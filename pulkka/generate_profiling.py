@@ -1,4 +1,4 @@
-from data_ingest import read_data, force_tulot_numeric, force_age_numeric
+from pulkka.data_ingest import read_data, force_tulot_numeric, force_age_numeric
 from pandas_profiling import ProfileReport
 
 

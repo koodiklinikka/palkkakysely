@@ -3,13 +3,13 @@ import bokeh.models as bm
 import bokeh.layouts as bl
 from pandas import DataFrame
 
-from chart_utils import (
+from pulkka.chart_utils import (
     gender_colormap,
     get_df_hover_tool,
     set_yaxis_cash,
     get_categorical_stats_plot,
 )
-from data_ingest import read_data
+from pulkka.data_ingest import read_data
 
 plot_funcs = set()
 

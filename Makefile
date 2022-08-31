@@ -7,16 +7,16 @@ copy-raw-data: all-data
 	cp data/results.tsv out/raw.tsv
 
 copy-massaged-data: all-data
-	python copy_massaged_data.py
+	python -m pulkka.copy_massaged_data
 
 static: all-data
-	python massage_templates.py
+	python -m pulkka.massage_templates
 
 charts: all-data
-	python generate_charts.py
+	python -m pulkka.generate_charts
 
 profiling: all-data
-	python generate_profiling.py
+	python -m pulkka.generate_profiling
 
 all-data: data/results.xlsx data/results.tsv
 

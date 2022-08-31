@@ -1,4 +1,4 @@
-from data_ingest import read_data
+from pulkka.data_ingest import read_data
 
 
 def main():
