@@ -1,5 +1,5 @@
 bokeh
-jinja2<3.0
+jinja2
 openpyxl
 pandas
-https://github.com/akx/pandas-profiling/archive/no-phik.zip#egg=pandas-profiling
+pandas-profiling

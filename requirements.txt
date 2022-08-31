@@ -5,17 +5,13 @@
 #    pip-compile requirements.in
 #
 attrs==22.1.0
-    # via
-    #   pandas-profiling
-    #   visions
+    # via visions
 bokeh==2.4.3
     # via -r requirements.in
 certifi==2022.6.15
     # via requests
 charset-normalizer==2.1.1
     # via requests
-confuse==2.0.0
-    # via pandas-profiling
 cycler==0.11.0
     # via matplotlib
 et-xmlfile==1.1.0
@@ -28,24 +24,33 @@ idna==3.3
     # via requests
 imagehash==4.2.1
     # via visions
-jinja2==2.11.3
+jinja2==3.1.2
     # via
     #   -r requirements.in
     #   bokeh
     #   pandas-profiling
 joblib==1.1.0
-    # via pandas-profiling
+    # via
+    #   pandas-profiling
+    #   phik
 kiwisolver==1.4.4
     # via matplotlib
-markupsafe==1.1.1
-    # via jinja2
+markupsafe==2.1.1
+    # via
+    #   jinja2
+    #   pandas-profiling
 matplotlib==3.5.3
     # via
     #   missingno
     #   pandas-profiling
+    #   phik
     #   seaborn
 missingno==0.5.1
     # via pandas-profiling
+multimethod==1.8
+    # via
+    #   pandas-profiling
+    #   visions
 networkx==2.8.6
     # via visions
 numpy==1.23.2
@@ -56,6 +61,7 @@ numpy==1.23.2
     #   missingno
     #   pandas
     #   pandas-profiling
+    #   phik
     #   pywavelets
     #   scipy
     #   seaborn
@@ -66,20 +72,25 @@ packaging==21.3
     # via
     #   bokeh
     #   matplotlib
-pandas==1.4.3
+pandas==1.4.4
     # via
     #   -r requirements.in
     #   pandas-profiling
+    #   phik
     #   seaborn
     #   visions
-pandas-profiling @ https://github.com/akx/pandas-profiling/archive/no-phik.zip
+pandas-profiling==3.2.0
     # via -r requirements.in
+phik==0.12.2
+    # via pandas-profiling
 pillow==9.2.0
     # via
     #   bokeh
     #   imagehash
     #   matplotlib
     #   visions
+pydantic==1.10.1
+    # via pandas-profiling
 pyparsing==3.0.9
     # via
     #   matplotlib
@@ -95,7 +106,7 @@ pywavelets==1.3.0
 pyyaml==6.0
     # via
     #   bokeh
-    #   confuse
+    #   pandas-profiling
 requests==2.28.1
     # via pandas-profiling
 scipy==1.9.1
@@ -103,6 +114,7 @@ scipy==1.9.1
     #   imagehash
     #   missingno
     #   pandas-profiling
+    #   phik
     #   seaborn
 seaborn==0.11.2
     # via
@@ -121,8 +133,10 @@ tornado==6.2
 tqdm==4.64.0
     # via pandas-profiling
 typing-extensions==4.3.0
-    # via bokeh
+    # via
+    #   bokeh
+    #   pydantic
 urllib3==1.26.12
     # via requests
-visions[type_image_path]==0.6.0
+visions[type_image_path]==0.7.4
     # via pandas-profiling
