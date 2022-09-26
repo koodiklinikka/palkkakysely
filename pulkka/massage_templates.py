@@ -6,7 +6,7 @@ import jinja2
 import numpy
 import pandas
 
-from pulkka.config import OUT_DIR
+from pulkka.config import OUT_DIR, YEAR
 from pulkka.data_ingest import read_data
 
 
@@ -19,6 +19,7 @@ def main():
         "pd": pandas,
         "np": numpy,
         "df": read_data(),
+        "year": YEAR,
     }
     for filename in glob.glob("template/*"):
         out_filename = OUT_DIR / os.path.relpath(filename, "template")

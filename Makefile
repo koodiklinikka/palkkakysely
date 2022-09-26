@@ -1,10 +1,12 @@
 DATA_DIR := data/2021
-OUT_DIR := out
+OUT_DIR := out/2021
+YEAR := 2021
 XLSX_URL := https://docs.google.com/spreadsheets/d/1l-Zgf1HqaFGd8gRA8kQzaxJ3R7eJy29ORUS8pr5o0nk/export?format=xlsx
 TSV_URL := https://docs.google.com/spreadsheets/d/1l-Zgf1HqaFGd8gRA8kQzaxJ3R7eJy29ORUS8pr5o0nk/export?format=tsv
 
 export DATA_DIR
 export OUT_DIR
+export YEAR
 
 .PHONY: $(DATA_DIR)/results.xlsx $(DATA_DIR)/results.tsv
 
