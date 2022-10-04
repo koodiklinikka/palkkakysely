@@ -6,18 +6,25 @@ import pandas as pd
 from pulkka.config import DATA_DIR
 
 COLUMN_MAP = {
+    # 2021
     "Missä kaupungissa työpaikkasi pääasiallinen toimisto sijaitsee?": "Kaupunki",
     "Työaika (jos työsuhteessa)": "Työaika",
     "Etänä vai paikallisesti?": "Etä",
     "Vuositulot (sis. bonukset, osingot yms) / Vuosilaskutus (jos laskutat)": "Vuositulot",
     "Kuukausipalkka (jos työntekijä) (brutto)": "Kuukausipalkka",
     "Onko palkkasi nykyroolissasi mielestäsi kilpailukykyinen?": "Kilpailukykyinen",
+    # 2022
+    "Etänä vai lähityössä?": "Etä",
+    "Kuukausipalkka (brutto, euroina)": "Kuukausipalkka",
+    "Vuositulot (sis. bonukset, osingot yms, euroina)": "Vuositulot",
+    "Mitä palveluja tarjoat?": "Palvelut",
 }
 
 ETATYO_MAP = {
     "Pääosin tai kokonaan etätyö": "Etä",
     "Pääosin tai kokonaan toimistolla": "Toimisto",
     "Noin 50/50 hybridimalli": "50/50",
+    "Jotain siltä väliltä": "50/50",
 }
 
 
@@ -61,6 +68,12 @@ def map_ika(d):
     return d
 
 
+def ucfirst(val):
+    if isinstance(val, str):
+        return val[0].upper() + val[1:]
+    return val
+
+
 def read_data() -> pd.DataFrame:
     df: pd.DataFrame = pd.read_excel(
         DATA_DIR / "results.xlsx",
@@ -87,8 +100,14 @@ def read_data() -> pd.DataFrame:
     # Remove Oy, Oyj, etc. from work places
     df["Työpaikka"] = df["Työpaikka"].replace(re.compile(r"\s+oy|oyj$", flags=re.I), "")
 
+    # Normalize initial capitalization in Rooli and Palvelut
+    df["Rooli"] = df["Rooli"].apply(ucfirst)
+    df["Palvelut"] = df["Palvelut"].apply(ucfirst)
+
     # Fill in Vuositulot as 12.5 * Kk-tulot if empty
     df["Vuositulot"] = df.apply(map_vuositulot, axis=1)
+    # Fudge a single known outlier
+    df.loc[df.Vuositulot == 912500, 'Vuositulot'] = 91250
 
     # Synthesize kk-tulot from Vuositulot
     df["Kk-tulot"] = pd.to_numeric(df["Vuositulot"], errors="coerce") / 12
