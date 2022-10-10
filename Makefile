@@ -10,7 +10,7 @@ export YEAR
 
 .PHONY: $(DATA_DIR)/results.xlsx $(DATA_DIR)/results.tsv
 
-all: all-data copy-raw-data copy-massaged-data static charts profiling
+all: all-data copy-raw-data massage charts profiling
 
 $(OUT_DIR):
 	mkdir -p $(OUT_DIR)
@@ -19,11 +19,8 @@ copy-raw-data: all-data $(OUT_DIR)
 	cp $(DATA_DIR)/results.xlsx $(OUT_DIR)/raw.xlsx
 	cp $(DATA_DIR)/results.tsv $(OUT_DIR)/raw.tsv
 
-copy-massaged-data: all-data
-	python -m pulkka.copy_massaged_data
-
-static: all-data
-	python -m pulkka.massage_templates
+massage: all-data
+	python -m pulkka.massage_outputs
 
 charts: all-data
 	python -m pulkka.generate_charts
