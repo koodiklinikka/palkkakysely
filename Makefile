@@ -1,8 +1,8 @@
-DATA_DIR := data/2021
-OUT_DIR := out/2021
-YEAR := 2021
-XLSX_URL := https://docs.google.com/spreadsheets/d/1l-Zgf1HqaFGd8gRA8kQzaxJ3R7eJy29ORUS8pr5o0nk/export?format=xlsx
-TSV_URL := https://docs.google.com/spreadsheets/d/1l-Zgf1HqaFGd8gRA8kQzaxJ3R7eJy29ORUS8pr5o0nk/export?format=tsv
+DATA_DIR := data/2022
+OUT_DIR := out/2022
+YEAR := 2022
+XLSX_URL :=  https://docs.google.com/spreadsheets/d/1PxBV-MzFlPl1IxOp6EGj6C80HSTgfHcXUhBeL8hZ0Ck/export?format=xlsx
+TSV_URL := https://docs.google.com/spreadsheets/d/1PxBV-MzFlPl1IxOp6EGj6C80HSTgfHcXUhBeL8hZ0Ck/export?format=tsv
 
 export DATA_DIR
 export OUT_DIR

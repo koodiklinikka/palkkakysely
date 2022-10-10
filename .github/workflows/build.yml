@@ -42,4 +42,5 @@ jobs:
       with:
         branch: gh-pages
         folder: out
+        clean: false
       if: ${{ github.event_name == 'push' }}
