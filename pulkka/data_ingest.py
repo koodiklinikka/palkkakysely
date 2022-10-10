@@ -106,8 +106,10 @@ def read_data() -> pd.DataFrame:
 
     # Fill in Vuositulot as 12.5 * Kk-tulot if empty
     df["Vuositulot"] = df.apply(map_vuositulot, axis=1)
-    # Fudge a single known outlier
+
+    # Fudge some known outliers
     df.loc[df.Vuositulot == 912500, 'Vuositulot'] = 91250
+    df.loc[df.Kuukausipalkka == 87000, 'Kuukausipalkka'] = 7250
 
     # Synthesize kk-tulot from Vuositulot
     df["Kk-tulot"] = pd.to_numeric(df["Vuositulot"], errors="coerce") / 12
