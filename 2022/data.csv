@@ -1,0 +1,693 @@
+Timestamp,Oletko palkansaaja vai laskuttaja?,Ikä,Sukupuoli,Työkokemus,Montako vuotta olet tehnyt laskuttavaa työtä alalla?,Palvelut,"Tuntilaskutus (ALV 0%, euroina)","Vuosilaskutus (ALV 0%, euroina)",Hankitko asiakkaasi itse suoraan vai käytätkö välitysfirmojen palveluita?,Mistä asiakkaat ovat?,Työpaikka,Kaupunki,Millaisessa yrityksessä työskentelet,Työaika,Rooli,Etä,Kuukausipalkka,Vuositulot,Vapaa kuvaus kokonaiskompensaatiomallista,Kilpailukykyinen,Vapaa sana,Ideoita ensi vuoden kyselyyn,Kk-tulot
+2022-09-26 16:35:50.002,Palkansaaja,31-35 v,mies,12.0,,,,,,,-,PK-Seutu,Konsulttitalossa,1.0,Teknologiajohtaja,50/50,6500,81250,,True,,,6770.833333333333
+2022-09-26 16:37:21.049,Palkansaaja,31-35 v,mies,16.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Ohjelmistokehittäjä,Etä,9000,117000,,True,,,9750.0
+2022-09-26 16:38:47.396,Palkansaaja,31-35 v,mies,16.0,,,,,,,,Turku,"Tuotetalossa, jonka core-bisnes on softa",1.0,Full-stack-ohjelmistokehittäjä,50/50,5000,62500,,False,,,5208.333333333333
+2022-09-26 16:39:47.534,Palkansaaja,36-40 v,mies,13.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Devaaja,50/50,5100,63750,,False,,,5312.5
+2022-09-26 16:41:09.685,Laskuttaja,26-30 v,mies,6.0,1.0,"Data-analytiikka, Arkkitehtuuri, Data Engineering, ",90.0,160000.0,Käytän välitysfirmoja,Suomesta,,,,,,,,,,,,,
+2022-09-26 16:43:39.266,Laskuttaja,26-30 v,mies,6.0,10.0,Fullstack,80.0,100000.0,Itse,"Suomesta, Ulkomailta",,,,,,,,,,,Lykkyä tykö vapaakenttien normalisointiin! ,Tämä oli mukavan lyhyt ja ytimekäs,
+2022-09-26 16:44:27.744,Palkansaaja,36-40 v,mies,12.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Full-stack,Etä,7500,90000,,True,,,7500.0
+2022-09-26 16:44:49.112,Palkansaaja,31-35 v,mies,12.0,,,,,,,,Vaasa,"Tuotetalossa, jonka core-bisnes on softa",1.0,"Ohjelmistokehittäjä full-stack, laitteistokehitys, tekoäly/koneoppiminen",Etä,3700,48000,Kuukausipalkka + vaihtelevan kokoinen joulubonus,True,,,4000.0
+2022-09-26 16:45:12.422,Palkansaaja,31-35 v,mies,4.0,,,,,,,Visma,Tampere,Konsulttitalossa,1.0,Full-stack,Etä,4600,57500,,True,,,4791.666666666667
+2022-09-26 16:45:44.793,Palkansaaja,36-40 v,mies,14.0,,,,,,,,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,,50/50,4300,55000,,False,,,4583.333333333333
+2022-09-26 16:46:31.420,Palkansaaja,36-40 v,,1.0,,,,,,,,Turku,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Software-engineer,Toimisto,3500,45000,,True,,,3750.0
+2022-09-26 16:46:53.785,Palkansaaja,26-30 v,nainen,8.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Lead Developer,50/50,5500,68750,osakkeita,False,,,5729.166666666667
+2022-09-26 16:48:57.486,Laskuttaja,36-40 v,mies,14.0,1.0,Full-stack developer ja arkkitehti,95.0,150000.0,Käytän välitysfirmoja,Suomesta,,,,,,,,,,,,,
+2022-09-26 16:49:55.054,Palkansaaja,31-35 v,mies,0.0,,,,,,,Talenom,Oulu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Ohjelmistokehittäjä,Toimisto,2600,32500,,True,,,2708.3333333333335
+2022-09-26 16:51:48.157,Palkansaaja,36-40 v,mies,12.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Full-stack / Arkkitehti,Etä,5000,62500,Nolla,False,,,5208.333333333333
+2022-09-26 16:52:42.206,Palkansaaja,26-30 v,mies,7.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Full-stack fronttipainotuksella,Toimisto,5100,63750,Lisäksi henkilöstöannin kautta osakkeita käytännössä verojen hinnalla (startup) - vaikea arvioida määrää,True,,,5312.5
+2022-09-26 16:56:41.270,Palkansaaja,26-30 v,mies,8.0,,,,,,,,Turku,Konsulttitalossa,1.0,Ohjelmistokehittäjä,50/50,4150,56500,,,,,4708.333333333333
+2022-09-26 17:01:29.332,Palkansaaja,31-35 v,mies,10.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Senior Software Developer,Etä,5500,70000,Osakkeita pienehkö positio,False,,,5833.333333333333
+2022-09-26 17:02:54.204,Laskuttaja,31-35 v,mies,8.0,1.0,Full stack,90.0,75000.0,Käytän välitysfirmoja,Suomesta,,,,,,,,,,,,,
+2022-09-26 17:05:04.455,Palkansaaja,36-40 v,mies,14.0,,,,,,,,,"Tuotetalossa, jonka core-bisnes on softa",1.0,Fullstack,Etä,8000,100000,Optioita,True,,,8333.333333333334
+2022-09-26 17:05:23.658,Palkansaaja,31-35 v,mies,6.0,,,,,,,Gofore,Turku,Konsulttitalossa,1.0,Cloud specialist,Etä,3500,43750,,False,,5/5 hyvää duunia ,3645.8333333333335
+2022-09-26 17:06:36.680,Palkansaaja,31-35 v,,11.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,,Etä,9400,135000,Palkka+osakkeet+bonus+optiot,True,,,11250.0
+2022-09-26 17:07:08.360,Palkansaaja,36-40 v,mies,5.0,,,,,,,,Oulu,Konsulttitalossa,1.0,Full-stack ohjelmistokehittäjä,Etä,5800,0,,True,,,0.0
+2022-09-26 17:08:15.564,Palkansaaja,26-30 v,mies,9.0,,,,,,,,Turku,Konsulttitalossa,1.0,Full-stack,Etä,4300,54000,,False,,,4500.0
+2022-09-26 17:10:11.700,Palkansaaja,36-40 v,mies,13.0,,,,,,,Vincit,Tampere,Konsulttitalossa,1.0,Ohjelmistokehittäjä,50/50,5600,70000,,False,,,5833.333333333333
+2022-09-26 17:11:51.896,Laskuttaja,31-35 v,mies,7.0,4.0,Devausta ja projarointia,120.0,200000.0,Itse,Suomesta,,,,,,,,,,,,,
+2022-09-26 17:14:05.098,Palkansaaja,41-45 v,,22.0,,,,,,,,Oulu,Konsulttitalossa,1.0,Fullstack devaaja,,6400,83000,,True,,,6916.666666666667
+2022-09-26 17:14:35.479,Palkansaaja,36-40 v,mies,17.0,,,,,,,,,Konsulttitalossa,1.0,Full-stack ohjelmistokehittäjä,Etä,5400,100000,Kuukausipalkka + laskutukseen perustuvat bonukset,True,,,8333.333333333334
+2022-09-26 17:15:16.066,Palkansaaja,36-40 v,mies,15.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Staff Engineer,Etä,6250,78125,Kokonaiskompensaatiosta noin kolmasosa optioita,True,,,6510.416666666667
+2022-09-26 17:20:24.004,Palkansaaja,36-40 v,mies,3.0,,,,,,,,Turku,Konsultointia ja omaa softaa,1.0,Ohjelmistokehittäjä (full-stack),Etä,3100,39000,,False,,,3250.0
+2022-09-26 17:20:31.409,Palkansaaja,41-45 v,mies,25.0,,,,,,,Wunderdog,PK-Seutu,Konsulttitalossa,1.0,Full-stack ohjelmistokehittäjä,Toimisto,6600,90000,,True,,,7500.0
+2022-09-26 17:24:26.937,Palkansaaja,21-25 v,mies,5.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Full-stack,Etä,6000,75000,"Optioita 0,3% firmasta",True,,,6250.0
+2022-09-26 17:27:13.432,Palkansaaja,26-30 v,mies,5.0,,,,,,,HSL Helsingin seudun liikenne,PK-Seutu,Julkinen tai kolmas sektori,1.0,Data-arkkitehti,50/50,4950,62000,,True,,,5166.666666666667
+2022-09-26 17:31:41.108,Palkansaaja,41-45 v,mies,18.0,,,,,,,,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Principal Engineer / Team Lead,50/50,7100,96000,,True,,,8000.0
+2022-09-26 17:38:54.852,Palkansaaja,36-40 v,mies,12.0,,,,,,,,Etänä piilaaksoon,"Tuotetalossa, jonka core-bisnes on softa",0.8,Tutkimuspäällikkö,Etä,,160000,"115000€ peruspalkka, 20000€ ylimääräinen eläke-etuus, 15000€ bonukset, optioiden arvo saattaa olla mitä tahansa väliltä 0-20000€",True,,,13333.333333333334
+2022-09-26 17:44:58.898,Palkansaaja,31-35 v,nainen,10.0,,,,,,,,Jyväskylä,Mainos/digitoimisto,1.0,Team Lead,Etä,4500,58000,,False,,,4833.333333333333
+2022-09-26 17:49:12.867,Palkansaaja,36-40 v,mies,12.0,,,,,,,Mavericks,PK-Seutu,Konsulttitalossa,1.0,Full-stack,Etä,6800,85000,,True,,,7083.333333333333
+2022-09-26 17:50:20.886,Palkansaaja,36-40 v,mies,4.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Full-stack,Etä,5400,100000,Pohjapalkan lisäksi puolivuosittain maksettavat laskutusperusteiset bonukset/osingot.,True,,,8333.333333333334
+2022-09-26 17:53:39.799,Palkansaaja,51-55 v,mies,14.0,,,,,,,,PK-Seutu,Julkinen tai kolmas sektori,1.0,Devops Engineer,Etä,5700,68400,,True,,,5700.0
+2022-09-26 18:08:23.149,Palkansaaja,31-35 v,mies,7.0,,,,,,,,Jyväskylä,Konsulttitalossa,1.0,Backend developer,Etä,4200,52500,,True,,,4375.0
+2022-09-26 18:12:13.417,Palkansaaja,31-35 v,mies,7.0,,,,,,,,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Senior full-stack developer,Etä,4550,56875.0,,,,,4739.583333333333
+2022-09-26 18:15:00.726,Palkansaaja,36-40 v,mies,14.0,,,,,,,,PK-Seutu,Konsulttitalossa,0.8,Full-stack devaaja,Etä,5000,62000,,True,,,5166.666666666667
+2022-09-26 18:15:24.475,Palkansaaja,26-30 v,mies,5.0,,,,,,,,Turku,Konsulttitalossa,1.0,Arkkitehti,Toimisto,4750,50000,,True,,,4166.666666666667
+2022-09-26 18:15:29.686,Palkansaaja,36-40 v,mies,13.0,,,,,,,Fintech-firma,"Toimisto Lontoossa, teen itse etänä","Tuotetalossa, jonka core-bisnes on softa",1.0,Arkkitehti,Etä,,156000,"Peruspalkka 50%, loput bonusta ja osakkeita",True,Laskutan palkan firmani kautta,Kiinnostaisi tietää mitä kautta ihmiset löysivät työnsä.,13000.0
+2022-09-26 18:20:34.554,Palkansaaja,31-35 v,mies,7.0,,,,,,,,Turku,Konsulttitalossa,1.0,DevOps / SRE,Toimisto,5900,78000,Osinko + vuosibonus,False,,,6500.0
+2022-09-26 18:27:28.023,Palkansaaja,31-35 v,nainen,7.0,,,,,,,Valtion tutkimuslaitos,PK-Seutu,Julkinen tai kolmas sektori,1.0,"Tutkija, projektipäällikkö",Toimisto,3900,49000,,False,Vastasin kyselyyn ns. päätyönantajani mukaan. Omaani vastaavissa tehtävissä suhteellisen usein saatetaan kuitenkin keikkailla startupeissa tms. osa-aikaisesti päätyön lisäksi. Kahden työpaikan ujuttaminen vastauksiin ei onnistunut.,,4083.3333333333335
+2022-09-26 18:28:20.520,Palkansaaja,31-35 v,mies,10.0,,,,,,,,Tampere,Konsulttitalossa,1.0,Full-stack ohjelmistokehittäjä ,Etä,7000,87500,,True,,,7291.666666666667
+2022-09-26 18:29:28.370,Palkansaaja,36-40 v,mies,14.0,,,,,,,,Oulu,,1.0,,Etä,8500,115000,Kk-palkka + bonus,True,,,9583.333333333334
+2022-09-26 18:30:21.912,Palkansaaja,36-40 v,mies,15.0,,,,,,,,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Full-stack,Etä,6200,95000,,True,,,7916.666666666667
+2022-09-26 18:32:11.471,Palkansaaja,31-35 v,mies,10.0,,,,,,,Futurice,PK-Seutu,Konsulttitalossa,1.0,Lead developer,50/50,5150,67000,,False,,,5583.333333333333
+2022-09-26 18:33:03.531,Palkansaaja,31-35 v,mies,8.0,,,,,,,Mapbox,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Senior software engineer,Etä,10000,125000,"Iso kasa optioita, vestaantuu 1v 50%, loput tasaisesti 4v kuluessa. ",True,,,10416.666666666666
+2022-09-26 18:37:34.721,Palkansaaja,36-40 v,mies,12.0,,,,,,,,Tampere,Konsulttitalossa,1.0,Full-stack developer,Etä,6100,76250,"Peruspalkka plus provisio, karkeasti sama kuin 50% laskutuksesta",True,,,6354.166666666667
+2022-09-26 18:40:51.942,Palkansaaja,31-35 v,mies,6.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Software Engineer,Etä,5360,74000,,True,,,6166.666666666667
+2022-09-26 18:41:26.974,Laskuttaja,26-30 v,mies,7.0,2.0,SWE / Cloud,84.0,135000.0,Käytän välitysfirmoja,Suomesta,,,,,,,,,,,,,
+2022-09-26 18:41:29.748,Palkansaaja,36-40 v,mies,23.0,,,,,,,,PK-Seutu,,1.0,Järjestelmäarkkitehti,50/50,8443,108000,"Listaamaton yhtiö, suunnilleen kerran vuodessa mahdollisuus ostaa pieniä eriä osakkeita normihintaan.",True,,Ehkä voisi huomioida olennaiset semi-satunnaiset sivuduunit palkkaduunarin ja yrittäjän välimaastossa olevilla. ,9000.0
+2022-09-26 18:43:31.530,Palkansaaja,36-40 v,mies,8.0,,,,,,,,PK-Seutu,Konsulttitalossa,0.8,Full-stack,50/50,7500,93750,,True,,,7812.5
+2022-09-26 18:50:45.419,Palkansaaja,36-40 v,mies,17.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Arkkitehti,Etä,9500,125000,Peruspalkka ja osakkeita,True,,,10416.666666666666
+2022-09-26 18:54:56.853,Palkansaaja,> 55 v,mies,28.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Ohjelmoija,Etä,6300,70000,,False,,,5833.333333333333
+2022-09-26 18:55:21.753,Palkansaaja,36-40 v,mies,15.0,,,,,,,,Tampere,"Tuotetalossa, jonka core-bisnes on softa",1.0,Tiiminvetäjä,Etä,6300,75600,,True,,,6300.0
+2022-09-26 19:06:54.878,Palkansaaja,41-45 v,mies,16.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Ohjelmistokehittäjä (backend),Toimisto,6747,133000,KK-palkka + RSU (sekä refresher joka vuosi),True,,,11083.333333333334
+2022-09-26 19:06:56.270,Palkansaaja,41-45 v,mies,25.0,,,,,,,,Ulkomailla,"Tuotetalossa, jonka core-bisnes on softa",1.0,Jonkinmoinen johtaja,50/50,22500,350000-400000,Lisäksi firman osakkeita n. 800k€ vuodessa.,True,,,
+2022-09-26 19:06:59.587,Palkansaaja,26-30 v,mies,8.0,,,,,,,Hoxhunt,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Full-stack -ohjelmistokehittäjä,Toimisto,6125,76000,Optiot,True,,,6333.333333333333
+2022-09-26 19:08:09.755,Palkansaaja,41-45 v,mies,22.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Lead Engineer,Etä,7000,95000,Palkka+vuosibonus+optiot,True,,,7916.666666666667
+2022-09-26 19:09:15.195,Palkansaaja,21-25 v,nainen,3.0,,,,,,,,Tampere,Konsulttitalossa,0.6,Fullstack Developer,50/50,1660,23200,,False,,,1933.3333333333333
+2022-09-26 19:10:45.492,Palkansaaja,36-40 v,,15.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,DevOps konsultti,Etä,6200,77500,,True,,,6458.333333333333
+2022-09-26 19:15:23.612,Palkansaaja,41-45 v,mies,19.0,,,,,,,,Tampere,Konsulttitalossa,1.0,Arkkitehti,50/50,6300,78750,,True,,,6562.5
+2022-09-26 19:19:53.869,Palkansaaja,26-30 v,mies,7.0,,,,,,,,Jyväskylä,"Tuotetalossa, jonka core-bisnes on softa",1.0,Lead Developer (Full-stack),Etä,4600,57500,,False,,,4791.666666666667
+2022-09-26 19:20:21.798,Laskuttaja,31-35 v,mies,10.0,1.0,Full stack devausta,80.0,125000.0,"Itse, Käytän välitysfirmoja",Suomesta,,,,,,,,,,,,,
+2022-09-26 19:21:08.092,Palkansaaja,51-55 v,mies,23.0,,,,,,,Kaupungin tytäryhtiö,PK-Seutu,Julkinen tai kolmas sektori,1.0,"Ohjelmistokehittäjä, full-stack",50/50,4780,62700,"Palkan päälle lounassetelit verotusarvolla, virkistysseteli 400€",False,"Kunta TES == 38 kokonaista päivää vuodessa, työaika 7h15min/päivä","Luontaisedut, autoedun arvo yms. voisi olla mukana kyselyssä",5225.0
+2022-09-26 19:23:14.921,Palkansaaja,36-40 v,mies,10.0,,,,,,,Media-ala,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Web developer,Etä,4500,58000,,True,,,4833.333333333333
+2022-09-26 19:24:16.005,Palkansaaja,36-40 v,mies,12.0,,,,,,,,Tampere,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",0.8,Full-stack,Toimisto,4560,54720,,True,,,4560.0
+2022-09-26 19:29:25.283,Palkansaaja,31-35 v,mies,6.0,,,,,,,Swappie,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Senior Software Engineer,Etä,5246,65575,"Perus 4 vuoden optio-ohjelma 1 vuoden cliffillä, ja ylennyksien myötä lisää.",True,,,5464.583333333333
+2022-09-26 19:32:37.055,Palkansaaja,26-30 v,nainen,6.0,,,,,,,BeeHealthy,Tampere,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Full-stack,Etä,5000,60000,,,,,5000.0
+2022-09-26 19:33:50.546,Palkansaaja,21-25 v,muu,2.0,,,,,,,,Tampere,Konsulttitalossa ops-puolella ,0.5,"Systems Specialist, suomeksi ops eli alustapystytystä, ylläpitoa, pilveä, konesalia",Toimisto,3050,40000,,False,"Olen tosiaan poikkeus siinä, että kirjoitan koodia töissä erittäin harvoin. Välillä jotain devops-tyylistä tulee harrastettu, mutta toistaiseksi harvemmin.",,3333.3333333333335
+2022-09-26 19:40:46.538,Palkansaaja,26-30 v,mies,2.0,,,,,,,,,Konsulttitalossa,1.0,Senior Data Engineer,Etä,4200,52500,,True,,,4375.0
+2022-09-26 19:40:52.769,Palkansaaja,41-45 v,mies,5.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Frontend developer,Etä,4800,60000,,True,,,5000.0
+2022-09-26 19:41:54.259,Palkansaaja,41-45 v,muu,17.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Lead test engineer,,5500,68750,,True,,,5729.166666666667
+2022-09-26 19:42:26.633,Palkansaaja,31-35 v,mies,8.0,,,,,,,,Tampere,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Lead developer,Toimisto,5500,72000,Palkka + bonus 5-10%,True,,,6000.0
+2022-09-26 19:43:01.607,Laskuttaja,26-30 v,mies,8.0,0.0,Full stack,65.0,104000.0,Käytän välitysfirmoja,Suomesta,,,,,,,,,,,,,
+2022-09-26 19:43:07.258,Palkansaaja,36-40 v,mies,11.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Backend Engineer,50/50,6170,130000,Kuukausipalkka + RSU,True,,,10833.333333333334
+2022-09-26 19:46:51.616,Palkansaaja,36-40 v,mies,10.0,,,,,,,Sysart,Oulu,Konsulttitalossa,1.0,Full-stack,Etä,6200,77500,,True,,,6458.333333333333
+2022-09-26 19:50:03.076,Palkansaaja,36-40 v,mies,5.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",0.8,Full-stack,Etä,4600,60000,"peruspalkka+bonukset (~kuukauden palkka), optioita (jotka muutaman kerran realisoituneet rahaksi asti, parin vuoden palkka extraa)",True,"Koodarikokemus on ~1-vuosi mitä paikkaa sitten pidempi kokemus yrityksestä, alasta ja tuotteesta. Optioiden muuntuminen rahaksi on ollut isoin yllätys omassa kompensaatiossa.",,5000.0
+2022-09-26 19:54:20.058,Palkansaaja,36-40 v,,13.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Full Stack Developer,50/50,9700,13000,,True,,,1083.3333333333333
+2022-09-26 19:55:22.911,Laskuttaja,26-30 v,mies,6.0,5.0,"Full Stack softadevausta, arkkitehtuuria, sparrausta, ympäristöjen tunkkausta",80.0,130000.0,"Itse, Käytän välitysfirmoja",Suomesta,,,,,,,,,,,,,
+2022-09-26 20:10:17.098,Laskuttaja,36-40 v,mies,14.0,1.0,"Full stack, Azure-kehitys",90.0,,Käytän välitysfirmoja,Suomesta,,,,,,,,,,,,,
+2022-09-26 20:21:12.061,Palkansaaja,36-40 v,mies,3.0,,,,,,,,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,"Softakehittäjä, full stack",Etä,4228,53000,Optiopaketti on,False,,,4416.666666666667
+2022-09-26 20:25:52.220,Palkansaaja,21-25 v,mies,3.0,,,,,,,Series B Startup,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,"Software engineer, Full-stack",Etä,13333,160000,Vähän optioita päälle,True,Ulkomainen firma jolle teen etänä Suomesta,,13333.333333333334
+2022-09-26 20:32:14.508,Palkansaaja,41-45 v,mies,17.0,,,,,,,,,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Arkkitehti,Etä,7150,89375,,True,,,7447.916666666667
+2022-09-26 20:35:49.277,Laskuttaja,26-30 v,mies,1.0,1.0,"Full stack, enimmäkseen frontend",70.0,,"Itse, Käytän välitysfirmoja",Suomesta,,,,,,,,,,,,,
+2022-09-26 20:43:53.990,Palkansaaja,36-40 v,mies,16.0,,,,,,,,Tampere,"Tuotetalossa, jonka core-bisnes on softa",1.0,Full-stack -kehittäjä,Etä,7080,85000,,True,,,7083.333333333333
+2022-09-26 20:46:44.201,Palkansaaja,31-35 v,mies,12.0,,,,,,,Verkkokauppa.comj,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Ohjelmistokehittäjä,,4600,60000,"Kiinteä kuukausipalkka, etuja kuten lounas, firman tuotteet sisäänostohintaan, satunnaisia rahabonuksia",False,"Etä vs. toimistossa hieman oudosti sanoitettu, että jos on ainoastaan etänä tai toimistolla niin firma silloin on määrännyt kyseisen tavan toimia, eikä niin että omasta valinnasta on joko pääosin etänä tai toimistolla, vaikka firman policy olisi vaikka ""päätä ite miten lystäät"" tms.",,5000.0
+2022-09-26 20:49:26.655,Laskuttaja,41-45 v,mies,20.0,0.5,"Full stack ja devops kehitystä, menetelmäkonsultointia, kehittäjäpalkkausta ja tiimin auttelua.",99.0,124000.0,Itse,"Suomesta, Ulkomailta",,,,,,,,,,,,,
+2022-09-26 20:56:37.476,Palkansaaja,36-40 v,mies,4.0,,,,,,,,EU,"Tuotetalossa, jonka core-bisnes on softa",1.0,Ohjelmistokehittäjä,Etä,5200,71000,,True,,,5916.666666666667
+2022-09-26 21:04:04.139,Palkansaaja,41-45 v,mies,23.0,,,,,,,,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Arkkitehti,Etä,6000,86000,,True,,,7166.666666666667
+2022-09-26 21:10:17.769,Palkansaaja,31-35 v,mies,10.0,,,,,,,Brella,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Senior Frontend Developer,Etä,6120,76500,Optioita on,True,,,6375.0
+2022-09-26 21:12:26.427,Palkansaaja,31-35 v,mies,12.0,,,,,,,UpCloud,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",0.8,Arkkitehti,Etä,6760,84500,Kuukausipalkka,True,,,7041.666666666667
+2022-09-26 21:13:19.221,Laskuttaja,41-45 v,mies,20.0,5.0,Fullstack koodaus,98.0,144000.0,Käytän välitysfirmoja,Suomesta,,,,,,,,,,,,,
+2022-09-26 21:13:22.023,Palkansaaja,31-35 v,mies,12.0,,,,,,,,Tampere,"Tuotetalossa, jonka core-bisnes on softa",1.0,Full-stack,Etä,6000,75000,,True,,,6250.0
+2022-09-26 21:19:23.243,Palkansaaja,26-30 v,mies,8.0,,,,,,,Polar Squad,PK-Seutu,Konsulttitalossa,1.0,DevOps-konsultti,50/50,5330,66875,Osingot henkilöstöannin osakkeista,True,"Palkka kilpailukykyinen lähinnä siinä mielessä, ettei sidottu laskutukseen. Muualla voisi saada paljonkin enemmän, mutta arvostan kuukausipalkkauksen mallia enemmän kulttuurillisten hyötyjen takia.",,5572.916666666667
+2022-09-26 21:23:17.072,Palkansaaja,41-45 v,mies,22.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Ohjelmistokehittäjä,Etä,6400,85000,,True,,,7083.333333333333
+2022-09-26 21:34:56.248,Palkansaaja,21-25 v,mies,6.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Full-stack,50/50,4350,55000,"Euroina tilille, optiot teoriassa ~400€/kk lisää",True,,,4583.333333333333
+2022-09-26 21:35:45.279,Palkansaaja,26-30 v,mies,6.0,,,,,,,,Tampere,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Arkkitehti,Toimisto,5500,70000,,True,,,5833.333333333333
+2022-09-26 21:39:09.303,Palkansaaja,26-30 v,mies,8.0,,,,,,,Crowd Collective,PK-Seutu,Konsulttitalossa,1.0,Full-stack,50/50,6000,75000,,True,,Olisi voinut erotella onko kyse kiinteästä vai laskutukseen perustuvasta kuukausipalkasta.,6250.0
+2022-09-26 21:40:16.192,Palkansaaja,31-35 v,mies,11.0,,,,,,,Exove,PK-Seutu,Konsulttitalossa,1.0,Senior Developer,Etä,4300,53750,,True,,,4479.166666666667
+2022-09-26 21:47:33.013,Palkansaaja,31-35 v,mies,9.0,,,,,,,Mirantis,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Full-stack,Etä,8800,110000,Optio-ohjelma,True,,,9166.666666666666
+2022-09-26 21:47:52.760,Palkansaaja,26-30 v,mies,3.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Full-stack,Etä,4500,56250,,False,,,4687.5
+2022-09-26 21:49:18.102,Palkansaaja,36-40 v,mies,13.0,,,,,,,,Tampere,"Tuotetalossa, jonka core-bisnes on softa",1.0,Ohjelmistokehittäjä,Etä,4835,62500,,True,,,5208.333333333333
+2022-09-26 21:59:19.263,Laskuttaja,41-45 v,mies,15.0,1.0,Full stack devaus,85.0,140000.0,Käytän välitysfirmoja,Suomesta,,,,,,,,,,,,,
+2022-09-26 22:34:57.669,Palkansaaja,21-25 v,mies,2.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Full-stack,Etä,3200,38000,,False,,,3166.6666666666665
+2022-09-26 22:56:53.378,Palkansaaja,41-45 v,mies,15.0,,,,,,,,Tampere,Konsulttitalossa,1.0,Ohjelmistokehittäjä,Etä,7500,94000,,True,,,7833.333333333333
+2022-09-26 23:11:17.826,Palkansaaja,46-50 v,,22.0,,,,,,,,Tampere,Konsulttitalossa,1.0,Arkkitehti,50/50,6550,95000,,False,,,7916.666666666667
+2022-09-26 23:20:35.795,Palkansaaja,31-35 v,mies,5.0,,,,,,,,Turku,Konsulttitalossa,1.0,"Senior developer, full-stack",Etä,7300,91000,,True,,,7583.333333333333
+2022-09-26 23:43:36.853,Palkansaaja,26-30 v,mies,10.0,,,,,,,,Tampere,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Arkkitehti,50/50,5700,80000,,True,,,6666.666666666667
+2022-09-27 00:02:14.328,Palkansaaja,26-30 v,mies,5.0,,,,,,,,Turku,"Tuotetalossa, jonka core-bisnes on softa",1.0,Full-stack,Etä,4800,62500,N. 90/10 palkka ja bonukset. Optioilla voi todennäköisesti pyyhkiä nenää lähitulevaisuudessa.,True,,,5208.333333333333
+2022-09-27 02:52:59.281,Laskuttaja,31-35 v,mies,14.0,1.0,Lead dev,,166000.0,Itse,Suomesta,,,,,,,,,,,,,
+2022-09-27 05:16:20.956,Palkansaaja,21-25 v,mies,1.0,,,,,,,,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",0.4,Full-stack,Toimisto,1080,18000,,False,,,1500.0
+2022-09-27 05:33:45.386,Palkansaaja,31-35 v,mies,8.0,,,,,,,F-Secure,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Lead developer,Etä,6100,77200,,False,,,6433.333333333333
+2022-09-27 05:50:13.377,Palkansaaja,36-40 v,mies,16.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Arkkitehti,Etä,7000,87500,Optiot,True,,,7291.666666666667
+2022-09-27 05:50:31.154,Palkansaaja,46-50 v,mies,23.0,,,,,,,,Tampere,Konsulttitalossa,1.0,Arkkitehti,50/50,5500,68750,,True,,,5729.166666666667
+2022-09-27 06:12:10.456,Palkansaaja,31-35 v,mies,3.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Full-stack,50/50,3900,48750,,True,,,4062.5
+2022-09-27 06:29:05.709,Laskuttaja,36-40 v,mies,10.0,2.0,"Full stack, mobiili, embedded,",72.0,110000.0,Käytän välitysfirmoja,Suomesta,,,,,,,,,,,,,
+2022-09-27 06:37:44.055,Palkansaaja,26-30 v,mies,7.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,DevOps,Etä,7838,97975,50% laskutuksesta provikkana + henkilöstörahasto,True,,,8164.583333333333
+2022-09-27 06:37:45.341,Laskuttaja,31-35 v,mies,6.0,0.5,Backendiä ja devopsia tällähetkellä,85.0,,Käytän välitysfirmoja,Suomesta,,,,,,,,,,,,,
+2022-09-27 06:39:25.123,Palkansaaja,26-30 v,mies,1.0,,,,,,,,Seinäjoki,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Full-stack,Toimisto,3200,38400,,False,,,3200.0
+2022-09-27 06:51:26.138,Palkansaaja,36-40 v,mies,15.0,,,,,,,,Oulu,Konsulttitalossa,1.0,Arkkitehti,50/50,5550,69375,Mahdollisuus valita kiinteän kk palkan tai provision väliltä. Provisio tapauksessa palkka on noin 500 EUR pienempi ja provision vaikutus 0-900 EUR sen mukaan kuinka paljon on 80% laskutusasteen ylittäviä laskutettavia tunteja.,False,,,5781.25
+2022-09-27 06:52:01.565,Palkansaaja,31-35 v,mies,10.0,,,,,,,,Turku,"Tuotetalossa, jonka core-bisnes on softa",1.0,Full-stack,Toimisto,5750,71800,,True,,,5983.333333333333
+2022-09-27 06:52:22.230,Palkansaaja,31-35 v,mies,7.0,,,,,,,Reaktor,PK-Seutu,Konsulttitalossa,1.0,Full-stack,Toimisto,5700,75000,,True,,,6250.0
+2022-09-27 06:52:44.810,Palkansaaja,31-35 v,mies,6.0,,,,,,,,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Mobiilikehittäjä,Etä,4900,61250,Palkka,False,,,5104.166666666667
+2022-09-27 07:10:41.690,Palkansaaja,26-30 v,,7.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Ohjelmistokehittäjä,50/50,4200,55000,,True,,,4583.333333333333
+2022-09-27 07:19:23.798,Palkansaaja,41-45 v,mies,20.0,,,,,,,,Tampere,"Tuotetalossa, jonka core-bisnes on softa",1.0,Arkkitehti,Toimisto,5800,72500.0,,True,,,6041.666666666667
+2022-09-27 07:19:42.074,Palkansaaja,26-30 v,mies,1.0,,,,,,,,Turku,Konsulttitalossa,1.0,Ohjelmistokehittäjä,50/50,2550,31875,,True,,,2656.25
+2022-09-27 07:26:07.587,Palkansaaja,36-40 v,mies,4.0,,,,,,,,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Full-stack,Etä,4400,55000,,True,,,4583.333333333333
+2022-09-27 07:27:53.492,Palkansaaja,36-40 v,mies,15.0,,,,,,,,"Devaajat ympäri suomea, tasaisesti JKL-HKI","Tuotetalossa, jonka core-bisnes on softa",1.0,Senior/Lead developer,Etä,5300,66250,+ optiot,True,,,5520.833333333333
+2022-09-27 07:28:12.864,Palkansaaja,41-45 v,mies,18.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Lead developer,50/50,6800,87000,,True,,,7250.0
+2022-09-27 07:32:46.010,Palkansaaja,41-45 v,mies,19.0,,,,,,,,Jyväskylä,Konsulttitalossa,0.8,Senior software developer,Toimisto,4440,55500,,True,,,4625.0
+2022-09-27 07:37:25.538,Palkansaaja,26-30 v,mies,2.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Data Engineer,Toimisto,4500,56250,"Palkka (jonka tulisi olla about markkinantasoista) plus 50% tietyn rajan yli menevästä tuloksesta jaetaan tasan työntekijöille kyseisen vuoden työskentelykuukausien perusteella. En ole vielä ollut talossa niin kauaa että olisin saanut ensimmäistä bonusta, joten ilmoittamani palkat ovat nyt peruspalkkoja.",True,,,4687.5
+2022-09-27 07:41:10.105,Palkansaaja,51-55 v,mies,25.0,,,,,,,,Turku,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Ohjelmistokehittäjä ja arkkitehti,50/50,5000,62500,,True,,,5208.333333333333
+2022-09-27 07:41:17.320,Palkansaaja,31-35 v,mies,10.0,,,,,,,Compile,PK-Seutu,Konsulttitalossa,1.0,Ohjelmistokehittäjä,Etä,7500,99150,Provisio 45% + asiakastyytyväisyysbonus väliltä 0-500 € per kk,True,,,8262.5
+2022-09-27 07:44:41.093,Palkansaaja,36-40 v,mies,12.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Ohjelmistokehittäjä,Etä,6100,93000,,True,,,7750.0
+2022-09-27 07:49:50.247,Palkansaaja,26-30 v,muu,10.0,,,,,,,Fraktio,PK-Seutu,Konsulttitalossa,1.0,DevOps Engineer,Etä,4700,58750,rahaa ja lämmintä kättä,False,,,4895.833333333333
+2022-09-27 07:56:29.289,Palkansaaja,31-35 v,mies,8.0,,,,,,,,,"Tuotetalossa, jonka core-bisnes on softa",1.0,Senior Site Reliability Engineer,Etä,8000,100000,,True,,,8333.333333333334
+2022-09-27 07:56:51.895,Palkansaaja,36-40 v,mies,10.0,,,,,,,,Tampere,Konsulttitalossa,1.0,"Sekatyömies (projari, arkkitehti, full-stack, firman strategi)",Etä,5000,64000,,False,,,5333.333333333333
+2022-09-27 07:58:53.317,Palkansaaja,26-30 v,mies,2.0,,,,,,,,Jyväskylä,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",0.4,,50/50,1200,500,,True,,,41.666666666666664
+2022-09-27 08:01:27.968,Palkansaaja,26-30 v,mies,4.0,,,,,,,,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Data Scientist,Etä,4100,51250,,False,,,4270.833333333333
+2022-09-27 08:02:20.972,Palkansaaja,26-30 v,mies,5.0,,,,,,,,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Backend/Data Engineer,Etä,5800,72500,Optioita 4 vuoden vestauksella,True,,Firman kokoa voisi kysyä. Starttien kompensaatiomallit eroaa huomattavasti megakorpoista.,6041.666666666667
+2022-09-27 08:04:53.131,Palkansaaja,36-40 v,mies,16.0,,,,,,,,Turku,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Ohjelmistokehittäjä (backend),Etä,4200,56700,,True,,,4725.0
+2022-09-27 08:09:38.299,Palkansaaja,36-40 v,mies,10.0,,,,,,,Zevoy,Tampere,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Senior Backend Developer,Etä,7070,88375,Osakkeet,True,,,7364.583333333333
+2022-09-27 08:12:32.740,Palkansaaja,31-35 v,mies,7.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Frontend,Etä,6000,80000.0,,True,,,6666.666666666667
+2022-09-27 08:14:16.431,Palkansaaja,26-30 v,,11.0,,,,,,,Mavericks,Turku,Konsulttitalossa,1.0,Full-stack/frontend,Etä,7300,91250,,True,,,7604.166666666667
+2022-09-27 08:16:18.735,Palkansaaja,36-40 v,mies,12.0,,,,,,,Siili One,PK-Seutu,Konsulttitalossa,1.0,Asiantuntija käyttöliittymä suunnittelussa sekä frontti kehityksessä,Etä,7300,91250.0,,True,Kiitos kun teette avointa palkkakyselyä,Tuntilaskutus summaa,7604.166666666667
+2022-09-27 08:17:18.558,Palkansaaja,41-45 v,mies,22.0,,,,,,,,Tampere,Konsulttitalossa,1.0,Ohjelmistoarkkitehti,Etä,5200,65000,,True,,,5416.666666666667
+2022-09-27 08:17:32.473,Palkansaaja,26-30 v,mies,2.0,,,,,,,Knowit Solutions,PK-Seutu,Konsulttitalossa,1.0,QA,50/50,4000,48000,,True,,,4000.0
+2022-09-27 08:18:46.805,Palkansaaja,31-35 v,mies,11.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Full-stack developer,50/50,5500,68750,osakkeita,True,,,5729.166666666667
+2022-09-27 08:22:16.179,Palkansaaja,41-45 v,muu,20.0,,,,,,,,Tampere,"Tuotetalossa, jonka core-bisnes on softa",1.0,Full-stack,Toimisto,5200,62000,,True,,,5166.666666666667
+2022-09-27 08:23:55.018,Palkansaaja,31-35 v,mies,12.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Data Developer,50/50,5400,70000.0,kiinteä kk-palkka + max. 10% bonus,False,,,5833.333333333333
+2022-09-27 08:28:02.658,Palkansaaja,41-45 v,nainen,6.0,,,,,,,Siili,PK-Seutu,Konsulttitalossa,1.0,Full-stack devaaja,50/50,4397,49400,,True,,,4116.666666666667
+2022-09-27 08:28:48.818,Palkansaaja,36-40 v,mies,12.0,,,,,,,Siili Solutions,PK-Seutu,Konsulttitalossa,1.0,Ohjelmistokehittäjä (full-stack),Toimisto,4500,4800,"0-400€ kuukausipalkasta osakkeita ja saman verran optioita, kerrytetään 6kk ja ostetaan markkinahintaan",True,,,400.0
+2022-09-27 08:30:28.478,Palkansaaja,31-35 v,mies,8.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,SRE,50/50,5500,68750,Optioita tulee edellisen rahoituskierroksen valuaation pohjalta n. 4000e/kk,False,,,5729.166666666667
+2022-09-27 08:37:22.317,Palkansaaja,31-35 v,nainen,7.0,,,,,,,,Tampere,Konsulttitalossa,1.0,Projektipäällikkö,Etä,4500,55000,,True,,,4583.333333333333
+2022-09-27 08:38:21.890,Palkansaaja,26-30 v,mies,5.0,,,,,,,,Jyväskylä,"Tuotetalossa, jonka core-bisnes on softa",0.8,"Ohjelmistokehittäjä (mobile, web)",Toimisto,4320,54000,,True,,,4500.0
+2022-09-27 08:38:57.881,Palkansaaja,36-40 v,mies,13.0,,,,,,,,Tampere,"Tuotetalossa, jonka core-bisnes on softa",1.0,Frontend,Etä,5600,67200,,True,,,5600.0
+2022-09-27 08:51:48.268,Palkansaaja,26-30 v,mies,3.0,,,,,,,,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Full stack engineer ,Etä,4540,56750,"+ Optiot, n +400e lisää kuussa nykyarvostuksella",False,,,4729.166666666667
+2022-09-27 08:55:21.591,Palkansaaja,36-40 v,mies,13.0,,,,,,,,Turku,Konsulttitalossa,1.0,Full-stack,Etä,6500,82000,,True,,,6833.333333333333
+2022-09-27 09:13:15.573,Palkansaaja,31-35 v,mies,8.0,,,,,,,,Oulu,Konsulttitalossa,1.0,Senior Software Engineer,Etä,5400,67500,,True,,,5625.0
+2022-09-27 09:17:14.645,Palkansaaja,31-35 v,nainen,4.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Ohjelmistokehittäjä,50/50,3834,47925,,True,,,3993.75
+2022-09-27 09:19:09.902,Palkansaaja,31-35 v,mies,5.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Full-stack,Etä,5400,67500,,False,,,5625.0
+2022-09-27 09:19:14.719,Palkansaaja,41-45 v,mies,21.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Backend-devaaja,Toimisto,8200,210000,Peruspalkka + RSU + bonus,True,,,17500.0
+2022-09-27 09:28:02.796,Palkansaaja,31-35 v,mies,6.0,,,,,,,Elektrobit Automotive Finland,Oulu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Senior Software Engineer,50/50,4905,"61312,5",,True,,,
+2022-09-27 09:51:27.978,Palkansaaja,36-40 v,mies,11.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Fullstack,Etä,5850,110000,"osinkoa tuloksen mukaan, n. 40k vuodessa",True,,,9166.666666666666
+2022-09-27 09:51:59.423,Palkansaaja,21-25 v,mies,2.0,,,,,,,,Tampere,"Tuotetalossa, jonka core-bisnes on softa",1.0,Projektipäällikkö,Toimisto,3000,39500,,True,,"Mahdollisesti kysymys siitä kuinka tietoinen ""haastateltava"" on oman alansa palkkatilanteesta. Tätä kautta saisi tietoa siitä miten ajantasalla vastaajat ovat, ja pitääkö oma käsitys palkkatasosta paikkansa kyselyn tulosten perusteella. ",3291.6666666666665
+2022-09-27 09:58:29.904,Palkansaaja,31-35 v,nainen,9.0,,,,,,,,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Ohjelmistokehittäjä (full-stack),Etä,4800,0,,False,,,0.0
+2022-09-27 10:01:07.845,Palkansaaja,26-30 v,nainen,7.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Ohjelmistokehittäjä,Etä,5500,69000,,True,,,5750.0
+2022-09-27 10:04:26.751,Palkansaaja,31-35 v,mies,11.0,,,,,,,,Oulu,Konsulttitalossa,0.8,Full-stack,50/50,4500,55000,,True,,,4583.333333333333
+2022-09-27 10:11:54.362,Palkansaaja,26-30 v,mies,8.0,,,,,,,,PK-Seutu,Julkinen tai kolmas sektori,1.0,Full-stack-kehittäjä,50/50,4600,57500,,True,,,4791.666666666667
+2022-09-27 10:24:24.564,Palkansaaja,41-45 v,mies,13.0,,,,,,,,Oulu,Konsulttitalossa,1.0,"Frontend-kehittäjä, scrum master",Etä,4800,60000,,True,,,5000.0
+2022-09-27 10:25:50.692,Palkansaaja,36-40 v,mies,14.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Full stack -kehittäjä,Etä,5300,63600,,False,,,5300.0
+2022-09-27 10:40:59.434,Palkansaaja,26-30 v,mies,6.0,,,,,,,,Tampere,Konsulttitalossa,1.0,Full-stack ohjelmistokehittäjä,Etä,5100,63750,,True,,,5312.5
+2022-09-27 11:04:01.994,Palkansaaja,31-35 v,mies,9.0,,,,,,,,Turku,Konsulttitalossa,1.0,Senior software developer,Etä,5400,67500,Peruspalkka 4800e jonka päälle pieni provisio laskutuksesta,False,,,5625.0
+2022-09-27 11:07:13.703,Palkansaaja,26-30 v,nainen,3.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Backend ohjelmistokehittäjä,Etä,4410,55125,,True,,,4593.75
+2022-09-27 11:08:59.318,Palkansaaja,36-40 v,nainen,2.0,,,,,,,,Tampere,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Frontend koodari,50/50,2600,32500,Bonusta saa jos täysiaikaisena ja työskennellyt tietyn aikaa ja firma tehnyt tulosta,False,,,2708.3333333333335
+2022-09-27 11:09:51.448,Palkansaaja,31-35 v,nainen,5.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",0.8,Ohjelmistokehittäjä,Etä,4200,52500,,False,,,4375.0
+2022-09-27 11:11:52.639,Palkansaaja,31-35 v,nainen,6.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Full-stack,50/50,4800,60200,,True,,,5016.666666666667
+2022-09-27 11:23:13.991,Palkansaaja,31-35 v,mies,2.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Backend,Etä,4100,51000,,True,,,4250.0
+2022-09-27 11:24:50.475,Palkansaaja,31-35 v,nainen,9.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,,Etä,4581,57200,,True,,,4766.666666666667
+2022-09-27 11:25:29.635,Palkansaaja,36-40 v,nainen,14.0,,,,,,,Vincit,Tampere,Konsulttitalossa,1.0,Ohjelmistokehittäjä ja designer,,4700,70000,peruspalkka + compdev bonus + yksikön tulokseen pohjautuva bonus + onsite bonus,True,,,5833.333333333333
+2022-09-27 11:29:19.210,Palkansaaja,26-30 v,nainen,5.0,,,,,,,,Turku,"Tuotetalossa, jonka core-bisnes on softa",1.0,Full-stack,50/50,4300,53750,,True,,,4479.166666666667
+2022-09-27 11:38:35.918,Palkansaaja,36-40 v,mies,16.0,,,,,,,,Turku,"Tuotetalossa, jonka core-bisnes on softa",1.0,CTO,Etä,4000,50000,Maksutta saatu omistusosuus startupista 4v vestingillä,False,,,4166.666666666667
+2022-09-27 11:38:43.668,Palkansaaja,31-35 v,nainen,8.0,,,,,,,,Tampere,Konsulttitalossa,1.0,"Ohjelmistokehittäjä, enimmäkseen backend",50/50,"4640,71","58008,87",,True,,,
+2022-09-27 11:51:17.860,Palkansaaja,31-35 v,,7.0,,,,,,,Gofore,PK-Seutu,Konsulttitalossa,1.0,Cloud,Etä,5200,65000,,True,,,5416.666666666667
+2022-09-27 11:52:24.497,Palkansaaja,31-35 v,mies,15.0,,,,,,,,Tampere,Konsulttitalossa,1.0,Backend developer,Etä,5200,70000,,True,,,5833.333333333333
+2022-09-27 11:53:12.066,Palkansaaja,36-40 v,mies,9.0,,,,,,,,Turku,Konsulttitalossa,1.0,Full-stack-kehittäjä,50/50,4750,60000,,False,,,5000.0
+2022-09-27 11:53:43.598,Laskuttaja,36-40 v,mies,12.0,12.0,"DevOps, Cloud, Fullstack",90.0,145000.0,Käytän välitysfirmoja,Suomesta,,,,,,,,,,,,,
+2022-09-27 11:54:16.492,Palkansaaja,31-35 v,mies,9.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Ohjelmistokehittäjä,Etä,6100,100000,,True,,,8333.333333333334
+2022-09-27 11:58:56.399,Palkansaaja,31-35 v,mies,3.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Full-stack,50/50,3600,45000,,False,,,3750.0
+2022-09-27 12:01:02.355,Palkansaaja,46-50 v,mies,25.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Senior Devops Engineer,Etä,6500,98000,Kiinteä kuukausi palkka ja laskutuksesta ylijäämä maksetaan bonuksia ,True,,,8166.666666666667
+2022-09-27 12:04:06.739,Palkansaaja,36-40 v,mies,10.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Full-stack ohjelmistokehittäjä,50/50,4874,60925,,True,,,5077.083333333333
+2022-09-27 12:05:07.491,Palkansaaja,41-45 v,mies,22.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Ohjelmoija,Toimisto,4500,56250,Optioita,False,,,4687.5
+2022-09-27 12:06:31.801,Palkansaaja,26-30 v,mies,1.0,,,,,,,,,"Tuotetalossa, jonka core-bisnes on softa",1.0,Full stack (ainut työntekijä),Etä,2200,26400,Ei muuta,False,Roolina rakentaa yksin sovellus tyhjästä (pienellä palkalla :D),,2200.0
+2022-09-27 12:08:19.631,Palkansaaja,41-45 v,mies,17.0,,,,,,,AtoZ,Tampere,Konsulttitalossa,1.0,Ohjelmistotestaaja,Toimisto,"4239,17","60757,96",Pohjapalkka + laskutusbonus,True,,,
+2022-09-27 12:13:55.726,Palkansaaja,36-40 v,,17.0,,,,,,,,Hajautettu,Konsulttitalossa,1.0,,Etä,7800,93600,,False,,,7800.0
+2022-09-27 12:14:40.450,Palkansaaja,41-45 v,mies,1.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Frontend-painotteinen FullStack software dev,Toimisto,3200,40000,,False,,,3333.3333333333335
+2022-09-27 12:17:22.038,Palkansaaja,36-40 v,mies,12.0,,,,,,,,Oulu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Full-stack,50/50,5100,63750,Optiot ja bonukset käytössä mutta realisoituminen sitte toinen asia.,False,,,5312.5
+2022-09-27 12:19:22.827,Palkansaaja,46-50 v,mies,20.0,,,,,,,Goforej,Tampere,Konsulttitalossa,1.0,Developer,50/50,5100,63750,,True,,,5312.5
+2022-09-27 12:19:47.382,Palkansaaja,36-40 v,mies,15.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Senioridevaaja,Etä,6300,76000,,True,,,6333.333333333333
+2022-09-27 12:23:49.497,Palkansaaja,36-40 v,mies,16.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Ohjelmistokehittäjä,Etä,7300,103750,,True,,,8645.833333333334
+2022-09-27 12:33:53.194,Palkansaaja,26-30 v,mies,4.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,DevOps,Etä,4150,52000,,False,,,4333.333333333333
+2022-09-27 12:34:35.996,Palkansaaja,31-35 v,nainen,12.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Ohjelmistokehitys,50/50,7700,96250.0,,True,Palkka perustuu asiakaslaskutukseen ja vaihtelee tehtyjen tuntien mukaan ,,8020.833333333333
+2022-09-27 12:38:32.587,Palkansaaja,26-30 v,nainen,2.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,UX-suunnittelija,Etä,3200,40000,,False,,,3333.3333333333335
+2022-09-27 12:40:05.804,Palkansaaja,36-40 v,muu,20.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Yrittäjä,Toimisto,2000,25000,"Tuote alkuvaiheessa, riski iso, mutta myös osuus firmasta",False,"startuppaajaa tää kysely ei kyl mallintanut hyvin, vaikka palkansaajaa ja friikkua kyllä",,2083.3333333333335
+2022-09-27 12:43:11.623,Palkansaaja,31-35 v,mies,5.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,FullStack Azure Developer,Etä,4000,48200,,True,,,4016.6666666666665
+2022-09-27 12:48:45.528,Palkansaaja,36-40 v,,5.0,,,,,,,,PK-Seutu,Julkinen tai kolmas sektori,1.0,Ohjelmistokehittäjä,Etä,5280,66000,,True,,,5500.0
+2022-09-27 12:49:02.924,Palkansaaja,31-35 v,mies,17.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Full-stack,50/50,6900,90000,Optiot,True,,,7500.0
+2022-09-27 12:49:41.236,Laskuttaja,21-25 v,mies,5.0,2.0,Full stack,,80000.0,Itse,Ulkomailta,,,,,,,,,,,,,
+2022-09-27 13:12:33.470,Laskuttaja,36-40 v,mies,14.0,3.0,Full stack,100.0,125000.0,"Itse, Käytän välitysfirmoja",Suomesta,,,,,,,,,,,,,
+2022-09-27 13:17:20.554,Palkansaaja,41-45 v,mies,13.0,,,,,,,,Joensuu,Konsulttitalossa,0.8,Backend,Etä,5000,62500,,,,,5208.333333333333
+2022-09-27 13:17:27.916,Palkansaaja,36-40 v,mies,15.0,,,,,,,Futurice,Tampere,Konsulttitalossa,1.0,Ohjelmistokehittäjä,Etä,5700,73000,,True,,,6083.333333333333
+2022-09-27 13:19:25.518,Palkansaaja,36-40 v,mies,14.0,,,,,,,,Vaasa,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Technical lead,Toimisto,4990,62375,,False,,,5197.916666666667
+2022-09-27 13:23:09.030,Palkansaaja,31-35 v,mies,7.0,,,,,,,Vincit,Tampere,Konsulttitalossa,1.0,Ohjelmistokehittäjä (enimmäkseen Frontend),50/50,4900,61000,"Peruspalkka 4000 e/kk + osuus laskutuksesta ""bonuksena""",True,,,5083.333333333333
+2022-09-27 13:37:31.913,Palkansaaja,26-30 v,mies,1.0,,,,,,,,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Full-stack,Etä,4400,55000,Optiot,True,,,4583.333333333333
+2022-09-27 13:39:55.439,Laskuttaja,36-40 v,mies,15.0,3.0,Frontend,85.0,140000.0,"Itse, Käytän välitysfirmoja",Suomesta,,,,,,,,,,,,,
+2022-09-27 13:42:01.254,Palkansaaja,31-35 v,mies,5.0,,,,,,,,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,,50/50,4100,55000,,True,,,4583.333333333333
+2022-09-27 13:46:39.262,Palkansaaja,41-45 v,mies,20.0,,,,,,,,Tampere,Konsulttitalossa,1.0,Arkkitehti,Etä,6800,105400,,True,,,8783.333333333334
+2022-09-27 13:58:19.063,Palkansaaja,26-30 v,mies,4.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Full-stack,Etä,4000,50000,,False,,,4166.666666666667
+2022-09-27 14:10:28.004,Palkansaaja,31-35 v,mies,12.0,,,,,,,Compile,PK-Seutu,Konsulttitalossa,1.0,Arkkitehti,Etä,10000,130000,Provisio + asiakastyytyväisyys-bonus + liidi- ja rekry-bonukset,True,,,10833.333333333334
+2022-09-27 14:53:20.115,Palkansaaja,41-45 v,mies,15.0,,,,,,,Robu,Lappeenranta,Konsulttitalossa,1.0,Sovellusarkkitehti,Etä,6300,78750,,True,,,6562.5
+2022-09-27 15:03:54.475,Palkansaaja,41-45 v,nainen,16.0,,,,,,,,PK-Seutu,Julkinen tai kolmas sektori,1.0,Full-stack,50/50,4450,56000,,False,,,4666.666666666667
+2022-09-27 15:10:14.833,Palkansaaja,36-40 v,mies,12.0,,,,,,,,PK-Seutu,Konsulttitalossa,0.8,Full-stack/arkkitehti,Etä,4200,100000,Osakkeita & Osinkoja,True,,,8333.333333333334
+2022-09-27 15:10:18.213,Palkansaaja,26-30 v,nainen,4.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",0.8,Frontend/full-stack,Etä,3600,45000,,True,,,3750.0
+2022-09-27 15:14:29.341,Palkansaaja,31-35 v,,6.0,,,,,,,,PK-Seutu,Julkinen tai kolmas sektori,1.0,Ohjelmistokehittäjä,Etä,5500,69000,,True,,,5750.0
+2022-09-27 15:15:42.542,Palkansaaja,31-35 v,mies,14.0,,,,,,,Liikennevirta,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Lead cloud engineer,Etä,7000,91700,,True,,,7641.666666666667
+2022-09-27 15:34:50.138,Palkansaaja,36-40 v,mies,10.0,,,,,,,,Tampere,Konsulttitalossa,1.0,Ohjelmistokehittäjä,Etä,4000,50000,,False,,,4166.666666666667
+2022-09-27 16:02:38.476,Palkansaaja,46-50 v,mies,9.0,,,,,,,,Tampere,Konsulttitalossa,1.0,Software developer,Etä,3860,50000,,False,,,4166.666666666667
+2022-09-27 16:10:27.412,Palkansaaja,,,4.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Data engineer,50/50,n. 6500,n. 81250,"Kk-palkka on laskutusperusteinen, jossa mahdollinen pidempi penkkiaika tiputtaa tuloja reippaasti.",True,,,
+2022-09-27 16:39:20.123,Palkansaaja,36-40 v,mies,11.0,,,,,,,,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Senior full-stack developer/arkkitehti,Etä,7000,94500,,True,,,7875.0
+2022-09-27 17:28:17.512,Palkansaaja,26-30 v,nainen,2.0,,,,,,,,Järvenpää,"Tuotetalossa, jonka core-bisnes on softa",0.8,Fullstack,Etä,2000,25000,,False,"Vähän olis kiinnostanut myös koulutustausta. Esim mulla on korkeakoulututkinto eri alalta ja se on varmasti vaikuttanu osaltaan siihen, paljon saan /kehtaan pyytää palkkaa. ",,2083.3333333333335
+2022-09-27 17:46:57.914,Palkansaaja,31-35 v,mies,8.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Backend,Etä,5300,66250,"Vuosibonusmalli tulossa, osakeannissa mahdollisuus osakkuuteen",True,,,5520.833333333333
+2022-09-27 18:13:49.755,Palkansaaja,31-35 v,nainen,7.0,,,,,,,,Oulu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Solution manager,Etä,3800,48700.0,,False,,,4058.3333333333335
+2022-09-27 18:24:32.148,Palkansaaja,31-35 v,mies,8.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Full-stack developer,Etä,5300,66250.0,,False,,,5520.833333333333
+2022-09-27 18:39:20.972,Palkansaaja,26-30 v,nainen,6.0,,,,,,,,Tampere,"Tuotetalossa, jonka core-bisnes on softa",1.0,Data scientist,50/50,5020,70000,Bonukset,True,,,5833.333333333333
+2022-09-27 19:39:05.303,Palkansaaja,31-35 v,nainen,5.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Full-stack,50/50,5100,63750.0,,True,,,5312.5
+2022-09-27 19:55:58.253,Laskuttaja,31-35 v,mies,8.0,2.0,Full stack,80.0,150000.0,Itse,Ulkomailta,,,,,,,,,,,,,
+2022-09-27 20:51:21.123,Palkansaaja,21-25 v,mies,3.0,,,,,,,MongoDB,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,"Core Server, Query Optimization ",Etä,6875,105000,"82.5k base
+12.5k rsu
+14k allekirjoitusbonus
+4k muuttobonus",True,,,8750.0
+2022-09-27 21:02:39.538,Palkansaaja,26-30 v,mies,7.0,,,,,,,,PK-Seutu,Julkinen tai kolmas sektori,1.0,Ops,Etä,5500,70000,,True,,"Voisine kysyä että onko työpaikalla etuja jotka ovat ns. rahan arvoisia. Joko jotain tuettua harrastetoimintaa, pidempiä lomia, toimiston pallomeri...",5833.333333333333
+2022-09-27 21:16:16.385,Palkansaaja,31-35 v,mies,6.0,,,,,,,,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Full-stack ohjelmistokehittäjä,Etä,5150,67000,,True,,,5583.333333333333
+2022-09-27 21:21:16.097,Palkansaaja,31-35 v,mies,9.0,,,,,,,Google,Zürich,"Tuotetalossa, jonka core-bisnes on softa",1.0,Site Reliability Engineer,50/50,13000,290000,"Peruspalkka, vuosibonus, RSU:t, pienenpiä bonuksia",True,,,24166.666666666668
+2022-09-27 21:32:55.920,Palkansaaja,41-45 v,mies,15.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,,Etä,6400,80000,,True,,,6666.666666666667
+2022-09-27 21:33:36.205,Palkansaaja,26-30 v,mies,6.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Ohjelmistokehittäjä (backend),50/50,5700,72000,,True,,,6000.0
+2022-09-27 21:42:02.937,Palkansaaja,21-25 v,mies,2.0,,,,,,,,Länsi-Eurooppa,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Software Engineer,Toimisto,10000,220000,Vuosittainen firman ja yksilön performanssiin perustuva bonus muodostaa isohkon osan kokonaiskompensaatiosta,True,,,18333.333333333332
+2022-09-27 22:34:05.970,Palkansaaja,36-40 v,nainen,1.0,,,,,,,,Turku,Konsulttitalossa,1.0,Ohjelmistokehittäjä,Etä,3470,44500,,True,,,3708.3333333333335
+2022-09-27 22:55:38.195,Palkansaaja,36-40 v,,12.0,,,,,,,,Tampere,Konsulttitalossa,1.0,Lead dev,Toimisto,5000,70000,,False,,,5833.333333333333
+2022-09-27 23:27:33.416,Palkansaaja,31-35 v,,4.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Ohjelmistokehittäjä,Etä,4026,52000,,False,,,4333.333333333333
+2022-09-27 23:49:40.952,Palkansaaja,26-30 v,mies,2.0,,,,,,,Exove,PK-Seutu,Konsulttitalossa,1.0,Ohjelmistokehittäjä,50/50,3000,37500,,False,,,3125.0
+2022-09-28 06:17:55.865,Palkansaaja,41-45 v,mies,16.0,,,,,,,,Tampere,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,DevOps Specialist,50/50,5500,66000,,True,,,5500.0
+2022-09-28 06:23:15.226,Palkansaaja,36-40 v,mies,22.0,,,,,,,,Tampere,"Tuotetalossa, jonka core-bisnes on softa",1.0,Full stack web developer,Etä,4200,100000,"palkka, osingot, palkkiorahasto, eläkkeellä lisäksi eläkevakuutus",True,,,8333.333333333334
+2022-09-28 06:36:55.212,Laskuttaja,36-40 v,mies,16.0,11.0,Konsultointia,150.0,30000.0,Itse,Ulkomailta,,,,,,,,,,,,,
+2022-09-28 07:15:50.465,Palkansaaja,31-35 v,,9.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Full-stack,Toimisto,6020,75250,,True,,,6270.833333333333
+2022-09-28 07:15:51.426,Palkansaaja,36-40 v,muu,20.0,,,,,,,-,Tampere,Konsulttitalossa,1.0,DevOps jamppa,Etä,4100,51250,Osakkeita yms.. on saatavilla.,True,,,4270.833333333333
+2022-09-28 07:15:56.518,Palkansaaja,36-40 v,mies,15.0,,,,,,,Gofore,PK-Seutu,Konsulttitalossa,1.0,"Ohjelmistokehittäjä, tiiminvetäjä, esihenkilö",Toimisto,6000,78000,,True,,,6500.0
+2022-09-28 07:38:11.451,Palkansaaja,36-40 v,,13.0,,,,,,,,Tampere,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Lead backend dev,Etä,6100,76250,Varmaan täällä joku bonussysteemi on kuitenkin,True,,,6354.166666666667
+2022-09-28 07:43:36.997,Palkansaaja,41-45 v,mies,15.0,,,,,,,,Turku,Konsulttitalossa,0.8,Full-stack/projektipäällikkö ,Etä,3600,47000,"Palkka + Max 1,5 kk bonus (sidottu firman tulokseen)",False,,,3916.6666666666665
+2022-09-28 07:45:18.656,Palkansaaja,36-40 v,mies,15.0,,,,,,,,Turku,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Sovelluskehittäjä,50/50,6000,78000,,True,,,6500.0
+2022-09-28 07:46:53.868,Palkansaaja,41-45 v,mies,16.0,,,,,,,,Turku,Konsulttitalossa,1.0,Senior full-stack software developer,Etä,6900,86250,,True,,,7187.5
+2022-09-28 07:47:01.472,Palkansaaja,46-50 v,mies,22.0,,,,,,,Valtio,Kuopio,Julkinen tai kolmas sektori,1.0,Arkkitehti,Etä,4900,60000,,True,Valtiopuolella pitää huomioida vertailussa myös pitkät lomat - 38päivää ja vain arki lasketaan. ,,5000.0
+2022-09-28 08:02:18.106,Palkansaaja,26-30 v,mies,4.0,,,,,,,,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Ohjelmistokehittäjä,Etä,3500,44000,,False,,,3666.6666666666665
+2022-09-28 08:11:14.501,Laskuttaja,31-35 v,mies,12.0,2.0,Full stack,90.0,170000.0,Käytän välitysfirmoja,"Suomesta, Ulkomailta",,,,,,,,,,,,,
+2022-09-28 08:21:20.662,Palkansaaja,46-50 v,,12.0,,,,,,,,Tampere,Konsulttitalossa,0.8,Web Developer,Etä,4632,60000,,True,,,5000.0
+2022-09-28 08:26:36.725,Laskuttaja,26-30 v,mies,10.0,4.0,"Full stack, arkkitehtuuri, tekninen johtajuus",90.0,150000.0,Itse,Ulkomailta,,,,,,,,,,,,Juhis oot paras 😍,
+2022-09-28 08:32:58.508,Palkansaaja,36-40 v,mies,7.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Lead Engineer,Etä,6200,91000,Peruspalkka + Vuosibonukset + Osakeoptiot. Optioita en laskenut vuosituloihin,False,,,7583.333333333333
+2022-09-28 08:34:10.316,Palkansaaja,36-40 v,mies,11.0,,,,,,,,Tampere,"Tuotetalossa, jonka core-bisnes on softa",1.0,DevOps,Etä,5200,4000,,True,,,333.3333333333333
+2022-09-28 08:34:14.152,Palkansaaja,31-35 v,mies,10.0,,,,,,,Mapbox,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,"Senior Software Engineer, API development",50/50,10000,125000,Osakeoptioita,True,,,10416.666666666666
+2022-09-28 08:51:53.127,Palkansaaja,36-40 v,mies,7.0,,,,,,,Shipit Ab,Jämsä,"Tuotetalossa, jonka core-bisnes on softa",1.0,Full-stack developer,Etä,3700,46250,,True,,,3854.1666666666665
+2022-09-28 08:56:34.776,Palkansaaja,36-40 v,mies,15.0,,,,,,,Cloud2,PK-Seutu,Konsulttitalossa,1.0,Pilviarkkitehti,50/50,6000,90000,,True,<3,,7500.0
+2022-09-28 09:22:59.985,Laskuttaja,46-50 v,mies,20.0,15.0,Full stack,88.0,145000.0,Käytän välitysfirmoja,Suomesta,,,,,,,,,,,,,
+2022-09-28 09:26:30.365,Palkansaaja,31-35 v,nainen,15.0,,,,,,,Futurice ,Tampere,Konsulttitalossa,1.0,Palvelupäällikkö ,50/50,4600,63500,Henkilökohtainen palkanlisä + bonus firman tuloksesta ,True,,,5291.666666666667
+2022-09-28 09:34:15.792,Palkansaaja,36-40 v,mies,15.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Full-stack dev,Etä,5100,63750,,True,,,5312.5
+2022-09-28 09:35:47.954,Laskuttaja,46-50 v,mies,22.0,4.0,"Softakehitystä: full stack, backend, Dynamics CRM",80.0,95000.0,Käytän välitysfirmoja,Suomesta,,,,,,,,,,,,"Olisi mielenkiintoista tietää, paljonko pitää lomaa/vapaata päivinä tai viikkoina vuodessa",
+2022-09-28 09:36:31.473,Palkansaaja,41-45 v,nainen,0.0,,,,,,,,Tampere,"Tuotetalossa, jonka core-bisnes on softa",1.0,Frontend devaaja,50/50,2700,33750,,False,,Kyselyn voisi toteuttaa myös englanniksi?,2812.5
+2022-09-28 10:51:56.551,Palkansaaja,26-30 v,mies,4.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Ohjelmistokehittäjä,50/50,5250,65625,Bonuksia joskus,True,,,5468.75
+2022-09-28 11:20:23.697,Palkansaaja,41-45 v,mies,17.0,,,,,,,,Turku,Konsulttitalossa,1.0,Arkkitehti,50/50,5633,77612,Vakiopalkka + kuukausittainen kiinteä bonus erikoistehtävän takia.,True,,,6467.666666666667
+2022-09-28 12:31:01.652,Palkansaaja,36-40 v,mies,14.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Lead developer,Toimisto,7600,95000,Erillinen osakeohjelma jolla ei vaikutusta palkkaan,True,,,7916.666666666667
+2022-09-28 12:31:55.125,Palkansaaja,31-35 v,mies,9.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Data Engineer,Etä,6000,75000,Optiota saa perus palkan päälle,True,,,6250.0
+2022-09-28 12:36:28.581,Palkansaaja,36-40 v,mies,13.0,,,,,,,Gofore,Tampere,Konsulttitalossa,1.0,Projektipäällikkö,,5000,62500,,True,,,5208.333333333333
+2022-09-28 12:37:30.565,Palkansaaja,41-45 v,mies,17.0,,,,,,,,Oulu,Konsulttitalossa,1.0,Full-stack,Etä,5400,67500,,False,,,5625.0
+2022-09-28 12:56:56.567,Palkansaaja,31-35 v,mies,7.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Software Engineer,50/50,7400,92000,,True,,,7666.666666666667
+2022-09-28 13:30:02.398,Palkansaaja,36-40 v,,14.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Lead developer,50/50,5450,77000,,True,,,6416.666666666667
+2022-09-28 13:43:23.685,Palkansaaja,31-35 v,mies,10.0,,,,,,,,Jyväskylä,"Tuotetalossa, jonka core-bisnes on softa",1.0,DevOps Specialist,50/50,5000,60000,,True,,,5000.0
+2022-09-28 14:15:50.505,Laskuttaja,26-30 v,mies,7.0,3.0,Full-stack webbidevausta ja pilviarkkitehtihommia,105.0,136000.0,"Itse, Käytän välitysfirmoja",Suomesta,,,,,,,,,,,,,
+2022-09-28 14:27:21.500,Palkansaaja,31-35 v,mies,11.0,,,,,,,,Tampere,Konsulttitalossa,1.0,Ohjelmistokehittäjä,50/50,5000,67000,,True,,,5583.333333333333
+2022-09-28 14:31:47.708,Palkansaaja,31-35 v,mies,8.0,,,,,,,Gofore,Tampere,Konsulttitalossa,0.8,Ohjelmistokehittäjä,50/50,3280,41000,,False,,,3416.6666666666665
+2022-09-28 14:40:17.289,Palkansaaja,26-30 v,mies,10.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Team lead,Toimisto,4700,61000,,True,,,5083.333333333333
+2022-09-28 14:47:51.855,Palkansaaja,36-40 v,mies,7.0,,,,,,,Visma,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Software developer,Etä,5200,65000,,True,,,5416.666666666667
+2022-09-28 15:39:17.273,Palkansaaja,26-30 v,mies,5.0,,,,,,,,Tampere,Konsulttitalossa,1.0,Full-stack,Toimisto,3700,46250,,True,,,3854.1666666666665
+2022-09-28 15:59:45.252,Palkansaaja,36-40 v,,17.0,,,,,,,,,Konsulttitalossa,1.0,Arkkitehti,Etä,5900,78000,,False,,,6500.0
+2022-09-28 17:26:54.518,Palkansaaja,26-30 v,nainen,1.0,,,,,,,,Vaasa,Konsulttitalossa,1.0,Frontend,Etä,3300,41250,,True,,,3437.5
+2022-09-28 19:11:58.084,Palkansaaja,26-30 v,nainen,3.0,,,,,,,FAANG,"München, Saksa","Tuotetalossa, jonka core-bisnes on softa",1.0,Software Engineer,Toimisto,6400,100000,Peruspalkka+15%vuosibonus+osakkeita,True,,,8333.333333333334
+2022-09-28 19:47:05.202,Palkansaaja,26-30 v,mies,6.0,,,,,,,Microsoft,"Dublin, Irlanti","Tuotetalossa, jonka core-bisnes on softa",1.0,Asiakasvastaava,Toimisto,87000,148000,"75k pohja, 12k autoetu, = 87k ""varma pohjapalkka"" + jo maksetut 15k signing bonus eka vuos + 6k (nettona kai) relokaatiobonuksen käteisosuus.
+
+Sign-on stock grant $40k/4v = $10k/v, bonukset hyvin monimutkaisella kaavalla noin 46k€ vuodessa +-5k ehkä. Todnäk saan kenkää ennen kun total com tippuu alle 120k/vuosi. Pari kertaa vuodessa kuulemma pitäisi saada lisää osakkeita jonain ""refreshereinä,"" en näistä vielä tiedä tarkemmin.",True,"Big tech pöhinää, pitkiä päiviä, kauheeta stressiä. Tulos tai ulos kulttuuri ihan eritavalla kun suomifirmoissa yleensä.",,12333.333333333334
+2022-09-28 21:19:47.958,Palkansaaja,41-45 v,mies,18.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,"Kehittäjä, arkkitehti ja tiiminvetäjä",50/50,6700,83750.0,,,,,6979.166666666667
+2022-09-28 22:31:25.915,Palkansaaja,26-30 v,mies,2.0,,,,,,,,Turku,"Tuotetalossa, jonka core-bisnes on softa",0.6,DevSecOps Engineer,Etä,1760,36000,,True,,,3000.0
+2022-09-29 06:31:20.659,Palkansaaja,41-45 v,nainen,1.0,,,,,,,,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Junior frontend developer,Etä,3000,37500,,True,,,3125.0
+2022-09-29 07:21:55.752,Palkansaaja,26-30 v,nainen,5.0,,,,,,,,Turku,Konsulttitalossa,1.0,Ohjelmistokehittäjä,Etä,3500,45000,,False,,,3750.0
+2022-09-29 08:36:23.853,Palkansaaja,26-30 v,mies,1.0,,,,,,,If vakuutus,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Solution developer,50/50,4040,53750,,True,,,4479.166666666667
+2022-09-29 08:46:46.803,Laskuttaja,31-35 v,mies,11.0,1.0,"Data analysis, web-analytics, web & application optimization & analytics",130.0,155000.0,"Itse, Käytän välitysfirmoja",Suomesta,,,,,,,,,,,,,
+2022-09-29 09:03:19.038,Palkansaaja,26-30 v,mies,4.0,,,,,,,Schibsted,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Backend,Etä,4800,60000,,True,,,5000.0
+2022-09-29 09:04:36.495,Palkansaaja,26-30 v,nainen,5.0,,,,,,,,Turku,Konsulttitalossa,1.0,Ohjelmistokehittäjä,Etä,3100,38750,,False,,,3229.1666666666665
+2022-09-29 09:18:25.390,Laskuttaja,31-35 v,mies,12.0,1.0,Full stack,120.0,190000.0,Käytän välitysfirmoja,Suomesta,,,,,,,,,,,,,
+2022-09-29 09:31:35.682,Palkansaaja,26-30 v,mies,4.0,,,,,,,Reaktor,Turku,Konsulttitalossa,1.0,Full-stack,50/50,4500,60000,,True,,,5000.0
+2022-09-29 10:30:21.951,Palkansaaja,26-30 v,mies,4.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Full-stack kehittäjä,Etä,3500,43750,,True,,,3645.8333333333335
+2022-09-29 10:38:55.104,Palkansaaja,31-35 v,mies,8.0,,,,,,,,Mikkeli,"Tuotetalossa, jonka core-bisnes on softa",1.0,Ohjelmistokehittäjä (full-stack),Etä,3500,43750,,False,,,3645.8333333333335
+2022-09-29 11:00:31.713,Palkansaaja,36-40 v,mies,11.0,,,,,,,Wunderdog,PK-Seutu,Konsulttitalossa,1.0,Full-stack ohjelmistokehittäjä,Etä,5700,71250,,True,,,5937.5
+2022-09-29 11:07:07.563,Laskuttaja,31-35 v,mies,12.0,0.0,Softadevausta / full stack,88.0,0.0,Käytän välitysfirmoja,Suomesta,,,,,,,,,,,,,
+2022-09-29 11:49:38.507,Laskuttaja,31-35 v,mies,8.0,1.0,Full stack .NET dev,80.0,120000.0,Käytän välitysfirmoja,Suomesta,,,,,,,,,,,,,
+2022-09-29 12:41:09.903,Palkansaaja,26-30 v,mies,4.0,,,,,,,,Turku,"Tuotetalossa, jonka core-bisnes on softa",1.0,Backend kehittäjä,Toimisto,4500,54000,ei lomarahoja,True,,,4500.0
+2022-09-29 12:46:40.846,Palkansaaja,21-25 v,mies,5.0,,,,,,,,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Full-stack,Etä,4300,53750,Optio-ohjelma,True,,,4479.166666666667
+2022-09-29 12:47:41.464,Palkansaaja,31-35 v,mies,10.0,,,,,,,Digia,Tampere,Konsulttitalossa,1.0,Senior full-stack developer,50/50,4700,58750,,False,,,4895.833333333333
+2022-09-29 12:57:33.342,Palkansaaja,31-35 v,,8.0,,,,,,,,PK-Seutu,Julkinen tai kolmas sektori,1.0,Ohjelmistokehittäjä,Etä,5370,67600,,True,,,5633.333333333333
+2022-09-29 13:00:58.925,Palkansaaja,41-45 v,mies,21.0,,,,,,,,Tampere,Konsulttitalossa,1.0,Pilviarkkitehti,Etä,8200,102500,,True,,,8541.666666666666
+2022-09-29 13:16:37.397,Palkansaaja,36-40 v,,13.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Ohjelmistokehittäjä (full-stack),Etä,7950,99375,,True,,,8281.25
+2022-09-29 14:00:54.881,Palkansaaja,41-45 v,mies,7.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Manager,50/50,4300,53750,,False,,,4479.166666666667
+2022-09-29 14:03:00.575,Palkansaaja,26-30 v,mies,9.0,,,,,,,,PK-Seutu,Infrastruktuuri-/kapasiteettipalvelut,1.0,Developer Support Engineer,,6255,82125,,True,,,6843.75
+2022-09-29 14:09:10.573,Palkansaaja,36-40 v,mies,18.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Backend-ohjelmistokehittäjä,Etä,12500,150000,,True,,,12500.0
+2022-09-29 14:18:15.468,Laskuttaja,26-30 v,mies,10.0,2.0,"Full stack, devops, arkkitehtuuri",120.0,200000.0,Itse,"Suomesta, Ulkomailta",,,,,,,,,,,,,
+2022-09-29 14:43:20.876,Palkansaaja,31-35 v,,,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Data Scientist,Toimisto,3200,40000,,True,,,3333.3333333333335
+2022-09-29 15:43:50.081,Laskuttaja,36-40 v,mies,13.0,1.0,Full stack,90.0,140000.0,Itse,Suomesta,,,,,,,,,,,,voisi lisätä ohjelmointikielet - saisi samalla kerättyä tietoa mihin suuntaan markkina on menossa.,
+2022-09-29 16:48:55.306,Palkansaaja,51-55 v,mies,27.0,,,,,,,,Viro,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Arkkitehti,Etä,5800,72500,Vuosibonus on kk-palkan kerrannainen (0-5) mutta ei ole vielä kokemusta lyhyen työsuhteen takia joten en osaa sanoa mitä käytännössä tulee.,True,,,6041.666666666667
+2022-09-29 16:59:22.703,Palkansaaja,31-35 v,,9.0,,,,,,,,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,,Etä,6500,85500,,True,,,7125.0
+2022-09-29 18:06:46.294,Palkansaaja,26-30 v,nainen,0.0,,,,,,,,Joensuu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Fullstack + testaus,Etä,3000,36000,,True,,,3000.0
+2022-09-29 21:14:54.507,Palkansaaja,36-40 v,mies,15.0,,,,,,,Vincit,Tampere,Konsulttitalossa,1.0,Konsultti,Etä,5800,80000,,True,,,6666.666666666667
+2022-09-29 22:43:49.688,Palkansaaja,31-35 v,mies,10.0,,,,,,,UpCloud,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Verkkoinsinööri,50/50,6200,77500,autoetu lisäksi,True,,,6458.333333333333
+2022-09-29 23:10:04.430,Palkansaaja,36-40 v,mies,3.0,,,,,,,,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,"Ohjelmistokehittäjä, full stack",50/50,4100,52000,,True,,,4333.333333333333
+2022-09-30 06:29:20.579,Laskuttaja,26-30 v,,7.0,2.0,Full stack dev,110.0,170000.0,Käytän välitysfirmoja,Suomesta,,,,,,,,,,,,,
+2022-09-30 08:40:11.067,Palkansaaja,36-40 v,mies,6.0,,,,,,,,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",0.9,Data Scientist,50/50,5050,64000,,True,,,5333.333333333333
+2022-09-30 08:56:16.751,Palkansaaja,31-35 v,mies,10.0,,,,,,,Seed stage start-up,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Ohjelmistokehittäjä (full-stack),Etä,6000,75000,"Osakeoptio-ohjelma, 4-vuoden vesting, lopputulos ~0.1% firman osakekannasta",False,,,6250.0
+2022-09-30 09:34:46.315,Palkansaaja,26-30 v,,1.0,,,,,,,,Turku,"Tuotetalossa, jonka core-bisnes on softa",1.0,Ohjelmistokehittäjä,Toimisto,2000,25000,,True,,,2083.3333333333335
+2022-09-30 09:37:28.453,Palkansaaja,31-35 v,mies,8.0,,,,,,,Mehiläinen,Turku,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Frontend developer,Toimisto,4600,55200,,False,"Vuosituloissa neuvotaan että kk-palkka * 12,5 joka vissiin meinaa lomaltapaluurahojen laskemista, mutta jokaisella alalla tätä samaa käytäntöä ei ole :)",,4600.0
+2022-09-30 09:40:21.418,Palkansaaja,26-30 v,mies,5.0,,,,,,,,Tampere,,1.0,Ohjelmistokehittäjä,Etä,4100,51250,,True,,,4270.833333333333
+2022-09-30 09:54:22.279,Palkansaaja,36-40 v,mies,16.0,,,,,,,Mozilla,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Staff Software Engineer ,Etä,8240,122000,"Puolivuosittainen omaan ja koko korporaation tulokseen pohjautuva rahabonus, noin 20% kuukausipalkasta",True,,,10166.666666666666
+2022-09-30 10:11:36.330,Palkansaaja,31-35 v,mies,10.0,,,,,,,Vincit,Tampere,Konsulttitalossa,1.0,Full-stack,50/50,4800,63000,,True,,,5250.0
+2022-09-30 10:12:49.113,Palkansaaja,26-30 v,mies,1.0,,,,,,,Vincit,Turku,Konsulttitalossa,1.0,Full-stack,Etä,2341,29300,,False,,,2441.6666666666665
+2022-09-30 10:15:50.569,Palkansaaja,26-30 v,mies,5.0,,,,,,,,Tampere,Konsulttitalossa,1.0,Frontend,50/50,3800,52000,,True,,,4333.333333333333
+2022-09-30 10:15:57.061,Palkansaaja,41-45 v,muu,23.0,,,,,,,Vincit,Jyväskylä,Konsulttitalossa,1.0,Multirole,50/50,5470,5000,,False,,,416.6666666666667
+2022-09-30 10:21:02.706,Palkansaaja,36-40 v,mies,4.0,,,,,,,Vincit,Jyväskylä,Konsulttitalossa,1.0,Ohjelmistokehittäjä,Etä,4200,52500,,True,,,4375.0
+2022-09-30 10:30:08.293,Palkansaaja,31-35 v,mies,5.0,,,,,,,Vincitj,Tampere,Konsulttitalossa,1.0,Full-stack,50/50,4062,54000,Lähes kuukausittainen ELA-bonus,False,Kovasti käy ovi ulospäin kun muualla on parempi palkka ja ansaintamalli,Ehkä se koulutus liittyy myös tähän palkkaan,4500.0
+2022-09-30 10:35:20.854,Palkansaaja,36-40 v,mies,14.0,,,,,,,,Tampere,Konsulttitalossa,1.0,Arkkitehti,Toimisto,5200,66000,,True,,,5500.0
+2022-09-30 10:36:52.191,Palkansaaja,31-35 v,mies,10.0,,,,,,,Vincit,Turku,Konsulttitalossa,1.0,Frontend,50/50,4400,54000,,True,,,4500.0
+2022-09-30 10:52:57.087,Palkansaaja,31-35 v,mies,10.0,,,,,,,Finnish Telecom,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Full-stack,50/50,4800,64000,metrics based bonus model once a year ~1 month salary,False,,,5333.333333333333
+2022-09-30 11:05:21.454,Palkansaaja,31-35 v,mies,11.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Full-stack ohjelmistokehittäjä,50/50,5800,75000,,True,,,6250.0
+2022-09-30 11:05:55.873,Palkansaaja,36-40 v,mies,16.0,,,,,,,,Lappeenranta,Konsulttitalossa,1.0,Ohjelmistosuunnittelija,Etä,6300,2000,Peruspalkka + provisio,False,,,166.66666666666666
+2022-09-30 11:06:02.410,Palkansaaja,26-30 v,nainen,4.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Frontend,Etä,4900,69000,,True,,,5750.0
+2022-09-30 11:06:10.666,Palkansaaja,31-35 v,mies,10.0,,,,,,,,Tampere,"Tuotetalossa, jonka core-bisnes on softa",1.0,System specialist,Etä,4200,52500.0,,True,,,4375.0
+2022-09-30 11:06:11.723,Laskuttaja,21-25 v,mies,5.0,1.0,"Backend, frontend, full stack, devops, data engineering",85.0,150000.0,Käytän välitysfirmoja,Ulkomailta,,,,,,,,,,,,,
+2022-09-30 11:06:49.206,Palkansaaja,31-35 v,mies,12.0,,,,,,,Exove,Oulu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Senior Developer,Etä,4800,60000,Koeajan jälkeen 2-3k bonus,False,"Jäätävä slack-pingi, ei enää kiitos",,5000.0
+2022-09-30 11:07:07.550,Laskuttaja,21-25 v,mies,5.0,1.0,Full stack,76.0,,Itse,Ulkomailta,,,,,,,,,,,,,
+2022-09-30 11:07:09.884,Palkansaaja,26-30 v,nainen,4.0,,,,,,,,Turku,Konsulttitalossa,1.0,,,4650,58125,,True,,,4843.75
+2022-09-30 11:07:10.703,Laskuttaja,31-35 v,mies,9.0,2.0,Softadevausta,97.0,140000.0,Käytän välitysfirmoja,Suomesta,,,,,,,,,,,,,
+2022-09-30 11:07:28.739,Palkansaaja,26-30 v,,7.0,,,,,,,,PK-Seutu,Konsultointi + tuote hybridifirmassa,,Engineering lead,Etä,4600,57500,5% firman osinkoa,False,,,4791.666666666667
+2022-09-30 11:07:42.221,Palkansaaja,21-25 v,mies,2.0,,,,,,,,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Full-stack,Etä,3800,47500,,False,,,3958.3333333333335
+2022-09-30 11:07:45.845,Palkansaaja,31-35 v,mies,8.0,,,,,,,Smartly,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Vanhempi ohjelmistosuunnittelija,Etä,6000,78000,,False,,,6500.0
+2022-09-30 11:07:46.218,Palkansaaja,31-35 v,nainen,6.0,,,,,,,Geniem,Tampere,,1.0,,Etä,3600,45000,,True,,,3750.0
+2022-09-30 11:07:51.376,Laskuttaja,41-45 v,mies,15.0,1.0,Full stack,80.0,105000.0,Käytän välitysfirmoja,Suomesta,,,,,,,,,,,,,
+2022-09-30 11:08:22.676,Palkansaaja,41-45 v,mies,20.0,,,,,,,,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Backend,50/50,7100,95850,,True,,,7987.5
+2022-09-30 11:08:24.487,Laskuttaja,26-30 v,mies,4.0,2.5,"Softadevaus, data engineering",90.0,135000.0,"Itse, Käytän välitysfirmoja","Suomesta, Ulkomailta",,,,,,,,,,,,,
+2022-09-30 11:08:35.713,Palkansaaja,31-35 v,mies,,,,,,,,,Etä,"Tuotetalossa, jonka core-bisnes on softa",1.0,DevOps/SRE Engineer,Etä,14000,170000,Palkan lisäksi tulee optioita perus startup tyylisesti 4v cliffillä.,True,,,14166.666666666666
+2022-09-30 11:08:39.675,Laskuttaja,36-40 v,mies,10.0,1.0,Backend devops,95.0,150000.0,"Itse, Käytän välitysfirmoja",Suomesta,,,,,,,,,,,,,
+2022-09-30 11:08:40.281,Palkansaaja,41-45 v,mies,18.0,,,,,,,,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Pilviarkkitehti,Etä,6000,84000,vapaa-autoetu ja paljon muita pieniä (osa verotettavia) etuja,False,,,7000.0
+2022-09-30 11:08:55.616,Palkansaaja,31-35 v,mies,7.0,,,,,,,,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,"Ohjelmistokehittäjä, full-stack",Toimisto,5200,65000,Nimellisiä optioita ,False,,,5416.666666666667
+2022-09-30 11:09:08.270,Palkansaaja,41-45 v,mies,7.0,,,,,,,,Turku,Konsulttitalossa,1.0,Full-stack,Toimisto,4000,50000,,True,,,4166.666666666667
+2022-09-30 11:09:16.999,Palkansaaja,31-35 v,nainen,4.0,,,,,,,,PK-Seutu,,1.0,WordPress Developer,Etä,4200,52500,,True,,,4375.0
+2022-09-30 11:09:35.577,Palkansaaja,26-30 v,mies,8.0,,,,,,,,Tampere,"Tuotetalossa, jonka core-bisnes on softa",1.0,Team Lead / Ohjelmistokehittäjä,,5000,66000,,True,,,5500.0
+2022-09-30 11:09:36.864,Palkansaaja,21-25 v,mies,4.0,,,,,,,,Jyväskylä,"Tuotetalossa, jonka core-bisnes on softa",1.0,Lead Developer,50/50,4100,51250,,False,,,4270.833333333333
+2022-09-30 11:09:37.340,Palkansaaja,31-35 v,mies,10.0,,,,,,,,Hämeenlinna,"Tuotetalossa, jonka core-bisnes on softa",1.0,Ohjelmistokehittäjä,,2750,35000,,True,,,2916.6666666666665
+2022-09-30 11:09:41.369,Palkansaaja,41-45 v,mies,20.0,,,,,,,,Turku,Konsulttitalossa,1.0,Ohjelmistökehittäjä/arkkitehti,Etä,7300,90000,50% laskutuksesta,True,,,7500.0
+2022-09-30 11:09:58.211,Palkansaaja,26-30 v,mies,2.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Ohjelmistokehittäjä (frontend ja legacy-hommia),Etä,3400,41000.0,,False,"Palkkaa voisi saada jostain muualta enemmän, mutta kokonaiskuvana (työn sisältö, tiimi, rahanarvoiset edut), sen verran tyytyväinen, että en ainakaan vielä ole vaihtamassa.",,3416.6666666666665
+2022-09-30 11:10:02.891,Palkansaaja,41-45 v,mies,10.0,,,,,,,,Vaasa,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Service Manager DevOps,Etä,6200,77185,,True,,,6432.083333333333
+2022-09-30 11:10:16.265,Palkansaaja,46-50 v,mies,22.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Ohjelmistokehittäjä full stack,50/50,5500,70000,,True,,,5833.333333333333
+2022-09-30 11:10:17.234,Palkansaaja,41-45 v,mies,22.0,,,,,,,,PK-Seutu,Julkinen tai kolmas sektori,1.0,Arkkitehti,Etä,6400,82000,,True,,,6833.333333333333
+2022-09-30 11:10:54.173,Palkansaaja,26-30 v,mies,5.0,,,,,,,Wolt,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Ohjelmistokehittäjä,Etä,5000,77000,Osakkeet + palkka,True,,,6416.666666666667
+2022-09-30 11:10:57.512,Palkansaaja,41-45 v,mies,22.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Testaaja,Etä,4500,56250.0,,False,,,4687.5
+2022-09-30 11:11:27.834,Palkansaaja,31-35 v,mies,8.0,,,,,,,Energiayhtiö,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Product owner,Etä,5220,68000,,True,,,5666.666666666667
+2022-09-30 11:12:03.502,Palkansaaja,36-40 v,mies,0.0,,,,,,,Experis Academy,PK-Seutu,Konsulttitalossa,1.0,Java Full Stack,Etä,3000,37500,,False,"Experis Academy(yritys, jossa olen palkkalistoilla) on kansainvälinen yritys, joka on tarkoitettu uran alkuvaiheessa oleville koodareille, jonka tarkoituksena on kouluttaa konsultteja 3kk intensiivijakson aikana. Palkka hieman parempi kuin junior-koodareilla, mutta toisaalta myös voidaan vaatiakin hieman enemmän osaamista",,3125.0
+2022-09-30 11:12:31.953,Palkansaaja,26-30 v,mies,8.0,,,,,,,,Tampere,Konsulttitalossa,1.0,Full-stack,Toimisto,4800,60000,,True,,,5000.0
+2022-09-30 11:12:35.848,Palkansaaja,26-30 v,mies,7.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,"Full-stack-kehittäjä, team lead",50/50,6000,75000,"Osakkeet, kuntosalijäsenyys, ylimääräinen lomaviikko ",True,,,6250.0
+2022-09-30 11:13:05.550,Laskuttaja,26-30 v,mies,6.0,2.0,Full stack web-ohjelmointia,,160000.0,Itse,Ulkomailta,,,,,,,,,,,,,
+2022-09-30 11:13:36.502,Palkansaaja,31-35 v,mies,8.0,,,,,,,,Tampere,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Full-stack,Etä,5500,66000,,True,,,5500.0
+2022-09-30 11:13:45.889,Palkansaaja,26-30 v,mies,0.0,,,,,,,academic work,Tampere,Konsulttitalossa,1.0,Junior backend,50/50,2600,32500,,True,kokemusta jo kolme viikkoa it alalta,,2708.3333333333335
+2022-09-30 11:17:10.340,Palkansaaja,46-50 v,mies,25.0,,,,,,,,Kööpenhamina,Konsulttitalossa,0.8,Full-stack,Etä,6185,80680,,True,,,6723.333333333333
+2022-09-30 11:17:16.987,Palkansaaja,36-40 v,nainen,4.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Frontend developer,50/50,3200,40000,,True,,,3333.3333333333335
+2022-09-30 11:17:23.209,Palkansaaja,41-45 v,mies,19.0,,,,,,,,,"Tuotetalossa, jonka core-bisnes on softa",1.0,Principal software engineer,Etä,10500,200000,,True,,,16666.666666666668
+2022-09-30 11:17:45.584,Palkansaaja,41-45 v,,22.0,,,,,,,,Turku,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Arkkitehti,Etä,7100,94000,,True,,,7833.333333333333
+2022-09-30 11:17:47.789,Palkansaaja,36-40 v,mies,10.0,,,,,,,,,"Tuotetalossa, jonka core-bisnes on softa",1.0,Backend,Etä,4500,60000,,False,,,5000.0
+2022-09-30 11:18:23.379,Palkansaaja,21-25 v,mies,3.0,,,,,,,,Tampere,Konsulttitalossa,1.0,Full-stack developer,Etä,3760,51000,"Puolivuosittain maksettava bonus firman tuloksen perusteella, vaihtelevia korvauksia esim. on-call -hommista",False,,,4250.0
+2022-09-30 11:18:34.982,Palkansaaja,31-35 v,muu,6.0,,,,,,,Netum,Tampere,Konsulttitalossa,1.0,"Ohjelmistokehittäjä, mallia full-stack",Etä,5000,63000,,True,,,5250.0
+2022-09-30 11:19:01.585,Palkansaaja,41-45 v,nainen,18.0,,,,,,,Yleisradio,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Team Lead,50/50,5900,73000,,True,,,6083.333333333333
+2022-09-30 11:19:11.388,Palkansaaja,46-50 v,mies,23.0,,,,,,,,Jyväskylä,Konsulttitalossa,1.0,Datatieteilijä,50/50,5100,64000,,,,,5333.333333333333
+2022-09-30 11:19:42.008,Palkansaaja,36-40 v,mies,12.0,,,,,,,nexi,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Ohjelmistokehittäjä,Etä,5800,76000,5% vuosipalkasta on oletusbonus,True,,,6333.333333333333
+2022-09-30 11:19:47.299,Palkansaaja,36-40 v,mies,10.0,,,,,,,Compile,PK-Seutu,Konsulttitalossa,1.0,Arkkitehti / Full-stack kehittäjä,Etä,7800,97000,Laskutusperustainen palkka + asiakastyytyväisyysbonus,True,,,8083.333333333333
+2022-09-30 11:20:42.717,Laskuttaja,31-35 v,mies,10.0,5.0,"Full-stack, lead developer",80.0,120000.0,Itse,"Suomesta, Ulkomailta",,,,,,,,,,,,,
+2022-09-30 11:20:42.864,Palkansaaja,41-45 v,mies,15.0,,,,,,,,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Engineering Manager,Etä,6500,81250,"optioita, joiden arvo selviää tulevaisuudessa",True,,,6770.833333333333
+2022-09-30 11:21:51.393,Palkansaaja,31-35 v,mies,2.0,,,,,,,,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Full stack,Etä,4620,55440,,True,,,4620.0
+2022-09-30 11:22:27.330,Laskuttaja,31-35 v,mies,13.0,3.0,"Frontend, full stack",85.0,125000.0,"Itse, Käytän välitysfirmoja",Suomesta,,,,,,,,,,,,,
+2022-09-30 11:22:31.998,Palkansaaja,31-35 v,mies,12.0,,,,,,,,Oulu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Frontend,Etä,4572,70866,,False,,,5905.5
+2022-09-30 11:23:01.984,Palkansaaja,31-35 v,mies,6.0,,,,,,,,,Konsulttitalossa,1.0,Mobiili / backend devaaja,Etä,4000,50000,,False,,,4166.666666666667
+2022-09-30 11:23:05.620,Palkansaaja,26-30 v,nainen,6.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,"Ohjelmistokehittäjä, backend pääosin, mutta kaikkea mahtuu",Etä,4500,"56, 250",,True,,,
+2022-09-30 11:23:51.469,Palkansaaja,41-45 v,nainen,2.0,,,,,,,Mehiläinen,Turku,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Ohjelmistokehittäjä,50/50,3100,38750,,False,,,3229.1666666666665
+2022-09-30 11:24:19.603,Laskuttaja,,mies,24.0,3.0,"Team Lead, projekti- ja tuotekonsultointi",116.0,236000.0,Itse,"Suomesta, Ulkomailta",,,,,,,,,,,,,
+2022-09-30 11:25:23.935,Palkansaaja,41-45 v,mies,3.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,SAP-konsultti,Etä,3200,40000.0,,False,,,3333.3333333333335
+2022-09-30 11:26:13.054,Palkansaaja,26-30 v,mies,5.0,,,,,,,,Turku,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Full-stack,50/50,5300,63600,,True,,,5300.0
+2022-09-30 11:26:45.114,Palkansaaja,26-30 v,mies,4.0,,,,,,,,Tampere,Konsulttitalossa,1.0,Full-stack pilvikehittäjä,50/50,4700,58750,,True,,,4895.833333333333
+2022-09-30 11:28:37.904,Laskuttaja,31-35 v,mies,8.0,4.0,Full stack web ja mobiili,65.0,84000.0,Itse,Suomesta,,,,,,,,,,,,,
+2022-09-30 11:28:45.104,Palkansaaja,26-30 v,,6.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",0.8,Full-stack,Etä,5500,75000,"optiot, työsuhdeauto, oma toimisto kodin vierestä, vakuutus, gadget budjetti",True,,,6250.0
+2022-09-30 11:29:20.232,Palkansaaja,31-35 v,mies,9.0,,,,,,,Wunderdog,PK-Seutu,Konsulttitalossa,1.0,Full-stack developer,50/50,5600,70500,,True,,,5875.0
+2022-09-30 11:30:34.559,Palkansaaja,31-35 v,,8.0,,,,,,,,Oulu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Full-stack developer (Cloud),Etä,5500,68750,,True,,,5729.166666666667
+2022-09-30 11:31:12.147,Palkansaaja,26-30 v,mies,5.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Software engineer,50/50,5000,62500,,True,,,5208.333333333333
+2022-09-30 11:36:07.667,Palkansaaja,31-35 v,mies,1.0,,,,,,,,PK-Seutu,Julkinen tai kolmas sektori,1.0,"Database Administrator, Linux-palvelujen ylläpitäjä, inframies",Etä,3468,50000,"Perus bonusmalli miten eli firma suoriutuu, ei voi käytännössä itse vaikuttaa sen suuruuteen. Ylitöitä, yötöitä ja varallaoloa jotka nostavat kuukausiansion todellisuudessa ~4000-5000e/kk.",True,,,4166.666666666667
+2022-09-30 11:37:30.539,Palkansaaja,26-30 v,mies,5.0,,,,,,,,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,"Ohjelmistokehittäjä, full-stack",Etä,4500,54000,,False,,,4500.0
+2022-09-30 11:40:59.259,Palkansaaja,36-40 v,mies,7.0,,,,,,,Mehiläinen,Tampere,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Ohjelmistokehittäjä,Etä,5200,62400,,False,,,5200.0
+2022-09-30 11:42:07.390,Palkansaaja,41-45 v,mies,24.0,,,,,,,,Jyväskylä,Konsulttitalossa,1.0,"Ohjelmoija, backend",50/50,"5259,29",65741,osakkeita,True,,,5478.416666666667
+2022-09-30 11:42:49.350,Palkansaaja,41-45 v,mies,25.0,,,,,,,,Oulu,Konsulttitalossa,1.0,Lead developer,50/50,7600,95000,,True,,,7916.666666666667
+2022-09-30 11:43:50.727,Palkansaaja,31-35 v,mies,11.0,,,,,,,,Tampere,Konsulttitalossa,1.0,"Ohjelmistokehittäjä, mobiili",Etä,5400,68000,,True,,,5666.666666666667
+2022-09-30 11:44:14.643,Palkansaaja,41-45 v,nainen,10.0,,,,,,,,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Product Owner,Etä,5420,2500,,True,,,208.33333333333334
+2022-09-30 11:44:38.907,Palkansaaja,31-35 v,mies,8.0,,,,,,,Mavericks Software,Turku,Konsulttitalossa,1.0,Fullstack Developer,Etä,7350,92000,,True,,,7666.666666666667
+2022-09-30 11:47:00.239,Palkansaaja,36-40 v,mies,11.0,,,,,,,,Tampere,Konsulttitalossa,1.0,"Ohjelmistokehittäjä, arkkitehti ja projektipäällikkö",50/50,6000,75000,peruspalkka + satunnainen vuosibonus,True,,,6250.0
+2022-09-30 11:49:33.036,Laskuttaja,41-45 v,mies,22.0,5.0,"Full stack dev / teknologia konsultointia, arkkitehtuuria",85.0,29500.0,Käytän välitysfirmoja,Suomesta,,,,,,,,,,,"Laskuttavan työn lisäksi teen tuotekehitystä omaan b2c SaaS-palveluun, josta maksan itselleni myös palkkaa.",,
+2022-09-30 11:51:05.118,Palkansaaja,31-35 v,mies,10.0,,,,,,,Mehiläinen,Turku,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Full-stack,50/50,4500,56500,Osakkeita palkan lisäksi,,,,4708.333333333333
+2022-09-30 11:57:10.221,Palkansaaja,36-40 v,mies,16.0,,,,,,,,Tampere,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Frontend,Etä,6300,78750.0,,True,,,6562.5
+2022-09-30 11:57:16.640,Palkansaaja,31-35 v,mies,1.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Ohjelmistokehittäjä,Etä,3600,45000,,True,,,3750.0
+2022-09-30 12:03:16.968,Palkansaaja,36-40 v,mies,11.0,,,,,,,,Kuopio,Konsulttitalossa,1.0,Sovelluskehittäjä,Etä,4000,50000,,True,,"Mitä työsuhde-etuja (työmatkaetu, lounasetu, jne.) saat? Koulutustausta? Onko sinulla sertifikaatioita, ja jos on, mitä? Teetkö sivukeikkoja, ja jos teet , mitä?",4166.666666666667
+2022-09-30 12:04:34.391,Palkansaaja,31-35 v,mies,14.0,,,,,,,Mavericks,Turku,Konsulttitalossa,1.0,Full-stack,Etä,7850,98000,53% laskutuksesta ,True,"tietyn palkkatason jälkeen työntekijät alkavat ottamaan enemmän lomaa ja vapaa-aika. Se on eri asia kuin 100% allokaatio työtä tehdessä ja vaikuttaa vuosituloihin. Pääomatulot työnantajan osakkeilla taas voivat usein olla kerta luontoisia, mutta tuoda paljonkin lisätuloja ",,8166.666666666667
+2022-09-30 12:04:43.080,Palkansaaja,36-40 v,mies,15.0,,,,,,,Mavericks,Turku,Konsulttitalossa,1.0,DevOps,Etä,7500,82000,,True,,,6833.333333333333
+2022-09-30 12:05:01.703,Palkansaaja,26-30 v,mies,5.0,,,,,,,,Tampere,Konsulttitalossa,1.0,.NET developer,Toimisto,4400,55000,,True,,,4583.333333333333
+2022-09-30 12:06:25.056,Palkansaaja,36-40 v,mies,11.0,,,,,,,Leanware,Tampere,"Tuotetalossa, jonka core-bisnes on softa",1.0,Senior ohjelmistokehittäjä,Etä,4750,59375,,True,,,4947.916666666667
+2022-09-30 12:06:27.468,Palkansaaja,31-35 v,mies,5.0,,,,,,,,Tampere,Konsulttitalossa,1.0,Ohjelmistokehittäjä,50/50,4300,54000,,True,,,4500.0
+2022-09-30 12:09:29.749,Palkansaaja,46-50 v,mies,3.0,,,,,,,Terveystalo,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Ohjelmistokehittäjä (full-stack),Etä,4100,51250,,True,,,4270.833333333333
+2022-09-30 12:12:11.037,Laskuttaja,36-40 v,mies,14.0,1.5,"Softadevaus fullstack + cloud, arkkitehtuuri, devops",90.0,160000.0,Käytän välitysfirmoja,Suomesta,,,,,,,,,,,Tällä hetkellä sopparit tehdään 1v kerrallaan. Firman muoto OY.,"Ehkä laskuttajilta vois kysyy firman muotoa (vai onko OY niin de facto ettei kannata?). Toinen mitä voisi kysyä on se, että kuinka isoa palkkaa itselleen maksaa, jos maksaa.",
+2022-09-30 12:14:03.683,Palkansaaja,41-45 v,mies,23.0,,,,,,,,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",0.9,"Arkkitehti, data, backend",Toimisto,6000,90000,vähemmistöosakkuus,True,Yrittäjähenkisessä työskentelyssä ei usein lasketa työtunteja. Siten esim. 90% työaika on aika näennäinen. Välillä tehdään kovempaa ja välillä rauhallisemmin.,,7500.0
+2022-09-30 12:16:31.188,Palkansaaja,36-40 v,mies,13.0,,,,,,,Wunder Finland,Turku,"Tuotetalossa, jonka core-bisnes on softa",1.0,Backend,Etä,3754,49000,,True,,,4083.3333333333335
+2022-09-30 12:20:00.131,Palkansaaja,41-45 v,mies,16.0,,,,,,,Reaktor,PK-Seutu,Konsulttitalossa,1.0,Data scientist,Toimisto,6500,83000,"Minimaaliset osakkeet, ei vaikutusta mihinkään",False,,,6916.666666666667
+2022-09-30 12:20:24.278,Palkansaaja,36-40 v,mies,5.0,,,,,,,,Turku,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,IT-Manager,Toimisto,3300,40000,,True,,,3333.3333333333335
+2022-09-30 12:21:16.682,Palkansaaja,21-25 v,mies,3.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Ohjelmistokehittäjä,Toimisto,5200,65000,,True,,,5416.666666666667
+2022-09-30 12:26:25.420,Palkansaaja,26-30 v,mies,6.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Full-stack developer,Etä,5400,70200,,True,,,5850.0
+2022-09-30 12:27:08.398,Palkansaaja,41-45 v,mies,15.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,"Lähiesimies, ohjelmistokehittäjä (Drupal backend)",Etä,4600,57500,,False,,,4791.666666666667
+2022-09-30 12:30:26.513,Palkansaaja,36-40 v,mies,15.0,,,,,,,Reaktor,PK-Seutu,Konsulttitalossa,1.0,Full-stack,50/50,6700,85000,,False,,,7083.333333333333
+2022-09-30 12:30:29.167,Palkansaaja,36-40 v,mies,18.0,,,,,,,Mavericks ,PK-Seutu,Konsulttitalossa,1.0,Senior Mobile Engineer,Etä,8000,100000,,True,,,8333.333333333334
+2022-09-30 12:31:55.611,Palkansaaja,31-35 v,mies,9.0,,,,,,,Gofore,PK-Seutu,Konsulttitalossa,1.0,Tekninen Projektipäällikkö,Etä,5000,62500,,True,,Pizza-alennuskoodia mukaan!!!,5208.333333333333
+2022-09-30 12:34:01.341,Palkansaaja,31-35 v,,7.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Full-stack,Etä,7500,93750,brutto on ~50% laskutuksesta,True,,,7812.5
+2022-09-30 12:42:20.296,Palkansaaja,31-35 v,nainen,7.0,,,,,,,,Turku,Konsulttitalossa,1.0,Full-stack-kehittäjä,,4400,58000,,True,,,4833.333333333333
+2022-09-30 12:42:34.609,Palkansaaja,26-30 v,mies,4.0,,,,,,,Nordcloud,Kuopio,Konsulttitalossa,1.0,Ohjelmistokehittäjä,50/50,4000,50000,,True,,,4166.666666666667
+2022-09-30 12:50:10.837,Palkansaaja,26-30 v,mies,4.0,,,,,,,Arado,Turku,Konsulttitalossa,,Full-stack konsultti,50/50,6500,81250,50% toteutuneesta laskutuksesta tai erittäin reilu takuupalkka.,True,,Olisko siistiä vertailla palkkoja kans teknologiakohtaisest kyselemällä vaikkapa tärkeimmät teknologiat työssäsi?,6770.833333333333
+2022-09-30 12:51:49.614,Palkansaaja,31-35 v,mies,16.0,,,,,,,,Turku,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Ohjelmistokehittäjä (frontend),50/50,5103,64810,,False,,,5400.833333333333
+2022-09-30 12:59:51.885,Laskuttaja,31-35 v,mies,7.0,2.0,"Full stack, arkkitehtuuria",80.0,93000.0,"Itse, Käytän välitysfirmoja",Suomesta,,,,,,,,,,,,,
+2022-09-30 13:00:02.862,Palkansaaja,36-40 v,mies,5.0,,,,,,,,Tampere,"Tuotetalossa, jonka core-bisnes on softa",1.0,Full-stack,Etä,3580,48330,,,,,4027.5
+2022-09-30 13:05:48.044,Palkansaaja,31-35 v,mies,10.0,,,,,,,Reaktor,PK-Seutu,Konsulttitalossa,1.0,Ohjelmistokehittäjä,50/50,5750,75000,"Palkka valtaosa tuloista. Vuosittainen tulospohjainen bonari, vähän osinkoja, kaikki lounasedut ja sen semmoiset.",True,,,6250.0
+2022-09-30 13:25:24.994,Palkansaaja,31-35 v,mies,7.0,,,,,,,,Turku,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Full-stack kehittäjä,50/50,4800,57600,,False,,,4800.0
+2022-09-30 13:29:00.531,Palkansaaja,36-40 v,mies,14.0,,,,,,,Reaktor,Turku,Konsulttitalossa,1.0,Ohjelmistokehittäjä,Etä,5700,71250,palkka + satunnainen bonus max kerran vuodessa,True,,,5937.5
+2022-09-30 13:30:35.394,Laskuttaja,36-40 v,mies,12.0,1.5,Softadevausta,,120000.0,Käytän välitysfirmoja,Suomesta,,,,,,,,,,,,,
+2022-09-30 13:30:52.824,Palkansaaja,41-45 v,mies,16.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Ohjelmistokehittäjä,Etä,5200,65000,,,,,5416.666666666667
+2022-09-30 13:34:33.554,Palkansaaja,26-30 v,mies,5.0,,,,,,,,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Engineering Lead,Etä,6500,80000,75/25 rahaa/optioita,False,,,6666.666666666667
+2022-09-30 13:37:53.480,Palkansaaja,26-30 v,,10.0,,,,,,,Reaktor,PK-Seutu,Konsulttitalossa,1.0,Software Developer,Toimisto,5200,67200,Kiinteä kk-palkka ja osakkeita,True,,,5600.0
+2022-09-30 13:41:46.319,Palkansaaja,36-40 v,mies,12.0,,,,,,,,Tampere,"Tuotetalossa, jonka core-bisnes on softa",1.0,Ohjelmistokehittäjä,50/50,6100,n. 100 000€,Vuosittaiset bonukset rahana sekä erikseen vuosittaiset RSU:t palkanlisänä (rajoitettuja osakeoikeuksia) ,True,,,
+2022-09-30 14:00:31.021,Palkansaaja,31-35 v,mies,7.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Software engineer,50/50,5800,86000,,True,,,7166.666666666667
+2022-09-30 14:01:20.942,Laskuttaja,41-45 v,mies,15.0,8.0,Arkkitehti/projektipäällikkö,,230000.0,Itse,Suomesta,,,,,,,,,,,,,
+2022-09-30 14:04:05.823,Palkansaaja,31-35 v,mies,18.0,,,,,,,Mavericks Software,PK-Seutu,Konsulttitalossa,1.0,Full-stack,Etä,6500,82000,Pohjapalkka + provisio. Itsellä ollut paljon sairaslomia yms. mitkä vaikuttavat myös kompensaatioon.,True,,,6833.333333333333
+2022-09-30 14:08:46.377,Palkansaaja,31-35 v,mies,12.0,,,,,,,,Tampere,"Tuotetalossa, jonka core-bisnes on softa",1.0,Full-stack web developer,Etä,5700,71250,Osakeanti työntekijöille,True,,,5937.5
+2022-09-30 14:09:22.571,Palkansaaja,36-40 v,nainen,14.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,CTO,Toimisto,6500,81250.0,Osuuskunta osuus,True,En oo ihan varma miten muut toisissa vastaavan kokoluokan yrityksissä saa palkkaa vastaavasta roolista.,,6770.833333333333
+2022-09-30 14:09:29.270,Palkansaaja,26-30 v,mies,8.0,,,,,,,Reaktor,PK-Seutu,Konsulttitalossa,1.0,"Senion full-stack kehittäjä, analyytikko",Etä,5950,75375,"Mahdollisuus ostaa yrityksen osakkeita, joista saa osinkoa",True,,,6281.25
+2022-09-30 14:15:30.708,Palkansaaja,41-45 v,mies,24.0,,,,,,,,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Senior Software Engineer,Etä,7500,93750,Optio-paketti.,True,,,7812.5
+2022-09-30 14:17:22.381,Palkansaaja,46-50 v,nainen,26.0,,,,,,,,Turku,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Team Lead,50/50,5650,79000,,False,,,6583.333333333333
+2022-09-30 14:20:19.170,Palkansaaja,41-45 v,mies,19.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Projektipäällikkö,50/50,5550,69000,"Firman kasvuprosentista johdettu kerroin * 1k€. Vaihteluväli siis 0..1000€/kk, toteutuma tällä hetkellä n. 400-500.",True,,,5750.0
+2022-09-30 14:31:05.400,Palkansaaja,36-40 v,,13.0,,,,,,,,Tampere,Konsulttitalossa,1.0,Full-stack-ohjelmistokehittäjä,50/50,5700,71250,,True,,,5937.5
+2022-09-30 14:51:38.678,Palkansaaja,36-40 v,mies,13.0,,,,,,,,Tampere,Konsulttitalossa,1.0,Full-stack/arkkitehti,50/50,6200,80000,,True,,,6666.666666666667
+2022-09-30 15:00:10.340,Palkansaaja,36-40 v,mies,15.0,,,,,,,,Oulu,Julkinen tai kolmas sektori,1.0,Opettaja,50/50,5500,65000,,True,,,5416.666666666667
+2022-09-30 15:02:07.055,Palkansaaja,36-40 v,mies,13.0,,,,,,,,Turku,Konsulttitalossa,1.0,Full-stack,50/50,8250,105000,Kuukausipalkka + päivystyskorvaukset + osingot,True,,,8750.0
+2022-09-30 15:17:32.601,Palkansaaja,36-40 v,mies,18.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Director,Etä,6250,95000,,False,,,7916.666666666667
+2022-09-30 15:17:33.193,Palkansaaja,36-40 v,mies,15.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Ohjelmistokehittäjä,50/50,5800,72500,,True,,,6041.666666666667
+2022-09-30 15:28:47.867,Palkansaaja,41-45 v,mies,20.0,,,,,,,Wolt,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Team Lead,Etä,6800,100000,Osakkeita/Optioita,True,,,8333.333333333334
+2022-09-30 15:37:16.181,Palkansaaja,26-30 v,muu,1.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Full-stack,Toimisto,3300,40000,,True,,,3333.3333333333335
+2022-09-30 15:52:13.947,Palkansaaja,26-30 v,mies,6.0,,,,,,,,Tampere,Konsulttitalossa,1.0,Ohjelmistokehittäjä,Etä,5000,62500,"Kuukausipalkka. Myös osakkeista pitäisi tulla osinkoja, mutta en ole ollut osakkeenomistajana vielä kokonaista tilikautta joten näistä tuleva raha on vielä mysteeri",True,,,5208.333333333333
+2022-09-30 15:55:38.357,Palkansaaja,41-45 v,mies,12.0,,,,,,,Vincit,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Full stack everything,Etä,4581,57500.0,,True,,,4791.666666666667
+2022-09-30 16:01:56.625,Palkansaaja,46-50 v,mies,8.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Senior developer,50/50,5490,68625,,True,,,5718.75
+2022-09-30 16:14:36.160,Palkansaaja,36-40 v,,10.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Backend kehittäjä,Etä,6600,84000,,True,,,7000.0
+2022-09-30 19:03:57.247,Laskuttaja,51-55 v,muu,31.0,6.0,"Softan kehitystä, arkkitehtuuria",60.0,30.0,Itse,Ulkomailta,,,,,,,,,,,,,
+2022-09-30 19:15:08.595,Palkansaaja,31-35 v,mies,7.0,,,,,,,,Tampere,Julkinen tai kolmas sektori,1.0,Full-stack-kehittäjä,Etä,5600,70000,Ei ole,True,,,5833.333333333333
+2022-09-30 19:39:25.159,Palkansaaja,41-45 v,mies,20.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,CTO,Etä,4500,54000,,False,,,4500.0
+2022-09-30 19:52:01.653,Palkansaaja,41-45 v,mies,8.0,,,,,,,Siili Solutionsj,PK-Seutu,Konsulttitalossa,1.0,Pilviarkkitehti/kehittäjä,Etä,4600,57500,,True,,,4791.666666666667
+2022-09-30 21:31:31.189,Palkansaaja,31-35 v,mies,4.0,,,,,,,Reaktor,PK-Seutu,Konsulttitalossa,1.0,Ohjelmistokehittäjä,50/50,5000,65000,,True,,,5416.666666666667
+2022-10-01 04:35:33.999,Palkansaaja,41-45 v,mies,15.0,,,,,,,,"Sydney, Australia","Tuotetalossa, jonka core-bisnes on softa",1.0,Senior Software Engineer,50/50,9000,108000,10.5% eläkemaksu palkan päälle (australialainen käytäntö) sekä ESOP,True,,,9000.0
+2022-10-01 05:44:04.485,Palkansaaja,46-50 v,mies,15.0,,,,,,,,PK-Seutu,Konsulttitalossa,0.8,Data engineer,Toimisto,5300,68000,"sitten on pieni määrä osakkeita, joista olen joutunut rahalla maksamaan",True,,,5666.666666666667
+2022-10-01 08:08:12.421,Palkansaaja,31-35 v,mies,12.0,,,,,,,Reaktor,PK-Seutu,Konsulttitalossa,1.0,Devaaja (full stack + mobiili),50/50,5665.0,77000,"Osakkeet, vuosibonus (koko firmalle sama), open source työ (palkan päälle)",False,,,6416.666666666667
+2022-10-01 08:17:31.730,Laskuttaja,26-30 v,mies,0.0,0.0,Web3 full stack,,70000.0,Itse,"Suomesta, Ulkomailta",,,,,,,,,,,,,
+2022-10-01 08:51:47.347,Palkansaaja,36-40 v,mies,18.0,,,,,,,Reaktor,Tampere,Konsulttitalossa,1.0,Arkkitehti,50/50,6300,78750,,True,,,6562.5
+2022-10-01 12:02:34.092,Palkansaaja,36-40 v,mies,13.0,,,,,,,Arado,Turku,Konsulttitalossa,1.0,Full-stack -devaaja,50/50,6500,82000,,True,,,6833.333333333333
+2022-10-01 12:57:37.327,Palkansaaja,41-45 v,,12.0,,,,,,,,Turku,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,,Etä,6750,81000,,True,,,6750.0
+2022-10-01 14:12:12.502,Palkansaaja,46-50 v,nainen,25.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Testaaja,Etä,7000,91000,"Palkka, bonukset, ei musta",True,,,7583.333333333333
+2022-10-01 16:20:38.499,Palkansaaja,31-35 v,mies,15.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,,Etä,9000,"112,5",,True,,,
+2022-10-01 16:37:39.802,Palkansaaja,36-40 v,mies,6.0,,,,,,,,Tampere,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Full-stack,Etä,4800,66000,,False,,,5500.0
+2022-10-01 18:10:25.200,Palkansaaja,26-30 v,mies,5.0,,,,,,,,Turku,Konsulttitalossa,1.0,Full-stack dev,50/50,4800,62000,,True,,,5166.666666666667
+2022-10-01 18:35:12.242,Palkansaaja,31-35 v,nainen,0.0,,,,,,,,Tampere,"Tuotetalossa, jonka core-bisnes on softa",0.8,Service Manager Trainee,Etä,1880,23500,,False,Koulu vielä kesken ja se vaikuttaa palkkaan,Koulutusta voisi kysyä ja onko se vielä kesken,1958.3333333333333
+2022-10-01 19:34:49.397,Palkansaaja,31-35 v,mies,6.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Ohjelmistokehittäjä ,50/50,5500,68750,,True,,,5729.166666666667
+2022-10-01 20:48:51.920,Palkansaaja,36-40 v,mies,13.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Full-stack,Etä,7200,90000,,True,,,7500.0
+2022-10-01 22:57:20.518,Palkansaaja,21-25 v,mies,10.0,,,,,,,,Turku,"Tuotetalossa, jonka core-bisnes on softa",1.0,"Laidasta laitaan koodia (frontend, backend, cloud, devops, arkkitehturointi, yms.) + esimieshommat",Etä,6500,78000,,False,"Palkka ei ole kilpailukykyinen, jos mietin paljonko pyytäisin vastaavasta positiosta palkkaa muissa yrityksissä, mutta varsin tarpeeksi nykyisessä yrityksessä.","Kompensaatioon sitomaton omistus, esim. founder yms. roolit.",6500.0
+2022-10-01 23:10:05.133,Palkansaaja,36-40 v,mies,11.0,,,,,,,"Pieni koodiputka, alle 1milj. liikevaihto",PK-Seutu,Konsulttitalossa,1.0,CTO,50/50,6000,78000,"Massia tulee, kunhan hoitaa.hommansa",True,,,6500.0
+2022-10-01 23:21:58.890,Laskuttaja,31-35 v,mies,2.0,2.0,Backend,,190000.0,Itse,Ulkomailta,,,,,,,,,,,"Työsuhteessa ulkomaalaiseen firmaan, ainoastaan palkanmaksu menee oman firman kautta",,
+2022-10-02 01:45:07.754,Palkansaaja,31-35 v,mies,10.0,,,,,,,Reaktor,Tampere,Konsulttitalossa,1.0,Full-stack,Etä,4700,60000,,False,,,5000.0
+2022-10-02 08:38:32.703,Palkansaaja,46-50 v,mies,22.0,,,,,,,,Tampere,Konsulttitalossa,1.0,Pilviasiantuntija,Etä,5290,66125,lisäksi henkilöstön osakesäästöohjelma,True,,,5510.416666666667
+2022-10-02 09:02:30.642,Palkansaaja,31-35 v,mies,5.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Full-stack,Etä,8000,100000,,True,,,8333.333333333334
+2022-10-02 09:04:44.575,Palkansaaja,31-35 v,mies,5.0,,,,,,,CGI,PK-Seutu,Konsulttitalossa,1.0,Ohjelmistosuunnittelija & scrum-master,Etä,4600,57500,Kuukausipalkasta 3% osakkeina,True,,,4791.666666666667
+2022-10-02 09:40:28.975,Palkansaaja,31-35 v,mies,8.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Frontend ohjelmistokehittäjä,Etä,5500,70000,,True,,,5833.333333333333
+2022-10-02 13:46:19.979,Palkansaaja,31-35 v,nainen,3.0,,,,,,,Siili,PK-Seutu,Konsulttitalossa,1.0,Fullstack,Etä,3350,41875.0,,False,,,3489.5833333333335
+2022-10-02 21:04:23.974,Palkansaaja,36-40 v,mies,16.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Cloud infra,Etä,12900,188000,Optiot listaamattomasta yrityksestä,True,"Yritys Yhdysvalloista, kuten suurin osa tiimiäkin. Presenssi myös Suomessa",,15666.666666666666
+2022-10-02 23:46:36.315,Palkansaaja,36-40 v,mies,12.0,,,,,,,,Tampere,Konsulttitalossa,1.0,Full-stack,Etä,6300,80000,,True,,,6666.666666666667
+2022-10-02 23:47:20.408,Palkansaaja,31-35 v,mies,5.0,,,,,,,,Tampere,Konsulttitalossa,1.0,,Etä,5000,62500,,True,,,5208.333333333333
+2022-10-03 06:50:07.928,Palkansaaja,46-50 v,mies,20.0,,,,,,,,Turku,Konsulttitalossa,1.0,Full-stack programmer,Etä,6400,80000,,True,,,6666.666666666667
+2022-10-03 06:51:35.204,Palkansaaja,36-40 v,mies,15.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,"Kehittäjä, tuotepäällikkö",Etä,7000,87500,,True,,,7291.666666666667
+2022-10-03 07:37:05.635,Laskuttaja,41-45 v,mies,18.0,4.0,,80.0,135000.0,Käytän välitysfirmoja,Suomesta,,,,,,,,,,,,,
+2022-10-03 08:13:55.448,Palkansaaja,36-40 v,mies,12.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Full-stack,Etä,4220,52750,,True,"Työnantaja maksaa etätoimiston vuokran ja nettiyhteyteni, näitä en laskenut vuosiansioihin mukaan.",Ehkä joku  työsuhde-edut rahallisesti osuus myös?,4395.833333333333
+2022-10-03 08:25:49.055,Palkansaaja,31-35 v,mies,10.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Android kehittäjä,Etä,7000,90000,osingoista 5% palkasta,True,,,7500.0
+2022-10-03 08:32:25.446,Palkansaaja,26-30 v,mies,10.0,,,,,,,Reaktor,PK-Seutu,Konsulttitalossa,1.0,"Ohjelmistokehittäjä, full-stack",50/50,6000,77000,,True,,,6416.666666666667
+2022-10-03 08:59:37.221,Palkansaaja,31-35 v,mies,8.0,,,,,,,,Turku,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Programmer/DevOps,50/50,4500,56250.0,56000,False,,,4687.5
+2022-10-03 09:14:48.769,Palkansaaja,26-30 v,mies,5.0,,,,,,,,Turku,Konsulttitalossa,1.0,Full-stack,Etä,4500,5062,,True,,,421.8333333333333
+2022-10-03 09:31:49.387,Palkansaaja,31-35 v,nainen,16.0,,,,,,,,Turku,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Team Lead,Etä,4900,61250,,False,,,5104.166666666667
+2022-10-03 09:41:54.443,Palkansaaja,41-45 v,mies,17.0,,,,,,,,Tampere,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,DevOps Manager,50/50,5500,84000,perusosa + 2x/y bonus + osingot,True,,,7000.0
+2022-10-03 09:44:08.074,Palkansaaja,31-35 v,nainen,4.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Ohjelmistokehittäjä (frontend),Toimisto,4000,50000.0,,True,,,4166.666666666667
+2022-10-03 10:10:10.716,Palkansaaja,31-35 v,nainen,7.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Full-stack ohjelmistokehittäjä,50/50,5500,70000,osakkeita,True,,,5833.333333333333
+2022-10-03 10:57:09.031,Palkansaaja,41-45 v,mies,5.0,,,,,,,Futurice,PK-Seutu,Konsulttitalossa,1.0,Ohjelmistokehittäjä,Etä,4750,60000,"Osan eri mittarien mukaan puolivuosittain maksettavasta muuttuvasta palkasta voi sijoittaa yrityksen osakkeisiin ja optioihin, jotka sitten pienentävät kokonaisvuosiansioita vastaavasti.",False,,,5000.0
+2022-10-03 11:16:53.957,Palkansaaja,36-40 v,mies,17.0,,,,,,,,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Teknologiajohtaja,50/50,7000,87500,Osakkeita ja optioita,True,,,7291.666666666667
+2022-10-03 11:32:37.881,Palkansaaja,26-30 v,mies,5.0,,,,,,,,Tampere,Konsulttitalossa,1.0,Ohjelmistokehittäjä,Toimisto,4600,57500,,True,,,4791.666666666667
+2022-10-03 11:52:47.556,Laskuttaja,36-40 v,mies,10.0,3.0,"Backend, frontend, full stack, arkkitehtuuri",95.0,140000.0,Itse,Suomesta,,,,,,,,,,,,,
+2022-10-03 12:00:38.720,Palkansaaja,21-25 v,mies,1.0,,,,,,,,Turku,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Front-end,Etä,2500,31250,,True,,,2604.1666666666665
+2022-10-03 12:55:42.510,Palkansaaja,36-40 v,mies,10.0,,,,,,,,Tampere,"Tuotetalossa, jonka core-bisnes on softa",1.0,,50/50,4720,59000,osakkuus,True,,,4916.666666666667
+2022-10-03 14:38:55.808,Palkansaaja,36-40 v,mies,16.0,,,,,,,,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Tech Lead,Etä,6900,86000,,True,,,7166.666666666667
+2022-10-03 14:39:15.866,Palkansaaja,36-40 v,mies,17.0,,,,,,,,Kalifornia,"Tuotetalossa, jonka core-bisnes on softa",1.0,Site Reliability Engineer,Etä,11250,11250,Työsuhdeoptiot,True,,,937.5
+2022-10-03 15:05:11.917,Palkansaaja,31-35 v,mies,9.0,,,,,,,,Oulu,Konsulttitalossa,1.0,Full-stack,Etä,5600,1000,osakkeita,True,,,83.33333333333333
+2022-10-03 15:52:02.025,Palkansaaja,26-30 v,mies,4.0,,,,,,,,Tampere,Konsulttitalossa,1.0,Backend Ohjelmistokehittäjä,50/50,4000,52800,,True,,,4400.0
+2022-10-03 16:40:06.375,Palkansaaja,41-45 v,mies,0.0,,,,,,,,PK-Seutu,Julkinen tai kolmas sektori,1.0,Varhaiskasvatuksen avustaja,Toimisto,1903,23788,,True,,,1982.3333333333333
+2022-10-03 19:30:09.249,Palkansaaja,31-35 v,mies,2.0,,,,,,,,Seinäjoki,"Tuotetalossa, jonka core-bisnes on softa",1.0,Software developer,Etä,2850,35625.0,,False,,,2968.75
+2022-10-03 19:40:34.054,Palkansaaja,36-40 v,mies,12.0,,,,,,,,Oulu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Projekti-insinööri,Etä,5000,80000,,True,,,6666.666666666667
+2022-10-03 19:43:31.032,Palkansaaja,31-35 v,,10.0,,,,,,,,Jyväskylä,Konsulttitalossa,1.0,,Etä,6500,81250.0,,True,,,6770.833333333333
+2022-10-03 19:45:41.398,Palkansaaja,31-35 v,mies,6.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Ohjelmistokehittäjä,Etä,4070,48500,,False,,,4041.6666666666665
+2022-10-03 19:48:19.830,Palkansaaja,36-40 v,mies,10.0,,,,,,,,Oulu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,DevOps,50/50,5100,65000,,True,,,5416.666666666667
+2022-10-03 19:48:23.292,Palkansaaja,31-35 v,mies,1.0,,,,,,,,Rauma,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Back-end,Etä,2300,28750,ei ole,False,,,2395.8333333333335
+2022-10-03 20:09:47.222,Palkansaaja,36-40 v,mies,12.0,,,,,,,,Tampere,"Tuotetalo, core-bisnes fyysisissä tuotteissa",0.8,Lead developer,Etä,4700,64000,Vuosibonus,True,,,5333.333333333333
+2022-10-03 20:12:10.421,Palkansaaja,46-50 v,mies,22.0,,,,,,,,Tampere,Julkinen tai kolmas sektori,1.0,Asiantuntija,Etä,4080,65000,,False,,,5416.666666666667
+2022-10-03 20:13:55.555,Palkansaaja,31-35 v,mies,10.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Backend,50/50,6000,75000.0,,True,,,6250.0
+2022-10-03 20:15:14.111,Palkansaaja,31-35 v,mies,8.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Full-stack kehittäjä,50/50,5800,72500,,True,,,6041.666666666667
+2022-10-03 20:34:46.929,Palkansaaja,41-45 v,mies,21.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,System specialist,Etä,5600,76500,,True,,,6375.0
+2022-10-03 20:36:53.971,Palkansaaja,26-30 v,mies,,,,,,,,,Tampere,Konsulttitalossa,1.0,,Etä,3750,46850,,False,,,3904.1666666666665
+2022-10-03 20:47:21.247,Palkansaaja,36-40 v,,4.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,DevOps Engineer,Etä,5400,72000,,True,,,6000.0
+2022-10-03 21:04:52.586,Palkansaaja,36-40 v,,15.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Devaaja/arkkitehti,Etä,5550,76000,,True,,,6333.333333333333
+2022-10-03 21:07:23.249,Palkansaaja,41-45 v,mies,17.0,,,,,,,,Oulu,teollisuus,1.0,Ict-admin,Toimisto,3900,51000,,True,,,4250.0
+2022-10-03 21:14:22.238,Palkansaaja,36-40 v,mies,14.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Ohjelmistokehittäjä,,4715,63400,"vuosibonuksia tulee, sekä bonus jos/kun yritys myydään",True,,,5283.333333333333
+2022-10-03 21:45:26.355,Palkansaaja,26-30 v,mies,5.0,,,,,,,Visma,Pori,"Tuotetalossa, jonka core-bisnes on softa",1.0,Full-stack,Etä,3700,46250,,False,,,3854.1666666666665
+2022-10-03 21:50:45.170,Palkansaaja,26-30 v,mies,4.0,,,,,,,,Tampere,"Tuotetalossa, jonka core-bisnes on softa",1.0,Full-stack,Etä,3600,44000,,False,,,3666.6666666666665
+2022-10-03 22:19:30.432,Palkansaaja,31-35 v,mies,9.0,,,,,,,,Pori,Useita pienempiä asiakasprojekteja.,1.0,Full-stack ohjelmistokehittäjä,50/50,4020,50250,,True,"Erittäin osaava, 20 vuotta harrastanut koodari, jolla on työkokemukseen nähden suuremmat kyvyt kuin useilla muilla.
+AMK-koulutus",,4187.5
+2022-10-03 22:32:58.334,Palkansaaja,26-30 v,mies,4.0,,,,,,,,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Lead Developer,50/50,5400,70000,,True,,,5833.333333333333
+2022-10-03 22:36:35.166,Palkansaaja,31-35 v,,9.0,,,,,,,Solita,Tampere,Konsulttitalossa,1.0,Full-stack,50/50,4450,55600,,False,,,4633.333333333333
+2022-10-03 22:58:24.853,Palkansaaja,26-30 v,mies,4.0,,,,,,,,Oulu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Full-stack,50/50,4350,55600,,False,,,4633.333333333333
+2022-10-03 23:01:57.707,Palkansaaja,41-45 v,mies,3.0,,,,,,,,Lahti,Konsulttitalossa,1.0,Backend,50/50,3680,46000,,False,,,3833.3333333333335
+2022-10-03 23:02:05.243,Palkansaaja,26-30 v,mies,2.0,,,,,,,,Pori,"Tuotetalossa, jonka core-bisnes on softa",1.0,Full-stack,50/50,3400,44000,,True,,Työsuhde-edut,3666.6666666666665
+2022-10-04 00:33:56.880,Palkansaaja,36-40 v,mies,12.0,,,,,,,,PK-Seutu,Julkinen tai kolmas sektori,1.0,Full-stack kehittäjä,50/50,5300,66250,,True,,,5520.833333333333
+2022-10-04 00:48:31.066,Palkansaaja,36-40 v,mies,18.0,,,,,,,,Tampere,Konsulttitalossa,1.0,Full-stack,Etä,4600,57500,,False,,,4791.666666666667
+2022-10-04 05:07:29.828,Palkansaaja,36-40 v,mies,10.0,,,,,,,,Tampere,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Arkkitehti,Etä,6600,95000,,True,,,7916.666666666667
+2022-10-04 05:34:40.054,Palkansaaja,31-35 v,mies,2.0,,,,,,,,Tampere,"Tuotetalossa, jonka core-bisnes on softa",1.0,Q&A tester,Etä,2800,35000,,False,,,2916.6666666666665
+2022-10-04 06:05:18.780,Palkansaaja,31-35 v,nainen,2.0,,,,,,,,Pori,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Fullstack,Etä,3100,38750,,False,,,3229.1666666666665
+2022-10-04 07:13:14.803,Palkansaaja,36-40 v,mies,15.0,,,,,,,,PK-Seutu,Konsulttitalossa,,"Ohjelmistokehittäjä, backend",Etä,4850,60625.0,,True,,,5052.083333333333
+2022-10-04 08:34:08.858,Palkansaaja,41-45 v,mies,20.0,,,,,,,,Oulu,"Tuotetalossa, jonka core-bisnes on softa",,,50/50,,,,,,,
+2022-10-04 09:01:51.829,Palkansaaja,31-35 v,mies,8.0,,,,,,,,Tampere,Konsulttitalossa,1.0,Full-stack ohjelmistokehittäjä/arkkitehti,50/50,4736,71000,"kk-palkka, osakeosingot, puhelinetu, lounari, kulttuuri/liikuntaetu",True,,,5916.666666666667
+2022-10-04 09:07:43.161,Palkansaaja,26-30 v,mies,4.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Full-stack,50/50,3650,49500,"Kuukausipalkka, osingot ja bonukset.",False,,,4125.0
+2022-10-04 09:56:25.348,Palkansaaja,41-45 v,mies,20.0,,,,,,,Pienehkö konsulttitalo osa isompaa grouppia,PK-Seutu,Konsulttitalossa,1.0,Full-stack lead developer,50/50,5900,73750,Kuukausipalkka + vähän reilummat etuudet,True,,,6145.833333333333
+2022-10-04 10:31:20.078,Palkansaaja,36-40 v,mies,7.0,,,,,,,PHZ Full Stack,PK-Seutu,Konsulttitalossa,1.0,Full-stack,Etä,6570,82125,,True,,,6843.75
+2022-10-04 11:02:47.765,Palkansaaja,36-40 v,mies,14.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Backend ohjelmistokehittäjä,50/50,6200,80000,Vähän optioita palkan päälle,False,,,6666.666666666667
+2022-10-04 11:15:06.895,Palkansaaja,26-30 v,mies,4.0,,,,,,,,Vaasa,"Tuotetalossa, jonka core-bisnes on softa",1.0,Full-stack,Etä,3200,40000,,False,,,3333.3333333333335
+2022-10-04 11:55:45.368,Palkansaaja,26-30 v,mies,4.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Ohjelmistokehittäjä (full-stack),Etä,3700,46250,,False,,,3854.1666666666665
+2022-10-04 12:05:03.399,Laskuttaja,36-40 v,mies,15.0,1.5,Arkkitehtuuria,120.0,300000.0,Itse,"Suomesta, Ulkomailta",,,,,,,,,,,,,
+2022-10-04 12:13:47.438,Laskuttaja,36-40 v,mies,15.0,10.0,"Softadevausta (full stack, fokus backend ja devops), arkkitehtuuria ja projektinvetoa, ja joskus koulutusta",90.0,100000.0,"Itse, Käytän välitysfirmoja","Suomesta, Ulkomailta",,,,,,,,,,,,,
+2022-10-04 12:21:40.892,Palkansaaja,36-40 v,nainen,15.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Business development,Etä,9600,120000,pienosakas,True,,,10000.0
+2022-10-04 12:24:47.901,Palkansaaja,26-30 v,mies,2.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Full-stack,Etä,3800,50000,Palkka + lounasetu,False,,,4166.666666666667
+2022-10-04 13:41:59.744,Palkansaaja,41-45 v,mies,20.0,,,,,,,,Vaasa,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Operations,Etä,5000,64000,,True,,,5333.333333333333
+2022-10-04 14:04:02.802,Palkansaaja,31-35 v,mies,15.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Solution Architect,50/50,11200,135000,signing bonus 2v + rsu later,True,,,11250.0
+2022-10-04 15:09:15.789,Palkansaaja,36-40 v,,5.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Frontend,Etä,4700,60000,,True,,,5000.0
+2022-10-04 15:14:56.727,Palkansaaja,31-35 v,mies,9.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Senior data scientist,Toimisto,6000,77000,prosenttiosuus edellisen kuukauden asiakaslaskutuksesta,True,,,6416.666666666667
+2022-10-04 15:23:29.791,Palkansaaja,36-40 v,mies,10.0,,,,,,,,Turku,"Tuotetalossa, jonka core-bisnes on softa",1.0,Full Stack Developer,50/50,5500,66000,,True,,,5500.0
+2022-10-04 15:46:05.672,Palkansaaja,36-40 v,mies,12.0,,,,,,,Cirit,Tampere,Konsulttitalossa,1.0,Senior frontend-kehittäjä,,4800,60000,,True,Kiitos vaivannäöstä tämän kyselyn järjestämiseksi!,,5000.0
+2022-10-04 15:58:27.807,Palkansaaja,41-45 v,mies,15.0,,,,,,,,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Lead developer,Etä,7150,95000,,True,,,7916.666666666667
+2022-10-04 16:58:48.904,Palkansaaja,36-40 v,mies,0.0,,,,,,,,Oulu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Junior sw developer,Toimisto,2600,32500,,True,,,2708.3333333333335
+2022-10-04 18:09:11.889,Palkansaaja,21-25 v,mies,4.0,,,,,,,,Turku,Konsulttitalossa,1.0,Ohjelmistokehittäjä (full-stack),50/50,4100,54500,,True,,,4541.666666666667
+2022-10-04 19:02:37.733,Palkansaaja,31-35 v,nainen,0.0,,,,,,,Accenture,PK-Seutu,Konsulttitalossa,1.0,Cloud Developer,50/50,2900,36250,,False,,,3020.8333333333335
+2022-10-04 19:02:46.796,Palkansaaja,26-30 v,mies,5.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Senior Consultant,Etä,5145,"64 312,5",Mukana pieni osakkuus,True,,,
+2022-10-04 20:29:28.381,Palkansaaja,36-40 v,,15.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Arkkitehti,Toimisto,5400,70000,,False,,,5833.333333333333
+2022-10-04 20:31:05.979,Palkansaaja,36-40 v,mies,15.0,,,,,,,Siili Solutions,PK-Seutu,Konsulttitalossa,1.0,Lead developer,50/50,6900,86000,,True,,,7166.666666666667
+2022-10-04 20:32:06.151,Palkansaaja,26-30 v,mies,10.0,,,,,,,,PK-Seutu,Konsulttitalossa,0.8,Full-stack,Etä,4730,62125,,True,,,5177.083333333333
+2022-10-04 20:33:09.201,Palkansaaja,36-40 v,,3.0,,,,,,,,PK-Seutu,,1.0,Data scientist,Etä,3750,48000,,False,,,4000.0
+2022-10-04 21:48:29.312,Laskuttaja,46-50 v,mies,24.0,1.0,"DevOps, ohjelmistoautomaatio",105.0,180000.0,"Itse, Verkosto",Suomesta,,,,,,,,,,,,,
+2022-10-04 22:01:59.922,Palkansaaja,41-45 v,mies,15.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Arkkitehti,Etä,6500,120000,,False,,,10000.0
+2022-10-05 08:08:51.812,Palkansaaja,36-40 v,mies,10.0,,,,,,,,Tampere,"Tuotetalossa, jonka core-bisnes on softa",1.0,Full stack ohjelmistokehittäjä,Etä,3500,44000,,True,,,3666.6666666666665
+2022-10-05 08:15:21.908,Laskuttaja,36-40 v,mies,18.0,8.0,"Webdev, full stack",50.0,80000.0,"Itse, Käytän välitysfirmoja",Ulkomailta,,,,,,,,,,,,,
+2022-10-05 08:38:01.616,Palkansaaja,36-40 v,mies,12.0,,,,,,,Mavericks,PK-Seutu,Konsulttitalossa,1.0,Konsultti,50/50,,104000,Provisiomalli lihotettuna bonuksilla myynnistä ja rekrystä,True,,,8666.666666666666
+2022-10-05 08:43:25.574,Palkansaaja,26-30 v,mies,5.0,,,,,,,,Vaasa,Konsulttitalossa,1.0,Full-stack,50/50,4500,60000,,True,,,5000.0
+2022-10-05 08:55:50.052,Palkansaaja,36-40 v,nainen,1.0,,,,,,,,Tampere,Konsulttitalossa,1.0,Junior Developer,Toimisto,3290,41125,"Ei mitään bonuksia, osakkeita tms. Liikunta-, kulttuuri- ja hyvinvointietu, laaja terveydenhuolto, hammashoito jne. löytyvät.",True,"Relevantti työkokemukseni voisi olla vähän enemmänkin, ei kuitenkaan kahta vuotta.",Työsuhde-edut ois kiva olla erillisenä kysymyksenä.,3427.0833333333335
+2022-10-05 09:20:31.328,Palkansaaja,31-35 v,mies,7.0,,,,,,,Nitor,PK-Seutu,Konsulttitalossa,1.0,Data Engineer,50/50,6700,84000,,True,,,7000.0
+2022-10-05 09:29:11.153,Laskuttaja,36-40 v,,12.0,4.0,Full stack,80.0,120000.0,"Käytän välitysfirmoja, LinkedIn:istä tullut suoraan monta kyselyä, nykyinenkin projekti",Suomesta,,,,,,,,,,,,,
+2022-10-05 09:44:34.778,Palkansaaja,41-45 v,mies,22.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Full-stack sovelluskehittäjä,Etä,5200,65000,,True,,,5416.666666666667
+2022-10-05 10:15:57.195,Palkansaaja,26-30 v,nainen,0.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Testaaja,Etä,2400,32200.0,,True,Hyvinvointietu 500e/vuosi + henkilökohtainen opiskelubudgetti,,2683.3333333333335
+2022-10-05 11:24:51.045,Palkansaaja,21-25 v,mies,0.0,,,,,,,,Tampere,Konsulttitalossa,1.0,Ohjelmistokehittäjä,Etä,2450,30625,,True,,,2552.0833333333335
+2022-10-05 11:47:13.016,Laskuttaja,36-40 v,mies,21.0,9.0,Devops,,160000.0,Itse,"Suomesta, Ulkomailta",,,,,,,,,,,,,
+2022-10-05 11:57:21.450,Palkansaaja,31-35 v,,15.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Full-stack developer,50/50,,80000,Peruspalkka + provisio,True,,,6666.666666666667
+2022-10-05 13:57:40.199,Palkansaaja,36-40 v,mies,14.0,,,,,,,,Tampere,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Lead developer,50/50,4630,58000,,False,,Voisi kysellä kuinka paljon työajasta voi käyttää itseopiskeluun tai muuhun ei suoraan tuottavaan työhön.,4833.333333333333
+2022-10-05 14:27:57.580,Palkansaaja,31-35 v,mies,8.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Full-stack,50/50,4500,65000,"osa tunneista laskutettavia, näistä bonus",False,,,5416.666666666667
+2022-10-05 16:05:48.095,Palkansaaja,26-30 v,mies,7.0,,,,,,,,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Team lead/full-stack,50/50,5600,70000,,True,,,5833.333333333333
+2022-10-05 19:17:24.202,Palkansaaja,31-35 v,,8.0,,,,,,,,Tampere,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Senior backend engineer,Etä,5100,63750.0,,True,,,5312.5
+2022-10-06 07:22:12.481,Palkansaaja,36-40 v,mies,12.0,,,,,,,,Oulu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Pilvi-infra,Etä,5800,85500,,True,,,7125.0
+2022-10-06 09:50:12.706,Palkansaaja,36-40 v,mies,12.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,"Ohjelmistokehittäjä (frontend-heavy full-stack, web/mobile))",50/50,5000,62500,,True,,,5208.333333333333
+2022-10-06 09:50:59.019,Palkansaaja,31-35 v,mies,11.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,C++/Qt/QML Ohjelmistokehittäjä,Toimisto,4000,50000,,False,,,4166.666666666667
+2022-10-06 10:07:24.193,Palkansaaja,36-40 v,mies,12.0,,,,,,,,Tampere,"Tuotetalossa, jonka core-bisnes on softa",1.0,Lead developer,50/50,7000,102500,,True,,,8541.666666666666
+2022-10-06 10:10:15.649,Palkansaaja,31-35 v,mies,3.0,,,,,,,,Turku,Konsulttitalossa,1.0,Full-stack -kehittäjä,Etä,4500,56250,,True,,,4687.5
+2022-10-06 12:16:48.934,Palkansaaja,26-30 v,,,,,,,,,,PK-Seutu,Konsulttitalossa,0.6,Backend,Etä,2800,35000.0,,False,,,2916.6666666666665
+2022-10-06 12:25:20.314,Palkansaaja,26-30 v,mies,5.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Integraatiokehittäjä,Etä,4000,50000,,False,,,4166.666666666667
+2022-10-06 12:29:27.738,Palkansaaja,36-40 v,mies,12.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Arkkitehti,50/50,6400,87000,,True,,,7250.0
+2022-10-06 13:24:10.954,Palkansaaja,31-35 v,mies,9.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Software developer,Etä,5000,63000,,False,,,5250.0
+2022-10-06 13:38:25.773,Palkansaaja,36-40 v,mies,20.0,,,,,,,Aiven,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Vanhempi ohjelmistokehittäjä,Etä,6167,77087,lisäksi optiot,True,,Palkan kilpailukykyisyyttä voisi arvioida skaalalla 1-5 eikä vain kyllä/ei....,6423.916666666667
+2022-10-06 16:39:02.766,Palkansaaja,31-35 v,,8.0,,,,,,,Siili,PK-Seutu,Konsulttitalossa,1.0,Frontend developer,Etä,4400,55000,,True,,,4583.333333333333
+2022-10-06 16:43:52.992,Palkansaaja,36-40 v,mies,13.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,"Senior kehittäjä, front ",50/50,4500,56750,,False,,,4729.166666666667
+2022-10-06 17:45:59.137,Palkansaaja,31-35 v,mies,7.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Cloud + DevOps,50/50,4800,60000,,True,,,5000.0
+2022-10-07 06:21:57.024,Palkansaaja,31-35 v,mies,8.0,,,,,,,Suomalaisen konsulttitalon jenkkikonttori,Kalifornia,Konsulttitalossa,1.0,Full-Stack dev,Toimisto,10000.0,130000.0,,False,Ulkomailla.,,10833.333333333334
+2022-10-07 07:31:51.362,Palkansaaja,31-35 v,mies,10.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Fullstack/azure kehittäjä,50/50,4700,58750,Vuosibonus tuloksesta,True,,Millä kielillä koodaa? Millä alustoilla?,4895.833333333333
+2022-10-07 08:38:29.411,Palkansaaja,36-40 v,muu,2.0,,,,,,,Roby,PK-Seutu,Konsulttitalossa,1.0,Ohjelmistokehittäjä,Etä,3100,38750,Yrityksen osakkeet,True,,,3229.1666666666665
+2022-10-07 08:57:18.957,Laskuttaja,36-40 v,mies,14.0,8.0,"Kehitän ja tarjoan alustaa ohjelmistoalalle. Teen käyttöliittymäsuunnittelua, projektin johtamista, alustan viestintää ja myyntiä.",,180000.0,Itse,Suomesta,,,,,,,,,,,,"Aikanaan, kun toteutin laajan palkkatutkimuksen ohjelmistoalalle, sisällytin mukaan monia kysymyksiä työntekijöiden rooleista, arvoista, koulutustasosta ja tehtävänimikkeistä. Näistä sai sitten todella mielenkiintoista tietoa yhdistettynä palkkatietoihin. 
+
+Vuosilaskutus on sellainen tapa kysyä palkkaa, että se johtaa helposti harhaan. Mitä jos on korkea laskutus, mutta päättää tehdä kuusituntista viikkoa? Mitä jos on vanhempainvapaalla puolet vuodesta? Tällaisella yhdellä vuosilaskutusta koskevalla kysymyksellä saa helposti harhaanjohtavia vastauksia.",
+2022-10-07 10:07:11.956,Palkansaaja,36-40 v,mies,14.0,,,,,,,Netumj,Tampere,Konsulttitalossa,1.0,Järjestelmäasiantuntija: DevOps,50/50,3600,45000,,True,,,3750.0
+2022-10-07 10:27:41.971,Palkansaaja,26-30 v,mies,3.0,,,,,,,,PK-Seutu,Julkinen tai kolmas sektori,1.0,Ohjelmistokehittäjä,Etä,3700,46250,,True,,,3854.1666666666665
+2022-10-07 13:03:56.556,Palkansaaja,31-35 v,nainen,2.0,,,,,,,Wolt,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Frontend developer,Etä,4250,53125,Kompensaation osana mahdollista saada optioita,True,"Olen alanvaihtaja, joten varsinaista työkokemusta devaajana on vähän, mutta domain-osaamista aiemman uran kautta paljon, joka vaikuttaa hieman palkkaan.","Kyselyn voisi toteuttaa myös englanniksi, sillä suomessa työskentelee paljon suomea taitamattomia :)",4427.083333333333
+2022-10-07 13:06:06.515,Palkansaaja,31-35 v,nainen,5.0,,,,,,,Solita,Tampere,Konsulttitalossa,1.0,Frontend-kehittäjä,50/50,3850,48125,,True,,,4010.4166666666665
+2022-10-07 13:14:05.341,Palkansaaja,36-40 v,nainen,15.0,,,,,,,,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Data scientist,Etä,5400,64800,,,,,5400.0
+2022-10-07 13:15:51.575,Palkansaaja,31-35 v,nainen,12.0,,,,,,,,Ruotsi,Julkinen tai kolmas sektori,0.8,Senior data scientist,50/50,3990,49875.0,,False,"Vastasin nyt yhden työnantajan mukaan, jolle teen 80% työaikaa. Teen myös 20% työaikaa eri työnantajalle ja sektorille mutta en huomioinut sitä vastauksissa koska menisi sekavaksi.","mietityttää, olisiko kuitenkin koulutustausta relevantti tieto?",4156.25
+2022-10-07 13:32:13.082,Palkansaaja,31-35 v,nainen,8.0,,,,,,,,PK-Seutu,,1.0,Data engineer,Etä,5565,"69562,5",Optiomalli,False,,,
+2022-10-07 13:37:47.322,Palkansaaja,41-45 v,mies,23.0,,,,,,,,Tampere,"Tuotetalossa, jonka core-bisnes on softa",0.6,"Arkkitehti, fullstack dev backend-painotuksella, devops",50/50,4500,60000,"Ajattelen että osana mun kompensaatiota on saamani poikkeuksellisen suuri joustavuus työn määrän, työaikoijen, lomien (myös palkattomien) ja kaiken muunkin työhön liittyvän suhteen. Koskaan ei ole tarvinnut sanoa mihinkään mihin oikeasti haluaisin että ""en pääse kun on tärkeä työjuttu silloin"".",True,,,5000.0
+2022-10-07 13:49:04.090,Palkansaaja,41-45 v,nainen,15.0,,,,,,,OP,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,,50/50,7000,90000,,True,,,7500.0
+2022-10-07 14:10:46.444,Palkansaaja,26-30 v,nainen,2.0,,,,,,,,Turku,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,,Etä,4000,48000,,True,,,4000.0
+2022-10-07 14:36:35.890,Palkansaaja,31-35 v,nainen,10.0,,,,,,,tietoliikennealan yritys,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,MDM-kehittäjä,Etä,6200,77500,"käytössä myös bonusmalli, mutta en ole varma määräytymisperusteesta",True,,,6458.333333333333
+2022-10-07 15:10:01.924,Palkansaaja,31-35 v,mies,10.0,,,,,,,Mavericks,Turku,Konsulttitalossa,1.0,Full-stack/liidi,Etä,7100,89000,51-54% laskutuksesta,True,,,7416.666666666667
+2022-10-07 16:17:06.550,Palkansaaja,31-35 v,nainen,8.0,,,,,,,,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Senior front end kehittäjä,50/50,5000,62.5,,False,,,5.208333333333333
+2022-10-07 17:22:27.856,Palkansaaja,26-30 v,mies,5.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Data Engineer,50/50,5000,68000,Kuukausipalkka ja päällä tasaisesti kaikille jaettava tulosperusteinen palkkio,True,,,5666.666666666667
+2022-10-07 19:08:04.486,Palkansaaja,41-45 v,,18.0,,,,,,,,Tampere,Konsulttitalossa,1.0,Lead dev,Toimisto,5250,72000,,True,,,6000.0
+2022-10-07 20:03:55.193,Palkansaaja,46-50 v,nainen,3.0,,,,,,,,Tampere,Konsulttitalossa,1.0,Fullstack,50/50,3190,39875.0,,False,,,3322.9166666666665
+2022-10-07 20:17:29.952,Palkansaaja,26-30 v,nainen,6.0,,,,,,,,Oulu,WordPress-projekteja,1.0,Web developer,50/50,3300,41750,,False,,,3479.1666666666665
+2022-10-07 20:21:16.460,Palkansaaja,26-30 v,nainen,5.0,,,,,,,Fraktio,PK-Seutu,Konsulttitalossa,1.0,Ohjelmistokehittäjä,Toimisto,4460,55750,,True,,,4645.833333333333
+2022-10-07 20:26:11.894,Palkansaaja,31-35 v,mies,9.0,,,,,,,,Oulu,Konsulttitalossa,1.0,Backend,Etä,5000,62500,,True,,,5208.333333333333
+2022-10-07 20:35:32.473,Palkansaaja,21-25 v,mies,4.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Full stack,Etä,5500,68750,,True,,,5729.166666666667
+2022-10-07 22:08:49.098,Palkansaaja,36-40 v,mies,2.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Backend,Etä,4130,51625,,False,,,4302.083333333333
+2022-10-08 05:03:22.290,Palkansaaja,36-40 v,mies,8.0,,,,,,,,PK-Seutu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Senior Software Developer,Etä,5680,71000,,True,,,5916.666666666667
+2022-10-08 07:46:16.260,Palkansaaja,41-45 v,mies,3.0,,,,,,,,Jyväskylä,"Tuotetalossa, jonka core-bisnes on softa",1.0,Palvelupäällikkö,50/50,4020,50000,,True,,,4166.666666666667
+2022-10-08 07:54:29.712,Palkansaaja,31-35 v,mies,1.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Full-stack,Etä,5000,60000,,True,,,5000.0
+2022-10-08 08:21:53.550,Palkansaaja,31-35 v,mies,8.0,,,,,,,Insta Advance,Tampere,Konsulttitalossa,1.0,"Senior SW Engineer, embedded systems",Etä,5500,70000,,True,,,5833.333333333333
+2022-10-08 08:50:50.086,Palkansaaja,36-40 v,mies,17.0,,,,,,,,Oulu,"Tuotetalossa, jonka core-bisnes on softa",1.0,"Ohjelmistokehittäjä, full-stack, arkkitehti, devops-asiantuntija",Etä,6000,80000,Osinkoja,True,,,6666.666666666667
+2022-10-08 09:24:40.387,Palkansaaja,36-40 v,mies,15.0,,,,,,,,Tampere,Konsulttitalossa,1.0,Arkkitehtu,Toimisto,6500,81250,,True,,,6770.833333333333
+2022-10-08 09:25:42.429,Palkansaaja,,mies,1.0,,,,,,,,Kuopio,"Tuotetalossa, jonka core-bisnes on softa",1.0,"Sovelluskehittäjä, full-stack",Toimisto,3150,39375,,True,,,3281.25
+2022-10-08 09:49:19.660,Palkansaaja,26-30 v,mies,4.0,,,,,,,Fraktio,PK-Seutu,Konsulttitalossa,1.0,Full-stack,Etä,4000,50000,,True,,,4166.666666666667
+2022-10-08 11:16:35.533,Palkansaaja,26-30 v,mies,5.0,,,,,,,,,"Tuotetalossa, jonka core-bisnes on softa",1.0,Full-stack,Etä,5000,66200,,True,,,5516.666666666667
+2022-10-08 11:23:46.297,Palkansaaja,36-40 v,mies,18.0,,,,,,,,Oulu,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Full-stack,Etä,5100,63750,,False,,,5312.5
+2022-10-08 12:37:54.607,Palkansaaja,41-45 v,mies,16.0,,,,,,,,Oulu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Embedded C++,Etä,6200,80000,Osakkeita noin 1500 euroa/vuosi,True,,,6666.666666666667
+2022-10-08 15:35:53.194,Laskuttaja,36-40 v,,16.0,16.0,CxO,150.0,,Itse,Suomesta,,,,,,,,,,,,,
+2022-10-08 15:54:59.772,Palkansaaja,46-50 v,mies,24.0,,,,,,,,Oulu,"Tuotetalossa, jonka core-bisnes on softa",1.0,"Ohjelmistokehittäjä, sulautetut",Etä,4835,65000,,True,,,5416.666666666667
+2022-10-08 17:51:29.718,Palkansaaja,31-35 v,mies,10.0,,,,,,,,Keskipohjanmaa,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,CIO,50/50,7300,91250.0,91250,True,,,7604.166666666667
+2022-10-08 20:21:43.246,Palkansaaja,36-40 v,mies,16.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Cto,Etä,6200,77500,osakkeita lisäksi,True,,,6458.333333333333
+2022-10-08 23:16:00.790,Palkansaaja,36-40 v,nainen,1.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Testiautomaatiokehittäjä,Toimisto,3000,37500.0,,True,"Olen työsuhteessa vuokrafirman kautta just nyt. Jos en olisi, saisin enemmän palkkaa.",,3125.0
+2022-10-09 13:08:09.075,Palkansaaja,46-50 v,mies,23.0,,,,,,,,Tampere,Julkinen tai kolmas sektori,0.8,Projektipäällikkö,Toimisto,3500,45000,,True,,,3750.0
+2022-10-09 15:03:32.501,Palkansaaja,41-45 v,mies,26.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",0.8,CTO,Etä,10500,150000,Osakeomistus,True,,,12500.0
+2022-10-09 16:13:16.580,Palkansaaja,26-30 v,mies,5.0,,,,,,,,Tampere,"Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)",1.0,Full-stack,Etä,4600,60000,,True,,,5000.0
+2022-10-09 16:51:46.348,Palkansaaja,36-40 v,mies,16.0,,,,,,,Futurice,Tampere,Konsulttitalossa,0.8,Tech Lead,Etä,4120,56000,,False,,,4666.666666666667
+2022-10-09 17:09:07.468,Palkansaaja,31-35 v,mies,11.0,,,,,,,,Oulu,Julkinen tai kolmas sektori,1.0,,Toimisto,4600,73000,,True,,,6083.333333333333
+2022-10-09 17:22:25.072,Palkansaaja,36-40 v,mies,3.0,,,,,,,,Joensuu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Ohjelmistokehittäjä,Etä,2700,33750,,False,,,2812.5
+2022-10-09 17:24:50.776,Palkansaaja,36-40 v,mies,15.0,,,,,,,Wolt,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Engineering team lead,Etä,8300,200000.0,"Pörssilistatun yrityksen RSUt, jotka vestautuu neljä kertaa vuodessa.",True,,,16666.666666666668
+2022-10-09 17:30:19.543,Palkansaaja,31-35 v,,10.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,CTO,Toimisto,5000,62500,Optioina useampi prosentti työnantajan osakekannasta,True,,,5208.333333333333
+2022-10-09 17:34:45.610,Palkansaaja,36-40 v,,12.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Full-stack developer,Etä,8000,100000,,True,,,8333.333333333334
+2022-10-09 17:39:53.513,Palkansaaja,46-50 v,mies,25.0,,,,,,,,,"Tuotetalossa, jonka core-bisnes on softa",1.0,Vanhempi ohjelmistokehittäjä,Etä,5500,75000,,True,,,6250.0
+2022-10-09 17:40:41.316,Laskuttaja,36-40 v,mies,15.0,13.0,Full stack,107.5,180000.0,Käytän välitysfirmoja,Suomesta,,,,,,,,,,,,,
+2022-10-09 17:59:59.136,Palkansaaja,36-40 v,mies,14.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Software Engineer,50/50,8000,120000,Kuukausipalkka + Optiot,True,,,10000.0
+2022-10-09 18:56:30.713,Palkansaaja,36-40 v,mies,20.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Web-analyytikko,Etä,7300,90000,,False,,,7500.0
+2022-10-09 19:31:27.704,Laskuttaja,26-30 v,mies,4.0,1.0,Full stack,86.0,125000.0,Käytän välitysfirmoja,Suomesta,,,,,,,,,,,,,
+2022-10-09 20:54:49.686,Palkansaaja,31-35 v,nainen,0.0,,,,,,,,PK-Seutu,"Tuotetalossa, jonka core-bisnes on softa",1.0,Junior frontend dev,Etä,3750,47000,"Palkkamalliin kuului osakkeita n. 17t € arvosta, vestautumisaika 4 vuotta, kertyvät asteittain.",True,,"Työkokemusvuosien vaihtoehdoissa voisi olla kokonaislukujen sijaan mahdollista valita myös esim. ""alle vuosi"". Mun relevantti kokemus alalta on puoli vuotta, joten en haluais millään vastata ""nolla vuotta"" 😄",3916.6666666666665
+2022-10-09 21:34:52.664,Palkansaaja,31-35 v,mies,6.0,,,,,,,,Lappeenranta,Konsulttitalossa,0.8,,50/50,4200,52500,,,,,4375.0
+2022-10-09 22:07:02.512,Palkansaaja,31-35 v,,5.0,,,,,,,,Tampere,"Tuotetalossa, jonka core-bisnes on softa",1.0,Team leader,50/50,5100,63750.0,,False,,,5312.5
+2022-10-09 22:29:23.021,Palkansaaja,31-35 v,mies,6.0,,,,,,,,PK-Seutu,Konsulttitalossa,1.0,Ohjelmistokehittäjä,Toimisto,4730,61000,Kiinteä kuukausipalkka + vuosibonus yrityksen tuloksen mukaan,False,,,5083.333333333333
+2022-10-10 06:26:34.080,Laskuttaja,31-35 v,mies,12.0,,,170.0,,Itse,"Suomesta, Ulkomailta",,,,,,,,,,,,,
+2022-10-10 06:52:45.143,Palkansaaja,26-30 v,mies,2.0,,,,,,,Helsingin Kaupunki,PK-Seutu,Julkinen tai kolmas sektori,1.0,"Backend, devops, projektipäällikkö",Toimisto,2300,28750,,False,,,2395.8333333333335
+2022-10-10 07:46:57.646,Palkansaaja,31-35 v,,7.0,,,,,,,Fraktio,PK-Seutu,Konsulttitalossa,1.0,Suunnittelija,50/50,4900,61250,,True,,,5104.166666666667
+2022-10-10 07:49:49.204,Laskuttaja,21-25 v,mies,7.0,4.0,"Backend, systems",120.0,135000.0,Itse,Ulkomailta,,,,,,,,,,,,,
