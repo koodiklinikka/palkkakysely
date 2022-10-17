@@ -8,6 +8,7 @@ def main():
     df = force_tulot_numeric(df)
     df = force_age_numeric(df)
     profile = ProfileReport(df)
+    profile.config.vars.cat.n_obs = 20
     profile.to_file(OUT_DIR / "profiling_report.html")
 
 

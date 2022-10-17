@@ -5,16 +5,18 @@ import pandas as pd
 
 from pulkka.config import DATA_DIR
 
+ETA_VAI_LAHI_COL = "Etä- vai lähityö"
+
 COLUMN_MAP = {
     # 2021
     "Missä kaupungissa työpaikkasi pääasiallinen toimisto sijaitsee?": "Kaupunki",
     "Työaika (jos työsuhteessa)": "Työaika",
-    "Etänä vai paikallisesti?": "Etä",
+    "Etänä vai paikallisesti?": ETA_VAI_LAHI_COL,
     "Vuositulot (sis. bonukset, osingot yms) / Vuosilaskutus (jos laskutat)": "Vuositulot",
     "Kuukausipalkka (jos työntekijä) (brutto)": "Kuukausipalkka",
     "Onko palkkasi nykyroolissasi mielestäsi kilpailukykyinen?": "Kilpailukykyinen",
     # 2022
-    "Etänä vai lähityössä?": "Etä",
+    "Etänä vai lähityössä?": ETA_VAI_LAHI_COL,
     "Kuukausipalkka (brutto, euroina)": "Kuukausipalkka",
     "Vuositulot (sis. bonukset, osingot yms, euroina)": "Vuositulot",
     "Mitä palveluja tarjoat?": "Palvelut",
@@ -25,6 +27,23 @@ ETATYO_MAP = {
     "Pääosin tai kokonaan toimistolla": "Toimisto",
     "Noin 50/50 hybridimalli": "50/50",
     "Jotain siltä väliltä": "50/50",
+}
+
+COMPANY_MAP = {
+    'Siili Solutions': 'Siili',
+    'Mavericks Software': 'Mavericks',
+}
+
+FULL_STACK_ROLE = 'Full-stack'
+
+ROLE_MAP = {
+    'Full-stack developer': FULL_STACK_ROLE,
+    'Full-stack kehittäjä': FULL_STACK_ROLE,
+    'Full-stack ohjelmistokehittäjä': FULL_STACK_ROLE,
+    'Full-stack-kehittäjä': FULL_STACK_ROLE,
+    'Fullstack': FULL_STACK_ROLE,
+    'Ohjelmistokehittäjä (full-stack)': FULL_STACK_ROLE,
+    'Ohjelmistokehittäjä, full-stack': FULL_STACK_ROLE,
 }
 
 
@@ -90,19 +109,24 @@ def read_data() -> pd.DataFrame:
     # Turn työaika into 0% - 100%
     df["Työaika"] = pd.to_numeric(df["Työaika"], errors="coerce").clip(0, 1)
 
-    df["Etä"] = df["Etä"].map(ETATYO_MAP).astype("category")
+    df["Etä"] = df[ETA_VAI_LAHI_COL].map(ETATYO_MAP).astype("category")
     df["Kilpailukykyinen"].replace({"Kyllä": True, "Ei": False}, inplace=True)
 
     # Try to clean up numbers with spaces, etc. to real numbers
     df["Kuukausipalkka"] = df["Kuukausipalkka"].apply(map_numberlike)
     df["Vuositulot"] = df["Vuositulot"].apply(map_numberlike)
 
-    # Remove Oy, Oyj, etc. from work places
-    df["Työpaikka"] = df["Työpaikka"].replace(re.compile(r"\s+oy|oyj$", flags=re.I), "")
+    # Fix up Työpaikka
+    df["Työpaikka"].replace("-", np.nan, inplace=True)
+    df["Työpaikka"].replace(re.compile(r"\s+oy|oyj$", flags=re.I), "", inplace=True)
+    df["Työpaikka"] = df["Työpaikka"].map(COMPANY_MAP).fillna(df["Työpaikka"])
 
     # Normalize initial capitalization in Rooli and Palvelut
     df["Rooli"] = df["Rooli"].apply(ucfirst)
     df["Palvelut"] = df["Palvelut"].apply(ucfirst)
+
+    # Map Rooli via known roles
+    df["Rooli"] = df["Rooli"].map(ROLE_MAP).fillna(df["Rooli"])
 
     # Fill in Vuositulot as 12.5 * Kk-tulot if empty
     df["Vuositulot"] = df.apply(map_vuositulot, axis=1)
