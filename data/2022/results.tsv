@@ -22,7 +22,7 @@ Timestamp	Oletko palkansaaja vai laskuttaja?	Ikä	Sukupuoli	Työkokemus	Montako 
 26/09/2022 17:05:04	Palkansaaja	36-40 v	Mies	14									Tuotetalossa, jonka core-bisnes on softa	100%	Fullstack	Pääosin tai kokonaan etätyö	8000	100000	Optioita	Kyllä		
 26/09/2022 17:05:24	Palkansaaja	31-35 v	Mies	6							Gofore	Turku	Konsulttitalossa	100%	Cloud specialist	Pääosin tai kokonaan etätyö	3500	43750		Ei		5/5 hyvää duunia 
 26/09/2022 17:06:37	Palkansaaja	31-35 v		11								PK-Seutu (Helsinki, Espoo, Vantaa)	Tuotetalossa, jonka core-bisnes on softa	100%		Pääosin tai kokonaan etätyö	9400	135000	Palkka+osakkeet+bonus+optiot	Kyllä		
-26/09/2022 17:07:08	Palkansaaja	36-40 v	Mies	5								Oulu	Konsulttitalossa	100%	Full-stack ohjelmistokehittäjä	Pääosin tai kokonaan etätyö	5800	0		Kyllä		
+26/09/2022 17:07:08	Palkansaaja	36-40 v	Mies	5								Oulu	Konsulttitalossa	100%	Full-stack ohjelmistokehittäjä	Pääosin tai kokonaan etätyö	5800	72500		Kyllä		
 26/09/2022 17:08:16	Palkansaaja	26-30 v	Mies	9								Turku	Konsulttitalossa	100%	Full-stack	Pääosin tai kokonaan etätyö	4300	54000		Ei		
 26/09/2022 17:10:12	Palkansaaja	36-40 v	Mies	13							Vincit	Tampere	Konsulttitalossa	100%	Ohjelmistokehittäjä	Jotain siltä väliltä	5600	70000		Ei		
 26/09/2022 17:11:52	Laskuttaja	31-35 v	Mies	7	4	Devausta ja projarointia	120	200000	Itse	Suomesta												
@@ -60,7 +60,7 @@ Timestamp	Oletko palkansaaja vai laskuttaja?	Ikä	Sukupuoli	Työkokemus	Montako 
 26/09/2022 18:54:57	Palkansaaja	> 55 v	Mies	28								PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%	Ohjelmoija	Pääosin tai kokonaan etätyö	6300	70000		Ei		
 26/09/2022 18:55:22	Palkansaaja	36-40 v	M	15								Tampere	Tuotetalossa, jonka core-bisnes on softa	100%	Tiiminvetäjä	Pääosin tai kokonaan etätyö	6300	75600		Kyllä		
 26/09/2022 19:06:55	Palkansaaja	41-45 v	Mies	16								PK-Seutu (Helsinki, Espoo, Vantaa)	Tuotetalossa, jonka core-bisnes on softa	100%	Ohjelmistokehittäjä (backend)	Pääosin tai kokonaan toimistolla	6747	133000	KK-palkka + RSU (sekä refresher joka vuosi)	Kyllä		
-26/09/2022 19:06:56	Palkansaaja	41-45 v	M	25								Ulkomailla	Tuotetalossa, jonka core-bisnes on softa	100%	Jonkinmoinen johtaja	Jotain siltä väliltä	22500	350000-400000	Lisäksi firman osakkeita n. 800k€ vuodessa.	Kyllä		
+26/09/2022 19:06:56	Palkansaaja	41-45 v	M	25								Ulkomailla	Tuotetalossa, jonka core-bisnes on softa	100%	Jonkinmoinen johtaja	Jotain siltä väliltä	22500	350000	Lisäksi firman osakkeita n. 800k€ vuodessa.	Kyllä		
 26/09/2022 19:07:00	Palkansaaja	26-30 v	Mies	8							Hoxhunt	PK-Seutu (Helsinki, Espoo, Vantaa)	Tuotetalossa, jonka core-bisnes on softa	100%	Full-stack -ohjelmistokehittäjä	Pääosin tai kokonaan toimistolla	6125	76000	Optiot	Kyllä		
 26/09/2022 19:08:10	Palkansaaja	41-45 v	Mies	22								PK-Seutu (Helsinki, Espoo, Vantaa)	Tuotetalossa, jonka core-bisnes on softa	100%	Lead Engineer	Pääosin tai kokonaan etätyö	7000	95000	Palkka+vuosibonus+optiot	Kyllä		
 26/09/2022 19:09:15	Palkansaaja	21-25 v	Nainen	3								Tampere	Konsulttitalossa	60%	Fullstack Developer	Jotain siltä väliltä	1660	23200		Ei		
@@ -147,14 +147,14 @@ Timestamp	Oletko palkansaaja vai laskuttaja?	Ikä	Sukupuoli	Työkokemus	Montako 
 27/09/2022 08:02:21	Palkansaaja	26-30 v	Mies	5								PK-Seutu (Helsinki, Espoo, Vantaa)	Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)	100%	Backend/Data Engineer	Pääosin tai kokonaan etätyö	5800	72500	Optioita 4 vuoden vestauksella	Kyllä		Firman kokoa voisi kysyä. Starttien kompensaatiomallit eroaa huomattavasti megakorpoista.
 27/09/2022 08:04:53	Palkansaaja	36-40 v	Mies	16								Turku	Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)	100%	Ohjelmistokehittäjä (backend)	Pääosin tai kokonaan etätyö	4200	56700		Kyllä		
 27/09/2022 08:09:38	Palkansaaja	36-40 v	Mies	10							Zevoy Oy	Tampere	Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)	100%	Senior Backend Developer	Pääosin tai kokonaan etätyö	7070	88375	Osakkeet	Kyllä		
-27/09/2022 08:12:33	Palkansaaja	31-35 v	Mies	7								PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%	Frontend	Pääosin tai kokonaan etätyö	6000	80 000		Kyllä		
+27/09/2022 08:12:33	Palkansaaja	31-35 v	Mies	7								PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%	Frontend	Pääosin tai kokonaan etätyö	6000	80000		Kyllä		
 27/09/2022 08:14:16	Palkansaaja	26-30 v		11							Mavericks	Turku	Konsulttitalossa	100%	full-stack/frontend	Pääosin tai kokonaan etätyö	7300	91250		Kyllä		
 27/09/2022 08:16:19	Palkansaaja	36-40 v	Mies	12							Siili One	PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%	Asiantuntija käyttöliittymä suunnittelussa sekä frontti kehityksessä	Pääosin tai kokonaan etätyö	7300			Kyllä	Kiitos kun teette avointa palkkakyselyä	Tuntilaskutus summaa
 27/09/2022 08:17:19	Palkansaaja	41-45 v	Mies	22								Tampere	Konsulttitalossa	100%	Ohjelmistoarkkitehti	Pääosin tai kokonaan etätyö	5200	65000		Kyllä		
 27/09/2022 08:17:32	Palkansaaja	26-30 v	Mies	2							Knowit Solutions	PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%	QA	Jotain siltä väliltä	4000	48000		Kyllä		
 27/09/2022 08:18:47	Palkansaaja	31-35 v	Mies	11								PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%	full-stack developer	Jotain siltä väliltä	5500	68750	osakkeita	Kyllä		
 27/09/2022 08:22:16	Palkansaaja	41-45 v	Äijä	20								Tampere	Tuotetalossa, jonka core-bisnes on softa	100%	full-stack	Pääosin tai kokonaan toimistolla	5200	62000		Kyllä		
-27/09/2022 08:23:55	Palkansaaja	31-35 v	mies	12								PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%	Data Developer	Jotain siltä väliltä	5400	70 000	kiinteä kk-palkka + max. 10% bonus	Ei		
+27/09/2022 08:23:55	Palkansaaja	31-35 v	mies	12								PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%	Data Developer	Jotain siltä väliltä	5400	70000	kiinteä kk-palkka + max. 10% bonus	Ei		
 27/09/2022 08:28:03	Palkansaaja	41-45 v	nainen	6							Siili	PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%	full-stack devaaja	Jotain siltä väliltä	4397	49400		Kyllä		
 27/09/2022 08:28:49	Palkansaaja	36-40 v	Mies	12							Siili Solutions	PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%	ohjelmistokehittäjä (full-stack)	Pääosin tai kokonaan toimistolla	4500	4800	0-400€ kuukausipalkasta osakkeita ja saman verran optioita, kerrytetään 6kk ja ostetaan markkinahintaan	Kyllä		
 27/09/2022 08:30:28	Palkansaaja	31-35 v	Mies	8								PK-Seutu (Helsinki, Espoo, Vantaa)	Tuotetalossa, jonka core-bisnes on softa	100%	SRE	Jotain siltä väliltä	5500	68750	Optioita tulee edellisen rahoituskierroksen valuaation pohjalta n. 4000e/kk	Ei		
@@ -167,7 +167,7 @@ Timestamp	Oletko palkansaaja vai laskuttaja?	Ikä	Sukupuoli	Työkokemus	Montako 
 27/09/2022 09:17:15	Palkansaaja	31-35 v	Nainen	4								PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%	Ohjelmistokehittäjä	Jotain siltä väliltä	3834	47925		Kyllä		
 27/09/2022 09:19:10	Palkansaaja	31-35 v	mies	5								PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%	full-stack	Pääosin tai kokonaan etätyö	5400	67500		Ei		
 27/09/2022 09:19:15	Palkansaaja	41-45 v	Mies	21								PK-Seutu (Helsinki, Espoo, Vantaa)	Tuotetalossa, jonka core-bisnes on softa	100%	Backend-devaaja	Pääosin tai kokonaan toimistolla	8200	210000	Peruspalkka + RSU + bonus	Kyllä		
-27/09/2022 09:28:03	Palkansaaja	31-35 v	Mies	6							Elektrobit Automotive Finland Oy	Oulu	Tuotetalossa, jonka core-bisnes on softa	100%	Senior Software Engineer	Jotain siltä väliltä	4905	61312,5		Kyllä		
+27/09/2022 09:28:03	Palkansaaja	31-35 v	Mies	6							Elektrobit Automotive Finland Oy	Oulu	Tuotetalossa, jonka core-bisnes on softa	100%	Senior Software Engineer	Jotain siltä väliltä	4905	61312.5		Kyllä		
 27/09/2022 09:51:28	Palkansaaja	36-40 v	mies	11								PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%	fullstack	Pääosin tai kokonaan etätyö	5850	110000	osinkoa tuloksen mukaan, n. 40k vuodessa	Kyllä		
 27/09/2022 09:51:59	Palkansaaja	21-25 v	Mies	2								Tampere	Tuotetalossa, jonka core-bisnes on softa	100%	Projektipäällikkö	Pääosin tai kokonaan toimistolla	3000	39500		Kyllä		Mahdollisesti kysymys siitä kuinka tietoinen "haastateltava" on oman alansa palkkatilanteesta. Tätä kautta saisi tietoa siitä miten ajantasalla vastaajat ovat, ja pitääkö oma käsitys palkkatasosta paikkansa kyselyn tulosten perusteella. 
 27/09/2022 09:58:30	Palkansaaja	31-35 v	Nainen	9								PK-Seutu (Helsinki, Espoo, Vantaa)	Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)	100%	Ohjelmistokehittäjä (full-stack)	Pääosin tai kokonaan etätyö	4800	0		Ei		
@@ -187,7 +187,7 @@ Timestamp	Oletko palkansaaja vai laskuttaja?	Ikä	Sukupuoli	Työkokemus	Montako 
 27/09/2022 11:25:30	Palkansaaja	36-40 v	Nainen	14							Vincit	Tampere	Konsulttitalossa	100%	ohjelmistokehittäjä ja designer	Saa tehdä työt miten haluaa, vaikka kokonaan etänä, mutta itse pidän toimistolla työskentelemisestä joten olen siellä	4700	70000	peruspalkka + compdev bonus + yksikön tulokseen pohjautuva bonus + onsite bonus	Kyllä		
 27/09/2022 11:29:19	Palkansaaja	26-30 v	nainen	5								Turku	Tuotetalossa, jonka core-bisnes on softa	100%	full-stack	Jotain siltä väliltä	4300	53750		Kyllä		
 27/09/2022 11:38:36	Palkansaaja	36-40 v	Mies	16								Turku	Tuotetalossa, jonka core-bisnes on softa	100%	CTO	Pääosin tai kokonaan etätyö	4000	50000	Maksutta saatu omistusosuus startupista 4v vestingillä	Ei		
-27/09/2022 11:38:44	Palkansaaja	31-35 v	Nainen	8								Tampere	Konsulttitalossa	100%	Ohjelmistokehittäjä, enimmäkseen backend	Jotain siltä väliltä	4640,71	58008,87		Kyllä		
+27/09/2022 11:38:44	Palkansaaja	31-35 v	Nainen	8								Tampere	Konsulttitalossa	100%	Ohjelmistokehittäjä, enimmäkseen backend	Jotain siltä väliltä	4640.71	58008.87		Kyllä		
 27/09/2022 11:51:18	Palkansaaja	31-35 v		7							Gofore	PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%	Cloud	Pääosin tai kokonaan etätyö	5200	65000		Kyllä		
 27/09/2022 11:52:24	Palkansaaja	31-35 v	M	15								Tampere	Konsulttitalossa	100%	Backend developer	Pääosin tai kokonaan etätyö	5200	70000		Kyllä		
 27/09/2022 11:53:12	Palkansaaja	36-40 v	Mies	9								Turku	Konsulttitalossa	100%	Full-stack-kehittäjä	Jotain siltä väliltä	4750	60000		Ei		
@@ -198,7 +198,7 @@ Timestamp	Oletko palkansaaja vai laskuttaja?	Ikä	Sukupuoli	Työkokemus	Montako 
 27/09/2022 12:04:07	Palkansaaja	36-40 v	Mies	10								PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%	Full-stack ohjelmistokehittäjä	Jotain siltä väliltä	4874	60925		Kyllä		
 27/09/2022 12:05:07	Palkansaaja	41-45 v	M	22								PK-Seutu (Helsinki, Espoo, Vantaa)	Tuotetalossa, jonka core-bisnes on softa	100%	Ohjelmoija	Pääosin tai kokonaan toimistolla	4500	56250	Optioita	Ei		
 27/09/2022 12:06:32	Palkansaaja	26-30 v	Mies	1									Tuotetalossa, jonka core-bisnes on softa	100%	Full stack (ainut työntekijä)	Pääosin tai kokonaan etätyö	2200	26400	Ei muuta	Ei	Roolina rakentaa yksin sovellus tyhjästä (pienellä palkalla :D)	
-27/09/2022 12:08:20	Palkansaaja	41-45 v	Mies	17							AtoZ Oy	Tampere	Konsulttitalossa	100%	Ohjelmistotestaaja	Pääosin tai kokonaan toimistolla	4239,17	60757,96	Pohjapalkka + laskutusbonus	Kyllä		
+27/09/2022 12:08:20	Palkansaaja	41-45 v	Mies	17							AtoZ Oy	Tampere	Konsulttitalossa	100%	Ohjelmistotestaaja	Pääosin tai kokonaan toimistolla	4239.17	60757.96	Pohjapalkka + laskutusbonus	Kyllä		
 27/09/2022 12:13:56	Palkansaaja	36-40 v		17								Hajautettu	Konsulttitalossa	100%		Pääosin tai kokonaan etätyö	7800	93600		Ei		
 27/09/2022 12:14:40	Palkansaaja	41-45 v	Mies	1								PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%	Frontend-painotteinen FullStack software dev	Pääosin tai kokonaan toimistolla	3200	40000		Ei		
 27/09/2022 12:17:22	Palkansaaja	36-40 v	Mies	12								Oulu	Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)	100%	full-stack	Jotain siltä väliltä	5100	63750	Optiot ja bonukset käytössä mutta realisoituminen sitte toinen asia.	Ei		
@@ -232,12 +232,12 @@ Timestamp	Oletko palkansaaja vai laskuttaja?	Ikä	Sukupuoli	Työkokemus	Montako 
 27/09/2022 15:15:43	Palkansaaja	31-35 v	mies	14							Liikennevirta Oy	PK-Seutu (Helsinki, Espoo, Vantaa)	Tuotetalossa, jonka core-bisnes on softa	100%	lead cloud engineer	Pääosin tai kokonaan etätyö	7000	91700		Kyllä		
 27/09/2022 15:34:50	Palkansaaja	36-40 v	Mies	10								Tampere	Konsulttitalossa	100%	Ohjelmistokehittäjä	Pääosin tai kokonaan etätyö	4000	50000		Ei		
 27/09/2022 16:02:38	Palkansaaja	46-50 v	Mies	9								Tampere	Konsulttitalossa	100%	software developer	Pääosin tai kokonaan etätyö	3860	50000		Ei		
-27/09/2022 16:10:27	Palkansaaja			4								PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%	Data engineer	Jotain siltä väliltä	n. 6500	n. 81250	Kk-palkka on laskutusperusteinen, jossa mahdollinen pidempi penkkiaika tiputtaa tuloja reippaasti.	Kyllä		
+27/09/2022 16:10:27	Palkansaaja			4								PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%	Data engineer	Jotain siltä väliltä	6500	81250	Kk-palkka on laskutusperusteinen, jossa mahdollinen pidempi penkkiaika tiputtaa tuloja reippaasti.	Kyllä		
 27/09/2022 16:39:20	Palkansaaja	36-40 v	Mies	11								PK-Seutu (Helsinki, Espoo, Vantaa)	Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)	100%	Senior full-stack developer/arkkitehti	Pääosin tai kokonaan etätyö	7000	94500		Kyllä		
 27/09/2022 17:28:18	Palkansaaja	26-30 v	Nainen	2								Järvenpää	Tuotetalossa, jonka core-bisnes on softa	80%	Fullstack	Pääosin tai kokonaan etätyö	2000	25000		Ei	Vähän olis kiinnostanut myös koulutustausta. Esim mulla on korkeakoulututkinto eri alalta ja se on varmasti vaikuttanu osaltaan siihen, paljon saan /kehtaan pyytää palkkaa. 	
 27/09/2022 17:46:58	Palkansaaja	31-35 v	Mies	8								PK-Seutu (Helsinki, Espoo, Vantaa)	Tuotetalossa, jonka core-bisnes on softa	100%	Backend	Pääosin tai kokonaan etätyö	5300	66250	Vuosibonusmalli tulossa, osakeannissa mahdollisuus osakkuuteen	Kyllä		
-27/09/2022 18:13:50	Palkansaaja	31-35 v	Nainen	7								Oulu	Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)	100%	Solution manager	Pääosin tai kokonaan etätyö	3800	48 700		Ei		
-27/09/2022 18:24:32	Palkansaaja	31-35 v	Mies	8								PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%	Full-stack developer	Pääosin tai kokonaan etätyö	5300	66 250		Ei		
+27/09/2022 18:13:50	Palkansaaja	31-35 v	Nainen	7								Oulu	Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)	100%	Solution manager	Pääosin tai kokonaan etätyö	3800	48700		Ei		
+27/09/2022 18:24:32	Palkansaaja	31-35 v	Mies	8								PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%	Full-stack developer	Pääosin tai kokonaan etätyö	5300	66250		Ei		
 27/09/2022 18:39:21	Palkansaaja	26-30 v	Nainen	6								Tampere	Tuotetalossa, jonka core-bisnes on softa	100%	Data scientist	Jotain siltä väliltä	5020	70000	Bonukset	Kyllä		
 27/09/2022 19:39:05	Palkansaaja	31-35 v	Nainen	5								PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%	Full-stack	Jotain siltä väliltä	5100			Kyllä		
 27/09/2022 19:55:58	Laskuttaja	31-35 v	Mies	8	2	full stack	80	150000	Itse	Ulkomailta												
@@ -371,7 +371,7 @@ Timestamp	Oletko palkansaaja vai laskuttaja?	Ikä	Sukupuoli	Työkokemus	Montako 
 30/09/2022 11:09:37	Palkansaaja	21-25 v	Mies	4								Jyväskylä	Tuotetalossa, jonka core-bisnes on softa	100%	Lead Developer	Jotain siltä väliltä	4100	51250		Ei		
 30/09/2022 11:09:37	Palkansaaja	31-35 v	Mies	10								Hämeenlinna	Tuotetalossa, jonka core-bisnes on softa	100%	Ohjelmistokehittäjä	Täysin vapaa järjestely, ei rajoituksia.	2750	35000		Kyllä		
 30/09/2022 11:09:41	Palkansaaja	41-45 v	Mies	20								Turku	Konsulttitalossa	100%	ohjelmistökehittäjä/arkkitehti	Pääosin tai kokonaan etätyö	7300	90000	50% laskutuksesta	Kyllä		
-30/09/2022 11:09:58	Palkansaaja	26-30 v	miäsh	2								PK-Seutu (Helsinki, Espoo, Vantaa)	Tuotetalossa, jonka core-bisnes on softa	100%	ohjelmistokehittäjä (frontend ja legacy-hommia)	Pääosin tai kokonaan etätyö	3400	41 000		Ei	Palkkaa voisi saada jostain muualta enemmän, mutta kokonaiskuvana (työn sisältö, tiimi, rahanarvoiset edut), sen verran tyytyväinen, että en ainakaan vielä ole vaihtamassa.	
+30/09/2022 11:09:58	Palkansaaja	26-30 v	miäsh	2								PK-Seutu (Helsinki, Espoo, Vantaa)	Tuotetalossa, jonka core-bisnes on softa	100%	ohjelmistokehittäjä (frontend ja legacy-hommia)	Pääosin tai kokonaan etätyö	3400	41000		Ei	Palkkaa voisi saada jostain muualta enemmän, mutta kokonaiskuvana (työn sisältö, tiimi, rahanarvoiset edut), sen verran tyytyväinen, että en ainakaan vielä ole vaihtamassa.	
 30/09/2022 11:10:03	Palkansaaja	41-45 v	Mies	10								Vaasa	Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)	100%	Service Manager DevOps	Pääosin tai kokonaan etätyö	6200	77185		Kyllä		
 30/09/2022 11:10:16	Palkansaaja	46-50 v	mies	22								PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%	ohjelmistokehittäjä full stack	Jotain siltä väliltä	5500	70000		Kyllä		
 30/09/2022 11:10:17	Palkansaaja	41-45 v	mies	22								PK-Seutu (Helsinki, Espoo, Vantaa)	Julkinen tai kolmas sektori	100%	arkkitehti	Pääosin tai kokonaan etätyö	6400	82000		Kyllä		
@@ -401,10 +401,10 @@ Timestamp	Oletko palkansaaja vai laskuttaja?	Ikä	Sukupuoli	Työkokemus	Montako 
 30/09/2022 11:22:27	Laskuttaja	31-35 v	Mies?	13	3	frontend, full stack	85	125000	Itse, Käytän välitysfirmoja	Suomesta												
 30/09/2022 11:22:32	Palkansaaja	31-35 v	mies	12								Oulu	Tuotetalossa, jonka core-bisnes on softa	100%	Frontend	Pääosin tai kokonaan etätyö	4572	70866		Ei		
 30/09/2022 11:23:02	Palkansaaja	31-35 v	Mies	6									Konsulttitalossa	100%	Mobiili / backend devaaja	Pääosin tai kokonaan etätyö	4000	50000		Ei		
-30/09/2022 11:23:06	Palkansaaja	26-30 v	Nainen	6								PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%	Ohjelmistokehittäjä, backend pääosin, mutta kaikkea mahtuu	Pääosin tai kokonaan etätyö	4500	56, 250		Kyllä		
+30/09/2022 11:23:06	Palkansaaja	26-30 v	Nainen	6								PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%	Ohjelmistokehittäjä, backend pääosin, mutta kaikkea mahtuu	Pääosin tai kokonaan etätyö	4500	56250		Kyllä		
 30/09/2022 11:23:51	Palkansaaja	41-45 v	nainen	2							Mehiläinen	Turku	Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)	100%	ohjelmistokehittäjä	Jotain siltä väliltä	3100	38750		Ei		
 30/09/2022 11:24:20	Laskuttaja		Mies	24	3	Team Lead, projekti- ja tuotekonsultointi	116	236000	Itse	Suomesta, Ulkomailta												
-30/09/2022 11:25:24	Palkansaaja	41-45 v	Mies	3								PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%	SAP-konsultti	Pääosin tai kokonaan etätyö	3200	40 000		Ei		
+30/09/2022 11:25:24	Palkansaaja	41-45 v	Mies	3								PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%	SAP-konsultti	Pääosin tai kokonaan etätyö	3200	40000		Ei		
 30/09/2022 11:26:13	Palkansaaja	26-30 v	mies	5								Turku	Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)	100%	full-stack	Jotain siltä väliltä	5300	63600		Kyllä		
 30/09/2022 11:26:45	Palkansaaja	26-30 v	Mies	4								Tampere	Konsulttitalossa	100%	Full-stack pilvikehittäjä	Jotain siltä väliltä	4700	58750		Kyllä		
 30/09/2022 11:28:38	Laskuttaja	31-35 v	Mies	8	4	Full stack web ja mobiili	65	84000	Itse	Suomesta												
@@ -415,7 +415,7 @@ Timestamp	Oletko palkansaaja vai laskuttaja?	Ikä	Sukupuoli	Työkokemus	Montako 
 30/09/2022 11:36:08	Palkansaaja	31-35 v	Mies	1								PK-Seutu (Helsinki, Espoo, Vantaa)	Julkinen tai kolmas sektori	100%	Database Administrator, Linux-palvelujen ylläpitäjä, inframies	Pääosin tai kokonaan etätyö	3468	50000	Perus bonusmalli miten eli firma suoriutuu, ei voi käytännössä itse vaikuttaa sen suuruuteen. Ylitöitä, yötöitä ja varallaoloa jotka nostavat kuukausiansion todellisuudessa ~4000-5000e/kk.	Kyllä		
 30/09/2022 11:37:31	Palkansaaja	26-30 v	mies	5								PK-Seutu (Helsinki, Espoo, Vantaa)	Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)	100%	ohjelmistokehittäjä, full-stack	Pääosin tai kokonaan etätyö	4500	54000		Ei		
 30/09/2022 11:40:59	Palkansaaja	36-40 v	Mies	7							Mehiläinen	Tampere	Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)	100%	Ohjelmistokehittäjä	Pääosin tai kokonaan etätyö	5200	62400		Ei		
-30/09/2022 11:42:07	Palkansaaja	41-45 v	mies	24								Jyväskylä	Konsulttitalossa	100%	ohjelmoija, backend	Jotain siltä väliltä	5259,29	65741	osakkeita	Kyllä		
+30/09/2022 11:42:07	Palkansaaja	41-45 v	mies	24								Jyväskylä	Konsulttitalossa	100%	ohjelmoija, backend	Jotain siltä väliltä	5259.29	65741	osakkeita	Kyllä		
 30/09/2022 11:42:49	Palkansaaja	41-45 v	Mies	25								Oulu	Konsulttitalossa	100%	Lead developer	Jotain siltä väliltä	7600	95000		Kyllä		
 30/09/2022 11:43:51	Palkansaaja	31-35 v	Mies	11								Tampere	Konsulttitalossa	100%	Ohjelmistokehittäjä, mobiili	Pääosin tai kokonaan etätyö	5400	68000		Kyllä		
 30/09/2022 11:44:15	Palkansaaja	41-45 v	Nainen	10								PK-Seutu (Helsinki, Espoo, Vantaa)	Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)	100%	Product Owner	Pääosin tai kokonaan etätyö	5420	2500		Kyllä		
@@ -457,12 +457,12 @@ Timestamp	Oletko palkansaaja vai laskuttaja?	Ikä	Sukupuoli	Työkokemus	Montako 
 30/09/2022 13:30:53	Palkansaaja	41-45 v	mies	16								PK-Seutu (Helsinki, Espoo, Vantaa)	Tuotetalossa, jonka core-bisnes on softa	100%	ohjelmistokehittäjä	Pääosin tai kokonaan etätyö	5200	65000				
 30/09/2022 13:34:34	Palkansaaja	26-30 v	Mies	5								PK-Seutu (Helsinki, Espoo, Vantaa)	Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)	100%	Engineering Lead	Pääosin tai kokonaan etätyö	6500	80000	75/25 rahaa/optioita	Ei		
 30/09/2022 13:37:53	Palkansaaja	26-30 v		10							Reaktor	PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%	Software Developer	Pääosin tai kokonaan toimistolla	5200	67200	Kiinteä kk-palkka ja osakkeita	Kyllä		
-30/09/2022 13:41:46	Palkansaaja	36-40 v	Mies	12								Tampere	Tuotetalossa, jonka core-bisnes on softa	100%	Ohjelmistokehittäjä	Jotain siltä väliltä	6100	n. 100 000€	Vuosittaiset bonukset rahana sekä erikseen vuosittaiset RSU:t palkanlisänä (rajoitettuja osakeoikeuksia) 	Kyllä		
+30/09/2022 13:41:46	Palkansaaja	36-40 v	Mies	12								Tampere	Tuotetalossa, jonka core-bisnes on softa	100%	Ohjelmistokehittäjä	Jotain siltä väliltä	6100	100000	Vuosittaiset bonukset rahana sekä erikseen vuosittaiset RSU:t palkanlisänä (rajoitettuja osakeoikeuksia) 	Kyllä		
 30/09/2022 14:00:31	Palkansaaja	31-35 v	Mies	7								PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%	Software engineer	Jotain siltä väliltä	5800	86000		Kyllä		
 30/09/2022 14:01:21	Laskuttaja	41-45 v	Mies	15	8	Arkkitehti/projektipäällikkö		230000	Itse	Suomesta												
 30/09/2022 14:04:06	Palkansaaja	31-35 v	Mies	18							Mavericks Software Oy	PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%	Full-stack	Pääosin tai kokonaan etätyö	6500	82000	Pohjapalkka + provisio. Itsellä ollut paljon sairaslomia yms. mitkä vaikuttavat myös kompensaatioon.	Kyllä		
 30/09/2022 14:08:46	Palkansaaja	31-35 v	mies	12								Tampere	Tuotetalossa, jonka core-bisnes on softa	100%	Full-stack web developer	Pääosin tai kokonaan etätyö	5700	71250	Osakeanti työntekijöille	Kyllä		
-30/09/2022 14:09:23	Palkansaaja	36-40 v	Nainen	14								PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%	CTO	Pääosin tai kokonaan toimistolla	6500	81 250	Osuuskunta osuus	Kyllä	En oo ihan varma miten muut toisissa vastaavan kokoluokan yrityksissä saa palkkaa vastaavasta roolista.	
+30/09/2022 14:09:23	Palkansaaja	36-40 v	Nainen	14								PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%	CTO	Pääosin tai kokonaan toimistolla	6500	81250	Osuuskunta osuus	Kyllä	En oo ihan varma miten muut toisissa vastaavan kokoluokan yrityksissä saa palkkaa vastaavasta roolista.	
 30/09/2022 14:09:29	Palkansaaja	26-30 v	Mies	8							Reaktor	PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%	senion full-stack kehittäjä, analyytikko	Pääosin tai kokonaan etätyö	5950	75375	Mahdollisuus ostaa yrityksen osakkeita, joista saa osinkoa	Kyllä		
 30/09/2022 14:15:31	Palkansaaja	41-45 v	Mies	24								PK-Seutu (Helsinki, Espoo, Vantaa)	Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)	100%	Senior Software Engineer	Pääosin tai kokonaan etätyö	7500	93750	Optio-paketti.	Kyllä		
 30/09/2022 14:17:22	Palkansaaja	46-50 v	Nainen	26								Turku	Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)	100%	Team Lead	Jotain siltä väliltä	5650	79000		Ei		
@@ -476,7 +476,7 @@ Timestamp	Oletko palkansaaja vai laskuttaja?	Ikä	Sukupuoli	Työkokemus	Montako 
 30/09/2022 15:28:48	Palkansaaja	41-45 v	mies	20							Wolt	PK-Seutu (Helsinki, Espoo, Vantaa)	Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)	100%	Team Lead	Pääosin tai kokonaan etätyö	6800	100000	Osakkeita/Optioita	Kyllä		
 30/09/2022 15:37:16	Palkansaaja	26-30 v	jäbä	1								PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%	full-stack	Pääosin tai kokonaan toimistolla	3300	40000		Kyllä		
 30/09/2022 15:52:14	Palkansaaja	26-30 v	mies	6								Tampere	Konsulttitalossa	100%	ohjelmistokehittäjä	Pääosin tai kokonaan etätyö	5000	62500	Kuukausipalkka. Myös osakkeista pitäisi tulla osinkoja, mutta en ole ollut osakkeenomistajana vielä kokonaista tilikautta joten näistä tuleva raha on vielä mysteeri	Kyllä		
-30/09/2022 15:55:38	Palkansaaja	41-45 v	mies	12							Vincit	PK-Seutu (Helsinki, Espoo, Vantaa)	Tuotetalossa, jonka core-bisnes on softa	100%	full stack everything	Pääosin tai kokonaan etätyö	4581	57 500		Kyllä		
+30/09/2022 15:55:38	Palkansaaja	41-45 v	mies	12							Vincit	PK-Seutu (Helsinki, Espoo, Vantaa)	Tuotetalossa, jonka core-bisnes on softa	100%	full stack everything	Pääosin tai kokonaan etätyö	4581	57500		Kyllä		
 30/09/2022 16:01:57	Palkansaaja	46-50 v	Mies	8								PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%	Senior developer	Jotain siltä väliltä	5490	68625		Kyllä		
 30/09/2022 16:14:36	Palkansaaja	36-40 v		10								PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%	Backend kehittäjä	Pääosin tai kokonaan etätyö	6600	84000		Kyllä		
 30/09/2022 19:03:57	Laskuttaja	51-55 v	nope	31	6	softan kehitystä, arkkitehtuuria	60	30	Itse	Ulkomailta												
@@ -492,7 +492,7 @@ Timestamp	Oletko palkansaaja vai laskuttaja?	Ikä	Sukupuoli	Työkokemus	Montako 
 01/10/2022 12:02:34	Palkansaaja	36-40 v	Mies	13							Arado	Turku	Konsulttitalossa	100%	Full-stack -devaaja	Jotain siltä väliltä	6500	82000		Kyllä		
 01/10/2022 12:57:37	Palkansaaja	41-45 v		12								Turku	Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)	100%		Pääosin tai kokonaan etätyö	6750	81000		Kyllä		
 01/10/2022 14:12:13	Palkansaaja	46-50 v	Nainen	25								PK-Seutu (Helsinki, Espoo, Vantaa)	Tuotetalossa, jonka core-bisnes on softa	100%	Testaaja	Pääosin tai kokonaan etätyö	7000	91000	Palkka, bonukset, ei musta	Kyllä		
-01/10/2022 16:20:38	Palkansaaja	31-35 v	Mies	15								PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%		Pääosin tai kokonaan etätyö	9000	112,5		Kyllä		
+01/10/2022 16:20:38	Palkansaaja	31-35 v	Mies	15								PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%		Pääosin tai kokonaan etätyö	9000	112500		Kyllä		
 01/10/2022 16:37:40	Palkansaaja	36-40 v	Mies	6								Tampere	Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)	100%	full-stack	Pääosin tai kokonaan etätyö	4800	66000		Ei		
 01/10/2022 18:10:25	Palkansaaja	26-30 v	Mies	5								Turku	Konsulttitalossa	100%	Full-stack dev	Jotain siltä väliltä	4800	62000		Kyllä		
 01/10/2022 18:35:12	Palkansaaja	31-35 v	Nainen	0								Tampere	Tuotetalossa, jonka core-bisnes on softa	80%	Service Manager Trainee	Pääosin tai kokonaan etätyö	1880	23500		Ei	Koulu vielä kesken ja se vaikuttaa palkkaan	Koulutusta voisi kysyä ja onko se vielä kesken
@@ -533,7 +533,7 @@ Timestamp	Oletko palkansaaja vai laskuttaja?	Ikä	Sukupuoli	Työkokemus	Montako 
 03/10/2022 15:05:12	Palkansaaja	31-35 v	Mies	9								Oulu	Konsulttitalossa	100%	full-stack	Pääosin tai kokonaan etätyö	5600	1000	osakkeita	Kyllä		
 03/10/2022 15:52:02	Palkansaaja	26-30 v	Mies	4								Tampere	Konsulttitalossa	100%	Backend Ohjelmistokehittäjä	Jotain siltä väliltä	4000	52800		Kyllä		
 03/10/2022 16:40:06	Palkansaaja	41-45 v	mies	0								PK-Seutu (Helsinki, Espoo, Vantaa)	Julkinen tai kolmas sektori	100%	Varhaiskasvatuksen avustaja	Pääosin tai kokonaan toimistolla	1903	23788		Kyllä		
-03/10/2022 19:30:09	Palkansaaja	31-35 v	Mies	2								Seinäjoki	Tuotetalossa, jonka core-bisnes on softa	100%	Software developer	Pääosin tai kokonaan etätyö	2850	35 625		Ei		
+03/10/2022 19:30:09	Palkansaaja	31-35 v	Mies	2								Seinäjoki	Tuotetalossa, jonka core-bisnes on softa	100%	Software developer	Pääosin tai kokonaan etätyö	2850	35625		Ei		
 03/10/2022 19:40:34	Palkansaaja	36-40 v	Mies	12								Oulu	Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)	100%	Projekti-insinööri	Pääosin tai kokonaan etätyö	5000	80000		Kyllä		
 03/10/2022 19:43:31	Palkansaaja	31-35 v		10								Jyväskylä	Konsulttitalossa	100%		Pääosin tai kokonaan etätyö	6500			Kyllä		
 03/10/2022 19:45:41	Palkansaaja	31-35 v	Mies	6								PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%	Ohjelmistokehittäjä	Pääosin tai kokonaan etätyö	4070	48500		Ei		
@@ -562,7 +562,7 @@ Timestamp	Oletko palkansaaja vai laskuttaja?	Ikä	Sukupuoli	Työkokemus	Montako 
 04/10/2022 05:07:30	Palkansaaja	36-40 v	Mies	10								Tampere	Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)	100%	Arkkitehti	Pääosin tai kokonaan etätyö	6600	95000		Kyllä		
 04/10/2022 05:34:40	Palkansaaja	31-35 v	Mies	2								Tampere	Tuotetalossa, jonka core-bisnes on softa	100%	Q&A tester	Pääosin tai kokonaan etätyö	2800	35000		Ei		
 04/10/2022 06:05:19	Palkansaaja	31-35 v	Nainen	2								Pori	Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)	100%	Fullstack	Pääosin tai kokonaan etätyö	3100	38750		Ei		
-04/10/2022 07:13:15	Palkansaaja	36-40 v	mies	15								PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	86,67	ohjelmistokehittäjä, backend	Pääosin tai kokonaan etätyö	4850	60 625		Kyllä		
+04/10/2022 07:13:15	Palkansaaja	36-40 v	mies	15								PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	86,67	ohjelmistokehittäjä, backend	Pääosin tai kokonaan etätyö	4850	60625		Kyllä		
 04/10/2022 08:34:09	Palkansaaja	41-45 v	mies	20								Oulu	Tuotetalossa, jonka core-bisnes on softa	opintovapaa		Jotain siltä väliltä						
 04/10/2022 09:01:52	Palkansaaja	31-35 v	Mies	8								Tampere	Konsulttitalossa	100%	full-stack ohjelmistokehittäjä/arkkitehti	Jotain siltä väliltä	4736	71000	kk-palkka, osakeosingot, puhelinetu, lounari, kulttuuri/liikuntaetu	Kyllä		
 04/10/2022 09:07:43	Palkansaaja	26-30 v	Mies	4								PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%	full-stack	Jotain siltä väliltä	3650	49500	Kuukausipalkka, osingot ja bonukset.	Ei		
@@ -585,7 +585,7 @@ Timestamp	Oletko palkansaaja vai laskuttaja?	Ikä	Sukupuoli	Työkokemus	Montako 
 04/10/2022 16:58:49	Palkansaaja	36-40 v	mies	0								Oulu	Tuotetalossa, jonka core-bisnes on softa	100%	junior sw developer	Pääosin tai kokonaan toimistolla	2600	32500		Kyllä		
 04/10/2022 18:09:12	Palkansaaja	21-25 v	Mies	4								Turku	Konsulttitalossa	100%	Ohjelmistokehittäjä (full-stack)	Jotain siltä väliltä	4100	54500		Kyllä		
 04/10/2022 19:02:38	Palkansaaja	31-35 v	nainen	0							Accenture	PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%	Cloud Developer	Jotain siltä väliltä	2900	36250		Ei		
-04/10/2022 19:02:47	Palkansaaja	26-30 v	Mies	5								PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%	Senior Consultant	Pääosin tai kokonaan etätyö	5145	64 312,5	Mukana pieni osakkuus	Kyllä		
+04/10/2022 19:02:47	Palkansaaja	26-30 v	Mies	5								PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%	Senior Consultant	Pääosin tai kokonaan etätyö	5145	64312.5	Mukana pieni osakkuus	Kyllä		
 04/10/2022 20:29:28	Palkansaaja	36-40 v		15								PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%	arkkitehti	Pääosin tai kokonaan toimistolla	5400	70000		Ei		
 04/10/2022 20:31:06	Palkansaaja	36-40 v	Mies	15							Siili Solutions	PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%	Lead developer	Jotain siltä väliltä	6900	86000		Kyllä		
 04/10/2022 20:32:06	Palkansaaja	26-30 v	Mies	10								PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	80%	Full-stack	Pääosin tai kokonaan etätyö	4730	62125		Kyllä		
@@ -600,7 +600,7 @@ Timestamp	Oletko palkansaaja vai laskuttaja?	Ikä	Sukupuoli	Työkokemus	Montako 
 05/10/2022 09:20:31	Palkansaaja	31-35 v	Mies	7							Nitor	PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%	Data Engineer	Jotain siltä väliltä	6700	84000		Kyllä		
 05/10/2022 09:29:11	Laskuttaja	36-40 v		12	4	Full stack	80	120000	Käytän välitysfirmoja, LinkedIn:istä tullut suoraan monta kyselyä, nykyinenkin projekti	Suomesta												
 05/10/2022 09:44:35	Palkansaaja	41-45 v	Mies	22								PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%	Full-stack sovelluskehittäjä	Pääosin tai kokonaan etätyö	5200	65000		Kyllä		
-05/10/2022 10:15:57	Palkansaaja	26-30 v	Nainen	0								PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%	Testaaja	Pääosin tai kokonaan etätyö	2400	32 200		Kyllä	Hyvinvointietu 500e/vuosi + henkilökohtainen opiskelubudgetti	
+05/10/2022 10:15:57	Palkansaaja	26-30 v	Nainen	0								PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%	Testaaja	Pääosin tai kokonaan etätyö	2400	32200		Kyllä	Hyvinvointietu 500e/vuosi + henkilökohtainen opiskelubudgetti	
 05/10/2022 11:24:51	Palkansaaja	21-25 v	Mies	0								Tampere	Konsulttitalossa	100%	Ohjelmistokehittäjä	Pääosin tai kokonaan etätyö	2450	30625		Kyllä		
 05/10/2022 11:47:13	Laskuttaja	36-40 v	Mies	21	9	Devops		160000	Itse	Suomesta, Ulkomailta												
 05/10/2022 11:57:21	Palkansaaja	31-35 v		15								PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%	Full-stack developer	Jotain siltä väliltä		80000	Peruspalkka + provisio	Kyllä		
@@ -621,7 +621,7 @@ Timestamp	Oletko palkansaaja vai laskuttaja?	Ikä	Sukupuoli	Työkokemus	Montako 
 06/10/2022 16:39:03	Palkansaaja	31-35 v		8							Siili	PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%	frontend developer	Pääosin tai kokonaan etätyö	4400	55000		Kyllä		
 06/10/2022 16:43:53	Palkansaaja	36-40 v	M	13								PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%	Senior kehittäjä, front 	Jotain siltä väliltä	4500	56750		Ei		
 06/10/2022 17:45:59	Palkansaaja	31-35 v	Mies	7								PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%	Cloud + DevOps	Jotain siltä väliltä	4800	60000		Kyllä		
-07/10/2022 06:21:57	Palkansaaja	31-35 v	Mies	8							Suomalaisen konsulttitalon jenkkikonttori	Kalifornia	Konsulttitalossa	100%	Full-Stack dev	Pääosin tai kokonaan toimistolla	10 000	130 000		Ei	Ulkomailla.	
+07/10/2022 06:21:57	Palkansaaja	31-35 v	Mies	8							Suomalaisen konsulttitalon jenkkikonttori	Kalifornia	Konsulttitalossa	100%	Full-Stack dev	Pääosin tai kokonaan toimistolla	10000	130000		Ei	Ulkomailla.	
 07/10/2022 07:31:51	Palkansaaja	31-35 v	Mies	10								PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%	Fullstack/azure kehittäjä	Jotain siltä väliltä	4700	58750	Vuosibonus tuloksesta	Kyllä		Millä kielillä koodaa? Millä alustoilla?
 07/10/2022 08:38:29	Palkansaaja	36-40 v	Muu, naisoletettu	2							Roby oy	PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%	Ohjelmistokehittäjä	Pääosin tai kokonaan etätyö	3100	38750	Yrityksen osakkeet	Kyllä		
 07/10/2022 08:57:19	Laskuttaja	36-40 v	Mies	14	8	Kehitän ja tarjoan alustaa ohjelmistoalalle. Teen käyttöliittymäsuunnittelua, projektin johtamista, alustan viestintää ja myyntiä.		180000	Itse	Suomesta												Aikanaan, kun toteutin laajan palkkatutkimuksen ohjelmistoalalle, sisällytin mukaan monia kysymyksiä työntekijöiden rooleista, arvoista, koulutustasosta ja tehtävänimikkeistä. Näistä sai sitten todella mielenkiintoista tietoa yhdistettynä palkkatietoihin.   Vuosilaskutus on sellainen tapa kysyä palkkaa, että se johtaa helposti harhaan. Mitä jos on korkea laskutus, mutta päättää tehdä kuusituntista viikkoa? Mitä jos on vanhempainvapaalla puolet vuodesta? Tällaisella yhdellä vuosilaskutusta koskevalla kysymyksellä saa helposti harhaanjohtavia vastauksia.
@@ -631,13 +631,13 @@ Timestamp	Oletko palkansaaja vai laskuttaja?	Ikä	Sukupuoli	Työkokemus	Montako 
 07/10/2022 13:06:07	Palkansaaja	31-35 v	nainen	5							Solita	Tampere	Konsulttitalossa	100%	Frontend-kehittäjä	Jotain siltä väliltä	3850	48125		Kyllä		
 07/10/2022 13:14:05	Palkansaaja	36-40 v	Nainen	15								PK-Seutu (Helsinki, Espoo, Vantaa)	Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)	100%	data scientist	Pääosin tai kokonaan etätyö	5400	64800				
 07/10/2022 13:15:52	Palkansaaja	31-35 v	nainen	12								Ruotsi	Julkinen tai kolmas sektori	80%	senior data scientist	Jotain siltä väliltä	3990			Ei	Vastasin nyt yhden työnantajan mukaan, jolle teen 80% työaikaa. Teen myös 20% työaikaa eri työnantajalle ja sektorille mutta en huomioinut sitä vastauksissa koska menisi sekavaksi.	mietityttää, olisiko kuitenkin koulutustausta relevantti tieto?
-07/10/2022 13:32:13	Palkansaaja	31-35 v	Nainen	8								PK-Seutu (Helsinki, Espoo, Vantaa)		100%	Data engineer	Pääosin tai kokonaan etätyö	5565	69562,5	Optiomalli	Ei		
+07/10/2022 13:32:13	Palkansaaja	31-35 v	Nainen	8								PK-Seutu (Helsinki, Espoo, Vantaa)		100%	Data engineer	Pääosin tai kokonaan etätyö	5565	69562.5	Optiomalli	Ei		
 07/10/2022 13:37:47	Palkansaaja	41-45 v	tylsä mies	23								Tampere	Tuotetalossa, jonka core-bisnes on softa	60%	arkkitehti, fullstack dev backend-painotuksella, devops	Jotain siltä väliltä	4500	60000	Ajattelen että osana mun kompensaatiota on saamani poikkeuksellisen suuri joustavuus työn määrän, työaikoijen, lomien (myös palkattomien) ja kaiken muunkin työhön liittyvän suhteen. Koskaan ei ole tarvinnut sanoa mihinkään mihin oikeasti haluaisin että "en pääse kun on tärkeä työjuttu silloin".	Kyllä		
 07/10/2022 13:49:04	Palkansaaja	41-45 v	Nainen	15							OP	PK-Seutu (Helsinki, Espoo, Vantaa)	Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)	100%		Jotain siltä väliltä	7000	90000		Kyllä		
 07/10/2022 14:10:46	Palkansaaja	26-30 v	nainen	2								Turku	Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)	100%		Pääosin tai kokonaan etätyö	4000	48000		Kyllä		
 07/10/2022 14:36:36	Palkansaaja	31-35 v	nainen	10							tietoliikennealan yritys	PK-Seutu (Helsinki, Espoo, Vantaa)	Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)	100%	MDM-kehittäjä	Pääosin tai kokonaan etätyö	6200	77500	käytössä myös bonusmalli, mutta en ole varma määräytymisperusteesta	Kyllä		
 07/10/2022 15:10:02	Palkansaaja	31-35 v	Mies	10							Mavericks	Turku	Konsulttitalossa	100%	Full-stack/liidi	Pääosin tai kokonaan etätyö	7100	89000	51-54% laskutuksesta	Kyllä		
-07/10/2022 16:17:07	Palkansaaja	31-35 v	Nainen	8								PK-Seutu (Helsinki, Espoo, Vantaa)	Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)	100%	Senior front end kehittäjä	Jotain siltä väliltä	5000	62.5		Ei		
+07/10/2022 16:17:07	Palkansaaja	31-35 v	Nainen	8								PK-Seutu (Helsinki, Espoo, Vantaa)	Yrityksessä, jossa softa on tukeva toiminto (esim pankit, terveysala, yms)	100%	Senior front end kehittäjä	Jotain siltä väliltä	5000	62500		Ei		
 07/10/2022 17:22:28	Palkansaaja	26-30 v	mies	5								PK-Seutu (Helsinki, Espoo, Vantaa)	Konsulttitalossa	100%	Data Engineer	Jotain siltä väliltä	5000	68000	Kuukausipalkka ja päällä tasaisesti kaikille jaettava tulosperusteinen palkkio	Kyllä		
 07/10/2022 19:08:04	Palkansaaja	41-45 v		18								Tampere	Konsulttitalossa	100%	Lead dev	Pääosin tai kokonaan toimistolla	5250	72000		Kyllä		
 07/10/2022 20:03:55	Palkansaaja	46-50 v	 Nainen	3								Tampere	Konsulttitalossa	100%	Fullstack	Jotain siltä väliltä	3190			Ei		
@@ -668,7 +668,7 @@ Timestamp	Oletko palkansaaja vai laskuttaja?	Ikä	Sukupuoli	Työkokemus	Montako 
 09/10/2022 16:51:46	Palkansaaja	36-40 v	Mies	16							Futurice	Tampere	Konsulttitalossa	80%	Tech Lead	Pääosin tai kokonaan etätyö	4120	56000		Ei		
 09/10/2022 17:09:07	Palkansaaja	31-35 v	Mies	11								Oulu	Julkinen tai kolmas sektori	100%		Pääosin tai kokonaan toimistolla	4600	73000		Kyllä		
 09/10/2022 17:22:25	Palkansaaja	36-40 v	Mies	3								Joensuu	Tuotetalossa, jonka core-bisnes on softa	100%	ohjelmistokehittäjä	Pääosin tai kokonaan etätyö	2700	33750		Ei		
-09/10/2022 17:24:51	Palkansaaja	36-40 v	Mies	15							Wolt	PK-Seutu (Helsinki, Espoo, Vantaa)	Tuotetalossa, jonka core-bisnes on softa	100%	Engineering team lead	Pääosin tai kokonaan etätyö	8300	200 000	Pörssilistatun yrityksen RSUt, jotka vestautuu neljä kertaa vuodessa.	Kyllä		
+09/10/2022 17:24:51	Palkansaaja	36-40 v	Mies	15							Wolt	PK-Seutu (Helsinki, Espoo, Vantaa)	Tuotetalossa, jonka core-bisnes on softa	100%	Engineering team lead	Pääosin tai kokonaan etätyö	8300	200000	Pörssilistatun yrityksen RSUt, jotka vestautuu neljä kertaa vuodessa.	Kyllä		
 09/10/2022 17:30:20	Palkansaaja	31-35 v		10								PK-Seutu (Helsinki, Espoo, Vantaa)	Tuotetalossa, jonka core-bisnes on softa	100%	CTO	Pääosin tai kokonaan toimistolla	5000	62500	Optioina useampi prosentti työnantajan osakekannasta	Kyllä		
 09/10/2022 17:34:46	Palkansaaja	36-40 v		12								PK-Seutu (Helsinki, Espoo, Vantaa)	Tuotetalossa, jonka core-bisnes on softa	100%	Full-stack developer	Pääosin tai kokonaan etätyö	8000	100000		Kyllä		
 09/10/2022 17:39:54	Palkansaaja	46-50 v	Mies	25									Tuotetalossa, jonka core-bisnes on softa	100%	Vanhempi ohjelmistokehittäjä	Pääosin tai kokonaan etätyö	5500	75000		Kyllä		
