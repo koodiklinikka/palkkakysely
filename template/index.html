@@ -1,6 +1,10 @@
 {% extends "_base.html" %}
-{% block title %}Koodiklinikan palkkakysely, {{ year }}{% endblock %}
 {% block body %}
+    <header>
+        <a href="https://koodiklinikka.fi">
+            <img src="{{ logo_svg }}" alt="koodiklinikan logo" style="height: 3em">
+        </a>
+    </header>
     <h1>Koodiklinikan palkkakysely, {{ year }}</h1>
     <h2>Tunnusluvut</h2>
     <ul>
@@ -29,6 +33,7 @@
         <li><a href="raw.tsv">Raakadata (TSV)</a></li>
         <li><a href="raw.xlsx">Raakadata (XLSX)</a></li>
     </ul>
+    Viittaathan dataa käyttäessäsi tähän sivustoon: <a href="{{ site_url }}">{{ site_url }}</a>
 {% endblock %}
 {% block footer %}
     <footer>

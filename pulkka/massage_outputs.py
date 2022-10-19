@@ -1,3 +1,4 @@
+import base64
 import datetime
 import glob
 import io
@@ -14,11 +15,15 @@ TEMPLATE_DIR = os.path.realpath("./template")
 
 
 def write_massaged_files(env, df):
-    with open(OUT_DIR / 'data.html', 'w') as f:
+    with open(OUT_DIR / "data.html", "w") as f:
         with io.StringIO() as s:
             df.to_html(s, index=False, na_rep="", border=0)
             table_html = s.getvalue()
-        f.write(env.get_template('_table.html').render(table_html=table_html, body_class="table-body"))
+        f.write(
+            env.get_template("_table.html").render(
+                table_html=table_html, body_class="table-body"
+            )
+        )
     df.to_csv(OUT_DIR / "data.csv", index=False)
     df.to_excel(OUT_DIR / "data.xlsx", index=False)
     df.to_json(
@@ -44,19 +49,32 @@ def render_statics(env):
         print(filename, "=>", out_filename)
 
 
+def read_asset_to_data_uri(filename, content_type):
+    with open(filename, "rb") as f:
+        return (
+            f"data:{content_type};base64,{base64.b64encode(f.read()).decode('ascii')}"
+        )
+
+
 def main():
     df = read_data()
     env = jinja2.Environment(
         autoescape=True,
         loader=jinja2.FileSystemLoader(TEMPLATE_DIR),
     )
-    env.globals.update({
-        "date": datetime.datetime.utcnow(),
-        "pd": pandas,
-        "np": numpy,
-        "df": df,
-        "year": YEAR,
-    })
+    env.globals.update(
+        {
+            "date": datetime.datetime.utcnow(),
+            "pd": pandas,
+            "np": numpy,
+            "df": df,
+            "year": YEAR,
+            "logo_svg": read_asset_to_data_uri(
+                os.path.join(TEMPLATE_DIR, "logo.svg"), "image/svg+xml"
+            ),
+            "site_url": f"https://koodiklinikka.github.io/palkkakysely/{YEAR}/",
+        }
+    )
     render_statics(env)
     write_massaged_files(env, df)
 
