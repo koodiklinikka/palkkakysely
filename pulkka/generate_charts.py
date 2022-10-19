@@ -49,7 +49,9 @@ def plot_sukupuoli_vuositulot(df: DataFrame):
 
 @plot_this
 def plot_kaupunki_vuositulot(df: DataFrame):
-    plot = get_categorical_stats_plot(df, category="Kaupunki", value="Vuositulot", line=False)
+    plot = get_categorical_stats_plot(
+        df, category="Kaupunki", value="Vuositulot", line=False
+    )
     plot.xaxis.major_label_orientation = "vertical"
     return plot
 

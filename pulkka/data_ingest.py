@@ -30,20 +30,20 @@ ETATYO_MAP = {
 }
 
 COMPANY_MAP = {
-    'Siili Solutions': 'Siili',
-    'Mavericks Software': 'Mavericks',
+    "Siili Solutions": "Siili",
+    "Mavericks Software": "Mavericks",
 }
 
-FULL_STACK_ROLE = 'Full-stack'
+FULL_STACK_ROLE = "Full-stack"
 
 ROLE_MAP = {
-    'Full-stack developer': FULL_STACK_ROLE,
-    'Full-stack kehittäjä': FULL_STACK_ROLE,
-    'Full-stack ohjelmistokehittäjä': FULL_STACK_ROLE,
-    'Full-stack-kehittäjä': FULL_STACK_ROLE,
-    'Fullstack': FULL_STACK_ROLE,
-    'Ohjelmistokehittäjä (full-stack)': FULL_STACK_ROLE,
-    'Ohjelmistokehittäjä, full-stack': FULL_STACK_ROLE,
+    "Full-stack developer": FULL_STACK_ROLE,
+    "Full-stack kehittäjä": FULL_STACK_ROLE,
+    "Full-stack ohjelmistokehittäjä": FULL_STACK_ROLE,
+    "Full-stack-kehittäjä": FULL_STACK_ROLE,
+    "Fullstack": FULL_STACK_ROLE,
+    "Ohjelmistokehittäjä (full-stack)": FULL_STACK_ROLE,
+    "Ohjelmistokehittäjä, full-stack": FULL_STACK_ROLE,
 }
 
 
@@ -132,8 +132,8 @@ def read_data() -> pd.DataFrame:
     df["Vuositulot"] = df.apply(map_vuositulot, axis=1)
 
     # Fudge some known outliers
-    df.loc[df.Vuositulot == 912500, 'Vuositulot'] = 91250
-    df.loc[df.Kuukausipalkka == 87000, 'Kuukausipalkka'] = 7250
+    df.loc[df.Vuositulot == 912500, "Vuositulot"] = 91250
+    df.loc[df.Kuukausipalkka == 87000, "Kuukausipalkka"] = 7250
 
     # Synthesize kk-tulot from Vuositulot
     df["Kk-tulot"] = pd.to_numeric(df["Vuositulot"], errors="coerce") / 12
