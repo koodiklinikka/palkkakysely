@@ -9,6 +9,13 @@ from pulkka.chart_utils import (
     set_yaxis_cash,
     get_categorical_stats_plot,
 )
+from pulkka.column_maps import (
+    TYOKOKEMUS_COL,
+    VUOSITULOT_COL,
+    KAUPUNKI_COL,
+    IKA_COL,
+    SUKUPUOLI_COL,
+)
 from pulkka.config import OUT_DIR
 from pulkka.data_ingest import read_data
 
@@ -30,27 +37,37 @@ def plot_kokemus_tulot(df: DataFrame):
     plot.xaxis.axis_label = "Työkokemus (v)"
     set_yaxis_cash(plot)
     plot.circle(
-        x="Työkokemus", y="Vuositulot", source=source, color=gender_colormap, size=10
+        x=TYOKOKEMUS_COL,
+        y=VUOSITULOT_COL,
+        source=source,
+        color=gender_colormap,
+        size=10,
     )
     return plot
 
 
 @plot_this
 def plot_ika_vuositulot(df: DataFrame):
-    return get_categorical_stats_plot(df, category="Ikä", value="Vuositulot")
+    return get_categorical_stats_plot(df, category=IKA_COL, value=VUOSITULOT_COL)
 
 
 @plot_this
 def plot_sukupuoli_vuositulot(df: DataFrame):
     return get_categorical_stats_plot(
-        df, category="Sukupuoli", value="Vuositulot", na_as_category="EOS"
+        df,
+        category=SUKUPUOLI_COL,
+        value=VUOSITULOT_COL,
+        na_as_category="EOS",
     )
 
 
 @plot_this
 def plot_kaupunki_vuositulot(df: DataFrame):
     plot = get_categorical_stats_plot(
-        df, category="Kaupunki", value="Vuositulot", line=False
+        df,
+        category=KAUPUNKI_COL,
+        value=VUOSITULOT_COL,
+        line=False,
     )
     plot.xaxis.major_label_orientation = "vertical"
     return plot

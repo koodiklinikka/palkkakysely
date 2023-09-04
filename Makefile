@@ -12,8 +12,6 @@ export DATA_DIR
 export OUT_DIR
 export YEAR
 
-# Comment this .PHONY out to not have to download the data every time:
-.PHONY: all-data
 
 all: all-data copy-raw-data massage charts profiling
 
@@ -34,6 +32,9 @@ charts: all-data
 
 profiling: all-data
 	python -m pulkka.generate_profiling
+
+# Comment this .PHONY out to not have to download the data every time:
+.PHONY: $(DATA_DIR)/results-fi.xlsx $(DATA_DIR)/results-fi.tsv $(DATA_DIR)/results-en.xlsx $(DATA_DIR)/results-en.tsv
 
 all-data: $(DATA_DIR)/results-fi.xlsx $(DATA_DIR)/results-fi.tsv $(DATA_DIR)/results-en.xlsx $(DATA_DIR)/results-en.tsv
 
