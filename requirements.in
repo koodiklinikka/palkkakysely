@@ -3,3 +3,4 @@ jinja2
 openpyxl
 pandas
 pandas-profiling
+pydantic<2.0
