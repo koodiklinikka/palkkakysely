@@ -1,6 +1,6 @@
-DATA_DIR := data/2022
-OUT_DIR := out/2022
 YEAR := 2022
+DATA_DIR := data/${YEAR}
+OUT_DIR := out/${YEAR}
 XLSX_URL :=  https://docs.google.com/spreadsheets/d/1PxBV-MzFlPl1IxOp6EGj6C80HSTgfHcXUhBeL8hZ0Ck/export?format=xlsx
 TSV_URL := https://docs.google.com/spreadsheets/d/1PxBV-MzFlPl1IxOp6EGj6C80HSTgfHcXUhBeL8hZ0Ck/export?format=tsv
 

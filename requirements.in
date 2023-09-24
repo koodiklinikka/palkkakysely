@@ -2,4 +2,4 @@ bokeh
 jinja2
 openpyxl
 pandas
-pandas-profiling
+ydata-profiling

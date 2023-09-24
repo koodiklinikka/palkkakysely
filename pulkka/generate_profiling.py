@@ -1,6 +1,6 @@
 from pulkka.config import OUT_DIR
 from pulkka.data_ingest import read_data, force_tulot_numeric, force_age_numeric
-from pandas_profiling import ProfileReport
+from ydata_profiling import ProfileReport
 
 
 def main():
