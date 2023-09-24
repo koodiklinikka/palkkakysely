@@ -6,16 +6,14 @@
 #
 attrs==23.1.0
     # via visions
-bokeh==3.2.2
+bokeh==2.4.3
     # via -r requirements.in
 certifi==2023.7.22
     # via requests
 charset-normalizer==3.2.0
     # via requests
 contourpy==1.1.0
-    # via
-    #   bokeh
-    #   matplotlib
+    # via matplotlib
 cycler==0.11.0
     # via matplotlib
 dacite==1.8.1
@@ -81,7 +79,6 @@ packaging==23.1
 pandas==2.0.3
     # via
     #   -r requirements.in
-    #   bokeh
     #   phik
     #   seaborn
     #   statsmodels
@@ -139,7 +136,9 @@ tqdm==4.66.1
 typeguard==2.13.3
     # via ydata-profiling
 typing-extensions==4.7.1
-    # via pydantic
+    # via
+    #   bokeh
+    #   pydantic
 tzdata==2023.3
     # via pandas
 urllib3==2.0.4
@@ -148,7 +147,5 @@ visions[type_image_path]==0.7.5
     # via ydata-profiling
 wordcloud==1.9.2
     # via ydata-profiling
-xyzservices==2023.7.0
-    # via bokeh
 ydata-profiling==4.5.1
     # via -r requirements.in
