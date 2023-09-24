@@ -21,8 +21,9 @@ def write_massaged_files(env, df):
             table_html = s.getvalue()
         f.write(
             env.get_template("_table.html").render(
-                table_html=table_html, body_class="table-body"
-            )
+                table_html=table_html,
+                body_class="table-body",
+            ),
         )
     df.to_csv(OUT_DIR / "data.csv", index=False)
     df.to_excel(OUT_DIR / "data.xlsx", index=False)
@@ -70,10 +71,11 @@ def main():
             "df": df,
             "year": YEAR,
             "logo_svg": read_asset_to_data_uri(
-                os.path.join(TEMPLATE_DIR, "logo.svg"), "image/svg+xml"
+                os.path.join(TEMPLATE_DIR, "logo.svg"),
+                "image/svg+xml",
             ),
             "site_url": f"https://koodiklinikka.github.io/palkkakysely/{YEAR}/",
-        }
+        },
     )
     render_statics(env)
     write_massaged_files(env, df)

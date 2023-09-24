@@ -37,6 +37,7 @@ jobs:
         GENERATE_SOURCEMAP: 'false'
     - run: cp -a analysaattori/dist ./out/analysaattori
     - run: ls -laR out
+    - run: touch out/.nojekyll
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@v4
       with:
@@ -44,3 +45,8 @@ jobs:
         folder: out
         clean: false
       if: ${{ github.event_name == 'push' }}
+      env:
+        GIT_AUTHOR_EMAIL: "koodiklinikka-robot@example.com"
+        GIT_AUTHOR_NAME: "Koodiklinikka Robot"
+        GIT_COMMITTER_EMAIL: "koodiklinikka-robot@example.com"
+        GIT_COMMITTER_NAME: "Koodiklinikka Robot"

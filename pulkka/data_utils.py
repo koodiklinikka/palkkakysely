@@ -31,11 +31,15 @@ def get_categorical_stats(
     df[value_col] = pd.to_numeric(df[value_col], errors="coerce")
     df = df[df[value_col].notna() & df[value_col] > 0]
     if na_as_category:
-        df[category_col] = df[category_col].astype("string")
-        df.loc[df[category_col].isna(), category_col] = na_as_category
-        df[category_col] = df[category_col].astype("category")
+        rename_na(df, category_col, na_as_category)
     # ... then carry on.
     group = df[[category_col, value_col]].groupby(category_col)
     return group[value_col].agg(
-        ["mean", "min", "max", "median", "count", q25, q50, q75, q90]
+        ["mean", "min", "max", "median", "count", q25, q50, q75, q90],
     )
+
+
+def rename_na(df: pd.DataFrame, col: str, na_name: str) -> None:
+    df[col] = df[col].astype("string")
+    df.loc[df[col].isna(), col] = na_name
+    df[col] = df[col].astype("category")

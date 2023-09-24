@@ -20,10 +20,11 @@ def set_yaxis_cash(plot):
 
 def get_categorical_stats_plot(df, *, category, value, na_as_category=None, line=True):
     df = get_categorical_stats(df, category, value, na_as_category=na_as_category)
-    df.reset_index(inplace=True)
+    df = df.reset_index()
     df[category] = df[category].astype("category")
     plot = bp.figure(
-        title=f"{category}/{value}", x_range=list(df[category].cat.categories)
+        title=f"{category}/{value}",
+        x_range=list(df[category].cat.categories),
     )
     set_yaxis_cash(plot)
     plot.vbar(
@@ -64,7 +65,11 @@ def get_categorical_stats_plot(df, *, category, value, na_as_category=None, line
             line_width=4,
         )
         plot.line(
-            df[category], df["mean"], legend_label="mean", color="#B53471", line_width=4
+            df[category],
+            df["mean"],
+            legend_label="mean",
+            color="#B53471",
+            line_width=4,
         )
     else:
         plot.circle(

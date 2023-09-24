@@ -1,75 +1,78 @@
+from __future__ import annotations
+
 import re
+import warnings
 
 import numpy as np
+import pandas
 import pandas as pd
 
-from pulkka.config import DATA_DIR
-
-ETA_VAI_LAHI_COL = "Etä- vai lähityö"
-
-COLUMN_MAP = {
-    # 2021
-    "Missä kaupungissa työpaikkasi pääasiallinen toimisto sijaitsee?": "Kaupunki",
-    "Työaika (jos työsuhteessa)": "Työaika",
-    "Etänä vai paikallisesti?": ETA_VAI_LAHI_COL,
-    "Vuositulot (sis. bonukset, osingot yms) / Vuosilaskutus (jos laskutat)": "Vuositulot",
-    "Kuukausipalkka (jos työntekijä) (brutto)": "Kuukausipalkka",
-    "Onko palkkasi nykyroolissasi mielestäsi kilpailukykyinen?": "Kilpailukykyinen",
-    # 2022
-    "Etänä vai lähityössä?": ETA_VAI_LAHI_COL,
-    "Kuukausipalkka (brutto, euroina)": "Kuukausipalkka",
-    "Vuositulot (sis. bonukset, osingot yms, euroina)": "Vuositulot",
-    "Mitä palveluja tarjoat?": "Palvelut",
-}
-
-ETATYO_MAP = {
-    "Pääosin tai kokonaan etätyö": "Etä",
-    "Pääosin tai kokonaan toimistolla": "Toimisto",
-    "Noin 50/50 hybridimalli": "50/50",
-    "Jotain siltä väliltä": "50/50",
-}
-
-COMPANY_MAP = {
-    "Siili Solutions": "Siili",
-    "Mavericks Software": "Mavericks",
-}
-
-FULL_STACK_ROLE = "Full-stack"
-
-ROLE_MAP = {
-    "Full-stack developer": FULL_STACK_ROLE,
-    "Full-stack kehittäjä": FULL_STACK_ROLE,
-    "Full-stack ohjelmistokehittäjä": FULL_STACK_ROLE,
-    "Full-stack-kehittäjä": FULL_STACK_ROLE,
-    "Fullstack": FULL_STACK_ROLE,
-    "Ohjelmistokehittäjä (full-stack)": FULL_STACK_ROLE,
-    "Ohjelmistokehittäjä, full-stack": FULL_STACK_ROLE,
-}
+from pulkka.config import DATA_DIR, YEAR
+from pulkka.column_maps import (
+    COLUMN_MAP_2023_EN_TO_FI,
+    KIKY_COL,
+    KKPALKKA_COL,
+    PALVELUT_COL,
+    TYOAIKA_COL,
+    VUOSITULOT_COL,
+    TYOPAIKKA_COL,
+    ROOLI_COL,
+    KIKY_OTHER_COL,
+    BOOLEAN_TEXT_TO_BOOLEAN_MAP,
+    COMPANY_MAP,
+    SUKUPUOLI_COL,
+    ROLE_MAP,
+    COLUMN_MAP_2023,
+    VALUE_MAP_2023_EN_TO_FI,
+    LAHITYO_COL,
+    IKA_COL,
+    LANG_COL,
+    KK_TULOT_COL,
+    KK_TULOT_NORM_COL,
+    NO_GENDER_VALUES,
+    OTHER_GENDER_VALUES,
+    TYOKOKEMUS_COL,
+    ROOLI_NORM_COL,
+)
 
 
-def map_sukupuoli(value: str):
-    if isinstance(value, str):
-        value = value.lower()
-        if "nainen" in value or "female" in value:
-            return "nainen"
+def map_sukupuoli(value: str) -> str | None:
+    if not isinstance(value, str):
+        return value
 
-        if (
-            "mies" in value
-            or "uros" in value
-            or "miäs" in value
-            or "äiä" in value
-            or "male" in value
-            or value == "m"
-        ):
-            return "mies"
-        return "muu"  # Map the handful of outliers into "muu" (so a given value but not specified)
-    return value
+    value = value.lower()
+    if (
+        "nainen" in value
+        or "female" in value
+        or "woman" in value
+        or value == "f"
+        or value == "women"
+    ):
+        return "nainen"
+
+    if (
+        "mies" in value
+        or "uros" in value
+        or "miäs" in value
+        or "äiä" in value
+        or "male" in value
+        or value in ("m", "man", "m i ä s", "ukko")
+    ):
+        return "mies"
+
+    if value in NO_GENDER_VALUES:
+        return None
+
+    if value in OTHER_GENDER_VALUES:
+        return "muu"
+
+    raise NotImplementedError(f"Unknown sukupuoli: {value}")
 
 
 def map_vuositulot(r):
-    if r["Vuositulot"] is np.nan:
-        return r["Kuukausipalkka"] * 12.5
-    return r["Vuositulot"]
+    if r[VUOSITULOT_COL] is np.nan:
+        return r[KKPALKKA_COL] * 12.5
+    return r[VUOSITULOT_COL]
 
 
 def map_numberlike(d):
@@ -81,78 +84,150 @@ def map_numberlike(d):
     return d
 
 
-def map_ika(d):
-    if d == "30-35 v":  # Early answers had a wrong bracket here
-        d = "31-35 v"
-    return d
-
-
 def ucfirst(val):
     if isinstance(val, str):
         return val[0].upper() + val[1:]
     return val
 
 
-def read_data() -> pd.DataFrame:
-    df: pd.DataFrame = pd.read_excel(
-        DATA_DIR / "results.xlsx",
+def read_initial_dfs() -> pd.DataFrame:
+    df_fi: pd.DataFrame = pd.read_excel(
+        DATA_DIR / "results-fi.xlsx",
         skiprows=[1],  # Google Sheets exports one empty row
     )
-    df.rename(columns=COLUMN_MAP, inplace=True)
-
-    df["Kaupunki"].replace(
-        "PK-Seutu (Helsinki, Espoo, Vantaa)", "PK-Seutu", inplace=True
+    df_fi[LANG_COL] = "fi"
+    df_en: pd.DataFrame = pd.read_excel(
+        DATA_DIR / "results-en.xlsx",
+        skiprows=[1],  # Google Sheets exports one empty row
     )
-    df["Kaupunki"] = df["Kaupunki"].astype("category")
-    df["Sukupuoli"] = df["Sukupuoli"].apply(map_sukupuoli).astype("category")
-    df["Ikä"] = df["Ikä"].apply(map_ika).astype("category")
-    # Turn työaika into 0% - 100%
-    df["Työaika"] = pd.to_numeric(df["Työaika"], errors="coerce").clip(0, 1)
-
-    df["Etä"] = df[ETA_VAI_LAHI_COL].map(ETATYO_MAP).astype("category")
-    df["Kilpailukykyinen"].replace({"Kyllä": True, "Ei": False}, inplace=True)
-
-    # Try to clean up numbers with spaces, etc. to real numbers
-    df["Kuukausipalkka"] = df["Kuukausipalkka"].apply(map_numberlike)
-    df["Vuositulot"] = df["Vuositulot"].apply(map_numberlike)
-
-    # Fix up Työpaikka
-    df["Työpaikka"].replace("-", np.nan, inplace=True)
-    df["Työpaikka"].replace(re.compile(r"\s+oy|oyj$", flags=re.I), "", inplace=True)
-    df["Työpaikka"] = df["Työpaikka"].map(COMPANY_MAP).fillna(df["Työpaikka"])
-
-    # Normalize initial capitalization in Rooli and Palvelut
-    df["Rooli"] = df["Rooli"].apply(ucfirst)
-    df["Palvelut"] = df["Palvelut"].apply(ucfirst)
-
-    # Map Rooli via known roles
-    df["Rooli"] = df["Rooli"].map(ROLE_MAP).fillna(df["Rooli"])
-
-    # Fill in Vuositulot as 12.5 * Kk-tulot if empty
-    df["Vuositulot"] = df.apply(map_vuositulot, axis=1)
-
-    # Fudge some known outliers
-    df.loc[df.Vuositulot == 912500, "Vuositulot"] = 91250
-    df.loc[df.Kuukausipalkka == 87000, "Kuukausipalkka"] = 7250
-
-    # Synthesize kk-tulot from Vuositulot
-    df["Kk-tulot"] = pd.to_numeric(df["Vuositulot"], errors="coerce") / 12
+    df_en[LANG_COL] = "en"
+    df_en = df_en.rename(columns=COLUMN_MAP_2023_EN_TO_FI)
+    df = pd.concat([df_fi, df_en], ignore_index=True)
+    df = df[df["Timestamp"].notna()]  # Remove rows with no timestamp
+    df[LANG_COL] = df[LANG_COL].astype("category")
     return df
 
 
-def force_tulot_numeric(df):
-    df["Kuukausipalkka"] = pd.to_numeric(df["Kuukausipalkka"], errors="coerce")
-    df["Vuositulot"] = pd.to_numeric(df["Vuositulot"], errors="coerce")
+def map_case_insensitive(series: pd.Series, mapping: dict[str, str]) -> pd.Series:
+    """
+    Map a series of strings to another series of strings, case-insensitively.
+    """
+    lower_mapping = {k.lower(): v for k, v in mapping.items()}
+
+    def map_value(v):
+        if v is np.nan:
+            return ""
+        assert isinstance(v, str)
+        return lower_mapping.get(v.lower().strip(), v)
+
+    return series.apply(map_value).fillna(series)
+
+
+def read_data() -> pd.DataFrame:
+    if YEAR != "2023":
+        raise ValueError(
+            "This code only works for 2023. "
+            "Please use an older revision for older data.",
+        )
+    df = read_initial_dfs()
+
+    df = df.rename(columns=COLUMN_MAP_2023)
+
+    for col, val_map in VALUE_MAP_2023_EN_TO_FI.items():
+        df[col] = df[col].map(val_map).fillna(df[col]).astype("category")
+
+    # Drop bogus data
+    df = df.drop(df[df[SUKUPUOLI_COL] == "taisteluhelikopteri"].index)
+
+    df[SUKUPUOLI_COL] = df[SUKUPUOLI_COL].apply(map_sukupuoli).astype("category")
+    df[IKA_COL] = df[IKA_COL].astype("category")
+
+    df[TYOAIKA_COL] = to_percentage(df[TYOAIKA_COL], 100)
+    df[LAHITYO_COL] = to_percentage(df[LAHITYO_COL], 100)
+
+    # Split out non-boolean answers from KIKY_COL to KIKY_OTHER_COL
+    df = split_boolean_column_to_other(df, KIKY_COL, KIKY_OTHER_COL)
+
+    # Try to clean up numbers with spaces, etc. to real numbers
+    df[KKPALKKA_COL] = df[KKPALKKA_COL].apply(map_numberlike)
+    df[VUOSITULOT_COL] = df[VUOSITULOT_COL].apply(map_numberlike)
+
+    # Fix up Työpaikka
+    df[TYOPAIKKA_COL] = df[TYOPAIKKA_COL].replace("-", np.nan)
+    df[TYOPAIKKA_COL] = df[TYOPAIKKA_COL].replace(
+        re.compile(r"\s+oy|oyj$", flags=re.I),
+        "",
+    )
+    df[TYOPAIKKA_COL] = df[TYOPAIKKA_COL].map(COMPANY_MAP).fillna(df[TYOPAIKKA_COL])
+
+    # Normalize initial capitalization in Rooli and Palvelut
+    df[ROOLI_COL] = df[ROOLI_COL].apply(ucfirst)
+    df[PALVELUT_COL] = df[PALVELUT_COL].apply(ucfirst)
+
+    # Map Rooli via known roles
+    df[ROOLI_NORM_COL] = map_case_insensitive(df[ROOLI_COL], ROLE_MAP)
+
+    # Round työvuodet
+    df[TYOKOKEMUS_COL] = df[TYOKOKEMUS_COL].round()
+
+    # Fix known bogus data
+    df.loc[
+        (df[KKPALKKA_COL] == 4900) & (df[VUOSITULOT_COL] == 620000),
+        VUOSITULOT_COL,
+    ] = 62000
+
+    # Fill in Vuositulot as 12.5 * Kk-tulot if empty
+    df[VUOSITULOT_COL] = df.apply(map_vuositulot, axis=1)
+
+    # Synthesize kk-tulot from Vuositulot
+    df[KK_TULOT_COL] = pd.to_numeric(df[VUOSITULOT_COL], errors="coerce") / 12
+    df[KK_TULOT_NORM_COL] = df[KK_TULOT_COL] / df[TYOAIKA_COL]
+
+    return df
+
+
+def to_percentage(ser: pandas.Series, norm_max: float) -> pandas.Series:
+    """
+    Convert a series of numbers to a percentage
+    """
+    ser = pd.to_numeric(ser, errors="coerce")
+    if (
+        norm_max * 0.7 > ser.max() > norm_max * 1.5
+    ):  # check that we have a reasonable max value
+        warnings.warn(f"Unexpected max value {ser.max()} in {ser.name}, {norm_max=}")
+    ser = ser / norm_max
+    return ser.clip(lower=0)
+
+
+def split_boolean_column_to_other(df, col, other_col):
+    df[col] = df[col].replace(BOOLEAN_TEXT_TO_BOOLEAN_MAP)
+    df[other_col] = df[col].apply(
+        lambda r: r if (r and not isinstance(r, bool)) else None,
+    )
+    df[col] = (
+        df[col]
+        .apply(
+            lambda value: ["Ei", "Kyllä"][value]
+            if isinstance(value, bool)
+            else (np.nan if not value else "Muu"),
+        )
+        .astype("category")
+    )
+    # reorder columns so that other_col is right after col
+    cols = list(df.columns)
+    cols.remove(other_col)
+    cols.insert(cols.index(col) + 1, other_col)
+    df = df[cols]
     return df
 
 
 def force_age_numeric(df):
     age_map = {}
-    for cat in df["Ikä"].cat.categories:
+    for cat in df[IKA_COL].cat.categories:
         m = re.match("^(\d+)-(\d+) v", cat)
         if m:
             age_map[cat] = int(round(float(m.group(1)) + float(m.group(2))) / 2)
-    df["Ikä"] = df["Ikä"].apply(lambda r: age_map.get(r, r))
+    df[IKA_COL] = df[IKA_COL].apply(lambda r: age_map.get(r, r))
     return df
 
 

@@ -25,15 +25,29 @@
         <li><a href="/palkkakysely/analysaattori/?url=/palkkakysely/{{ year }}/data.json">Pivot-työkalu</a></li>
     </ul>
     <h2>Data</h2>
+    Tämä data on käsitelty <a href="https://github.com/koodiklinikka/palkkakysely/tree/master/pulkka">normalisointiskripteillä</a>.
     <ul>
         <li><a href="data.csv">Lähdedata (CSV)</a></li>
         <li><a href="data.html">Lähdedata (HTML)</a></li>
         <li><a href="data.json">Lähdedata (JSON)</a></li>
         <li><a href="data.xlsx">Lähdedata (XLSX)</a></li>
-        <li><a href="raw.tsv">Raakadata (TSV)</a></li>
-        <li><a href="raw.xlsx">Raakadata (XLSX)</a></li>
     </ul>
-    Viittaathan dataa käyttäessäsi tähän sivustoon: <a href="{{ site_url }}">{{ site_url }}</a>
+    <h2>Raakadata</h2>
+    Tämä on Google Sheetsistä tuotu käsittelemätön raakadata.
+    <ul>
+        <li><a href="raw-fi.tsv">Raakadata (suomi) (TSV)</a></li>
+        <li><a href="raw-fi.xlsx">Raakadata (suomi) (XLSX)</a></li>
+        <li><a href="raw-en.tsv">Raakadata (englanti) (TSV)</a></li>
+        <li><a href="raw-en.xlsx">Raakadata (englanti) (XLSX)</a></li>
+    </ul>
+    <h2>Viittaaminen ja lisenssi</h2>
+    <p>
+      Viittaathan dataa käyttäessäsi tähän sivustoon: <a href="{{ site_url }}">{{ site_url }}</a>.
+    </p>
+    <p>
+      Datan lisenssi on <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</a> (CC&nbsp;BY&nbsp;4.0).<br>
+      Mankelointityökalujen lisenssi on <a href="https://opensource.org/licenses/MIT">MIT</a>.
+    </p>
 {% endblock %}
 {% block footer %}
     <footer>
