@@ -8,6 +8,7 @@ import jinja2
 import numpy
 import pandas
 
+from pulkka import column_maps
 from pulkka.config import OUT_DIR, YEAR
 from pulkka.data_ingest import read_data
 
@@ -62,10 +63,12 @@ def main():
     env = jinja2.Environment(
         autoescape=True,
         loader=jinja2.FileSystemLoader(TEMPLATE_DIR),
+        undefined=jinja2.StrictUndefined,
     )
     env.globals.update(
         {
             "date": datetime.datetime.utcnow(),
+            "cm": column_maps,
             "pd": pandas,
             "np": numpy,
             "df": df,
