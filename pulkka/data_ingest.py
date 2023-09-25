@@ -147,6 +147,11 @@ def read_data() -> pd.DataFrame:
     df[SUKUPUOLI_COL] = df[SUKUPUOLI_COL].apply(map_sukupuoli).astype("category")
     df[IKA_COL] = df[IKA_COL].astype("category")
 
+    # Assume that people entering 37.5 (hours) as their työaika means 100%
+    df.loc[df[TYOAIKA_COL] == 37.5, TYOAIKA_COL] = 100
+    # Assume there is no actual 10x koodari among us
+    df.loc[df[TYOAIKA_COL] == 1000, TYOAIKA_COL] = 100
+
     df[TYOAIKA_COL] = to_percentage(df[TYOAIKA_COL], 100)
     df[LAHITYO_COL] = to_percentage(df[LAHITYO_COL], 100)
 
