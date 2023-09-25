@@ -33,6 +33,8 @@ from pulkka.column_maps import (
     OTHER_GENDER_VALUES,
     TYOKOKEMUS_COL,
     ROOLI_NORM_COL,
+    PALAUTE_COL,
+    TIMESTAMPS_TO_DROP,
 )
 
 
@@ -138,6 +140,9 @@ def read_data() -> pd.DataFrame:
 
     # Drop bogus data
     df = df.drop(df[df[SUKUPUOLI_COL] == "taisteluhelikopteri"].index)
+
+    # Drop rows by timestamps known to be duplicate
+    df = df.drop(df[df["Timestamp"].isin(TIMESTAMPS_TO_DROP)].index)
 
     df[SUKUPUOLI_COL] = df[SUKUPUOLI_COL].apply(map_sukupuoli).astype("category")
     df[IKA_COL] = df[IKA_COL].astype("category")

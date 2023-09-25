@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-MISTA_ASIAKKAAT_COL = "Mistä asiakkaat ovat?"
 IKA_COL = "Ikä"
 KAUPUNKI_COL = "Kaupunki"
 KIKY_COL = "Onko palkkasi nykyroolissasi mielestäsi kilpailukykyinen?"
@@ -8,23 +7,27 @@ KIKY_OTHER_COL = (
     "Onko palkkasi nykyroolissasi mielestäsi kilpailukykyinen? (muut vastaukset)"
 )
 KKPALKKA_COL = "Kuukausipalkka"
+KK_TULOT_COL = "Kk-tulot (laskennallinen)"
+KK_TULOT_NORM_COL = "Kk-tulot (laskennallinen, normalisoitu)"
+LAHITYO_COL = "Kuinka suuren osan ajasta teet lähityönä toimistolla?"
+LANG_COL = "Vastauskieli"
+MILLAISESSA_COL = "Millaisessa yrityksessä työskentelet?"
+MISTA_ASIAKKAAT_COL = "Mistä asiakkaat ovat?"
+PALAUTE_COL = "Palaute"
 PALKANSAAJA_VAI_LASKUTTAJA_COL = "Palkansaaja vai laskuttaja"
 PALVELUT_COL = "Palvelut"
 ROOLI_COL = "Rooli"
+ROOLI_NORM_COL = "Rooli (normalisoitu)"
 SIIRTYNYT_COL = (
     "Oletko siirtynyt palkansaajasta laskuttajaksi tai päinvastoin 1.10.2022 jälkeen?"
 )
 SUKUPUOLI_COL = "Sukupuoli"
+TUNTILASKUTUS_ALV0_COL = "Tuntilaskutus (ALV 0%, euroina)"
 TYOAIKA_COL = "Työaika"
 TYOKOKEMUS_COL = "Työkokemus alalta (vuosina)"
 TYOPAIKKA_COL = "Työpaikka"
+VUOSILASKUTUS_ALV0_COL = "Vuosilaskutus (ALV 0%, euroina)"
 VUOSITULOT_COL = "Vuositulot"
-MILLAISESSA_COL = "Millaisessa yrityksessä työskentelet?"
-LAHITYO_COL = "Kuinka suuren osan ajasta teet lähityönä toimistolla?"
-LANG_COL = "Vastauskieli"
-KK_TULOT_COL = "Kk-tulot (laskennallinen)"
-KK_TULOT_NORM_COL = "Kk-tulot (laskennallinen, normalisoitu)"
-ROOLI_NORM_COL = "Rooli (normalisoitu)"
 
 COLUMN_MAP_2023 = {
     "Timestamp": "Timestamp",
@@ -37,8 +40,8 @@ COLUMN_MAP_2023 = {
     "Tulojen muutos viime vuodesta (%)": "Tulojen muutos viime vuodesta (%)",
     "Montako vuotta olet tehnyt laskuttavaa työtä alalla?": "Montako vuotta olet tehnyt laskuttavaa työtä alalla?",
     "Mitä palveluja tarjoat?": PALVELUT_COL,
-    "Tuntilaskutus (ALV 0%, euroina)": "Tuntilaskutus (ALV 0%, euroina)",
-    "Vuosilaskutus (ALV 0%, euroina)": "Vuosilaskutus (ALV 0%, euroina)",
+    "Tuntilaskutus (ALV 0%, euroina)": TUNTILASKUTUS_ALV0_COL,
+    "Vuosilaskutus (ALV 0%, euroina)": VUOSILASKUTUS_ALV0_COL,
     "Hankitko asiakkaasi itse suoraan vai käytätkö välitysfirmojen palveluita?": "Hankitko asiakkaasi itse suoraan vai käytätkö välitysfirmojen palveluita?",
     "Mistä asiakkaat ovat?": MISTA_ASIAKKAAT_COL,
     "Työpaikka": "Työpaikka",
@@ -52,7 +55,7 @@ COLUMN_MAP_2023 = {
     "Vapaa kuvaus kokonaiskompensaatiomallista": "Vapaa kuvaus kokonaiskompensaatiomallista",
     "Onko palkkasi nykyroolissasi mielestäsi kilpailukykyinen?": KIKY_COL,
     "Vapaa sana": "Vapaa sana",
-    "Palautetta kyselystä ja ideoita ensi vuoden kyselyyn": "Palautetta kyselystä ja ideoita ensi vuoden kyselyyn",
+    "Palautetta kyselystä ja ideoita ensi vuoden kyselyyn": PALAUTE_COL,
 }
 
 COLUMN_MAP_2023_EN_TO_FI = {
@@ -177,4 +180,9 @@ OTHER_GENDER_VALUES = {
     "muu",
     "muu/ei",
     "non-binary, afab",
+}
+
+TIMESTAMPS_TO_DROP = {
+    # See "SUBMITTED TWICE, SORRY!!" in English data:
+    "2023-09-08 13:24:46.740",
 }
