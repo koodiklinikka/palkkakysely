@@ -1,4 +1,10 @@
 {% extends "_base.html" %}
+{% macro tunnusluvut_points(df, col_name, title) %}
+    {% with num_kk = df[pd.to_numeric(df[col_name], errors='coerce').notnull()][col_name] %}
+        <li title="n = {{ num_kk.count() }}">{{ title }}, keskiarvo = {{ num_kk.mean()|round(0) }} €</li>
+        <li title="n = {{ num_kk.count() }}">{{ title }}, mediaani = {{ num_kk.median()|round(0) }} €</li>
+    {% endwith %}
+{% endmacro %}
 {% block body %}
     <header>
         <a href="https://koodiklinikka.fi">
@@ -6,17 +12,29 @@
         </a>
     </header>
     <h1>Koodiklinikan palkkakysely, {{ year }}</h1>
-    <h2>Tunnusluvut</h2>
     <ul>
         <li><i>n</i> = {{ df|length }}</li>
-        {% with num_kk = df[pd.to_numeric(df['Kuukausipalkka'], errors='coerce').notnull()]['Kuukausipalkka'] %}
-            <li>Keskimääräinen kuukausipalkka = {{ num_kk.mean()|round(0) }} €</li>
-            <li>Mediaanikuukausipalkka = {{ num_kk.median()|round(0) }} €</li>
-        {% endwith %}
-        {% with num_v = df[pd.to_numeric(df['Vuositulot'], errors='coerce').notnull()]['Vuositulot'] %}
-            <li>Keskimääräiset vuositulot = {{ num_v.mean()|round(0) }} €</li>
-            <li>Mediaanivuositulot = {{ num_v.median()|round(0) }} €</li>
-        {% endwith %}
+        <li><i>n</i> palkansaajia = {{ df[df[cm.PALKANSAAJA_VAI_LASKUTTAJA_COL] == "Palkansaaja"]|length }}</li>
+        <li><i>n</i> laskuttajia = {{ df[df[cm.PALKANSAAJA_VAI_LASKUTTAJA_COL] == "Laskuttaja"]|length }}</li>
+    </ul>
+    <h2>Palkansaajien tunnusluvut</h2>
+    <ul>
+        {% for col_name, title in [
+          (cm.KKPALKKA_COL, 'kuukausipalkka'),
+          (cm.VUOSITULOT_COL, 'vuositulot'),
+          (cm.KK_TULOT_NORM_COL, 'laskennallinen norm. kuukausipalkka'),
+        ] %}
+            {{ tunnusluvut_points(df, col_name, title) }}
+        {% endfor %}
+    </ul>
+    <h2>Laskuttajien tunnusluvut</h2>
+    <ul>
+        {% for col_name, title in [
+          (cm.TUNTILASKUTUS_ALV0_COL, 'tuntilaskutus (ALV 0%)'),
+          (cm.VUOSILASKUTUS_ALV0_COL, 'vuosilaskutus (ALV 0%)'),
+        ] %}
+            {{ tunnusluvut_points(df, col_name, title) }}
+        {% endfor %}
     </ul>
     <h2>Työkalut</h2>
     <ul>
@@ -25,7 +43,8 @@
         <li><a href="/palkkakysely/analysaattori/?url=/palkkakysely/{{ year }}/data.json">Pivot-työkalu</a></li>
     </ul>
     <h2>Data</h2>
-    Tämä data on käsitelty <a href="https://github.com/koodiklinikka/palkkakysely/tree/master/pulkka">normalisointiskripteillä</a>.
+    Tämä data on käsitelty
+    <a href="https://github.com/koodiklinikka/palkkakysely/tree/master/pulkka">normalisointiskripteillä</a>.
     <ul>
         <li><a href="data.csv">Lähdedata (CSV)</a></li>
         <li><a href="data.html">Lähdedata (HTML)</a></li>
@@ -42,11 +61,12 @@
     </ul>
     <h2>Viittaaminen ja lisenssi</h2>
     <p>
-      Viittaathan dataa käyttäessäsi tähän sivustoon: <a href="{{ site_url }}">{{ site_url }}</a>.
+        Viittaathan dataa käyttäessäsi tähän sivustoon: <a href="{{ site_url }}">{{ site_url }}</a>.
     </p>
     <p>
-      Datan lisenssi on <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</a> (CC&nbsp;BY&nbsp;4.0).<br>
-      Mankelointityökalujen lisenssi on <a href="https://opensource.org/licenses/MIT">MIT</a>.
+        Datan lisenssi on <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0
+        International</a> (CC&nbsp;BY&nbsp;4.0).<br>
+        Mankelointityökalujen lisenssi on <a href="https://opensource.org/licenses/MIT">MIT</a>.
     </p>
 {% endblock %}
 {% block footer %}
