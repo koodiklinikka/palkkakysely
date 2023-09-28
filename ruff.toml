@@ -1,5 +1,6 @@
 ignore = [
     "E501",
+    "PD901",  # I know "df" isn't the best name
 ]
 extend-select = [
     "COM",
