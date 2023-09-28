@@ -173,7 +173,6 @@ NO_GENDER_VALUES = {
     "jänis",
     "kyllä, kiitos",
     "leppäkerttu",
-    "taisteluhelikopteri",
     "tihkutympönen",
     "yes",
 }
@@ -183,7 +182,7 @@ OTHER_GENDER_VALUES = {
     "non-binary, afab",
 }
 
-TIMESTAMPS_TO_DROP = {
-    # See "SUBMITTED TWICE, SORRY!!" in English data:
-    "2023-09-08 13:24:46.740",
+IDS_TO_DROP = {
+    "6cab61607da9c2b6",  # hupsu taisteluhelikopteri
+    "aefdb9e69b1621d5",  # See "SUBMITTED TWICE, SORRY!!" in English data
 }

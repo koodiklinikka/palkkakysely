@@ -34,12 +34,13 @@ from pulkka.column_maps import (
     OTHER_GENDER_VALUES,
     TYOKOKEMUS_COL,
     ROOLI_NORM_COL,
-    TIMESTAMPS_TO_DROP,
     ID_COL,
+    IDS_TO_DROP,
 )
 
 
-def map_sukupuoli(value: str) -> str | None:
+def map_sukupuoli(r: pd.Series) -> str | None:
+    value = r[SUKUPUOLI_COL]
     if not isinstance(value, str):
         return value
 
@@ -69,7 +70,7 @@ def map_sukupuoli(value: str) -> str | None:
     if value in OTHER_GENDER_VALUES:
         return "muu"
 
-    raise NotImplementedError(f"Unknown sukupuoli: {value}")
+    raise NotImplementedError(f"Unknown sukupuoli: {value} (row ID {r[ID_COL]})")
 
 
 def map_vuositulot(r):
@@ -148,13 +149,10 @@ def read_data() -> pd.DataFrame:
     for col, val_map in VALUE_MAP_2023_EN_TO_FI.items():
         df[col] = df[col].map(val_map).fillna(df[col]).astype("category")
 
-    # Drop bogus data
-    df = df.drop(df[df[SUKUPUOLI_COL] == "taisteluhelikopteri"].index)
+    # Drop known bogus data
+    df = df.drop(df[df[ID_COL].isin(IDS_TO_DROP)].index)
 
-    # Drop rows by timestamps known to be duplicate
-    df = df.drop(df[df["Timestamp"].isin(TIMESTAMPS_TO_DROP)].index)
-
-    df[SUKUPUOLI_COL] = df[SUKUPUOLI_COL].apply(map_sukupuoli).astype("category")
+    df[SUKUPUOLI_COL] = df.apply(map_sukupuoli, axis=1).astype("category")
     df[IKA_COL] = df[IKA_COL].astype("category")
 
     # Assume that people entering 37.5 (hours) as their työaika means 100%
@@ -191,11 +189,19 @@ def read_data() -> pd.DataFrame:
     df[TYOKOKEMUS_COL] = df[TYOKOKEMUS_COL].round()
 
     # Fix known bogus data
-    df.loc[
-        (df[KKPALKKA_COL] == 4900) & (df[VUOSITULOT_COL] == 620000),
-        VUOSITULOT_COL,
-    ] = 62000
-
+    df = apply_fixups(
+        df,
+        [
+            (
+                {ID_COL: "a01216a11026d749", VUOSITULOT_COL: 620000},
+                {VUOSITULOT_COL: 62000},
+            ),
+            (
+                {ID_COL: "79a200f529f6919b", VUOSITULOT_COL: 1500},
+                {VUOSITULOT_COL: 150_000},
+            ),
+        ],
+    )
     # Fill in Vuositulot as 12.5 * Kk-tulot if empty
     df[VUOSITULOT_COL] = df.apply(map_vuositulot, axis=1)
 
@@ -263,3 +269,16 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+def apply_fixups(df: pd.DataFrame, fixups: list[tuple[dict, dict]]) -> pd.DataFrame:
+    for match_cond, replace_cond in fixups:
+        match_keys, match_values = zip(*match_cond.items())
+        ix = df[list(match_keys)].eq(list(match_values)).all(axis=1)
+        if not ix.any():
+            raise ValueError(
+                f"Fixup match condition {match_cond} did not match any rows",
+            )
+        replace_keys, replace_values = zip(*replace_cond.items())
+        df.loc[ix, list(replace_keys)] = replace_values
+    return df
