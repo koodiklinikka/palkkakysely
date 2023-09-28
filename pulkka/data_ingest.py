@@ -33,7 +33,6 @@ from pulkka.column_maps import (
     OTHER_GENDER_VALUES,
     TYOKOKEMUS_COL,
     ROOLI_NORM_COL,
-    PALAUTE_COL,
     TIMESTAMPS_TO_DROP,
 )
 
