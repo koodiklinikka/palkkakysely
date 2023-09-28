@@ -28,6 +28,7 @@ TYOKOKEMUS_COL = "Työkokemus alalta (vuosina)"
 TYOPAIKKA_COL = "Työpaikka"
 VUOSILASKUTUS_ALV0_COL = "Vuosilaskutus (ALV 0%, euroina)"
 VUOSITULOT_COL = "Vuositulot"
+ID_COL = "Vastaustunniste"
 
 COLUMN_MAP_2023 = {
     "Timestamp": "Timestamp",

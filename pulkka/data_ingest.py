@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import hashlib
 import re
 import warnings
 
@@ -34,6 +35,7 @@ from pulkka.column_maps import (
     TYOKOKEMUS_COL,
     ROOLI_NORM_COL,
     TIMESTAMPS_TO_DROP,
+    ID_COL,
 )
 
 
@@ -91,6 +93,11 @@ def ucfirst(val):
     return val
 
 
+def hash_row(r: pd.Series) -> str:
+    source_data = f"{r[LANG_COL]}.{int(r.Timestamp.timestamp() * 1000)}"
+    return hashlib.sha256(source_data.encode()).hexdigest()[:16]
+
+
 def read_initial_dfs() -> pd.DataFrame:
     df_fi: pd.DataFrame = pd.read_excel(
         DATA_DIR / "results-fi.xlsx",
@@ -106,6 +113,10 @@ def read_initial_dfs() -> pd.DataFrame:
     df = pd.concat([df_fi, df_en], ignore_index=True)
     df = df[df["Timestamp"].notna()]  # Remove rows with no timestamp
     df[LANG_COL] = df[LANG_COL].astype("category")
+    # Give each row a unique hash ID
+    df[ID_COL] = df.apply(hash_row, axis=1)
+    # Ensure truncated sha is unique
+    assert len(df[ID_COL].unique()) == len(df)
     return df
 
 
