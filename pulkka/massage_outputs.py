@@ -26,6 +26,18 @@ def write_massaged_files(env, df):
                 body_class="table-body",
             ),
         )
+    with open(OUT_DIR / "data-vertical.html", "w") as f:
+        with io.StringIO() as s:
+            for _, row in df.iterrows():
+                row.dropna().to_frame().to_html(s, header=False, na_rep="", border=0)
+                s.write("\n")
+            table_html = s.getvalue()
+        f.write(
+            env.get_template("_table.html").render(
+                table_html=table_html,
+                body_class="table-body",
+            ),
+        )
     df.to_csv(OUT_DIR / "data.csv", index=False)
     df.to_excel(OUT_DIR / "data.xlsx", index=False)
     df.to_json(

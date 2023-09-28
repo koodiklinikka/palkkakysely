@@ -27,12 +27,17 @@ body.table-body {
 
 body.table-body table {
   border-collapse: collapse;
+  margin-bottom: 1em;
 }
 
 body.table-body td,
 body.table-body th {
   padding: 0.3em;
   border: 1px solid #999;
+}
+
+body.table-body tr th {
+  text-align: left;
 }
 
 h1,
