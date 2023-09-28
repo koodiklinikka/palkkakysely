@@ -1,3 +1,2 @@
-declare module "react-pivottable/PivotTableUI";
-declare module "react-pivottable/TableRenderers";
-declare module "react-pivottable/PlotlyRenderers";
+declare module "@imc-trading/react-pivottable";
+declare module "plotly.js-dist/plotly";

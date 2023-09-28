@@ -4,28 +4,33 @@
   "private": true,
   "homepage": "https://koodiklinikka.github.io/palkkakysely/analysaattori/",
   "dependencies": {
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-pivottable": "^0.11.0",
-    "react-plotly.js": "^2.5.1",
-    "swr": "^0.4.2"
+    "@dnd-kit/core": "^6.0.8",
+    "@dnd-kit/sortable": "^7.0.2",
+    "@dnd-kit/utilities": "^3.2.1",
+    "@imc-trading/react-pivottable": "^0.2.13",
+    "immutability-helper": "^3.1.1",
+    "plotly.js-dist": "^2.26.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-plotly.js": "^2.6.0",
+    "swr": "^2.2.4"
   },
   "devDependencies": {
-    "@types/node": "^14.14.31",
-    "@types/plotly.js": "^1.54.8",
-    "@types/react-plotly.js": "^2.2.4",
-    "@types/react": "^17.0.38",
-    "@types/react-dom": "^17.0.11",
-    "@typescript-eslint/eslint-plugin": "^5.30.6",
-    "@typescript-eslint/parser": "^5.30.6",
-    "@vitejs/plugin-react": "^2.0.0",
-    "eslint": "^8.19.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-react": "^7.30.1",
+    "@types/node": "^20.7.1",
+    "@types/plotly.js": "^2.12.27",
+    "@types/react": "^18.2.23",
+    "@types/react-dom": "^18.2.8",
+    "@types/react-plotly.js": "^2.6.1",
+    "@typescript-eslint/eslint-plugin": "^6.7.3",
+    "@typescript-eslint/parser": "^6.7.3",
+    "@vitejs/plugin-react-swc": "^3.4.0",
+    "eslint": "^8.50.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "prettier": "^2.7.1",
-    "typescript": "^4.1.5",
-    "vite": "^3.0.0"
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.9"
   },
   "scripts": {
     "dev": "vite",
@@ -33,9 +38,6 @@
     "serve": "vite preview",
     "lint": "eslint .",
     "prettify": "prettier --write ."
-  },
-  "eslintConfig": {
-    "extends": "react-app"
   },
   "browserslist": {
     "production": [
