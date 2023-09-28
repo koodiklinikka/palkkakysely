@@ -2,51 +2,51 @@ name: Build
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
   pull_request:
-    branches: [ master ]
+    branches: [master]
   #schedule:
-    # Update automatically on weekdays during work hours
-    #- cron: '0 10,13,16 * * 1-5'
-    # ... and every night
-    #- cron: '0 0 * * *'
+  # Update automatically on weekdays during work hours
+  #- cron: '0 10,13,16 * * 1-5'
+  # ... and every night
+  #- cron: '0 0 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - name: Set up Python 3.11
-      uses: actions/setup-python@v4
-      with:
-        python-version: "3.11"
-        cache: pip
-    - name: Install dependencies
-      run: python -m pip install -r requirements.txt
-    - name: Build
-      run: make -j3
-    - uses: actions/setup-node@v3
-      with:
-        node-version: "20"
-        cache: yarn
-        cache-dependency-path: analysaattori/yarn.lock
-    - run: yarn
-      working-directory: analysaattori
-    - run: yarn build -- --base=/palkkakysely/analysaattori/
-      working-directory: analysaattori
-      env:
-        GENERATE_SOURCEMAP: 'false'
-    - run: cp -a analysaattori/dist ./out/analysaattori
-    - run: ls -laR out
-    - run: touch out/.nojekyll
-    - name: Deploy
-      uses: JamesIves/github-pages-deploy-action@v4
-      with:
-        branch: gh-pages
-        folder: out
-        clean: false
-      if: ${{ github.event_name == 'push' }}
-      env:
-        GIT_AUTHOR_EMAIL: "koodiklinikka-robot@example.com"
-        GIT_AUTHOR_NAME: "Koodiklinikka Robot"
-        GIT_COMMITTER_EMAIL: "koodiklinikka-robot@example.com"
-        GIT_COMMITTER_NAME: "Koodiklinikka Robot"
+      - uses: actions/checkout@v3
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+          cache: pip
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Build
+        run: make -j3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: "20"
+          cache: yarn
+          cache-dependency-path: analysaattori/yarn.lock
+      - run: yarn
+        working-directory: analysaattori
+      - run: yarn build -- --base=/palkkakysely/analysaattori/
+        working-directory: analysaattori
+        env:
+          GENERATE_SOURCEMAP: "false"
+      - run: cp -a analysaattori/dist ./out/analysaattori
+      - run: ls -laR out
+      - run: touch out/.nojekyll
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: out
+          clean: false
+        if: ${{ github.event_name == 'push' }}
+        env:
+          GIT_AUTHOR_EMAIL: "koodiklinikka-robot@example.com"
+          GIT_AUTHOR_NAME: "Koodiklinikka Robot"
+          GIT_COMMITTER_EMAIL: "koodiklinikka-robot@example.com"
+          GIT_COMMITTER_NAME: "Koodiklinikka Robot"

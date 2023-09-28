@@ -1,0 +1,2 @@
+# prettier doesn't understand jinja, the poor thing
+template/*.html
