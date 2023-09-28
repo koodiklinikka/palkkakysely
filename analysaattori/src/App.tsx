@@ -1,24 +1,34 @@
 import React from "react";
-import PivotTableUI from "react-pivottable/PivotTableUI";
-import "react-pivottable/pivottable.css";
-import TableRenderers from "react-pivottable/TableRenderers";
+import "@imc-trading/react-pivottable/pivottable.css";
+import {
+  PivotTableUI,
+  TableRenderers,
+  createPlotlyRenderers,
+} from "@imc-trading/react-pivottable";
 import createPlotlyComponent from "react-plotly.js/factory";
-import createPlotlyRenderers from "react-pivottable/PlotlyRenderers";
-import useSWR from "swr/esm";
+import Plotly from "plotly.js-dist/plotly";
+import useSWR from "swr";
 
-const Plot = createPlotlyComponent(window.Plotly);
+const Plot = createPlotlyComponent(Plotly);
 const PlotlyRenderers = createPlotlyRenderers(Plot);
 const renderers = Object.assign({}, TableRenderers, PlotlyRenderers);
 
+const fetcher = (url: string) => fetch(url).then((res) => res.json());
+
 function App() {
   const qs = new URLSearchParams(window.location.search);
+  const url = qs.get("url") || "/palkkakysely/data.json";
   const [pivotState, setPivotState] = React.useState({});
-  const dataSwr = useSWR(qs.get("url") || "/palkkakysely/data.json");
+  const dataSwr = useSWR(url, fetcher, { revalidateOnFocus: false });
   if (!dataSwr.data) {
     if (dataSwr.error) {
-      return <>Virhe ladatessa dataa: {`${dataSwr.error}`}</>;
+      return (
+        <>
+          Virhe ladatessa dataa {url}: {`${dataSwr.error}`}
+        </>
+      );
     }
-    return <>Ladataan...</>;
+    return <>Ladataan {url}...</>;
   }
   return (
     <div>
