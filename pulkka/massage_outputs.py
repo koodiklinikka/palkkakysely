@@ -79,7 +79,7 @@ def main():
     )
     env.globals.update(
         {
-            "date": datetime.datetime.utcnow(),
+            "date": datetime.datetime.now(datetime.UTC),
             "cm": column_maps,
             "pd": pandas,
             "np": numpy,
