@@ -8,35 +8,35 @@ import numpy as np
 import pandas
 import pandas as pd
 
-from pulkka.config import DATA_DIR, YEAR
 from pulkka.column_maps import (
-    COLUMN_MAP_2023_EN_TO_FI,
-    KIKY_COL,
-    KKPALKKA_COL,
-    PALVELUT_COL,
-    TYOAIKA_COL,
-    VUOSITULOT_COL,
-    TYOPAIKKA_COL,
-    ROOLI_COL,
-    KIKY_OTHER_COL,
     BOOLEAN_TEXT_TO_BOOLEAN_MAP,
-    COMPANY_MAP,
-    SUKUPUOLI_COL,
-    ROLE_MAP,
     COLUMN_MAP_2023,
-    VALUE_MAP_2023_EN_TO_FI,
-    LAHITYO_COL,
-    IKA_COL,
-    LANG_COL,
-    KK_TULOT_COL,
-    KK_TULOT_NORM_COL,
-    NO_GENDER_VALUES,
-    OTHER_GENDER_VALUES,
-    TYOKOKEMUS_COL,
-    ROOLI_NORM_COL,
+    COLUMN_MAP_2023_EN_TO_FI,
+    COMPANY_MAP,
     ID_COL,
     IDS_TO_DROP,
+    IKA_COL,
+    KIKY_COL,
+    KIKY_OTHER_COL,
+    KK_TULOT_COL,
+    KK_TULOT_NORM_COL,
+    KKPALKKA_COL,
+    LAHITYO_COL,
+    LANG_COL,
+    NO_GENDER_VALUES,
+    OTHER_GENDER_VALUES,
+    PALVELUT_COL,
+    ROLE_MAP,
+    ROOLI_COL,
+    ROOLI_NORM_COL,
+    SUKUPUOLI_COL,
+    TYOAIKA_COL,
+    TYOKOKEMUS_COL,
+    TYOPAIKKA_COL,
+    VALUE_MAP_2023_EN_TO_FI,
+    VUOSITULOT_COL,
 )
+from pulkka.config import DATA_DIR, YEAR
 
 
 def map_sukupuoli(r: pd.Series) -> str | None:
