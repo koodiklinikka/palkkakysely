@@ -19,7 +19,7 @@ PALVELUT_COL = "Palvelut"
 ROOLI_COL = "Rooli"
 ROOLI_NORM_COL = "Rooli (normalisoitu)"
 SIIRTYNYT_COL = (
-    "Oletko siirtynyt palkansaajasta laskuttajaksi tai päinvastoin 1.10.2022 jälkeen?"
+    "Oletko siirtynyt palkansaajasta laskuttajaksi tai päinvastoin 1.10.2023 jälkeen?"
 )
 SUKUPUOLI_COL = "Sukupuoli"
 TUNTILASKUTUS_ALV0_COL = "Tuntilaskutus (ALV 0%, euroina)"
@@ -30,10 +30,10 @@ VUOSILASKUTUS_ALV0_COL = "Vuosilaskutus (ALV 0%, euroina)"
 VUOSITULOT_COL = "Vuositulot"
 ID_COL = "Vastaustunniste"
 
-COLUMN_MAP_2023 = {
+COLUMN_MAP_2024 = {
     "Timestamp": "Timestamp",
     "Oletko palkansaaja vai laskuttaja?": PALKANSAAJA_VAI_LASKUTTAJA_COL,
-    "Oletko siirtynyt palkansaajasta laskuttajaksi tai päinvastoin 1.10.2022 jälkeen?": SIIRTYNYT_COL,
+    "Oletko siirtynyt palkansaajasta laskuttajaksi tai päinvastoin 1.10.2023 jälkeen?": SIIRTYNYT_COL,
     "Ikä": "Ikä",
     "Sukupuoli": "Sukupuoli",
     "Työkokemus alalta (vuosina)": TYOKOKEMUS_COL,
@@ -59,10 +59,10 @@ COLUMN_MAP_2023 = {
     "Palautetta kyselystä ja ideoita ensi vuoden kyselyyn": PALAUTE_COL,
 }
 
-COLUMN_MAP_2023_EN_TO_FI = {
+COLUMN_MAP_2024_EN_TO_FI = {
     "Timestamp": "Timestamp",
     "Employee or entrepreneur": "Oletko palkansaaja vai laskuttaja?",
-    "Have you switched from employment to entrepreneurship or vice versa after 1.10.2022?": "Oletko siirtynyt palkansaajasta laskuttajaksi tai päinvastoin 1.10.2022 jälkeen?",
+    "Have you switched from employment to entrepreneurship or vice versa after 1.10.2023?": "Oletko siirtynyt palkansaajasta laskuttajaksi tai päinvastoin 1.10.2023 jälkeen?",
     "Age": "Ikä",
     "Gender": "Sukupuoli",
     "Relevant work experience from the industry (in years)": "Työkokemus alalta (vuosina)",
@@ -89,9 +89,9 @@ COLUMN_MAP_2023_EN_TO_FI = {
 }
 
 # ensure all columns have translations
-assert set(COLUMN_MAP_2023.keys()) == set(COLUMN_MAP_2023_EN_TO_FI.values())
+assert set(COLUMN_MAP_2024.keys()) == set(COLUMN_MAP_2024_EN_TO_FI.values())
 
-VALUE_MAP_2023_EN_TO_FI = {
+VALUE_MAP_2024_EN_TO_FI = {
     PALKANSAAJA_VAI_LASKUTTAJA_COL: {
         "Employee": "Palkansaaja",
         "Entrepreneur": "Laskuttaja",
@@ -112,8 +112,16 @@ VALUE_MAP_2023_EN_TO_FI = {
         "Finland": "Suomesta",
     },
     KAUPUNKI_COL: {
-        "PK-Seutu (Helsinki, Espoo, Vantaa)": "PK-seutu",
+        "Asun Porissa, toimisto Helsingissä, sijainnilla ei vaikutusta palkkaan": "Pori",
         "Capital region (Helsinki, Espoo, Vantaa)": "PK-seutu",
+        "Firmalla ei ole toimistoa": "Etätyöfirma",
+        "Hajautettu": "Etätyöfirma",
+        "New York City": "New York",
+        "New York, NY, USA": "New York",
+        "PK-Seutu (Helsinki, Espoo, Vantaa)": "PK-seutu",
+        "Tampere (etänä Berliiniin)": "Tampere",
+        "Turku/remote (HQ Austin, TX)": "Turku",
+        "Ulkomailla": "Ulkomaat",
     },
     MILLAISESSA_COL: {
         "Product company with softaware as their core business": "Tuotetalossa, jonka core-bisnes on softa",
@@ -166,23 +174,44 @@ ROLE_MAP = {
     "Full-stack cloud developer": FULL_STACK_ROLE,
     "Fullstack developer, web apps": FULL_STACK_ROLE,
 }
+
 NO_GENDER_VALUES = {
     "-",
-    "ei liity asiaan",
-    "epärelevantti",
-    "jänis",
-    "kyllä, kiitos",
-    "leppäkerttu",
-    "tihkutympönen",
+    "on",
     "yes",
 }
+
 OTHER_GENDER_VALUES = {
     "muu",
-    "muu/ei",
-    "non-binary, afab",
+    "muunsukupuolinen",
 }
 
+FEMALE_GENDER_VALUES = (
+    "f",
+    "n",
+    "women",
+)
+
+MALE_GENDER_VALUES = (
+    "he / him / male",
+    "ihminen. kikkelillä.",
+    "m i ä s",
+    "m",
+    "mail",  # probably a typo
+    "male presenting",
+    "male",
+    "man",
+    "meis",
+    "mie",  # probably mies?
+    "miekkonen",
+    "mies",
+    "miesoletettu",
+    "miäs",
+    "ukko",
+    "äiä",
+)
+
 IDS_TO_DROP = {
-    "6cab61607da9c2b6",  # hupsu taisteluhelikopteri
-    "aefdb9e69b1621d5",  # See "SUBMITTED TWICE, SORRY!!" in English data
+    "0bf579f8b0a771b9",  # 2 euron palkka, rooli "2"
+    "9a3b73d810f6e983",  # apache hyökkäyshelikopteri
 }

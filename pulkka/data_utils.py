@@ -33,7 +33,7 @@ def get_categorical_stats(
     if na_as_category:
         rename_na(df, category_col, na_as_category)
     # ... then carry on.
-    group = df[[category_col, value_col]].groupby(category_col)
+    group = df[[category_col, value_col]].groupby(category_col, observed=False)
     return group[value_col].agg(
         ["mean", "min", "max", "median", "count", q25, q50, q75, q90],
     )

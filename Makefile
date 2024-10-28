@@ -1,8 +1,8 @@
-YEAR := 2023
+YEAR := 2024
 DATA_DIR := data/${YEAR}
 OUT_DIR := out/${YEAR}
-DOCUMENT_ID_FI := 1sycmd6DGqHj9-0k6D8HclzlRghxqoVaBZNSZye1Jdbg
-DOCUMENT_ID_EN := 1pmrQWsja3wRVF02PyEGO2F_CgttobTbxGUGjQ5K4H4Y
+DOCUMENT_ID_FI := 1dvyVEJkn3_osBeKGIlhKmid671jjH7zYgcyH1BjiGF8
+DOCUMENT_ID_EN := 1o1uakk1pkoUCtx2OGJhLclxt_uraYA-uK3DH8yCYHN4
 XLSX_URL_FI := https://docs.google.com/spreadsheets/d/$(DOCUMENT_ID_FI)/export?format=xlsx
 TSV_URL_FI := https://docs.google.com/spreadsheets/d/$(DOCUMENT_ID_FI)/export?format=tsv
 XLSX_URL_EN := https://docs.google.com/spreadsheets/d/$(DOCUMENT_ID_EN)/export?format=xlsx

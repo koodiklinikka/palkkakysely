@@ -8,35 +8,37 @@ import numpy as np
 import pandas
 import pandas as pd
 
-from pulkka.config import DATA_DIR, YEAR
 from pulkka.column_maps import (
-    COLUMN_MAP_2023_EN_TO_FI,
-    KIKY_COL,
-    KKPALKKA_COL,
-    PALVELUT_COL,
-    TYOAIKA_COL,
-    VUOSITULOT_COL,
-    TYOPAIKKA_COL,
-    ROOLI_COL,
-    KIKY_OTHER_COL,
     BOOLEAN_TEXT_TO_BOOLEAN_MAP,
+    COLUMN_MAP_2024,
+    COLUMN_MAP_2024_EN_TO_FI,
     COMPANY_MAP,
-    SUKUPUOLI_COL,
-    ROLE_MAP,
-    COLUMN_MAP_2023,
-    VALUE_MAP_2023_EN_TO_FI,
-    LAHITYO_COL,
-    IKA_COL,
-    LANG_COL,
-    KK_TULOT_COL,
-    KK_TULOT_NORM_COL,
-    NO_GENDER_VALUES,
-    OTHER_GENDER_VALUES,
-    TYOKOKEMUS_COL,
-    ROOLI_NORM_COL,
+    FEMALE_GENDER_VALUES,
     ID_COL,
     IDS_TO_DROP,
+    IKA_COL,
+    KIKY_COL,
+    KIKY_OTHER_COL,
+    KK_TULOT_COL,
+    KK_TULOT_NORM_COL,
+    KKPALKKA_COL,
+    LAHITYO_COL,
+    LANG_COL,
+    MALE_GENDER_VALUES,
+    NO_GENDER_VALUES,
+    OTHER_GENDER_VALUES,
+    PALVELUT_COL,
+    ROLE_MAP,
+    ROOLI_COL,
+    ROOLI_NORM_COL,
+    SUKUPUOLI_COL,
+    TYOAIKA_COL,
+    TYOKOKEMUS_COL,
+    TYOPAIKKA_COL,
+    VALUE_MAP_2024_EN_TO_FI,
+    VUOSITULOT_COL,
 )
+from pulkka.config import DATA_DIR, YEAR
 
 
 def map_sukupuoli(r: pd.Series) -> str | None:
@@ -49,19 +51,11 @@ def map_sukupuoli(r: pd.Series) -> str | None:
         "nainen" in value
         or "female" in value
         or "woman" in value
-        or value == "f"
-        or value == "women"
+        or value in FEMALE_GENDER_VALUES
     ):
         return "nainen"
 
-    if (
-        "mies" in value
-        or "uros" in value
-        or "miäs" in value
-        or "äiä" in value
-        or "male" in value
-        or value in ("m", "man", "m i ä s", "ukko")
-    ):
+    if value.strip() in MALE_GENDER_VALUES:
         return "mies"
 
     if value in NO_GENDER_VALUES:
@@ -70,7 +64,7 @@ def map_sukupuoli(r: pd.Series) -> str | None:
     if value in OTHER_GENDER_VALUES:
         return "muu"
 
-    raise NotImplementedError(f"Unknown sukupuoli: {value} (row ID {r[ID_COL]})")
+    raise NotImplementedError(f"Unknown sukupuoli: {value!r} (row ID {r[ID_COL]})")
 
 
 def map_vuositulot(r):
@@ -110,7 +104,7 @@ def read_initial_dfs() -> pd.DataFrame:
         skiprows=[1],  # Google Sheets exports one empty row
     )
     df_en[LANG_COL] = "en"
-    df_en = df_en.rename(columns=COLUMN_MAP_2023_EN_TO_FI)
+    df_en = df_en.rename(columns=COLUMN_MAP_2024_EN_TO_FI)
     df = pd.concat([df_fi, df_en], ignore_index=True)
     df = df[df["Timestamp"].notna()]  # Remove rows with no timestamp
     df[LANG_COL] = df[LANG_COL].astype("category")
@@ -130,23 +124,24 @@ def map_case_insensitive(series: pd.Series, mapping: dict[str, str]) -> pd.Serie
     def map_value(v):
         if v is np.nan:
             return ""
-        assert isinstance(v, str)
+        if not isinstance(v, str):
+            raise TypeError(f"Unexpected value {v!r} of type {type(v)}")
         return lower_mapping.get(v.lower().strip(), v)
 
     return series.apply(map_value).fillna(series)
 
 
 def read_data() -> pd.DataFrame:
-    if YEAR != "2023":
+    if YEAR != "2024":
         raise ValueError(
-            "This code only works for 2023. "
+            "This code only works for 2024. "
             "Please use an older revision for older data.",
         )
     df = read_initial_dfs()
 
-    df = df.rename(columns=COLUMN_MAP_2023)
+    df = df.rename(columns=COLUMN_MAP_2024)
 
-    for col, val_map in VALUE_MAP_2023_EN_TO_FI.items():
+    for col, val_map in VALUE_MAP_2024_EN_TO_FI.items():
         df[col] = df[col].map(val_map).fillna(df[col]).astype("category")
 
     # Drop known bogus data
@@ -192,14 +187,7 @@ def read_data() -> pd.DataFrame:
     df = apply_fixups(
         df,
         [
-            (
-                {ID_COL: "a01216a11026d749", VUOSITULOT_COL: 620000},
-                {VUOSITULOT_COL: 62000},
-            ),
-            (
-                {ID_COL: "79a200f529f6919b", VUOSITULOT_COL: 1500},
-                {VUOSITULOT_COL: 150_000},
-            ),
+            # ({ID_COL: "..."}, {VUOSITULOT_COL: 62000}),
         ],
     )
     # Fill in Vuositulot as 12.5 * Kk-tulot if empty

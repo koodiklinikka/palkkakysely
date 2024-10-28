@@ -3,4 +3,5 @@ jinja2
 matplotlib<3.8.0  # ydata-profiling compat
 openpyxl
 pandas
+setuptools  # implicitly required by ydata-profiling
 ydata-profiling

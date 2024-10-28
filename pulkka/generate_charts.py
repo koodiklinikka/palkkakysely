@@ -1,20 +1,20 @@
-import bokeh.plotting as bp
-import bokeh.models as bm
 import bokeh.layouts as bl
+import bokeh.models as bm
+import bokeh.plotting as bp
 from pandas import DataFrame
 
 from pulkka.chart_utils import (
     gender_colormap,
+    get_categorical_stats_plot,
     get_df_hover_tool,
     set_yaxis_cash,
-    get_categorical_stats_plot,
 )
 from pulkka.column_maps import (
+    IKA_COL,
+    KAUPUNKI_COL,
+    SUKUPUOLI_COL,
     TYOKOKEMUS_COL,
     VUOSITULOT_COL,
-    KAUPUNKI_COL,
-    IKA_COL,
-    SUKUPUOLI_COL,
 )
 from pulkka.config import OUT_DIR
 from pulkka.data_ingest import read_data

@@ -1,4 +1,5 @@
-from bokeh import models as bm, plotting as bp
+from bokeh import models as bm
+from bokeh import plotting as bp
 from bokeh.transform import factor_cmap
 from pandas import DataFrame
 
