@@ -215,3 +215,5 @@ IDS_TO_DROP = {
     "0bf579f8b0a771b9",  # 2 euron palkka, rooli "2"
     "9a3b73d810f6e983",  # apache hyökkäyshelikopteri
 }
+FI_EXPECTED_ROW_COUNT = 682
+EN_EXPECTED_ROW_COUNT = 51

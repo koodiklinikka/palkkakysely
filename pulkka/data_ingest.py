@@ -13,7 +13,9 @@ from pulkka.column_maps import (
     COLUMN_MAP_2024,
     COLUMN_MAP_2024_EN_TO_FI,
     COMPANY_MAP,
+    EN_EXPECTED_ROW_COUNT,
     FEMALE_GENDER_VALUES,
+    FI_EXPECTED_ROW_COUNT,
     ID_COL,
     IDS_TO_DROP,
     IKA_COL,
@@ -76,7 +78,7 @@ def map_vuositulot(r):
 def map_numberlike(d):
     if isinstance(d, str):
         try:
-            return float(re.sub("\s+", "", d))
+            return float(re.sub(r"\s+", "", d))
         except ValueError:
             pass
     return d
@@ -99,11 +101,23 @@ def read_initial_dfs() -> pd.DataFrame:
         skiprows=[1],  # Google Sheets exports one empty row
     )
     df_fi[LANG_COL] = "fi"
+
+    if len(df_fi) < FI_EXPECTED_ROW_COUNT:
+        raise ValueError(
+            f"Expected at least {FI_EXPECTED_ROW_COUNT} rows in the Finnish data, got {len(df_fi)}",
+        )
+
     df_en: pd.DataFrame = pd.read_excel(
         DATA_DIR / "results-en.xlsx",
         skiprows=[1],  # Google Sheets exports one empty row
     )
     df_en[LANG_COL] = "en"
+
+    if len(df_fi) < EN_EXPECTED_ROW_COUNT:
+        raise ValueError(
+            f"Expected at least {EN_EXPECTED_ROW_COUNT} rows in the English data, got {len(df_en)}",
+        )
+
     df_en = df_en.rename(columns=COLUMN_MAP_2024_EN_TO_FI)
     df = pd.concat([df_fi, df_en], ignore_index=True)
     df = df[df["Timestamp"].notna()]  # Remove rows with no timestamp
@@ -238,7 +252,7 @@ def split_boolean_column_to_other(df, col, other_col):
 def force_age_numeric(df):
     age_map = {}
     for cat in df[IKA_COL].cat.categories:
-        m = re.match("^(\d+)-(\d+) v", cat)
+        m = re.match(r"^(\d+)-(\d+) v", cat)
         if m:
             age_map[cat] = int(round(float(m.group(1)) + float(m.group(2))) / 2)
     df[IKA_COL] = df[IKA_COL].apply(lambda r: age_map.get(r, r))
