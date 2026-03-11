@@ -15,25 +15,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-          cache: pip
-      - uses: pre-commit/action@v3.0.1
+      - uses: j178/prek-action@v1.1.1
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: astral-sh/setup-uv@v7
         with:
           python-version: "3.12"
-      - uses: astral-sh/setup-uv@v3
-        with:
-          version: "0.4.x"
           enable-cache: true
-          cache-dependency-glob: "**/requirements*.txt"
-      - run: uv pip install --system -r requirements.txt
-      - run: make -j3
+      - run: uv sync
+      - run: make -j3 PYTHON="uv run python"
       - uses: actions/setup-node@v4
         with:
           node-version: "20"

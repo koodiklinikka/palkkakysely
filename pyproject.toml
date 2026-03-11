@@ -1,0 +1,24 @@
+[project]
+name = "koodiklinikka-palkkakysely"
+version = "0.1.0"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "bokeh<3",
+    "jinja2>=3.1.6",
+    "matplotlib<3.8.0",
+    "openpyxl>=3.1.5",
+    "pandas>=2.3.3",
+    "setuptools<80",  # we still need pkg_resources...
+    "ydata-profiling>=4.18.1",
+]
+
+[tool.ruff.lint]
+ignore = [
+    "E501",
+    "PD901",  # I know "df" isn't the best name
+]
+extend-select = [
+    "COM",
+    "I",
+    "PD",
+]

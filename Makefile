@@ -7,6 +7,7 @@ XLSX_URL_FI := https://docs.google.com/spreadsheets/d/$(DOCUMENT_ID_FI)/export?f
 TSV_URL_FI := https://docs.google.com/spreadsheets/d/$(DOCUMENT_ID_FI)/export?format=tsv
 XLSX_URL_EN := https://docs.google.com/spreadsheets/d/$(DOCUMENT_ID_EN)/export?format=xlsx
 TSV_URL_EN := https://docs.google.com/spreadsheets/d/$(DOCUMENT_ID_EN)/export?format=tsv
+PYTHON := python3
 
 export DATA_DIR
 export OUT_DIR
@@ -25,13 +26,13 @@ copy-raw-data: all-data $(OUT_DIR)
 	cp $(DATA_DIR)/results-fi.xlsx $(OUT_DIR)/raw-fi.xlsx
 
 massage: all-data
-	python -m pulkka.massage_outputs
+	$(PYTHON) -m pulkka.massage_outputs
 
 charts: all-data
-	python -m pulkka.generate_charts
+	$(PYTHON) -m pulkka.generate_charts
 
 profiling: all-data
-	python -m pulkka.generate_profiling
+	$(PYTHON) -m pulkka.generate_profiling
 
 # Comment this .PHONY out to not have to download the data every time:
 .PHONY: $(DATA_DIR)/results-fi.xlsx $(DATA_DIR)/results-fi.tsv $(DATA_DIR)/results-en.xlsx $(DATA_DIR)/results-en.tsv
