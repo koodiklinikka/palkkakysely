@@ -1,8 +1,11 @@
 {% extends "_base.html" %}
+{% macro eur_span(number) -%}
+    <span title="{{ number }}" class="eur" data-number="{{ number }}">{{ number }}&nbsp;€</span>
+{%- endmacro %}
 {% macro tunnusluvut_points(df, col_name, title) %}
-    {% with num_kk = df[pd.to_numeric(df[col_name], errors='coerce').notnull()][col_name] %}
-        <li title="n = {{ num_kk.count() }}">{{ title }}, keskiarvo = {{ num_kk.mean()|round(0) }} €</li>
-        <li title="n = {{ num_kk.count() }}">{{ title }}, mediaani = {{ num_kk.median()|round(0) }} €</li>
+    {% with num_kk = df[col_name][pd.to_numeric(df[col_name], errors='coerce') > 0].dropna() %}
+        <li title="n = {{ num_kk.count() }}">{{ title }}, keskiarvo = {{ eur_span(num_kk.mean()|round(0)) }}</li>
+        <li title="n = {{ num_kk.count() }}">{{ title }}, mediaani = {{ eur_span(num_kk.median()|round(0)) }}</li>
     {% endwith %}
 {% endmacro %}
 {% block body %}
@@ -74,6 +77,15 @@
         International</a> (CC&nbsp;BY&nbsp;4.0).<br>
         Mankelointityökalujen lisenssi on <a href="https://opensource.org/licenses/MIT">MIT</a>.
     </p>
+    <script>
+    for (const eur of document.querySelectorAll(".eur")) {
+      // Try to parse data-number, format as browser-native currency
+      const number = parseFloat(eur.dataset.number);
+      if (!isNaN(number)) {
+        eur.textContent = number.toLocaleString("fi-FI", {style: "currency", currency: "EUR"});
+      }
+    }
+    </script>
 {% endblock %}
 {% block footer %}
     <footer>

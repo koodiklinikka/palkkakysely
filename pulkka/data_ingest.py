@@ -5,27 +5,25 @@ import re
 import warnings
 
 import numpy as np
-import pandas
 import pandas as pd
 
 from pulkka.column_maps import (
-    BOOLEAN_TEXT_TO_BOOLEAN_MAP,
-    COLUMN_MAP_2024,
-    COLUMN_MAP_2024_EN_TO_FI,
+    BONUS_COL,
+    COLUMN_MAP_2025,
+    COMMISSION_COL,
     COMPANY_MAP,
-    EN_EXPECTED_ROW_COUNT,
+    EQUITY_COL,
+    EXPECTED_ROW_COUNT_2025,
     FEMALE_GENDER_VALUES,
-    FI_EXPECTED_ROW_COUNT,
     ID_COL,
-    IDS_TO_DROP,
+    IDS_TO_DROP_2025,
     IKA_COL,
     KIKY_COL,
-    KIKY_OTHER_COL,
     KK_TULOT_COL,
     KK_TULOT_NORM_COL,
     KKPALKKA_COL,
     LAHITYO_COL,
-    LANG_COL,
+    LOMARAHA_COL,
     MALE_GENDER_VALUES,
     NO_GENDER_VALUES,
     OTHER_GENDER_VALUES,
@@ -34,16 +32,18 @@ from pulkka.column_maps import (
     ROOLI_COL,
     ROOLI_NORM_COL,
     SUKUPUOLI_COL,
+    TUNTILASKUTUS_ALV0_COL,
     TYOAIKA_COL,
     TYOKOKEMUS_COL,
     TYOPAIKKA_COL,
-    VALUE_MAP_2024_EN_TO_FI,
+    VALUE_MAP_2025,
+    VUOSILASKUTUS_ALV0_COL,
     VUOSITULOT_COL,
 )
 from pulkka.config import DATA_DIR, YEAR
 
 
-def map_sukupuoli(r: pd.Series) -> str | None:
+def map_sukupuoli(r: pd.Series) -> str | None:  # Unused in 2025
     value = r[SUKUPUOLI_COL]
     if not isinstance(value, str):
         return value
@@ -84,44 +84,29 @@ def map_numberlike(d):
     return d
 
 
-def ucfirst(val):
+def ucfirst(val) -> str:
     if isinstance(val, str):
         return val[0].upper() + val[1:]
     return val
 
 
 def hash_row(r: pd.Series) -> str:
-    source_data = f"{r[LANG_COL]}.{int(r.Timestamp.timestamp() * 1000)}"
+    source_data = (
+        f"en.{int(r.Timestamp.timestamp() * 1000)}"  # NB (2025): hard-codes `en`!
+    )
     return hashlib.sha256(source_data.encode()).hexdigest()[:16]
 
 
 def read_initial_dfs() -> pd.DataFrame:
-    df_fi: pd.DataFrame = pd.read_excel(
-        DATA_DIR / "results-fi.xlsx",
-        skiprows=[1],  # Google Sheets exports one empty row
-    )
-    df_fi[LANG_COL] = "fi"
+    df: pd.DataFrame = pd.read_excel(DATA_DIR / "data.xlsx")
+    df.columns = df.columns.str.strip()
 
-    if len(df_fi) < FI_EXPECTED_ROW_COUNT:
+    if len(df) < EXPECTED_ROW_COUNT_2025:
         raise ValueError(
-            f"Expected at least {FI_EXPECTED_ROW_COUNT} rows in the Finnish data, got {len(df_fi)}",
+            f"Expected at least {EXPECTED_ROW_COUNT_2025} rows, got {len(df)}",
         )
 
-    df_en: pd.DataFrame = pd.read_excel(
-        DATA_DIR / "results-en.xlsx",
-        skiprows=[1],  # Google Sheets exports one empty row
-    )
-    df_en[LANG_COL] = "en"
-
-    if len(df_fi) < EN_EXPECTED_ROW_COUNT:
-        raise ValueError(
-            f"Expected at least {EN_EXPECTED_ROW_COUNT} rows in the English data, got {len(df_en)}",
-        )
-
-    df_en = df_en.rename(columns=COLUMN_MAP_2024_EN_TO_FI)
-    df = pd.concat([df_fi, df_en], ignore_index=True)
     df = df[df["Timestamp"].notna()]  # Remove rows with no timestamp
-    df[LANG_COL] = df[LANG_COL].astype("category")
     # Give each row a unique hash ID
     df[ID_COL] = df.apply(hash_row, axis=1)
     # Ensure truncated sha is unique
@@ -146,38 +131,75 @@ def map_case_insensitive(series: pd.Series, mapping: dict[str, str]) -> pd.Serie
 
 
 def read_data() -> pd.DataFrame:
-    if YEAR != "2024":
+    if YEAR != "2025":
         raise ValueError(
-            "This code only works for 2024. "
+            "This code only works for 2025. "
             "Please use an older revision for older data.",
         )
     df = read_initial_dfs()
 
-    df = df.rename(columns=COLUMN_MAP_2024)
+    df = df.rename(columns=COLUMN_MAP_2025)
 
-    for col, val_map in VALUE_MAP_2024_EN_TO_FI.items():
+    for col, val_map in VALUE_MAP_2025.items():
         df[col] = df[col].map(val_map).fillna(df[col]).astype("category")
 
     # Drop known bogus data
-    df = df.drop(df[df[ID_COL].isin(IDS_TO_DROP)].index)
+    df = df.drop(df[df[ID_COL].isin(IDS_TO_DROP_2025)].index)
 
-    df[SUKUPUOLI_COL] = df.apply(map_sukupuoli, axis=1).astype("category")
+    # Drop duplicate submissions: rows identical on all columns except
+    # Timestamp and ID (keep the earliest submission)
+    content_cols = [c for c in df.columns if c not in ("Timestamp", ID_COL)]
+    before = len(df)
+    df = df.sort_values("Timestamp").drop_duplicates(subset=content_cols, keep="first")
+    n_dupes = before - len(df)
+    if n_dupes:
+        warnings.warn(f"Dropped {n_dupes} duplicate submission(s)")
+
+    # Gender is already mapped via VALUE_MAP_2025
+    df[SUKUPUOLI_COL] = df[SUKUPUOLI_COL].astype("category")
     df[IKA_COL] = df[IKA_COL].astype("category")
+    df[KIKY_COL] = df[KIKY_COL].astype("category")
 
-    # Assume that people entering 37.5 (hours) as their työaika means 100%
-    df.loc[df[TYOAIKA_COL] == 37.5, TYOAIKA_COL] = 100
-    # Assume there is no actual 10x koodari among us
-    df.loc[df[TYOAIKA_COL] == 1000, TYOAIKA_COL] = 100
-
-    df[TYOAIKA_COL] = to_percentage(df[TYOAIKA_COL], 100)
+    # Working time is in h/week — normalize to fraction of 37.5h
+    df[TYOAIKA_COL] = to_percentage(df[TYOAIKA_COL], 37.5)
+    # Time in office is already a percentage
     df[LAHITYO_COL] = to_percentage(df[LAHITYO_COL], 100)
-
-    # Split out non-boolean answers from KIKY_COL to KIKY_OTHER_COL
-    df = split_boolean_column_to_other(df, KIKY_COL, KIKY_OTHER_COL)
 
     # Try to clean up numbers with spaces, etc. to real numbers
     df[KKPALKKA_COL] = df[KKPALKKA_COL].apply(map_numberlike)
-    df[VUOSITULOT_COL] = df[VUOSITULOT_COL].apply(map_numberlike)
+    df[TUNTILASKUTUS_ALV0_COL] = pd.to_numeric(
+        df[TUNTILASKUTUS_ALV0_COL].apply(map_numberlike),
+        errors="coerce",
+    )
+    df[VUOSILASKUTUS_ALV0_COL] = pd.to_numeric(
+        df[VUOSILASKUTUS_ALV0_COL].apply(map_numberlike),
+        errors="coerce",
+    )
+
+    # Synthesize Vuositulot from components:
+    # (base_salary + commission) * 12 + lomaraha + bonus + equity
+    for comp_col in [COMMISSION_COL, LOMARAHA_COL, BONUS_COL, EQUITY_COL]:
+        df[comp_col] = pd.to_numeric(
+            df[comp_col].apply(map_numberlike),
+            errors="coerce",
+        ).fillna(0)
+
+    # Fold commission into monthly salary so KKPALKKA = base + commission
+    df[KKPALKKA_COL] = (
+        pd.to_numeric(df[KKPALKKA_COL], errors="coerce").fillna(0) + df[COMMISSION_COL]
+    )
+
+    base_yearly = df[KKPALKKA_COL] * 12
+    lomaraha = df.get(LOMARAHA_COL, 0)
+    bonus = df.get(BONUS_COL, 0)
+    equity = df.get(EQUITY_COL, 0)
+
+    df[VUOSITULOT_COL] = base_yearly + lomaraha + bonus + equity
+    # If base salary is missing/zero, vuositulot should be NaN
+    df.loc[
+        pd.to_numeric(df[KKPALKKA_COL], errors="coerce").fillna(0) == 0,
+        VUOSITULOT_COL,
+    ] = np.nan
 
     # Fix up Työpaikka
     df[TYOPAIKKA_COL] = df[TYOPAIKKA_COL].replace("-", np.nan)
@@ -214,7 +236,7 @@ def read_data() -> pd.DataFrame:
     return df
 
 
-def to_percentage(ser: pandas.Series, norm_max: float) -> pandas.Series:
+def to_percentage(ser: pd.Series, norm_max: float) -> pd.Series:
     """
     Convert a series of numbers to a percentage
     """
@@ -227,52 +249,14 @@ def to_percentage(ser: pandas.Series, norm_max: float) -> pandas.Series:
     return ser.clip(lower=0)
 
 
-def split_boolean_column_to_other(df, col, other_col):
-    df[col] = df[col].replace(BOOLEAN_TEXT_TO_BOOLEAN_MAP)
-    df[other_col] = df[col].apply(
-        lambda r: r if (r and not isinstance(r, bool)) else None,
-    )
-    df[col] = (
-        df[col]
-        .apply(
-            lambda value: (
-                ["Ei", "Kyllä"][value]
-                if isinstance(value, bool)
-                else (np.nan if not value else "Muu")
-            ),
-        )
-        .astype("category")
-    )
-    # reorder columns so that other_col is right after col
-    cols = list(df.columns)
-    cols.remove(other_col)
-    cols.insert(cols.index(col) + 1, other_col)
-    df = df[cols]
-    return df
-
-
-def force_age_numeric(df):
+def force_age_numeric(df: pd.DataFrame) -> pd.DataFrame:
     age_map = {}
     for cat in df[IKA_COL].cat.categories:
-        m = re.match(r"^(\d+)-(\d+) v", cat)
+        m = re.match(r"^(\d+)-(\d+)( v)?", cat)
         if m:
             age_map[cat] = int(round(float(m.group(1)) + float(m.group(2))) / 2)
     df[IKA_COL] = df[IKA_COL].apply(lambda r: age_map.get(r, r))
     return df
-
-
-def main():
-    pd.set_option("display.max_column", None)
-    pd.set_option("display.max_rows", None)
-    pd.set_option("display.max_seq_items", None)
-    pd.set_option("display.max_colwidth", 500)
-    pd.set_option("expand_frame_repr", True)
-    df = read_data()
-    print(df.head())
-
-
-if __name__ == "__main__":
-    main()
 
 
 def apply_fixups(df: pd.DataFrame, fixups: list[tuple[dict, dict]]) -> pd.DataFrame:
@@ -286,3 +270,17 @@ def apply_fixups(df: pd.DataFrame, fixups: list[tuple[dict, dict]]) -> pd.DataFr
         replace_keys, replace_values = zip(*replace_cond.items())
         df.loc[ix, list(replace_keys)] = replace_values
     return df
+
+
+def main() -> None:
+    pd.set_option("display.max_column", None)
+    pd.set_option("display.max_rows", None)
+    pd.set_option("display.max_seq_items", None)
+    pd.set_option("display.max_colwidth", 500)
+    pd.set_option("expand_frame_repr", True)
+    df = read_data()
+    print(df.head())
+
+
+if __name__ == "__main__":
+    main()
