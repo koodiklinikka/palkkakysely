@@ -235,9 +235,11 @@ def split_boolean_column_to_other(df, col, other_col):
     df[col] = (
         df[col]
         .apply(
-            lambda value: ["Ei", "Kyllä"][value]
-            if isinstance(value, bool)
-            else (np.nan if not value else "Muu"),
+            lambda value: (
+                ["Ei", "Kyllä"][value]
+                if isinstance(value, bool)
+                else (np.nan if not value else "Muu")
+            ),
         )
         .astype("category")
     )
