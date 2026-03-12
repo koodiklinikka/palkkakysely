@@ -36,7 +36,7 @@ def plot_kokemus_tulot(df: DataFrame):
     plot.add_tools(get_df_hover_tool(df))
     plot.xaxis.axis_label = "Työkokemus (v)"
     set_yaxis_cash(plot)
-    plot.circle(
+    plot.scatter(
         x=TYOKOKEMUS_COL,
         y=VUOSITULOT_COL,
         source=source,
