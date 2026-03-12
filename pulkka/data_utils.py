@@ -45,6 +45,38 @@ def rename_na(df: pd.DataFrame, col: str, na_name: str) -> None:
     df[col] = df[col].astype("category")
 
 
+def _split_multiselect(value: str, sep: str = ", ") -> list[str]:
+    """
+    Split a multiselect string by separator, but not inside parentheses.
+
+    E.g. "CI/CD (GitHub Actions, GitLab CI, Jenkins), AWS"
+    -> ["CI/CD (GitHub Actions, GitLab CI, Jenkins)", "AWS"]
+    """
+    parts = []
+    depth = 0
+    current = []
+    i = 0
+    while i < len(value):
+        if value[i] == "(":
+            depth += 1
+            current.append(value[i])
+        elif value[i] == ")":
+            depth -= 1
+            current.append(value[i])
+        elif depth == 0 and value[i:].startswith(sep):
+            parts.append("".join(current).strip())
+            current = []
+            i += len(sep)
+            continue
+        else:
+            current.append(value[i])
+        i += 1
+    remaining = "".join(current).strip()
+    if remaining:
+        parts.append(remaining)
+    return parts
+
+
 def explode_multiselect(
     series: pd.Series,
     *,
@@ -59,7 +91,7 @@ def explode_multiselect(
     """
     counts = (
         series.dropna()
-        .str.split(sep)
+        .apply(lambda v: _split_multiselect(v, sep))
         .explode()
         .str.strip()
         .loc[lambda s: s != ""]
