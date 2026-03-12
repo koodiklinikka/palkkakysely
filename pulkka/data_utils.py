@@ -43,3 +43,28 @@ def rename_na(df: pd.DataFrame, col: str, na_name: str) -> None:
     df[col] = df[col].astype("string")
     df.loc[df[col].isna(), col] = na_name
     df[col] = df[col].astype("category")
+
+
+def explode_multiselect(
+    series: pd.Series,
+    *,
+    sep: str = ", ",
+    top_n: int | None = None,
+) -> pd.Series:
+    """
+    Explode a comma-separated multiselect column into value counts.
+
+    Returns a Series of counts indexed by individual values,
+    sorted descending. Optionally limited to top_n entries.
+    """
+    counts = (
+        series.dropna()
+        .str.split(sep)
+        .explode()
+        .str.strip()
+        .loc[lambda s: s != ""]
+        .value_counts()
+    )
+    if top_n is not None:
+        counts = counts.head(top_n)
+    return counts

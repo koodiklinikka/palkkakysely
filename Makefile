@@ -1,12 +1,6 @@
-YEAR := 2024
+YEAR := 2025
 DATA_DIR := data/${YEAR}
 OUT_DIR := out/${YEAR}
-DOCUMENT_ID_FI := 1dvyVEJkn3_osBeKGIlhKmid671jjH7zYgcyH1BjiGF8
-DOCUMENT_ID_EN := 1o1uakk1pkoUCtx2OGJhLclxt_uraYA-uK3DH8yCYHN4
-XLSX_URL_FI := https://docs.google.com/spreadsheets/d/$(DOCUMENT_ID_FI)/export?format=xlsx
-TSV_URL_FI := https://docs.google.com/spreadsheets/d/$(DOCUMENT_ID_FI)/export?format=tsv
-XLSX_URL_EN := https://docs.google.com/spreadsheets/d/$(DOCUMENT_ID_EN)/export?format=xlsx
-TSV_URL_EN := https://docs.google.com/spreadsheets/d/$(DOCUMENT_ID_EN)/export?format=tsv
 PYTHON := python3
 
 export DATA_DIR
@@ -20,10 +14,8 @@ $(OUT_DIR):
 	mkdir -p $(OUT_DIR)
 
 copy-raw-data: all-data $(OUT_DIR)
-	cp $(DATA_DIR)/results-en.tsv $(OUT_DIR)/raw-en.tsv
-	cp $(DATA_DIR)/results-en.xlsx $(OUT_DIR)/raw-en.xlsx
-	cp $(DATA_DIR)/results-fi.tsv $(OUT_DIR)/raw-fi.tsv
-	cp $(DATA_DIR)/results-fi.xlsx $(OUT_DIR)/raw-fi.xlsx
+	cp $(DATA_DIR)/data.tsv $(OUT_DIR)/raw.tsv
+	cp $(DATA_DIR)/data.xlsx $(OUT_DIR)/raw.xlsx
 
 massage: all-data
 	$(PYTHON) -m pulkka.massage_outputs
@@ -34,22 +26,4 @@ charts: all-data
 profiling: all-data
 	$(PYTHON) -m pulkka.generate_profiling
 
-# Comment this .PHONY out to not have to download the data every time:
-.PHONY: $(DATA_DIR)/results-fi.xlsx $(DATA_DIR)/results-fi.tsv $(DATA_DIR)/results-en.xlsx $(DATA_DIR)/results-en.tsv
-
-all-data: $(DATA_DIR)/results-fi.xlsx $(DATA_DIR)/results-fi.tsv $(DATA_DIR)/results-en.xlsx $(DATA_DIR)/results-en.tsv
-
-$(DATA_DIR):
-	mkdir -p $(DATA_DIR)
-
-$(DATA_DIR)/results-en.tsv: $(DATA_DIR)
-	curl -fsSL -o $@ $(TSV_URL_EN)
-
-$(DATA_DIR)/results-en.xlsx: $(DATA_DIR)
-	curl -fsSL -o $@ $(XLSX_URL_EN)
-
-$(DATA_DIR)/results-fi.tsv: $(DATA_DIR)
-	curl -fsSL -o $@ $(TSV_URL_FI)
-
-$(DATA_DIR)/results-fi.xlsx: $(DATA_DIR)
-	curl -fsSL -o $@ $(XLSX_URL_FI)
+all-data: $(DATA_DIR)/data.tsv $(DATA_DIR)/data.xlsx

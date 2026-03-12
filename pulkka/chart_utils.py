@@ -1,9 +1,9 @@
 from bokeh import models as bm
 from bokeh import plotting as bp
 from bokeh.transform import factor_cmap
-from pandas import DataFrame
+from pandas import DataFrame, Series
 
-from pulkka.data_utils import get_categorical_stats
+from pulkka.data_utils import explode_multiselect, get_categorical_stats
 
 CAT_Q_RADIUS = 0.1
 
@@ -87,4 +87,28 @@ def get_categorical_stats_plot(df, *, category, value, na_as_category=None, line
             legend_label="mean",
             color="#B53471",
         )
+    return plot
+
+
+def get_multiselect_frequency_plot(
+    series: Series,
+    *,
+    title: str,
+    top_n: int = 20,
+) -> bp.figure:
+    """Horizontal bar chart of the top N values from a comma-separated multiselect column."""
+    counts = explode_multiselect(series, top_n=top_n)
+    # Reverse so highest count is at the top
+    labels = list(counts.index[::-1])
+    values = list(counts.values[::-1])  # noqa: PD011
+
+    plot = bp.figure(
+        title=title,
+        y_range=labels,
+        height=max(300, 22 * len(labels)),
+        width=700,
+    )
+    plot.hbar(y=labels, right=values, height=0.7, color="#2a6180")
+    plot.xaxis.axis_label = "Vastauksia"
+    plot.x_range.start = 0
     return plot

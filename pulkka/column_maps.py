@@ -3,9 +3,6 @@ from __future__ import annotations
 IKA_COL = "Ikä"
 KAUPUNKI_COL = "Kaupunki"
 KIKY_COL = "Onko palkkasi nykyroolissasi mielestäsi kilpailukykyinen?"
-KIKY_OTHER_COL = (
-    "Onko palkkasi nykyroolissasi mielestäsi kilpailukykyinen? (muut vastaukset)"
-)
 KKPALKKA_COL = "Kuukausipalkka"
 KK_TULOT_COL = "Kk-tulot (laskennallinen)"
 KK_TULOT_NORM_COL = "Kk-tulot (laskennallinen, normalisoitu)"
@@ -18,9 +15,7 @@ PALKANSAAJA_VAI_LASKUTTAJA_COL = "Palkansaaja vai laskuttaja"
 PALVELUT_COL = "Palvelut"
 ROOLI_COL = "Rooli"
 ROOLI_NORM_COL = "Rooli (normalisoitu)"
-SIIRTYNYT_COL = (
-    "Oletko siirtynyt palkansaajasta laskuttajaksi tai päinvastoin 1.10.2023 jälkeen?"
-)
+SIIRTYNYT_COL = "Siirtynyt palkansaaja/laskuttaja"
 SUKUPUOLI_COL = "Sukupuoli"
 TUNTILASKUTUS_ALV0_COL = "Tuntilaskutus (ALV 0%, euroina)"
 TYOAIKA_COL = "Työaika"
@@ -30,68 +25,67 @@ VUOSILASKUTUS_ALV0_COL = "Vuosilaskutus (ALV 0%, euroina)"
 VUOSITULOT_COL = "Vuositulot"
 ID_COL = "Vastaustunniste"
 
-COLUMN_MAP_2024 = {
-    "Timestamp": "Timestamp",
-    "Oletko palkansaaja vai laskuttaja?": PALKANSAAJA_VAI_LASKUTTAJA_COL,
-    "Oletko siirtynyt palkansaajasta laskuttajaksi tai päinvastoin 1.10.2023 jälkeen?": SIIRTYNYT_COL,
-    "Ikä": "Ikä",
-    "Sukupuoli": "Sukupuoli",
-    "Työkokemus alalta (vuosina)": TYOKOKEMUS_COL,
-    "Koulutustaustasi": "Koulutustaustasi",
-    "Tulojen muutos viime vuodesta (%)": "Tulojen muutos viime vuodesta (%)",
-    "Montako vuotta olet tehnyt laskuttavaa työtä alalla?": "Montako vuotta olet tehnyt laskuttavaa työtä alalla?",
-    "Mitä palveluja tarjoat?": PALVELUT_COL,
-    "Tuntilaskutus (ALV 0%, euroina)": TUNTILASKUTUS_ALV0_COL,
-    "Vuosilaskutus (ALV 0%, euroina)": VUOSILASKUTUS_ALV0_COL,
-    "Hankitko asiakkaasi itse suoraan vai käytätkö välitysfirmojen palveluita?": "Hankitko asiakkaasi itse suoraan vai käytätkö välitysfirmojen palveluita?",
-    "Mistä asiakkaat ovat?": MISTA_ASIAKKAAT_COL,
-    "Työpaikka": "Työpaikka",
-    "Missä kaupungissa työpaikkasi pääasiallinen toimisto sijaitsee?": KAUPUNKI_COL,
-    "Millaisessa yrityksessä työskentelet?": MILLAISESSA_COL,
-    "Työaika": TYOAIKA_COL,
-    "Kuinka suuren osan ajasta teet lähityönä toimistolla?": LAHITYO_COL,
-    "Rooli / titteli": ROOLI_COL,
-    "Kuukausipalkka (brutto, euroina)": KKPALKKA_COL,
-    "Vuositulot (sis. bonukset, osingot yms, euroina)": VUOSITULOT_COL,
-    "Vapaa kuvaus kokonaiskompensaatiomallista": "Vapaa kuvaus kokonaiskompensaatiomallista",
-    "Onko palkkasi nykyroolissasi mielestäsi kilpailukykyinen?": KIKY_COL,
-    "Vapaa sana": "Vapaa sana",
-    "Palautetta kyselystä ja ideoita ensi vuoden kyselyyn": PALAUTE_COL,
-}
+COMMISSION_COL = "Provisio (kk, brutto)"
+LOMARAHA_COL = "Lomaraha (EUR)"
+BONUS_COL = "Bonus (EUR)"
+EQUITY_COL = "Osakkeet/optiot (EUR)"
+SENIORITY_COL = "Seniority"
 
-COLUMN_MAP_2024_EN_TO_FI = {
+COLUMN_MAP_2025 = {
     "Timestamp": "Timestamp",
-    "Employee or entrepreneur": "Oletko palkansaaja vai laskuttaja?",
-    "Have you switched from employment to entrepreneurship or vice versa after 1.10.2023?": "Oletko siirtynyt palkansaajasta laskuttajaksi tai päinvastoin 1.10.2023 jälkeen?",
-    "Age": "Ikä",
-    "Gender": "Sukupuoli",
-    "Relevant work experience from the industry (in years)": "Työkokemus alalta (vuosina)",
+    "Employee or entrepreneur": PALKANSAAJA_VAI_LASKUTTAJA_COL,
+    "Switched from employment to entrepreneurship, or vice versa, in 2025?": SIIRTYNYT_COL,
+    "Age": IKA_COL,
+    "Gender": SUKUPUOLI_COL,
+    "Finnish fluency": "Suomen kielen taito",
+    "Work language": "Työkieli",
+    "Relevant work experience from the industry (in years)": TYOKOKEMUS_COL,
+    "Years at current employer": "Vuosia nykyisellä työnantajalla",
+    "Companies worked for": "Työpaikkojen lukumäärä",
+    "Company size": "Yrityksen koko",
     "Education": "Koulutustaustasi",
-    "Change in income from last year (in %)": "Tulojen muutos viime vuodesta (%)",
-    "How many years have you worked as an entrepreneur in this industry?": "Montako vuotta olet tehnyt laskuttavaa työtä alalla?",
-    "What services do you offer?": "Mitä palveluja tarjoat?",
-    "Hourly rate (VAT 0%, in euros)": "Tuntilaskutus (ALV 0%, euroina)",
-    "Yearly billing (VAT 0%, in euros)": "Vuosilaskutus (ALV 0%, euroina)",
+    "Field of Study": "Opintoala",
+    "Change in pay rate from last year (%)": "Tulojen muutos viime vuodesta (%)",
+    "Years as entrepreneur": "Montako vuotta olet tehnyt laskuttavaa työtä alalla?",
+    "What services do you offer?": PALVELUT_COL,
+    "Hourly rate (VAT 0%, in euros)": TUNTILASKUTUS_ALV0_COL,
+    "Yearly billing (VAT 0%, in euros)": VUOSILASKUTUS_ALV0_COL,
+    "Billable hours per week": "Laskutettavat tunnit viikossa",
+    "Weeks not billing": "Viikot ilman laskutusta",
+    "Billing methods": "Laskutustavat",
+    "Contract length": "Sopimuksen pituus",
     "Do you use agencies or find your clients yourself?": "Hankitko asiakkaasi itse suoraan vai käytätkö välitysfirmojen palveluita?",
-    "Where are your clients from?": "Mistä asiakkaat ovat?",
-    "Company": "Työpaikka",
-    "In which city is your office?": "Missä kaupungissa työpaikkasi pääasiallinen toimisto sijaitsee?",
-    "What kind of a company you work in?": "Millaisessa yrityksessä työskentelet?",
-    "Full time / part time": "Työaika",
-    "How much of your work time you spend in company office? (in %)": "Kuinka suuren osan ajasta teet lähityönä toimistolla?",
-    "Role / title": "Rooli / titteli",
-    "Monthly salary (gross, in EUR)": "Kuukausipalkka (brutto, euroina)",
-    "Yearly income (incl. bonuses, etc; in EUR)": "Vuositulot (sis. bonukset, osingot yms, euroina)",
+    "Where are your clients from?": MISTA_ASIAKKAAT_COL,
+    "Company": TYOPAIKKA_COL,
+    "City": KAUPUNKI_COL,
+    "What kind of a company you work in?": MILLAISESSA_COL,
+    "Working time (h/week)": TYOAIKA_COL,
+    "Time in office (%)": LAHITYO_COL,
+    "Role / title": ROOLI_COL,
+    "Seniority level": SENIORITY_COL,
+    "Formal Seniority": "Virallinen senioriteetti",
+    "Base salary (gross, monthly EUR)": KKPALKKA_COL,
+    "Commission (gross, monthly EUR)": COMMISSION_COL,
+    "Lomaraha (Holiday bonus, in EUR)": LOMARAHA_COL,
+    "Bonus (EUR)": BONUS_COL,
+    "Equity (EUR)": EQUITY_COL,
     "Free description of your compensation model": "Vapaa kuvaus kokonaiskompensaatiomallista",
-    "Is your salary competitive?": "Onko palkkasi nykyroolissasi mielestäsi kilpailukykyinen?",
+    "Competitive salary": KIKY_COL,
+    "Bonus": "Bonukset (kuvaus)",
+    "Non-fringe benefits": "Edut (ei luontoisedut)",
+    "Yearly Tax-Free Benefits (EUR)": "Vuosittaiset verovapaat edut (EUR)",
+    "Fringe benefits (luontoisedut)": "Luontoisedut",
+    "Operating system": "Käyttöjärjestelmä",
+    "Language": "Ohjelmointikieli",
+    "Web Frameworks": "Web-kehykset",
+    "Data Engineering & Machine Learning": "Data & ML",
+    "DevOps & Cloud Platforms": "DevOps & pilvi",
+    "Databases": "Tietokannat",
     "What was left unasked that you want to answer to?": "Vapaa sana",
-    "Feedback of the survey": "Palautetta kyselystä ja ideoita ensi vuoden kyselyyn",
+    "Feedback of the survey": PALAUTE_COL,
 }
 
-# ensure all columns have translations
-assert set(COLUMN_MAP_2024.keys()) == set(COLUMN_MAP_2024_EN_TO_FI.values())
-
-VALUE_MAP_2024_EN_TO_FI = {
+VALUE_MAP_2025 = {
     PALKANSAAJA_VAI_LASKUTTAJA_COL: {
         "Employee": "Palkansaaja",
         "Entrepreneur": "Laskuttaja",
@@ -122,9 +116,36 @@ VALUE_MAP_2024_EN_TO_FI = {
         "Tampere (etänä Berliiniin)": "Tampere",
         "Turku/remote (HQ Austin, TX)": "Turku",
         "Ulkomailla": "Ulkomaat",
+        "Remote": "Etätyö",
+        "remote": "Etätyö",
+        "Fully remote": "Etätyö",
+        "Fully remote work": "Etätyö",
+        "100% remote, no main office": "Etätyö",
+        "Completely distributed and remote": "Etätyö",
+        "Remote without HQ": "Etätyö",
+        "Remote (US)": "Ulkomaat",
+        "Outside Finland": "Ulkomaat",
+        "Abroad": "Ulkomaat",
+        "No centrla office, multiple locations with employees": "Etätyö",
     },
     MILLAISESSA_COL: {
         "Product company with softaware as their core business": "Tuotetalossa, jonka core-bisnes on softa",
+        "Product company with software as their core business": "Tuotetalossa, jonka core-bisnes on softa",
+        "A company where software is a support role (for example banks or healthcare)": "Yritys, jossa softa tukirooli",
+        "Consulting": "Konsultointi",
+        "Public or third sector": "Julkinen/kolmas sektori",
+    },
+    SUKUPUOLI_COL: {
+        "Male": "mies",
+        "Female": "nainen",
+        "Non-binary": "muu",
+        "Prefer not to say": None,
+    },
+    KIKY_COL: {
+        "Above market": "Yli markkinatason",
+        "Average market": "Markkinataso",
+        "Below market": "Alle markkinatason",
+        "Not sure": "En osaa sanoa",
     },
 }
 
@@ -211,9 +232,7 @@ MALE_GENDER_VALUES = (
     "äiä",
 )
 
-IDS_TO_DROP = {
-    "0bf579f8b0a771b9",  # 2 euron palkka, rooli "2"
-    "9a3b73d810f6e983",  # apache hyökkäyshelikopteri
+IDS_TO_DROP_2025 = {
+    "18121abbdb13303c",  # duplicate of d5ac88f64a922e6c (submitted 3 min later)
 }
-FI_EXPECTED_ROW_COUNT = 682
-EN_EXPECTED_ROW_COUNT = 51
+EXPECTED_ROW_COUNT_2025 = 683
