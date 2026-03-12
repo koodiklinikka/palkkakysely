@@ -1,18 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Fustat:wght@200..800&display=swap");
+
+:root {
+  --fontstack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
 body {
   padding: 1em;
-  font:
-    18px/1.5 -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    Roboto,
-    "Helvetica Neue",
-    Arial,
-    "Noto Sans",
-    sans-serif,
-    "Apple Color Emoji",
-    "Segoe UI Emoji",
-    "Segoe UI Symbol",
-    "Noto Color Emoji";
+
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: var(--fontstack);
 }
 
 body.static-body {
@@ -44,6 +43,7 @@ h1,
 h2,
 h3 {
   line-height: 1.2;
+  font-family: Fustat, var(--fontstack);
 }
 
 a:link {
