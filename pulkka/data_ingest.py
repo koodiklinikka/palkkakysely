@@ -184,6 +184,27 @@ def read_data() -> pd.DataFrame:
             errors="coerce",
         ).fillna(0)
 
+    # Fix known bogus data (before salary synthesis so vuositulot is computed correctly)
+    df = apply_fixups(
+        df,
+        [
+            # Yearly salary entered in monthly field (confirmed by lomaraha being
+            # ~50% of base/12, which is the standard Finnish lomaraha ratio)
+            ({ID_COL: "e901f47f4b92bc4a"}, {KKPALKKA_COL: 90000 / 12}),
+            ({ID_COL: "8e20ca36952cc1c7"}, {KKPALKKA_COL: 95000 / 12}),
+            ({ID_COL: "231d88e2c60ba704"}, {KKPALKKA_COL: 91000 / 12}),
+            ({ID_COL: "610c49a8d22c01a6"}, {KKPALKKA_COL: 92881 / 12}),
+            ({ID_COL: "e2df338adcf80f15"}, {KKPALKKA_COL: 56117 / 12}),
+            # Yearly salary in monthly field (no lomaraha to cross-check, but
+            # the monthly values are implausible)
+            ({ID_COL: "85f388bb23703a66"}, {KKPALKKA_COL: 90000 / 12}),
+            ({ID_COL: "bd2e597bb1b77994"}, {KKPALKKA_COL: 110000 / 12}),
+            ({ID_COL: "b7c22a67f755f545"}, {KKPALKKA_COL: 110000 / 12}),
+            # Placeholder lomaraha/bonus values (1 EUR is clearly not real)
+            ({ID_COL: "fdfb08998ac86dee"}, {LOMARAHA_COL: 0, BONUS_COL: 0}),
+        ],
+    )
+
     # Fold commission into monthly salary so KKPALKKA = base + commission
     df[KKPALKKA_COL] = (
         pd.to_numeric(df[KKPALKKA_COL], errors="coerce").fillna(0) + df[COMMISSION_COL]
@@ -219,13 +240,6 @@ def read_data() -> pd.DataFrame:
     # Round työvuodet
     df[TYOKOKEMUS_COL] = df[TYOKOKEMUS_COL].round()
 
-    # Fix known bogus data
-    df = apply_fixups(
-        df,
-        [
-            # ({ID_COL: "..."}, {VUOSITULOT_COL: 62000}),
-        ],
-    )
     # Fill in Vuositulot as 12.5 * Kk-tulot if empty
     df[VUOSITULOT_COL] = df.apply(map_vuositulot, axis=1)
 
